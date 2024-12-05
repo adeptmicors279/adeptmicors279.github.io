@@ -69,29 +69,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2024-4-18随记</title>
-    <url>/posts/a6b84fd9.html</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>考试终于结束了</p>
-<p>BYD英语没考好，当然其他几门也没考好</p>
-<p>地理选择错13题，老师教的不行（不是开脱，上学期教的班全倒数，分班之后也是）</p>
-<span id="more"></span>
-<hr>
-<h1 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h1><p>终于有时间搞OCR了<br>之前想重写但是一直没来的急<br>现在打算用pyqt重写UI<br>（貌似tkinter-tool发展的也不错？）<br>大概这周能搞</p>
-<h1 id="学校生活"><a href="#学校生活" class="headerlink" title="学校生活"></a>学校生活</h1><p>班上实在太无聊了<br>打音游的，玩gal的全在别人班上<br>有趣的事也在别人班上<br>优秀的教师还在别人班上<br>所以为什么我会分到这个班…<br>不过既然已经分完了那就无所谓了<br>反正，就剩下两年半不到的时间就毕业了</p>
-<h1 id="规划"><a href="#规划" class="headerlink" title="规划"></a>规划</h1><p>暑假打算学一下html，css，js这些<br>前后端什么的<br>到时候看看有没有闲钱搞个服务器<br>单片机目前没时间学而且设备限制学不了</p>
-<hr>
-<p>虽然说无聊但是日子还是得过的<br>马上放五一了，假期准备躺着过</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>随记</tag>
-        <tag>生活</tag>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2024/4/17随记</title>
     <url>/posts/266aae77.html</url>
     <content><![CDATA[<p>说是4&#x2F;17的随记<br>其实已经快4&#x2F;18了</p>
@@ -115,6 +92,29 @@
 <p>待会重新搞一个about me的网页<br>主页搞一个blog搞一个</p>
 <h2 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h2><p>虽然推完里奈优美百合线很不想推里奈线<br>但是剧情还是得过的<br>找个时间把剧情过了吧</p>
 <h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>期中过后五一快来了<br>希望学校能把假放全吧</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>随记</tag>
+        <tag>生活</tag>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024-4-18随记</title>
+    <url>/posts/a6b84fd9.html</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>考试终于结束了</p>
+<p>BYD英语没考好，当然其他几门也没考好</p>
+<p>地理选择错13题，老师教的不行（不是开脱，上学期教的班全倒数，分班之后也是）</p>
+<span id="more"></span>
+<hr>
+<h1 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h1><p>终于有时间搞OCR了<br>之前想重写但是一直没来的急<br>现在打算用pyqt重写UI<br>（貌似tkinter-tool发展的也不错？）<br>大概这周能搞</p>
+<h1 id="学校生活"><a href="#学校生活" class="headerlink" title="学校生活"></a>学校生活</h1><p>班上实在太无聊了<br>打音游的，玩gal的全在别人班上<br>有趣的事也在别人班上<br>优秀的教师还在别人班上<br>所以为什么我会分到这个班…<br>不过既然已经分完了那就无所谓了<br>反正，就剩下两年半不到的时间就毕业了</p>
+<h1 id="规划"><a href="#规划" class="headerlink" title="规划"></a>规划</h1><p>暑假打算学一下html，css，js这些<br>前后端什么的<br>到时候看看有没有闲钱搞个服务器<br>单片机目前没时间学而且设备限制学不了</p>
+<hr>
+<p>虽然说无聊但是日子还是得过的<br>马上放五一了，假期准备躺着过</p>
 ]]></content>
       <categories>
         <category>日常</category>
@@ -470,9 +470,10 @@
 <p>然后，随着新学期的到来，幼时转校离去的青梅竹马御桜禀再度出现在他的面前。</p>
 <p>随风飞舞的樱花花瓣的彼方，那是，有如曾经约定下的再会——。</p>
 <p>时间将思念重叠在一起，当感情的奔流成形之时，在那里相遇到的光景将会是？</p>
-<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>:::warning</p>
-<p>含有大量剧透，请谨慎观看。</p>
-<p>:::</p>
+<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><div class="note warning">
+            <p>剧透警告</p>
+          </div>
+
 <hr>
 <h1 id="《卧樱》"><a href="#《卧樱》" class="headerlink" title="《卧樱》"></a>《卧樱》</h1><blockquote>
 <p>假象的布满春色的天空<br>只是随意而为的因果交流电灯<br>在明亮的，明亮的，明亮的闪耀着<br>watermelon的电气石<br>声音与言语的交叉点<br>在这色彩愈发纷繁的世界中<br>七朵樱花越了过去<br>追上我并越了过去<br>我不在风景之前<br>风景也不在我之前<br>追上，赶上，消失不见<br>被轻轻柔柔包裹的世界烟消云散<br>在轻轻飘摇的樱花林中世界鸣响<br>世界在美妙的音色中放声鸣响<br>它若是虚无的话那虚无本即是如此<br>至某种程度相通于众生<br>如一切是我中的众生<br>故也是众生中各自的一切</p>
