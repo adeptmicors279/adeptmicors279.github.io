@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Adeptmicors279的blog</title>
-  <icon>https://adeptmicors279-github-io.pages.dev/icon.png</icon>
+  <icon>https://adeptmicors279.pages.dev/icon.png</icon>
   <subtitle>长夜破浪伴晓梦 梦晓伴浪破夜长</subtitle>
-  <link href="https://adeptmicors279-github-io.pages.dev/atom.xml" rel="self"/>
+  <link href="https://adeptmicors279.pages.dev/atom.xml" rel="self"/>
   
-  <link href="https://adeptmicors279-github-io.pages.dev/"/>
-  <updated>2024-08-07T17:14:35.799Z</updated>
-  <id>https://adeptmicors279-github-io.pages.dev/</id>
+  <link href="https://adeptmicors279.pages.dev/"/>
+  <updated>2025-01-05T16:57:33.114Z</updated>
+  <id>https://adeptmicors279.pages.dev/</id>
   
   <author>
     <name>Adeptmicors279</name>
@@ -17,9 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2025-1-6小高考备考</title>
+    <link href="https://adeptmicors279.pages.dev/posts/32c88d2b.html"/>
+    <id>https://adeptmicors279.pages.dev/posts/32c88d2b.html</id>
+    <published>2025-01-05T16:35:19.000Z</published>
+    <updated>2025-01-05T16:57:33.114Z</updated>
+    
+    
+    <summary type="html">小高考碎碎念</summary>
+    
+    
+    
+    <category term="日常" scheme="https://adeptmicors279.pages.dev/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="diary" scheme="https://adeptmicors279.pages.dev/tags/diary/"/>
+    
+    <category term="生活，随记" scheme="https://adeptmicors279.pages.dev/tags/%E7%94%9F%E6%B4%BB%EF%BC%8C%E9%9A%8F%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>推完纸上魔法使有感</title>
-    <link href="https://adeptmicors279-github-io.pages.dev/posts/f02d2f5a.html"/>
-    <id>https://adeptmicors279-github-io.pages.dev/posts/f02d2f5a.html</id>
+    <link href="https://adeptmicors279.pages.dev/posts/f02d2f5a.html"/>
+    <id>https://adeptmicors279.pages.dev/posts/f02d2f5a.html</id>
     <published>2024-07-31T18:28:45.000Z</published>
     <updated>2024-08-07T17:14:35.799Z</updated>
     
@@ -34,25 +55,25 @@
     
     
     
-    <category term="Galgame" scheme="https://adeptmicors279-github-io.pages.dev/categories/Galgame/"/>
+    <category term="Galgame" scheme="https://adeptmicors279.pages.dev/categories/Galgame/"/>
     
     
-    <category term="游戏" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E6%B8%B8%E6%88%8F/"/>
+    <category term="游戏" scheme="https://adeptmicors279.pages.dev/tags/%E6%B8%B8%E6%88%8F/"/>
     
-    <category term="VNG" scheme="https://adeptmicors279-github-io.pages.dev/tags/VNG/"/>
+    <category term="VNG" scheme="https://adeptmicors279.pages.dev/tags/VNG/"/>
     
-    <category term="ADV" scheme="https://adeptmicors279-github-io.pages.dev/tags/ADV/"/>
+    <category term="ADV" scheme="https://adeptmicors279.pages.dev/tags/ADV/"/>
     
-    <category term="ウグイスカグラ" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E3%82%A6%E3%82%B0%E3%82%A4%E3%82%B9%E3%82%AB%E3%82%B0%E3%83%A9/"/>
+    <category term="ウグイスカグラ" scheme="https://adeptmicors279.pages.dev/tags/%E3%82%A6%E3%82%B0%E3%82%A4%E3%82%B9%E3%82%AB%E3%82%B0%E3%83%A9/"/>
     
-    <category term="纸上魔法使" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E7%BA%B8%E4%B8%8A%E9%AD%94%E6%B3%95%E4%BD%BF/"/>
+    <category term="纸上魔法使" scheme="https://adeptmicors279.pages.dev/tags/%E7%BA%B8%E4%B8%8A%E9%AD%94%E6%B3%95%E4%BD%BF/"/>
     
   </entry>
   
   <entry>
     <title>平凡的天才展现才能，真正的天才让人忘记才能————樱之诗全线推完有感</title>
-    <link href="https://adeptmicors279-github-io.pages.dev/posts/cf9739a6.html"/>
-    <id>https://adeptmicors279-github-io.pages.dev/posts/cf9739a6.html</id>
+    <link href="https://adeptmicors279.pages.dev/posts/cf9739a6.html"/>
+    <id>https://adeptmicors279.pages.dev/posts/cf9739a6.html</id>
     <published>2024-07-15T13:10:41.000Z</published>
     <updated>2024-12-05T16:21:35.068Z</updated>
     
@@ -67,21 +88,21 @@
     
     
     
-    <category term="Galgame" scheme="https://adeptmicors279-github-io.pages.dev/categories/Galgame/"/>
+    <category term="Galgame" scheme="https://adeptmicors279.pages.dev/categories/Galgame/"/>
     
     
-    <category term="游戏" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E6%B8%B8%E6%88%8F/"/>
+    <category term="游戏" scheme="https://adeptmicors279.pages.dev/tags/%E6%B8%B8%E6%88%8F/"/>
     
-    <category term="VNG" scheme="https://adeptmicors279-github-io.pages.dev/tags/VNG/"/>
+    <category term="VNG" scheme="https://adeptmicors279.pages.dev/tags/VNG/"/>
     
   </entry>
   
   <entry>
     <title>2024-6-8随记</title>
-    <link href="https://adeptmicors279-github-io.pages.dev/posts/a17f591b.html"/>
-    <id>https://adeptmicors279-github-io.pages.dev/posts/a17f591b.html</id>
+    <link href="https://adeptmicors279.pages.dev/posts/a17f591b.html"/>
+    <id>https://adeptmicors279.pages.dev/posts/a17f591b.html</id>
     <published>2024-06-07T17:39:30.000Z</published>
-    <updated>2024-08-07T17:18:36.346Z</updated>
+    <updated>2025-01-05T16:35:49.240Z</updated>
     
     
       
@@ -95,19 +116,19 @@
     
     
     
-    <category term="日常" scheme="https://adeptmicors279-github-io.pages.dev/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://adeptmicors279.pages.dev/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="diary" scheme="https://adeptmicors279-github-io.pages.dev/tags/diary/"/>
+    <category term="diary" scheme="https://adeptmicors279.pages.dev/tags/diary/"/>
     
-    <category term="生活，随记" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E7%94%9F%E6%B4%BB%EF%BC%8C%E9%9A%8F%E8%AE%B0/"/>
+    <category term="生活，随记" scheme="https://adeptmicors279.pages.dev/tags/%E7%94%9F%E6%B4%BB%EF%BC%8C%E9%9A%8F%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>Python爬取pixiv图片</title>
-    <link href="https://adeptmicors279-github-io.pages.dev/posts/5769b4d0.html"/>
-    <id>https://adeptmicors279-github-io.pages.dev/posts/5769b4d0.html</id>
+    <link href="https://adeptmicors279.pages.dev/posts/5769b4d0.html"/>
+    <id>https://adeptmicors279.pages.dev/posts/5769b4d0.html</id>
     <published>2024-05-11T18:10:57.000Z</published>
     <updated>2024-08-07T17:17:30.280Z</updated>
     
@@ -123,19 +144,19 @@
     
     
     
-    <category term="Python" scheme="https://adeptmicors279-github-io.pages.dev/categories/Python/"/>
+    <category term="Python" scheme="https://adeptmicors279.pages.dev/categories/Python/"/>
     
     
-    <category term="技术" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://adeptmicors279.pages.dev/tags/%E6%8A%80%E6%9C%AF/"/>
     
-    <category term="Python" scheme="https://adeptmicors279-github-io.pages.dev/tags/Python/"/>
+    <category term="Python" scheme="https://adeptmicors279.pages.dev/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>2024-5-5随记</title>
-    <link href="https://adeptmicors279-github-io.pages.dev/posts/f925041e.html"/>
-    <id>https://adeptmicors279-github-io.pages.dev/posts/f925041e.html</id>
+    <link href="https://adeptmicors279.pages.dev/posts/f925041e.html"/>
+    <id>https://adeptmicors279.pages.dev/posts/f925041e.html</id>
     <published>2024-05-05T16:51:29.000Z</published>
     <updated>2024-08-07T17:18:31.724Z</updated>
     
@@ -151,21 +172,21 @@
     
     
     
-    <category term="日常" scheme="https://adeptmicors279-github-io.pages.dev/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://adeptmicors279.pages.dev/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="随记" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E9%9A%8F%E8%AE%B0/"/>
+    <category term="生活" scheme="https://adeptmicors279.pages.dev/tags/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="生活" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随记" scheme="https://adeptmicors279.pages.dev/tags/%E9%9A%8F%E8%AE%B0/"/>
     
-    <category term="diary" scheme="https://adeptmicors279-github-io.pages.dev/tags/diary/"/>
+    <category term="diary" scheme="https://adeptmicors279.pages.dev/tags/diary/"/>
     
   </entry>
   
   <entry>
     <title>萌新也能看懂的Galgame入坑教程</title>
-    <link href="https://adeptmicors279-github-io.pages.dev/posts/74d5df8b.html"/>
-    <id>https://adeptmicors279-github-io.pages.dev/posts/74d5df8b.html</id>
+    <link href="https://adeptmicors279.pages.dev/posts/74d5df8b.html"/>
+    <id>https://adeptmicors279.pages.dev/posts/74d5df8b.html</id>
     <published>2024-05-02T17:12:01.000Z</published>
     <updated>2024-05-04T16:52:46.120Z</updated>
     
@@ -174,19 +195,19 @@
     
     
     
-    <category term="Galgame" scheme="https://adeptmicors279-github-io.pages.dev/categories/Galgame/"/>
+    <category term="Galgame" scheme="https://adeptmicors279.pages.dev/categories/Galgame/"/>
     
     
-    <category term="VNG" scheme="https://adeptmicors279-github-io.pages.dev/tags/VNG/"/>
+    <category term="VNG" scheme="https://adeptmicors279.pages.dev/tags/VNG/"/>
     
-    <category term="Galgame" scheme="https://adeptmicors279-github-io.pages.dev/tags/Galgame/"/>
+    <category term="Galgame" scheme="https://adeptmicors279.pages.dev/tags/Galgame/"/>
     
   </entry>
   
   <entry>
     <title>记一次paddleocr打包问题：FileNotFoundError以及ModuleNotFoundError</title>
-    <link href="https://adeptmicors279-github-io.pages.dev/posts/6793f133.html"/>
-    <id>https://adeptmicors279-github-io.pages.dev/posts/6793f133.html</id>
+    <link href="https://adeptmicors279.pages.dev/posts/6793f133.html"/>
+    <id>https://adeptmicors279.pages.dev/posts/6793f133.html</id>
     <published>2024-05-02T16:17:00.000Z</published>
     <updated>2024-05-03T05:49:45.655Z</updated>
     
@@ -201,19 +222,19 @@
     
     
     
-    <category term="Python" scheme="https://adeptmicors279-github-io.pages.dev/categories/Python/"/>
+    <category term="Python" scheme="https://adeptmicors279.pages.dev/categories/Python/"/>
     
     
-    <category term="技术" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://adeptmicors279.pages.dev/tags/%E6%8A%80%E6%9C%AF/"/>
     
-    <category term="Python" scheme="https://adeptmicors279-github-io.pages.dev/tags/Python/"/>
+    <category term="Python" scheme="https://adeptmicors279.pages.dev/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>2024-5-1随记</title>
-    <link href="https://adeptmicors279-github-io.pages.dev/posts/d6a200d.html"/>
-    <id>https://adeptmicors279-github-io.pages.dev/posts/d6a200d.html</id>
+    <link href="https://adeptmicors279.pages.dev/posts/d6a200d.html"/>
+    <id>https://adeptmicors279.pages.dev/posts/d6a200d.html</id>
     <published>2024-05-01T14:35:48.000Z</published>
     <updated>2024-08-07T17:18:23.418Z</updated>
     
@@ -229,19 +250,19 @@
     
     
     
-    <category term="日常" scheme="https://adeptmicors279-github-io.pages.dev/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://adeptmicors279.pages.dev/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="技术" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="随记" scheme="https://adeptmicors279.pages.dev/tags/%E9%9A%8F%E8%AE%B0/"/>
     
-    <category term="随记" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E9%9A%8F%E8%AE%B0/"/>
+    <category term="技术" scheme="https://adeptmicors279.pages.dev/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>杂谈:近况以及五一假期安排</title>
-    <link href="https://adeptmicors279-github-io.pages.dev/posts/d5e66b04.html"/>
-    <id>https://adeptmicors279-github-io.pages.dev/posts/d5e66b04.html</id>
+    <link href="https://adeptmicors279.pages.dev/posts/d5e66b04.html"/>
+    <id>https://adeptmicors279.pages.dev/posts/d5e66b04.html</id>
     <published>2024-04-30T14:10:25.000Z</published>
     <updated>2024-08-07T17:17:09.652Z</updated>
     
@@ -256,19 +277,19 @@
     
     
     
-    <category term="日常" scheme="https://adeptmicors279-github-io.pages.dev/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://adeptmicors279.pages.dev/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="技术" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://adeptmicors279.pages.dev/tags/%E6%8A%80%E6%9C%AF/"/>
     
-    <category term="杂谈" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E6%9D%82%E8%B0%88/"/>
+    <category term="杂谈" scheme="https://adeptmicors279.pages.dev/tags/%E6%9D%82%E8%B0%88/"/>
     
   </entry>
   
   <entry>
     <title>2024-04-28随记</title>
-    <link href="https://adeptmicors279-github-io.pages.dev/posts/78399448.html"/>
-    <id>https://adeptmicors279-github-io.pages.dev/posts/78399448.html</id>
+    <link href="https://adeptmicors279.pages.dev/posts/78399448.html"/>
+    <id>https://adeptmicors279.pages.dev/posts/78399448.html</id>
     <published>2024-04-27T16:17:30.000Z</published>
     <updated>2024-08-07T17:18:19.419Z</updated>
     
@@ -278,21 +299,21 @@
     
     
     
-    <category term="日常" scheme="https://adeptmicors279-github-io.pages.dev/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://adeptmicors279.pages.dev/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="随记" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E9%9A%8F%E8%AE%B0/"/>
+    <category term="生活" scheme="https://adeptmicors279.pages.dev/tags/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="生活" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随记" scheme="https://adeptmicors279.pages.dev/tags/%E9%9A%8F%E8%AE%B0/"/>
     
-    <category term="diary" scheme="https://adeptmicors279-github-io.pages.dev/tags/diary/"/>
+    <category term="diary" scheme="https://adeptmicors279.pages.dev/tags/diary/"/>
     
   </entry>
   
   <entry>
     <title>2024-4-23随记</title>
-    <link href="https://adeptmicors279-github-io.pages.dev/posts/2a301cc0.html"/>
-    <id>https://adeptmicors279-github-io.pages.dev/posts/2a301cc0.html</id>
+    <link href="https://adeptmicors279.pages.dev/posts/2a301cc0.html"/>
+    <id>https://adeptmicors279.pages.dev/posts/2a301cc0.html</id>
     <published>2024-04-23T15:59:18.000Z</published>
     <updated>2024-08-07T17:18:15.498Z</updated>
     
@@ -308,21 +329,21 @@
     
     
     
-    <category term="日常" scheme="https://adeptmicors279-github-io.pages.dev/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://adeptmicors279.pages.dev/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="随记" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E9%9A%8F%E8%AE%B0/"/>
+    <category term="生活" scheme="https://adeptmicors279.pages.dev/tags/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="生活" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随记" scheme="https://adeptmicors279.pages.dev/tags/%E9%9A%8F%E8%AE%B0/"/>
     
-    <category term="diary" scheme="https://adeptmicors279-github-io.pages.dev/tags/diary/"/>
+    <category term="diary" scheme="https://adeptmicors279.pages.dev/tags/diary/"/>
     
   </entry>
   
   <entry>
     <title>2024-4-20随记</title>
-    <link href="https://adeptmicors279-github-io.pages.dev/posts/1bd8065d.html"/>
-    <id>https://adeptmicors279-github-io.pages.dev/posts/1bd8065d.html</id>
+    <link href="https://adeptmicors279.pages.dev/posts/1bd8065d.html"/>
+    <id>https://adeptmicors279.pages.dev/posts/1bd8065d.html</id>
     <published>2024-04-20T15:24:59.000Z</published>
     <updated>2024-08-07T17:18:12.180Z</updated>
     
@@ -337,21 +358,21 @@
     
     
     
-    <category term="日常" scheme="https://adeptmicors279-github-io.pages.dev/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://adeptmicors279.pages.dev/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="随记" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E9%9A%8F%E8%AE%B0/"/>
+    <category term="生活" scheme="https://adeptmicors279.pages.dev/tags/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="生活" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随记" scheme="https://adeptmicors279.pages.dev/tags/%E9%9A%8F%E8%AE%B0/"/>
     
-    <category term="diary" scheme="https://adeptmicors279-github-io.pages.dev/tags/diary/"/>
+    <category term="diary" scheme="https://adeptmicors279.pages.dev/tags/diary/"/>
     
   </entry>
   
   <entry>
     <title>若、生命于明日落幕</title>
-    <link href="https://adeptmicors279-github-io.pages.dev/posts/d9c7071d.html"/>
-    <id>https://adeptmicors279-github-io.pages.dev/posts/d9c7071d.html</id>
+    <link href="https://adeptmicors279.pages.dev/posts/d9c7071d.html"/>
+    <id>https://adeptmicors279.pages.dev/posts/d9c7071d.html</id>
     <published>2024-04-19T16:12:35.000Z</published>
     <updated>2024-05-02T16:19:00.895Z</updated>
     
@@ -363,19 +384,19 @@
     
     
     
-    <category term="Galgame" scheme="https://adeptmicors279-github-io.pages.dev/categories/Galgame/"/>
+    <category term="Galgame" scheme="https://adeptmicors279.pages.dev/categories/Galgame/"/>
     
     
-    <category term="游戏" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E6%B8%B8%E6%88%8F/"/>
+    <category term="游戏" scheme="https://adeptmicors279.pages.dev/tags/%E6%B8%B8%E6%88%8F/"/>
     
-    <category term="VNG" scheme="https://adeptmicors279-github-io.pages.dev/tags/VNG/"/>
+    <category term="VNG" scheme="https://adeptmicors279.pages.dev/tags/VNG/"/>
     
   </entry>
   
   <entry>
     <title>2024-4-18随记</title>
-    <link href="https://adeptmicors279-github-io.pages.dev/posts/a6b84fd9.html"/>
-    <id>https://adeptmicors279-github-io.pages.dev/posts/a6b84fd9.html</id>
+    <link href="https://adeptmicors279.pages.dev/posts/a6b84fd9.html"/>
+    <id>https://adeptmicors279.pages.dev/posts/a6b84fd9.html</id>
     <published>2024-04-18T15:01:37.000Z</published>
     <updated>2024-08-07T17:18:09.197Z</updated>
     
@@ -386,21 +407,21 @@
     
     
     
-    <category term="日常" scheme="https://adeptmicors279-github-io.pages.dev/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://adeptmicors279.pages.dev/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="随记" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E9%9A%8F%E8%AE%B0/"/>
+    <category term="生活" scheme="https://adeptmicors279.pages.dev/tags/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="生活" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随记" scheme="https://adeptmicors279.pages.dev/tags/%E9%9A%8F%E8%AE%B0/"/>
     
-    <category term="diary" scheme="https://adeptmicors279-github-io.pages.dev/tags/diary/"/>
+    <category term="diary" scheme="https://adeptmicors279.pages.dev/tags/diary/"/>
     
   </entry>
   
   <entry>
     <title>2024/4/17随记</title>
-    <link href="https://adeptmicors279-github-io.pages.dev/posts/266aae77.html"/>
-    <id>https://adeptmicors279-github-io.pages.dev/posts/266aae77.html</id>
+    <link href="https://adeptmicors279.pages.dev/posts/266aae77.html"/>
+    <id>https://adeptmicors279.pages.dev/posts/266aae77.html</id>
     <published>2024-04-17T15:44:03.000Z</published>
     <updated>2024-08-07T17:18:05.319Z</updated>
     
@@ -411,21 +432,21 @@
     
     
     
-    <category term="日常" scheme="https://adeptmicors279-github-io.pages.dev/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://adeptmicors279.pages.dev/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="随记" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E9%9A%8F%E8%AE%B0/"/>
+    <category term="生活" scheme="https://adeptmicors279.pages.dev/tags/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="生活" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随记" scheme="https://adeptmicors279.pages.dev/tags/%E9%9A%8F%E8%AE%B0/"/>
     
-    <category term="diary" scheme="https://adeptmicors279-github-io.pages.dev/tags/diary/"/>
+    <category term="diary" scheme="https://adeptmicors279.pages.dev/tags/diary/"/>
     
   </entry>
   
   <entry>
     <title>2024/4/15随记</title>
-    <link href="https://adeptmicors279-github-io.pages.dev/posts/b1f5bf5e.html"/>
-    <id>https://adeptmicors279-github-io.pages.dev/posts/b1f5bf5e.html</id>
+    <link href="https://adeptmicors279.pages.dev/posts/b1f5bf5e.html"/>
+    <id>https://adeptmicors279.pages.dev/posts/b1f5bf5e.html</id>
     <published>2024-04-15T15:38:50.000Z</published>
     <updated>2024-08-07T17:18:01.340Z</updated>
     
@@ -437,21 +458,21 @@
     
     
     
-    <category term="日常" scheme="https://adeptmicors279-github-io.pages.dev/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://adeptmicors279.pages.dev/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="随记" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E9%9A%8F%E8%AE%B0/"/>
+    <category term="生活" scheme="https://adeptmicors279.pages.dev/tags/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="生活" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随记" scheme="https://adeptmicors279.pages.dev/tags/%E9%9A%8F%E8%AE%B0/"/>
     
-    <category term="diary" scheme="https://adeptmicors279-github-io.pages.dev/tags/diary/"/>
+    <category term="diary" scheme="https://adeptmicors279.pages.dev/tags/diary/"/>
     
   </entry>
   
   <entry>
     <title>Python自动上传网页至GitHub</title>
-    <link href="https://adeptmicors279-github-io.pages.dev/posts/d2958731.html"/>
-    <id>https://adeptmicors279-github-io.pages.dev/posts/d2958731.html</id>
+    <link href="https://adeptmicors279.pages.dev/posts/d2958731.html"/>
+    <id>https://adeptmicors279.pages.dev/posts/d2958731.html</id>
     <published>2024-04-14T17:00:01.000Z</published>
     <updated>2024-04-29T14:46:29.932Z</updated>
     
@@ -462,17 +483,17 @@
     
     
     
-    <category term="Python" scheme="https://adeptmicors279-github-io.pages.dev/categories/Python/"/>
+    <category term="Python" scheme="https://adeptmicors279.pages.dev/categories/Python/"/>
     
     
-    <category term="技术" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://adeptmicors279.pages.dev/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>Python写一个音乐播放器</title>
-    <link href="https://adeptmicors279-github-io.pages.dev/posts/bcca9bd1.html"/>
-    <id>https://adeptmicors279-github-io.pages.dev/posts/bcca9bd1.html</id>
+    <link href="https://adeptmicors279.pages.dev/posts/bcca9bd1.html"/>
+    <id>https://adeptmicors279.pages.dev/posts/bcca9bd1.html</id>
     <published>2024-04-13T17:03:17.000Z</published>
     <updated>2024-05-04T15:02:22.679Z</updated>
     
@@ -481,17 +502,17 @@
     
     
     
-    <category term="Python" scheme="https://adeptmicors279-github-io.pages.dev/categories/Python/"/>
+    <category term="Python" scheme="https://adeptmicors279.pages.dev/categories/Python/"/>
     
     
-    <category term="技术" scheme="https://adeptmicors279-github-io.pages.dev/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://adeptmicors279.pages.dev/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>关于此站</title>
-    <link href="https://adeptmicors279-github-io.pages.dev/posts/d27f355a.html"/>
-    <id>https://adeptmicors279-github-io.pages.dev/posts/d27f355a.html</id>
+    <link href="https://adeptmicors279.pages.dev/posts/d27f355a.html"/>
+    <id>https://adeptmicors279.pages.dev/posts/d27f355a.html</id>
     <published>2024-04-13T10:18:30.000Z</published>
     <updated>2024-08-07T18:04:41.050Z</updated>
     
