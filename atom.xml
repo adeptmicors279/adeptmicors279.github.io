@@ -6,7 +6,7 @@
   <link href="https://amicors.cc/atom.xml" rel="self"/>
   
   <link href="https://amicors.cc/"/>
-  <updated>2025-01-05T16:57:57.775Z</updated>
+  <updated>2025-01-09T16:28:29.058Z</updated>
   <id>https://amicors.cc/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>随手写点</title>
+    <link href="https://amicors.cc/posts/a2d48a3b.html"/>
+    <id>https://amicors.cc/posts/a2d48a3b.html</id>
+    <published>2025-01-09T15:16:58.000Z</published>
+    <updated>2025-01-09T16:28:29.058Z</updated>
+    
+    
+    <summary type="html">一些不想被人看到的东西。</summary>
+    
+    
+    
+    <category term="日常" scheme="https://amicors.cc/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="随记" scheme="https://amicors.cc/tags/%E9%9A%8F%E8%AE%B0/"/>
+    
+    <category term="生活" scheme="https://amicors.cc/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="diary" scheme="https://amicors.cc/tags/diary/"/>
+    
+  </entry>
   
   <entry>
     <title>2025-1-6小高考备考</title>
@@ -506,27 +529,6 @@
     
     
     <category term="技术" scheme="https://amicors.cc/tags/%E6%8A%80%E6%9C%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于此站</title>
-    <link href="https://amicors.cc/posts/d27f355a.html"/>
-    <id>https://amicors.cc/posts/d27f355a.html</id>
-    <published>2024-04-13T10:18:30.000Z</published>
-    <updated>2024-08-07T18:04:41.050Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86</summary>
-        
-      
-    
-    
-    
     
   </entry>
   
