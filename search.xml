@@ -69,40 +69,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2024/4/17随记</title>
-    <url>/posts/266aae77.html</url>
-    <content><![CDATA[<p>说是4&#x2F;17的随记<br>其实已经快4&#x2F;18了</p>
-<hr>
-<h1 id="关于OCR翻译器"><a href="#关于OCR翻译器" class="headerlink" title="关于OCR翻译器"></a>关于OCR翻译器</h1><p>这个是我好久之前写的一个项目<br>用的是tk图形库</p>
-<span id="more"></span>
-<p>UI写的不行，所以当时打算用PyQt重写来着<br>再加上翻译API还是网上随便找的一个…</p>
-<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><p>双休再搞吧</p>
-<h1 id="近日概况"><a href="#近日概况" class="headerlink" title="近日概况"></a>近日概况</h1><p>化学我看是废了<br><s>谁敢和我抢化学倒一</s><br>语文这次挺难的，数学难的很难，简单的数值不好算<br>物理给我一种你能写但是你不能写的感受<br>英语没考目前</p>
-<h1 id="blog评论系统变更"><a href="#blog评论系统变更" class="headerlink" title="blog评论系统变更"></a>blog评论系统变更</h1><p>由原来的gitalk到valine再到utterances<br>让我们来看看怎么个事儿</p>
-<h2 id="gitalk"><a href="#gitalk" class="headerlink" title="gitalk"></a>gitalk</h2><p>一开始的选择<br>但是比较难用，遂放弃</p>
-<h2 id="valine"><a href="#valine" class="headerlink" title="valine"></a>valine</h2><p>不得不说这个评论系统UI好看而且还好用<br>但是国际版提交APPID和APPKEY死活出问题发不了评论<br>国内版没备案没法搞遂放弃</p>
-<h2 id="utterances"><a href="#utterances" class="headerlink" title="utterances"></a>utterances</h2><p>就是现在的这个评论系统<br>和gitalk类似，都是用的GitHub的issue<br>但是对权限管理更加细腻<br>所以选用它</p>
-<p>关键是我这个NexT版本才v7，内部没有集成此评论，还得自己加…<br>网上看教程碰了不少壁<br>好在最后成功了</p>
-<h1 id="近期规划"><a href="#近期规划" class="headerlink" title="近期规划"></a>近期规划</h1><h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>最近还要开家长会<br>无所谓…摆了</p>
-<h2 id="网站"><a href="#网站" class="headerlink" title="网站"></a>网站</h2><p>等会给网站加个副标题，是我喜欢的一句回文诗:</p>
-<blockquote>
-<p>长夜破浪伴晓梦 梦晓伴浪破夜长</p>
-</blockquote>
-<p>出自春与修罗<br>想到这儿突然想起来买书的时候买到盗版了<br>而且这b商家把序章给我漏印了🤣</p>
-<p>待会重新搞一个about me的网页<br>主页搞一个blog搞一个</p>
-<h2 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h2><p>虽然推完里奈优美百合线很不想推里奈线<br>但是剧情还是得过的<br>找个时间把剧情过了吧</p>
-<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>期中过后五一快来了<br>希望学校能把假放全吧</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>随记</tag>
-        <tag>生活</tag>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2024-4-18随记</title>
     <url>/posts/a6b84fd9.html</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>考试终于结束了</p>
@@ -126,20 +92,29 @@
       </tags>
   </entry>
   <entry>
-    <title>2024-04-28随记</title>
-    <url>/posts/78399448.html</url>
-    <content><![CDATA[<h1 id="有关ocr翻译器"><a href="#有关ocr翻译器" class="headerlink" title="有关ocr翻译器"></a>有关ocr翻译器</h1><h2 id="在线OCR"><a href="#在线OCR" class="headerlink" title="在线OCR"></a>在线OCR</h2><p>百度的免费额度用完了<br>用在测试上的<br>当时想能不能优化代码提高效率<br>结果倒欠了百度整整0.08元的巨款<br>嗯没错，OCR欠费了…</p>
-<p>所以我打算部署一个本地OCR</p>
+    <title>2024/4/17随记</title>
+    <url>/posts/266aae77.html</url>
+    <content><![CDATA[<p>说是4&#x2F;17的随记<br>其实已经快4&#x2F;18了</p>
+<hr>
+<h1 id="关于OCR翻译器"><a href="#关于OCR翻译器" class="headerlink" title="关于OCR翻译器"></a>关于OCR翻译器</h1><p>这个是我好久之前写的一个项目<br>用的是tk图形库</p>
 <span id="more"></span>
-<h2 id="本地OCR"><a href="#本地OCR" class="headerlink" title="本地OCR"></a>本地OCR</h2><h3 id="paddle-ocr"><a href="#paddle-ocr" class="headerlink" title="paddle ocr"></a>paddle ocr</h3><p>一开始我的首选是paddle ocr<br>因为没看懂文档再加上网上乱七八糟的教程<br>导致我没部署成功</p>
-<h3 id="dddd-ocr"><a href="#dddd-ocr" class="headerlink" title="dddd_ocr"></a>dddd_ocr</h3><p>这个ocr语法简洁，成了我的第二选择<br>但是~好像针对验证码的识别不错，但是文本就差强人意了<br>所以没选</p>
-<h3 id="easy-ocr"><a href="#easy-ocr" class="headerlink" title="easy ocr"></a>easy ocr</h3><p>一直用不了，不知道抽什么风</p>
-<h3 id="tesseract"><a href="#tesseract" class="headerlink" title="tesseract"></a>tesseract</h3><p>这玩意给了我希望然后就没有然后了…<br>不知道为什么我的识别精度（只要背景稍微杂乱一点）都会很低<br>用了二值法也不行</p>
-<h3 id="paddle-ocr-1"><a href="#paddle-ocr-1" class="headerlink" title="paddle ocr"></a>paddle ocr</h3><p>终于~<br>用回了paddle<br>发现真的好用，精度还高<br>就是速度慢了点</p>
-<h2 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h2><p>等下计划搞一个词典进去本地翻译<br>省的还要欠腾讯钱</p>
-<h1 id="五一假期"><a href="#五一假期" class="headerlink" title="五一假期"></a>五一假期</h1><p>铸币学校放4天<br>江苏改革之后假期都是全的<br>别的学校都放全了<br>就我们学校铸币<br>赶进度（一天时间也赶不了多少进度）</p>
-<p>到时候看看renpy怎么用<br>续写sprb的故事（其实就是把官方小说做成日后谈）</p>
-<h1 id="万花镜和o神联动？"><a href="#万花镜和o神联动？" class="headerlink" title="万花镜和o神联动？"></a>万花镜和o神联动？</h1><p>要真联动4里面也和初音联动了<br>估计官方整活（或者也有可能碰瓷？蹭热度？）<br>类似于三色绘恋里的‘移不动，联不通’和‘魔兽争霸’</p>
+<p>UI写的不行，所以当时打算用PyQt重写来着<br>再加上翻译API还是网上随便找的一个…</p>
+<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><p>双休再搞吧</p>
+<h1 id="近日概况"><a href="#近日概况" class="headerlink" title="近日概况"></a>近日概况</h1><p>化学我看是废了<br><s>谁敢和我抢化学倒一</s><br>语文这次挺难的，数学难的很难，简单的数值不好算<br>物理给我一种你能写但是你不能写的感受<br>英语没考目前</p>
+<h1 id="blog评论系统变更"><a href="#blog评论系统变更" class="headerlink" title="blog评论系统变更"></a>blog评论系统变更</h1><p>由原来的gitalk到valine再到utterances<br>让我们来看看怎么个事儿</p>
+<h2 id="gitalk"><a href="#gitalk" class="headerlink" title="gitalk"></a>gitalk</h2><p>一开始的选择<br>但是比较难用，遂放弃</p>
+<h2 id="valine"><a href="#valine" class="headerlink" title="valine"></a>valine</h2><p>不得不说这个评论系统UI好看而且还好用<br>但是国际版提交APPID和APPKEY死活出问题发不了评论<br>国内版没备案没法搞遂放弃</p>
+<h2 id="utterances"><a href="#utterances" class="headerlink" title="utterances"></a>utterances</h2><p>就是现在的这个评论系统<br>和gitalk类似，都是用的GitHub的issue<br>但是对权限管理更加细腻<br>所以选用它</p>
+<p>关键是我这个NexT版本才v7，内部没有集成此评论，还得自己加…<br>网上看教程碰了不少壁<br>好在最后成功了</p>
+<h1 id="近期规划"><a href="#近期规划" class="headerlink" title="近期规划"></a>近期规划</h1><h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>最近还要开家长会<br>无所谓…摆了</p>
+<h2 id="网站"><a href="#网站" class="headerlink" title="网站"></a>网站</h2><p>等会给网站加个副标题，是我喜欢的一句回文诗:</p>
+<blockquote>
+<p>长夜破浪伴晓梦 梦晓伴浪破夜长</p>
+</blockquote>
+<p>出自春与修罗<br>想到这儿突然想起来买书的时候买到盗版了<br>而且这b商家把序章给我漏印了🤣</p>
+<p>待会重新搞一个about me的网页<br>主页搞一个blog搞一个</p>
+<h2 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h2><p>虽然推完里奈优美百合线很不想推里奈线<br>但是剧情还是得过的<br>找个时间把剧情过了吧</p>
+<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>期中过后五一快来了<br>希望学校能把假放全吧</p>
 ]]></content>
       <categories>
         <category>日常</category>
@@ -180,6 +155,75 @@
 <hr>
 <p>不写了<br>左手现在使不上劲，估计昨天给自己干废了，现在小臂肌肉还疼<br>估计腱鞘炎（玩音游玩的，后遗症落下了属于是）</p>
 <p>等有时间再把近况进行详细说明吧</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>随记</tag>
+        <tag>生活</tag>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024-04-28随记</title>
+    <url>/posts/78399448.html</url>
+    <content><![CDATA[<h1 id="有关ocr翻译器"><a href="#有关ocr翻译器" class="headerlink" title="有关ocr翻译器"></a>有关ocr翻译器</h1><h2 id="在线OCR"><a href="#在线OCR" class="headerlink" title="在线OCR"></a>在线OCR</h2><p>百度的免费额度用完了<br>用在测试上的<br>当时想能不能优化代码提高效率<br>结果倒欠了百度整整0.08元的巨款<br>嗯没错，OCR欠费了…</p>
+<p>所以我打算部署一个本地OCR</p>
+<span id="more"></span>
+<h2 id="本地OCR"><a href="#本地OCR" class="headerlink" title="本地OCR"></a>本地OCR</h2><h3 id="paddle-ocr"><a href="#paddle-ocr" class="headerlink" title="paddle ocr"></a>paddle ocr</h3><p>一开始我的首选是paddle ocr<br>因为没看懂文档再加上网上乱七八糟的教程<br>导致我没部署成功</p>
+<h3 id="dddd-ocr"><a href="#dddd-ocr" class="headerlink" title="dddd_ocr"></a>dddd_ocr</h3><p>这个ocr语法简洁，成了我的第二选择<br>但是~好像针对验证码的识别不错，但是文本就差强人意了<br>所以没选</p>
+<h3 id="easy-ocr"><a href="#easy-ocr" class="headerlink" title="easy ocr"></a>easy ocr</h3><p>一直用不了，不知道抽什么风</p>
+<h3 id="tesseract"><a href="#tesseract" class="headerlink" title="tesseract"></a>tesseract</h3><p>这玩意给了我希望然后就没有然后了…<br>不知道为什么我的识别精度（只要背景稍微杂乱一点）都会很低<br>用了二值法也不行</p>
+<h3 id="paddle-ocr-1"><a href="#paddle-ocr-1" class="headerlink" title="paddle ocr"></a>paddle ocr</h3><p>终于~<br>用回了paddle<br>发现真的好用，精度还高<br>就是速度慢了点</p>
+<h2 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h2><p>等下计划搞一个词典进去本地翻译<br>省的还要欠腾讯钱</p>
+<h1 id="五一假期"><a href="#五一假期" class="headerlink" title="五一假期"></a>五一假期</h1><p>铸币学校放4天<br>江苏改革之后假期都是全的<br>别的学校都放全了<br>就我们学校铸币<br>赶进度（一天时间也赶不了多少进度）</p>
+<p>到时候看看renpy怎么用<br>续写sprb的故事（其实就是把官方小说做成日后谈）</p>
+<h1 id="万花镜和o神联动？"><a href="#万花镜和o神联动？" class="headerlink" title="万花镜和o神联动？"></a>万花镜和o神联动？</h1><p>要真联动4里面也和初音联动了<br>估计官方整活（或者也有可能碰瓷？蹭热度？）<br>类似于三色绘恋里的‘移不动，联不通’和‘魔兽争霸’</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>随记</tag>
+        <tag>生活</tag>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024-5-5随记</title>
+    <url>/posts/f925041e.html</url>
+    <content><![CDATA[<h1 id="网站崩了"><a href="#网站崩了" class="headerlink" title="网站崩了"></a>网站崩了</h1><p>这个b代码块的主题一直改不了</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/05/6636694227625.jpg" alt="如下"></p>
+<p>即使设置里改为mac，hexo clean了也没用</p>
+<p>而且</p>
+<p>自从安上了butterfly就一直有烦人的报错</p>
+<p>但是不影响使用</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/05/663669b2478c1.png" alt="报错如下"></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR Script load failed: themes\butterfly\scripts\events\init.js</span><br><span class="line">TypeError: require(...) is not a function</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR Script load failed: themes\butterfly\scripts\events\welcome.js</span><br><span class="line">TypeError: require(...) is not a function</span><br></pre></td></tr></table></figure>
+
+<p>解决方法</p>
+<p><a href="https://cloud.tencent.com/developer/article/2388627">Hexo升级之后Butterfly主题不兼容，发生报错：TypeError: require(…) is not a function-腾讯云开发者社区-腾讯云 (tencent.com)</a></p>
+<p>但是吧，我npm升级了没有用，所以打算手动升级</p>
+<p>结果升完级天真的以为_config.yml文件是一样的</p>
+<p>想都没想直接把旧版的复制进去了</p>
+<p>然后又是报错</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR </span><br><span class="line">TypeError: E:\hexo\blog\themes\butterfly\layout\includes\layout.pug:2</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://bucket.iczrx.cn/2024/05/05/66366a555b7b3.png"></p>
+<p>行！</p>
+<p>估计又是什么乱七八糟的问题</p>
+<p>大不了我重新配置一下</p>
+<p>后来我重新配置了一遍，成功解决</p>
+<p>在此期间我直接把报错生成的网页直接推到GitHub上了</p>
+<p>所以网站崩了一会</p>
+<p>然后设置好主题</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span> (<span class="string">&#x27;hello&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>好了</p>
+<p>终于成功了</p>
 ]]></content>
       <categories>
         <category>日常</category>
@@ -250,50 +294,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2024-5-5随记</title>
-    <url>/posts/f925041e.html</url>
-    <content><![CDATA[<h1 id="网站崩了"><a href="#网站崩了" class="headerlink" title="网站崩了"></a>网站崩了</h1><p>这个b代码块的主题一直改不了</p>
-<p><img src="https://bucket.iczrx.cn/2024/05/05/6636694227625.jpg" alt="如下"></p>
-<p>即使设置里改为mac，hexo clean了也没用</p>
-<p>而且</p>
-<p>自从安上了butterfly就一直有烦人的报错</p>
-<p>但是不影响使用</p>
-<p><img src="https://bucket.iczrx.cn/2024/05/05/663669b2478c1.png" alt="报错如下"></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR Script load failed: themes\butterfly\scripts\events\init.js</span><br><span class="line">TypeError: require(...) is not a function</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR Script load failed: themes\butterfly\scripts\events\welcome.js</span><br><span class="line">TypeError: require(...) is not a function</span><br></pre></td></tr></table></figure>
-
-<p>解决方法</p>
-<p><a href="https://cloud.tencent.com/developer/article/2388627">Hexo升级之后Butterfly主题不兼容，发生报错：TypeError: require(…) is not a function-腾讯云开发者社区-腾讯云 (tencent.com)</a></p>
-<p>但是吧，我npm升级了没有用，所以打算手动升级</p>
-<p>结果升完级天真的以为_config.yml文件是一样的</p>
-<p>想都没想直接把旧版的复制进去了</p>
-<p>然后又是报错</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR </span><br><span class="line">TypeError: E:\hexo\blog\themes\butterfly\layout\includes\layout.pug:2</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://bucket.iczrx.cn/2024/05/05/66366a555b7b3.png"></p>
-<p>行！</p>
-<p>估计又是什么乱七八糟的问题</p>
-<p>大不了我重新配置一下</p>
-<p>后来我重新配置了一遍，成功解决</p>
-<p>在此期间我直接把报错生成的网页直接推到GitHub上了</p>
-<p>所以网站崩了一会</p>
-<p>然后设置好主题</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span> (<span class="string">&#x27;hello&#x27;</span>)</span><br></pre></td></tr></table></figure>
-
-<p>好了</p>
-<p>终于成功了</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>随记</tag>
-        <tag>生活</tag>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2025-1-6小高考备考</title>
     <url>/posts/32c88d2b.html</url>
     <content><![CDATA[<h1 id="有关小高考"><a href="#有关小高考" class="headerlink" title="有关小高考"></a>有关小高考</h1><p>小高考（有的人也叫做会考，不过我一般都这么叫就是了）是高二年级的合格性考试，不要求高分但是要求过关</p>
@@ -355,15 +355,6 @@
       <tags>
         <tag>技术</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>关于此站</title>
-    <url>/posts/d27f355a.html</url>
-    <content><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1476470866&auto=1&height=66"></iframe>
-
-<p>由于兴趣使然搭建的罢了</p>
-<p>平常偶尔发发东西</p>
-]]></content>
   </entry>
   <entry>
     <title>Python爬取pixiv图片</title>
@@ -473,6 +464,15 @@
       <tags>
         <tag>技术</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>关于此站</title>
+    <url>/posts/d27f355a.html</url>
+    <content><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1476470866&auto=1&height=66"></iframe>
+
+<p>由于兴趣使然搭建的罢了</p>
+<p>平常偶尔发发东西</p>
+]]></content>
   </entry>
   <entry>
     <title>平凡的天才展现才能，真正的天才让人忘记才能————樱之诗全线推完有感</title>
@@ -775,72 +775,6 @@
       </tags>
   </entry>
   <entry>
-    <title>随手写点</title>
-    <url>/posts/a2d48a3b.html</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="为什么不想被人看到还要发上来呢，可能是我自己想看。" data-whm="无法效验，但是你还是可以看到。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="266077f4feb631fbb933a3eeb85e7c7ef8b9e41a32246229811d6a131314453d">ea0b4cc11a76f22a500a9bb25e05f9b63cb2a7eeda88e7567346d23df1528fabfcc694eb0a833a7ce4bb4a9344d15c9f584bbdfa6517615eefde39c95b871be69dda6b544db1155cf6b0e48d7593523cdf56e972a51fedc81325fb243334121120b422d973e46f677ad5045648ca7df760422b9fa843d0758424bf607d809328c83c405aa8e25b298277b1cdeb0b268f8572421679e09fcfa387bb2dd164b56e2634304d310aa0c9820ef93b750cb4c3286f7d92ea1e38e1d6d8097503de89f9871ef101ed4a655ee9ee7dab1330b9d0ae6aebd6ec2811355543841de221ced141554a18fcb74b28348a66e5fc2e81ec70ac7c906c83a80d2a49913582c444f72cac53f224b45bc47a0f83afbea063c0d567f3c32ef557cbf81844996d81e0275c200a96e07e923b2ecb757eed3ee48bd9b86c70859169afb390fe9939e8781157001df6801d4f3c00e515fae15c8686043c6bfb726e0473488a04a8af1c00f42489a5ac54b16f88d668146c9f650c1720ec398ca2908df99d96c9c3584d0d241e171ef97cdf45f66e5becf28475b8828419632492e8aa3d87f7591bb67b43d2b0eaa4e623904b17801dfce2df8ff9642898e2193ac5023a5424e3dc2a49e33aaad3d661342a8f50c713708cc8df93fce38be721fa660ddf9cd2ef56e059a05dbdef9246a57f1f9cb3c44a3223826b6d22b7fae39ac472613f0e76c688df6889e144ec0b7a0ff9cafebafe0e082644801b22531c0a526599a17c4b1dd4feda21e72ebc613232e9b0287c56b1b55f08c4cbdc2b9c2b96a3b34ad6b1a2566262121a4784df9662eeb72f70963275344c4cbd4256ace8efecb6ad1315f17979673e8f07b2fb78ca74a85ae03d599c6249eb975900454407cbfa104aff7161181935f7b0427d3cb13def957bcc27062ad2624f553d26ecb9306e0fc8b482a45de7e77085c9a82a64b1f323cd3e3d3b6e708022d98f8e481417a03dd34c89f163dadaf1d149e3db57e0ecb4d9fc3b15861286bf2a7c1b90120f0b75236e157f6df2ca7febc0e6a1d0e7384790beaae129a81be11327008d1736f8cd57da986ca8b2143cb40f07e3655cd4d6b7f3d0789d7c045d1e4db2641cda0caf7818a66da6fe5705e5738cbd7726ecb05ab039730860433d0e2eccbbbd5182e4b6c5964b25c6dd84233b55199709c3154b5f3fa2ac911df9a2b108a9386f6ce62fbd4676c1246444a7252b7c424fc1265fb0ed045be5a5ddcae4000e132d7e823e68d396c140ca04926ba3fdf5446934122ab13c9a929e083dbf9272054c523b23311a1810dd71e7f7852d276f8818c3012fa5c66b9c6aa1f468092b4edb79122733658df0549130929d4c78c2ba76bfd72c7abf2e5c866fa657223673113341aea0f98aa611b10f69ac74217cf69a896566cf8a6b45cb80033e3dfb1990b7779eee658464caaa8469231226e58bfbad101b1c4345626099606ac42969dfc819e76d3fbd4873b3d002f3609510bf40362c6d5f9a446c811ec97b75a832b4b1cc8665458e6c9388c4e823b888bd1d37ea373593d591f054beb6ccd1ede44a3d516891c1c30499436cd019a0b911aee7d1d00b5702bfc603399b184753806b40192e751db411781b3dcab2aae4a7210c7d28c025b0ddec7a75418469f8a3938a3f3c73c8251930ee1a73525258754d7e1784b2bff1cb9bdc6779d42f55c5fa9119068c1281b5a4daed50de681b10b98d4440c3f38fd65e98ba2ebe02f50da5d50026033e80d93deab27a878064ddfe393236781314ccda008074af2d1b1f0960968b526949107c2be2b7a6d85402888f549d621e596f69bbe4d903b1b41ecae68ef845e28af9dcdfa0047cac7d126a007c057fe032fd10c52c09bf9e13df91fa9a8e641b46e9b5850ff5186416778821c9bfa809dca9166b897db9372d775675c589ebdb2d6ce805be8c72a4229f9a8ae2f1c248379c2215fb1662166ad8f415e77a7656d27dd498b36225107d62d641fb155d213be2a6567f23e72e6cba4a2d5efc4102619e9668ba4183e76f78c83240c35c688e0e0a2247c8d0f9fa4faef1e81dcf59d879051f19c129b185c178d1ea8b12cf255c213da392c9c76ad7cd67d07df2dc494a136472d831b4a8365746b7e3ad2f77b695485fbcd141536e25f17c1562386e57efdffdb0b93ee5c88990a81ba5af5ed0f3f5790c1740c5cf7c96a817b16b8f0a1cb1ac3372e868f135636e71af50390fa8f374f5c45657517a48bc562aafdb19267801473044a111efd17fae1db1a4b56072185c7f4e6bf1d4bac97ea05fb814966b0a244a0f0b66c3c17f302becba97eeeaef1e525fd16cc1166c04c9e502d146c8620913dedff609b10cb3421a710920a556f06b45d222fa6aa0058c4f69c02e3ec0c23679e7a04f1e7563d8ce66ae933f21dc06eb454ffeb42d826e38ef0ae11f8a44ed3ad02792696ca986e1cd40919e2a53c2dad3953d0a353b5cc11ee8292ca7ac898bbf95de509ba730c1426e51a75beee3b7e5fa954f4122203bf892221f789805e817eeda7fc915c387c3baf7a7ca92e675ef8fda55bf6d30629662c030320e9881a7c81bba487f6d1228e25cb5a7d020147508cbd0c0d2ded31c7d346e487e33c85bc4b18308429a192f6b4bd53915456f4dcb1545bf2757247383e2be81c9ef2d5bd2b307a24eb42a66220691a5635b9af0d2fe98f2d90f9bca673f464d183db8490bdf516cb192a83286970ddb98ba74feec9499df7a5ee510a6c23c513702881c31a805258d78168cdf40987e3b4ded8216b4c83a1e04716bccc73718ba7044c58bcf3ed2f875973ff7b4650790b5a2acfe4974db61484086de58c816e4af38d7ecce304ace99be893b4558b1b6eab35ef52aa12ad09c085fdb8089a0f492066630f2731585aabb4d0a5a55fa3f2e269d06248f05986a7a02f51a795c986b6485186e388b77e6663cd16904e802ef2c4eda4d48c06beea4dd7ded95077261e3b0747c62bddec59b5a064cd29c646032754b671547e0e349700039ac791a88deb10040589ecb8f48ed1bff9c688c1c2d17437a7b45ec4cda06c84c347449430ddffc71d55630639d428aa09edf3f6d9b7166075233cf850e9223b34dc97fed0b7615e15a0463267d473cb0d8cf2b2d0d6561fe206b9929b054573ecc7103fefafe758ae19cfdedfc6891d9c2525130dc1dba63a21769ee1938df97c494c81a91fac154b1e0d31e8ec326290819cdb8ace68e17720ed1a3aa37780e4f42c5b7b8d676c00d6b6337c805951a6e78d8d3490c4d71e37a31d4d5637060922bfcfaadf9d192c73db547cde447f8e8c98260806350b329db844cbd0fd9139b8c0d176d7c89690994976ad8ccf4bb6225857d80b27926340c66f0890e5d800f58a356a94fb29bfadbd63d494d01b274810380b456f2a09d75870d6152881b102e47bf44ec40cfaa20158ac0a71e6a06d2ab192ab6b2197302f0412121c43a90ab79cae3823a8cbbc6dd90ca3efa88a5a1d731c45f796b31d0da2a25c7cb3c23938f3b0d54ff28fa4f5167d39427af2ee5ca04e19858b1119650b20b641c697905590cc6332455ba65aaa30db50dfbd3e6281c050101f3e9be373153bb33b69476294285adf6226cefe1accec388fd87dbdbec6f4bea026de241d459cb4a5bd1ed35e67cbb1c49d91b78bc4ef62b337dc827b2940153da6548bfaa4fdc31ad438f18bad11c62a87f110af2a21b42607d2b13a4baa50cb5097d5e8db036973e7633a05fb5f47df3feb41b64128eae0c1e1532ce7b903a373c4190cce8f96d6e759fd1d272bca95688f9f6790c0ba4ce2165cc90ce0ac6b9e3ca1e03f6af17fed44b5d89ecbfa7187333a47579830460b337c42d9edc1effe52f33b08644a316d87cf102faba7754f7c777da4188ff354d0ff41cba86224e6e1ee770efc568c672747ce5280088cb795b4623a889d81f4bea8ba4aea7be888cc841e0f8ee481c5b531cc80932166cb3c6b1f0b6ede9dadc7aa79ddca31fd4a222dbdb5aceb2ff2377d0a75892ee1ccd6b24a69bb18678c7e56f49b4cfb7cbcf150569f4974b8ac5538a60c10d41f2bd7173e2767bb48a0d137174d8fc98514f0368b0f0d6717badd7b71b64b83e3f892a1043c4993de4bec997a3d2091c4b7e34ca916d2e083f8562742b7bb94e4be85b145058879c1db94a4818aafa5aeeb0db9e0b031b8318bce89eb6208345fe9a17d962c81fa1a7db5ab80db56204cf61ed5c49453c8e0f003081e647e9958320c985c2dbd67bfe1bca1cfe6cc9b58f3c9a97d7a7dc98a3b39e4f7fbef8cd945f4f5ce620a39f6b3340e3518322561a9f5d7d12949a28751f88b9505419ecde44cab3783e330f2e229d56a9351ad90eb84f67d1e32b3857c1d201969a18ad565cad87cfdcc7a7bb85c2b3ccf201a337c2c7b173e9b28cff852d27e17b0d14fc62fed5578f0cc8bbf913abe5ce6c631bd234e596d46d43fe187aa61061e23feefd8c508ac9ff795b6e950812b6f1587430202e627b5868545a655f2144f0faaf8fd990752841ad8d7f50b33d0552c835ad9414f2c4a063c1a83026888086a4c112b6540027a15b895f82afe1bd2fc68e0dd7757a3bb31eb52390d4df3e99f74b2e4c5aa5cb571e9647ce1422bd5985a4a2a2b2345696e3e526717a419a92f557c1b9fef1e8a5a3cdcace69c9ffc85548e2826600f24b9eabd47aeabc1c11044ba715dcad1e6fa3ad4a12655e4dcac5a75a607882e0489faa7ae9b61fe8ade548a9a2181658cf1963af7eaf4bd318b2f9e8a43124c5a157ac216fe23e8bdcb6936040944e36499c81c45a67e97fcbe6a067e1fd9d11e5dfb44cdc9ca252aabca5cc6547a5aa735e82fc1b3c0dec632170d6d07b2735932f6dcea138dcfd0fb6ab7ec1fdd061b8c46a32a337368bb492c9dc7e437dc1520359b1a146c2e6f2c629859e410bed5f43ba7ac9d1f8045b33bede1ee7da068db4da4db1637395bcc109e38ad4c8e0d2aa326692133831a39a55026b46adada0156569f8449d0c5d121600c73b714d58d5a09f960b518b5490706ceb411119f03985ba83f2f00f97fde8f0f859b1b7488c0dd9959b23318e0fb482d216adb6e9fe260560a55d196b1af43d9cd6ccc0404629b7e4689b81e889f995982053660952d841a44694f25140e5daa896cb71ede34ebcacabfca9db97c3a609b67b75be010f4bd37f00210288e3b175b7a5549d30adba94b1517fcc8ad30d8bf056f89f8965c9757dcddf28034109a00e404f9a106fc99bf06fa44f5557caa1867956d11c70d1052321924382fdf14ecaa87cec2d33da7dfc8814ee075788af3ef446c8e8da38f3b930700eeaa839f0a640665a578c0ed12d69cb64b4fdb03e080da810f00907755b3608ee3a119b98d2ccecae5d3d443575d9d2471d25497e1a13519c7a9c760c8c597011281ad1749f754100aa0e7ed5116cc2cfed5498ad9ba8b60d99b08eab9e257c30f6a1a4ca231bf1726f53230acae507b51e6905d2d0418e8cea072b1bd56b27da40aa2c181b5d4a5fdd3e84457fa59de8d204532ae243eb0f5aaa8f5b959ba9fd04c1dff710bc0bf347493a39c5db984cc89ae6a778e08b6e21f8b33e1454f1c15801fcb61c6c02dc928c17cb529658776e9384d09e003163cf828bc71d59fd3ff3b32cc76e32a0ae43e40e6b187490cdcc32454685fee0db95f4af5fa4ebb1efb8e7a457ce97bdb575374cad174aa36f104619ea090e10106a2ac939ba4d16a96e281000b929a85a8b6fe7e8b6cc9d6fea2956a00e028834a98373bf84c7e37836d899bd8edb1177e5c9f039be3fc9dcb2ea01277473fa9c9f687f7b21d6d799ee8a902b7968a2d3fc145d8e224293d158c49ae617f787f9e6424521b699fd006ede7cca032be84e5998be6df12d25a56054597e2076cdb56e83e4e5f724e5f4a10f012523573269ca00dbeb3a1deaedc5f8250519ae07e88596908420062f9be0ef5dc59a8a6c2d17171a91479b2430a1e02041190d5072d2525b0bbbfdcdee2d2281d22957a998aa0f3ce20ef5778da2c33a1606b92c162ec8d635336018206cbc48a57127180355160d335fa7be245da4ec31d2a2964b6759058a6284e36e6471fbd268de20b29db9abc7e04d5b474627fdb38493c44f27d60e53cafde94a73fe810abb34c1d22d373be669fcf797232a03c94f46a1e7698e0ac87d9401fb742fde8e58dbee9633a215e63c423f4c0bb4be093fe7ddf9e1cbef3fa89318b405c38792ebe1381010484b76f1df14d040b6705dfe9e9b169416396140bb9add011af9cee1114d4fde6a7ef15239d2a4a9fe5711a75223b92ecd29cef0bd25df40431a4a8a3ebec6305390770699e9191bc5c18af1760ae351caf26efd8c97a8141e7cdcd4c1ccc78b64562e46fc516991c66dab0687d2a9d5632db22063f93fef9964275f6b20268191616ac2cff088d8fc08cbb2fd34e8c2db40357c79ede1d62d7a16017145d7c6a28f6ad469e07fdd848e1ce7857e02387dd0174bdb4fb639ec7f81d64e67072f70b65e3ee85c599d3094ca564b1cf5ba3293ca79a6084d4f2bd5f7e917262fa984ae1abf65e0f34197e741df0e7bd7a5b1ed7d96a71d98d2da90347ef8702150d29ce26c0d4829121bc79fcf1272d71a36f4a2b1d415f55b8c93f7282a85801708439ecadd4ff856b5c899cb78acef34df1c044e1a5a80a696c104b79a5e3f92dbb84ec32932b78ccdc611d09b82941e7a95d3c86f4b68b4dc793141078c0a264e312dc005a784d5192951f487f954317c0511e684c16776783666da7384647fba8adbd5b24f9f6ca5fd4359639a7da9b192d984cc140e48e8e50c518146d83b580b853e55e6fed46af97d634e763895522ba5e4615dc5524ba36f9a5ecafd58fdd262e1d9c837479e522442323ced2868eed0c2eccf2166a52e5843b6ef40647fa0d1eb67cc6083a43653762eadd793d62216e78703d092b81ebae937321fdf4623f8bcb753851eeccee83a09516934512bab234dd68e098b3c65e4e7c3d502add185aa1824f078b7252caf1f8276afaff45c1aeede8801dbe67d7182e02bfe9c1b14e92b4bc995a0d810b02e1b92ef53e0eff368a856595763d7fd314a05162a469cf095c9650602f039077589c5ae3b1bc5f730e1ede254eda8d0aae329945cc08b51683342f9b05bc07df87274e1cd6006fd2597307d2e138421211c1b9aa5e7478d867b9db8e19560f52a98e8e8a8491e0931d275fe1ea22d04ae1db51101ca27627ae13514546b29f4be2956d339f79d30261c63264001afadc5d7ce86c3aabb15c8ce22c4e0da6c603d3327a590d2fe98d9e52c4de4c5c17d1acbaf403d7bd6890e4d9a0dc1cd232911de9e413535c0b2c7c9a74601d3f74ec20bf8031a4718ce43905391bc9ed558a5529e77bac31083ce581ac7b068f3ecc13639049b29b0a99703c45181d0a4ab8f57c583d0683eaefda2fe08ec53eea36db10f69a2c04eef7d96435297b057281d086e3f6ccd0cedf58b774b6c079eb3e4020c315845125108b2fd59faeb7d67b19447515d9640c0df6bd9f1e797ee882d44feb5daed59e4b8c6a38f795fa06b2fdcca66786495105910978ad1fcf4c89c592cd4b73c43f921fbe94f5a69a6f21f6205066eeb14c5d8d46d340d116df245ba5a50b935d3ef706b0deaff62bf5071fdbf754bde74e76b2f47c2f286579bb369e505d6d78ab1571307ed7f9098f8e413c76d9ddad233b151be25fba0d0da8567b0ddcea1b30ffc098224215100aef4475cd6aa951dbb52163668e7b96e7eb4d8a7bc3194bc371e8bc7f8b91063f95749658f6fb8a28a7c5ced6a162f1e59009251000431eca6ce63d7df8dea09e2d8f4657b56192c959ff90bb82d242fa64c0e5f21c43c4f751b6abab07d27a68e27f01b042086c4ff623efba94b34b77fd5431d191560c230bf72d95a7ed768a59448fb90e7f605a4a40052448ef3d22ec03c9f533974b01a60c5d03aed853e0afc5c821f7026d149a189a4a3bedd72eb98d2af580cdf0b21ee7fe6fca22bd9c3b8837b3c6f3ab52af6c30336bcd8b7c28e07296c29b224bd3c6b7b7ffc8ba79ead3e9e5f7e50963e77fcd1cd6ccc90e34e58b8828587c7a25db72250675ad3075f5a65557f09492e3c1a2dcfb184e80498d4da0492e577f7c46d7c21ae2efbac400a7541743bb4afff3a5cb2b16559e7df5eec6202c363a9e618fb8d344deb1c3a79372b4a68ac586b01b12c89456a87e5c222ccfce6cd2fef07345be88c9457722218ee508e9deeb8632aa67105845a983c27b4995768c29b57e794196deccf341f82bb52cc6abb3910b40c877c09e34cc4d35ce0fd</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Typing passwd。</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>随记</tag>
-        <tag>生活</tag>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记一次paddleocr打包问题：FileNotFoundError以及ModuleNotFoundError</title>
-    <url>/posts/6793f133.html</url>
-    <content><![CDATA[<h1 id="为什么打包paddleocr时会报错"><a href="#为什么打包paddleocr时会报错" class="headerlink" title="为什么打包paddleocr时会报错"></a>为什么打包paddleocr时会报错</h1><p>在处理报错之前，我们先看看报错内容</p>
-<p><code>FileNotFoundError: [Errno 2] No such file or directory: &#39;E:\\python\\python3.11(64bit)\\dist\\demo1\\_internal\\paddleocr\\tools/__init__.py&#39;</code></p>
-<p><img src="https://bucket.iczrx.cn/2024/05/03/6633bdefd8268.png" alt="报错内容如下"></p>
-<p>报错filenofound</p>
-<p>未找到文件，看起来貌似是打包时没有把文件打包全</p>
-<h2 id="处理问题"><a href="#处理问题" class="headerlink" title="处理问题"></a>处理问题</h2><p>进入你创建的虚拟环境（当然你不创建也没关系）</p>
-<p>输入<code>pyinstall -w -D 你的路径</code>进行不完满打包</p>
-<p>然后打开<code>dist</code>里的<code>_internal</code>目录</p>
-<p>把你的Python解释器里安装的paddleocr模块全部复制过来</p>
-<p>这时候，你就会发现，欸，还是会报错，但是内容变了</p>
-<p>变成了：<code>ModuleNotFoundError: No module named &#39;shapely&#39;</code></p>
-<p>别慌，按照上述方法，继续把python解释器里site-packages里的模块给复制过来</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ModuleNotFoundError: No module named &#x27;pyclipper&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;skimage&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;pywt&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imgaug&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imageio&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;fasttext&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;lmdb&#x27;</span><br><span class="line"></span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imghdr&#x27;  </span><br><span class="line">	ModuleNotFoundError: No module named &#x27;fasttext_pybind&#x27;</span><br><span class="line"></span><br><span class="line">	ImportError: cannot import name &#x27;signal&#x27; from &#x27;scipy&#x27; (你的路径\scipy\__init__.pyc)</span><br></pre></td></tr></table></figure>
-
-<p>发生以下报错解决方法同上</p>
-<p>然后你就会发现</p>
-<p>打包完的程序可以运行了</p>
-<p>当然，请善用Windows的搜索功能</p>
-<p>如果懒得用，直接在IDE开发环境里敲</p>
-<p><code>import 模块名</code></p>
-<p>然后再按住CTRL鼠标左键即可进入模块的py文件</p>
-<p>顶部查看一下路径即可</p>
-<h2 id="那么，为什么会有这种问题呢"><a href="#那么，为什么会有这种问题呢" class="headerlink" title="那么，为什么会有这种问题呢"></a>那么，为什么会有这种问题呢</h2><p>那么，你得问pyinstaller为什么打包不全</p>
-<h1 id="OCR下载地址"><a href="#OCR下载地址" class="headerlink" title="OCR下载地址"></a>OCR下载地址</h1><p><a href="https://github.com/txptxp1/OCR-to-translate">https://github.com/txptxp1/OCR-to-translate</a></p>
-<p>这是我写的一个OCR翻译器</p>
-<p>由于paddleocr体积大</p>
-<p>我接入的本地ocr就是paddleocr</p>
-<p>所以导致我打包之后的软件体积也巨大</p>
-<p>解决方案要么去掉，要么给个选项运行的时候直接从服务器下载paddleocr文件然后本地部署</p>
-<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>参考文章<a href="https://blog.csdn.net/m0_46875088/article/details/122096159">paddleocr 打包问题_paddleocr打包太难了-CSDN博客</a></p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>萌新也能看懂的Galgame入坑教程</title>
     <url>/posts/74d5df8b.html</url>
     <content><![CDATA[<h1 id="什么是Galgame？"><a href="#什么是Galgame？" class="headerlink" title="什么是Galgame？"></a>什么是Galgame？</h1><h2 id="Galgame定义"><a href="#Galgame定义" class="headerlink" title="Galgame定义"></a>Galgame定义</h2><p>要想入坑，其实并不需要完全了解Galgame的定义</p>
@@ -1062,6 +996,72 @@
       <tags>
         <tag>VNG</tag>
         <tag>Galgame</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记一次paddleocr打包问题：FileNotFoundError以及ModuleNotFoundError</title>
+    <url>/posts/6793f133.html</url>
+    <content><![CDATA[<h1 id="为什么打包paddleocr时会报错"><a href="#为什么打包paddleocr时会报错" class="headerlink" title="为什么打包paddleocr时会报错"></a>为什么打包paddleocr时会报错</h1><p>在处理报错之前，我们先看看报错内容</p>
+<p><code>FileNotFoundError: [Errno 2] No such file or directory: &#39;E:\\python\\python3.11(64bit)\\dist\\demo1\\_internal\\paddleocr\\tools/__init__.py&#39;</code></p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/6633bdefd8268.png" alt="报错内容如下"></p>
+<p>报错filenofound</p>
+<p>未找到文件，看起来貌似是打包时没有把文件打包全</p>
+<h2 id="处理问题"><a href="#处理问题" class="headerlink" title="处理问题"></a>处理问题</h2><p>进入你创建的虚拟环境（当然你不创建也没关系）</p>
+<p>输入<code>pyinstall -w -D 你的路径</code>进行不完满打包</p>
+<p>然后打开<code>dist</code>里的<code>_internal</code>目录</p>
+<p>把你的Python解释器里安装的paddleocr模块全部复制过来</p>
+<p>这时候，你就会发现，欸，还是会报错，但是内容变了</p>
+<p>变成了：<code>ModuleNotFoundError: No module named &#39;shapely&#39;</code></p>
+<p>别慌，按照上述方法，继续把python解释器里site-packages里的模块给复制过来</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ModuleNotFoundError: No module named &#x27;pyclipper&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;skimage&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;pywt&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imgaug&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imageio&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;fasttext&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;lmdb&#x27;</span><br><span class="line"></span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imghdr&#x27;  </span><br><span class="line">	ModuleNotFoundError: No module named &#x27;fasttext_pybind&#x27;</span><br><span class="line"></span><br><span class="line">	ImportError: cannot import name &#x27;signal&#x27; from &#x27;scipy&#x27; (你的路径\scipy\__init__.pyc)</span><br></pre></td></tr></table></figure>
+
+<p>发生以下报错解决方法同上</p>
+<p>然后你就会发现</p>
+<p>打包完的程序可以运行了</p>
+<p>当然，请善用Windows的搜索功能</p>
+<p>如果懒得用，直接在IDE开发环境里敲</p>
+<p><code>import 模块名</code></p>
+<p>然后再按住CTRL鼠标左键即可进入模块的py文件</p>
+<p>顶部查看一下路径即可</p>
+<h2 id="那么，为什么会有这种问题呢"><a href="#那么，为什么会有这种问题呢" class="headerlink" title="那么，为什么会有这种问题呢"></a>那么，为什么会有这种问题呢</h2><p>那么，你得问pyinstaller为什么打包不全</p>
+<h1 id="OCR下载地址"><a href="#OCR下载地址" class="headerlink" title="OCR下载地址"></a>OCR下载地址</h1><p><a href="https://github.com/txptxp1/OCR-to-translate">https://github.com/txptxp1/OCR-to-translate</a></p>
+<p>这是我写的一个OCR翻译器</p>
+<p>由于paddleocr体积大</p>
+<p>我接入的本地ocr就是paddleocr</p>
+<p>所以导致我打包之后的软件体积也巨大</p>
+<p>解决方案要么去掉，要么给个选项运行的时候直接从服务器下载paddleocr文件然后本地部署</p>
+<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>参考文章<a href="https://blog.csdn.net/m0_46875088/article/details/122096159">paddleocr 打包问题_paddleocr打包太难了-CSDN博客</a></p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>随手写点</title>
+    <url>/posts/a2d48a3b.html</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="为什么不想被人看到还要发上来呢，可能是我自己想看。" data-whm="无法效验，但是你还是可以看到。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="266077f4feb631fbb933a3eeb85e7c7ef8b9e41a32246229811d6a131314453d">ea0b4cc11a76f22a500a9bb25e05f9b63cb2a7eeda88e7567346d23df1528fabfcc694eb0a833a7ce4bb4a9344d15c9f584bbdfa6517615eefde39c95b871be69dda6b544db1155cf6b0e48d7593523cdf56e972a51fedc81325fb243334121120b422d973e46f677ad5045648ca7df760422b9fa843d0758424bf607d809328c83c405aa8e25b298277b1cdeb0b268f8572421679e09fcfa387bb2dd164b56e2634304d310aa0c9820ef93b750cb4c3286f7d92ea1e38e1d6d8097503de89f9871ef101ed4a655ee9ee7dab1330b9d0ae6aebd6ec2811355543841de221ced141554a18fcb74b28348a66e5fc2e81ec70ac7c906c83a80d2a49913582c444f72cac53f224b45bc47a0f83afbea063c0d567f3c32ef557cbf81844996d81e0275c200a96e07e923b2ecb757eed3ee48bd9b86c70859169afb390fe9939e8781157001df6801d4f3c00e515fae15c8686043c6bfb726e0473488a04a8af1c00f42489a5ac54b16f88d668146c9f650c1720ec398ca2908df99d96c9c3584d0d241e171ef97cdf45f66e5becf28475b8828419632492e8aa3d87f7591bb67b43d2b0eaa4e623904b17801dfce2df8ff9642898e2193ac5023a5424e3dc2a49e33aaad3d661342a8f50c713708cc8df93fce38be721fa660ddf9cd2ef56e059a05dbdef9246a57f1f9cb3c44a3223826b6d22b7fae39ac472613f0e76c688df6889e144ec0b7a0ff9cafebafe0e082644801b22531c0a526599a17c4b1dd4feda21e72ebc613232e9b0287c56b1b55f08c4cbdc2b9c2b96a3b34ad6b1a2566262121a4784df9662eeb72f70963275344c4cbd4256ace8efecb6ad1315f17979673e8f07b2fb78ca74a85ae03d599c6249eb975900454407cbfa104aff7161181935f7b0427d3cb13def957bcc27062ad2624f553d26ecb9306e0fc8b482a45de7e77085c9a82a64b1f323cd3e3d3b6e708022d98f8e481417a03dd34c89f163dadaf1d149e3db57e0ecb4d9fc3b15861286bf2a7c1b90120f0b75236e157f6df2ca7febc0e6a1d0e7384790beaae129a81be11327008d1736f8cd57da986ca8b2143cb40f07e3655cd4d6b7f3d0789d7c045d1e4db2641cda0caf7818a66da6fe5705e5738cbd7726ecb05ab039730860433d0e2eccbbbd5182e4b6c5964b25c6dd84233b55199709c3154b5f3fa2ac911df9a2b108a9386f6ce62fbd4676c1246444a7252b7c424fc1265fb0ed045be5a5ddcae4000e132d7e823e68d396c140ca04926ba3fdf5446934122ab13c9a929e083dbf9272054c523b23311a1810dd71e7f7852d276f8818c3012fa5c66b9c6aa1f468092b4edb79122733658df0549130929d4c78c2ba76bfd72c7abf2e5c866fa657223673113341aea0f98aa611b10f69ac74217cf69a896566cf8a6b45cb80033e3dfb1990b7779eee658464caaa8469231226e58bfbad101b1c4345626099606ac42969dfc819e76d3fbd4873b3d002f3609510bf40362c6d5f9a446c811ec97b75a832b4b1cc8665458e6c9388c4e823b888bd1d37ea373593d591f054beb6ccd1ede44a3d516891c1c30499436cd019a0b911aee7d1d00b5702bfc603399b184753806b40192e751db411781b3dcab2aae4a7210c7d28c025b0ddec7a75418469f8a3938a3f3c73c8251930ee1a73525258754d7e1784b2bff1cb9bdc6779d42f55c5fa9119068c1281b5a4daed50de681b10b98d4440c3f38fd65e98ba2ebe02f50da5d50026033e80d93deab27a878064ddfe393236781314ccda008074af2d1b1f0960968b526949107c2be2b7a6d85402888f549d621e596f69bbe4d903b1b41ecae68ef845e28af9dcdfa0047cac7d126a007c057fe032fd10c52c09bf9e13df91fa9a8e641b46e9b5850ff5186416778821c9bfa809dca9166b897db9372d775675c589ebdb2d6ce805be8c72a4229f9a8ae2f1c248379c2215fb1662166ad8f415e77a7656d27dd498b36225107d62d641fb155d213be2a6567f23e72e6cba4a2d5efc4102619e9668ba4183e76f78c83240c35c688e0e0a2247c8d0f9fa4faef1e81dcf59d879051f19c129b185c178d1ea8b12cf255c213da392c9c76ad7cd67d07df2dc494a136472d831b4a8365746b7e3ad2f77b695485fbcd141536e25f17c1562386e57efdffdb0b93ee5c88990a81ba5af5ed0f3f5790c1740c5cf7c96a817b16b8f0a1cb1ac3372e868f135636e71af50390fa8f374f5c45657517a48bc562aafdb19267801473044a111efd17fae1db1a4b56072185c7f4e6bf1d4bac97ea05fb814966b0a244a0f0b66c3c17f302becba97eeeaef1e525fd16cc1166c04c9e502d146c8620913dedff609b10cb3421a710920a556f06b45d222fa6aa0058c4f69c02e3ec0c23679e7a04f1e7563d8ce66ae933f21dc06eb454ffeb42d826e38ef0ae11f8a44ed3ad02792696ca986e1cd40919e2a53c2dad3953d0a353b5cc11ee8292ca7ac898bbf95de509ba730c1426e51a75beee3b7e5fa954f4122203bf892221f789805e817eeda7fc915c387c3baf7a7ca92e675ef8fda55bf6d30629662c030320e9881a7c81bba487f6d1228e25cb5a7d020147508cbd0c0d2ded31c7d346e487e33c85bc4b18308429a192f6b4bd53915456f4dcb1545bf2757247383e2be81c9ef2d5bd2b307a24eb42a66220691a5635b9af0d2fe98f2d90f9bca673f464d183db8490bdf516cb192a83286970ddb98ba74feec9499df7a5ee510a6c23c513702881c31a805258d78168cdf40987e3b4ded8216b4c83a1e04716bccc73718ba7044c58bcf3ed2f875973ff7b4650790b5a2acfe4974db61484086de58c816e4af38d7ecce304ace99be893b4558b1b6eab35ef52aa12ad09c085fdb8089a0f492066630f2731585aabb4d0a5a55fa3f2e269d06248f05986a7a02f51a795c986b6485186e388b77e6663cd16904e802ef2c4eda4d48c06beea4dd7ded95077261e3b0747c62bddec59b5a064cd29c646032754b671547e0e349700039ac791a88deb10040589ecb8f48ed1bff9c688c1c2d17437a7b45ec4cda06c84c347449430ddffc71d55630639d428aa09edf3f6d9b7166075233cf850e9223b34dc97fed0b7615e15a0463267d473cb0d8cf2b2d0d6561fe206b9929b054573ecc7103fefafe758ae19cfdedfc6891d9c2525130dc1dba63a21769ee1938df97c494c81a91fac154b1e0d31e8ec326290819cdb8ace68e17720ed1a3aa37780e4f42c5b7b8d676c00d6b6337c805951a6e78d8d3490c4d71e37a31d4d5637060922bfcfaadf9d192c73db547cde447f8e8c98260806350b329db844cbd0fd9139b8c0d176d7c89690994976ad8ccf4bb6225857d80b27926340c66f0890e5d800f58a356a94fb29bfadbd63d494d01b274810380b456f2a09d75870d6152881b102e47bf44ec40cfaa20158ac0a71e6a06d2ab192ab6b2197302f0412121c43a90ab79cae3823a8cbbc6dd90ca3efa88a5a1d731c45f796b31d0da2a25c7cb3c23938f3b0d54ff28fa4f5167d39427af2ee5ca04e19858b1119650b20b641c697905590cc6332455ba65aaa30db50dfbd3e6281c050101f3e9be373153bb33b69476294285adf6226cefe1accec388fd87dbdbec6f4bea026de241d459cb4a5bd1ed35e67cbb1c49d91b78bc4ef62b337dc827b2940153da6548bfaa4fdc31ad438f18bad11c62a87f110af2a21b42607d2b13a4baa50cb5097d5e8db036973e7633a05fb5f47df3feb41b64128eae0c1e1532ce7b903a373c4190cce8f96d6e759fd1d272bca95688f9f6790c0ba4ce2165cc90ce0ac6b9e3ca1e03f6af17fed44b5d89ecbfa7187333a47579830460b337c42d9edc1effe52f33b08644a316d87cf102faba7754f7c777da4188ff354d0ff41cba86224e6e1ee770efc568c672747ce5280088cb795b4623a889d81f4bea8ba4aea7be888cc841e0f8ee481c5b531cc80932166cb3c6b1f0b6ede9dadc7aa79ddca31fd4a222dbdb5aceb2ff2377d0a75892ee1ccd6b24a69bb18678c7e56f49b4cfb7cbcf150569f4974b8ac5538a60c10d41f2bd7173e2767bb48a0d137174d8fc98514f0368b0f0d6717badd7b71b64b83e3f892a1043c4993de4bec997a3d2091c4b7e34ca916d2e083f8562742b7bb94e4be85b145058879c1db94a4818aafa5aeeb0db9e0b031b8318bce89eb6208345fe9a17d962c81fa1a7db5ab80db56204cf61ed5c49453c8e0f003081e647e9958320c985c2dbd67bfe1bca1cfe6cc9b58f3c9a97d7a7dc98a3b39e4f7fbef8cd945f4f5ce620a39f6b3340e3518322561a9f5d7d12949a28751f88b9505419ecde44cab3783e330f2e229d56a9351ad90eb84f67d1e32b3857c1d201969a18ad565cad87cfdcc7a7bb85c2b3ccf201a337c2c7b173e9b28cff852d27e17b0d14fc62fed5578f0cc8bbf913abe5ce6c631bd234e596d46d43fe187aa61061e23feefd8c508ac9ff795b6e950812b6f1587430202e627b5868545a655f2144f0faaf8fd990752841ad8d7f50b33d0552c835ad9414f2c4a063c1a83026888086a4c112b6540027a15b895f82afe1bd2fc68e0dd7757a3bb31eb52390d4df3e99f74b2e4c5aa5cb571e9647ce1422bd5985a4a2a2b2345696e3e526717a419a92f557c1b9fef1e8a5a3cdcace69c9ffc85548e2826600f24b9eabd47aeabc1c11044ba715dcad1e6fa3ad4a12655e4dcac5a75a607882e0489faa7ae9b61fe8ade548a9a2181658cf1963af7eaf4bd318b2f9e8a43124c5a157ac216fe23e8bdcb6936040944e36499c81c45a67e97fcbe6a067e1fd9d11e5dfb44cdc9ca252aabca5cc6547a5aa735e82fc1b3c0dec632170d6d07b2735932f6dcea138dcfd0fb6ab7ec1fdd061b8c46a32a337368bb492c9dc7e437dc1520359b1a146c2e6f2c629859e410bed5f43ba7ac9d1f8045b33bede1ee7da068db4da4db1637395bcc109e38ad4c8e0d2aa326692133831a39a55026b46adada0156569f8449d0c5d121600c73b714d58d5a09f960b518b5490706ceb411119f03985ba83f2f00f97fde8f0f859b1b7488c0dd9959b23318e0fb482d216adb6e9fe260560a55d196b1af43d9cd6ccc0404629b7e4689b81e889f995982053660952d841a44694f25140e5daa896cb71ede34ebcacabfca9db97c3a609b67b75be010f4bd37f00210288e3b175b7a5549d30adba94b1517fcc8ad30d8bf056f89f8965c9757dcddf28034109a00e404f9a106fc99bf06fa44f5557caa1867956d11c70d1052321924382fdf14ecaa87cec2d33da7dfc8814ee075788af3ef446c8e8da38f3b930700eeaa839f0a640665a578c0ed12d69cb64b4fdb03e080da810f00907755b3608ee3a119b98d2ccecae5d3d443575d9d2471d25497e1a13519c7a9c760c8c597011281ad1749f754100aa0e7ed5116cc2cfed5498ad9ba8b60d99b08eab9e257c30f6a1a4ca231bf1726f53230acae507b51e6905d2d0418e8cea072b1bd56b27da40aa2c181b5d4a5fdd3e84457fa59de8d204532ae243eb0f5aaa8f5b959ba9fd04c1dff710bc0bf347493a39c5db984cc89ae6a778e08b6e21f8b33e1454f1c15801fcb61c6c02dc928c17cb529658776e9384d09e003163cf828bc71d59fd3ff3b32cc76e32a0ae43e40e6b187490cdcc32454685fee0db95f4af5fa4ebb1efb8e7a457ce97bdb575374cad174aa36f104619ea090e10106a2ac939ba4d16a96e281000b929a85a8b6fe7e8b6cc9d6fea2956a00e028834a98373bf84c7e37836d899bd8edb1177e5c9f039be3fc9dcb2ea01277473fa9c9f687f7b21d6d799ee8a902b7968a2d3fc145d8e224293d158c49ae617f787f9e6424521b699fd006ede7cca032be84e5998be6df12d25a56054597e2076cdb56e83e4e5f724e5f4a10f012523573269ca00dbeb3a1deaedc5f8250519ae07e88596908420062f9be0ef5dc59a8a6c2d17171a91479b2430a1e02041190d5072d2525b0bbbfdcdee2d2281d22957a998aa0f3ce20ef5778da2c33a1606b92c162ec8d635336018206cbc48a57127180355160d335fa7be245da4ec31d2a2964b6759058a6284e36e6471fbd268de20b29db9abc7e04d5b474627fdb38493c44f27d60e53cafde94a73fe810abb34c1d22d373be669fcf797232a03c94f46a1e7698e0ac87d9401fb742fde8e58dbee9633a215e63c423f4c0bb4be093fe7ddf9e1cbef3fa89318b405c38792ebe1381010484b76f1df14d040b6705dfe9e9b169416396140bb9add011af9cee1114d4fde6a7ef15239d2a4a9fe5711a75223b92ecd29cef0bd25df40431a4a8a3ebec6305390770699e9191bc5c18af1760ae351caf26efd8c97a8141e7cdcd4c1ccc78b64562e46fc516991c66dab0687d2a9d5632db22063f93fef9964275f6b20268191616ac2cff088d8fc08cbb2fd34e8c2db40357c79ede1d62d7a16017145d7c6a28f6ad469e07fdd848e1ce7857e02387dd0174bdb4fb639ec7f81d64e67072f70b65e3ee85c599d3094ca564b1cf5ba3293ca79a6084d4f2bd5f7e917262fa984ae1abf65e0f34197e741df0e7bd7a5b1ed7d96a71d98d2da90347ef8702150d29ce26c0d4829121bc79fcf1272d71a36f4a2b1d415f55b8c93f7282a85801708439ecadd4ff856b5c899cb78acef34df1c044e1a5a80a696c104b79a5e3f92dbb84ec32932b78ccdc611d09b82941e7a95d3c86f4b68b4dc793141078c0a264e312dc005a784d5192951f487f954317c0511e684c16776783666da7384647fba8adbd5b24f9f6ca5fd4359639a7da9b192d984cc140e48e8e50c518146d83b580b853e55e6fed46af97d634e763895522ba5e4615dc5524ba36f9a5ecafd58fdd262e1d9c837479e522442323ced2868eed0c2eccf2166a52e5843b6ef40647fa0d1eb67cc6083a43653762eadd793d62216e78703d092b81ebae937321fdf4623f8bcb753851eeccee83a09516934512bab234dd68e098b3c65e4e7c3d502add185aa1824f078b7252caf1f8276afaff45c1aeede8801dbe67d7182e02bfe9c1b14e92b4bc995a0d810b02e1b92ef53e0eff368a856595763d7fd314a05162a469cf095c9650602f039077589c5ae3b1bc5f730e1ede254eda8d0aae329945cc08b51683342f9b05bc07df87274e1cd6006fd2597307d2e138421211c1b9aa5e7478d867b9db8e19560f52a98e8e8a8491e0931d275fe1ea22d04ae1db51101ca27627ae13514546b29f4be2956d339f79d30261c63264001afadc5d7ce86c3aabb15c8ce22c4e0da6c603d3327a590d2fe98d9e52c4de4c5c17d1acbaf403d7bd6890e4d9a0dc1cd232911de9e413535c0b2c7c9a74601d3f74ec20bf8031a4718ce43905391bc9ed558a5529e77bac31083ce581ac7b068f3ecc13639049b29b0a99703c45181d0a4ab8f57c583d0683eaefda2fe08ec53eea36db10f69a2c04eef7d96435297b057281d086e3f6ccd0cedf58b774b6c079eb3e4020c315845125108b2fd59faeb7d67b19447515d9640c0df6bd9f1e797ee882d44feb5daed59e4b8c6a38f795fa06b2fdcca66786495105910978ad1fcf4c89c592cd4b73c43f921fbe94f5a69a6f21f6205066eeb14c5d8d46d340d116df245ba5a50b935d3ef706b0deaff62bf5071fdbf754bde74e76b2f47c2f286579bb369e505d6d78ab1571307ed7f9098f8e413c76d9ddad233b151be25fba0d0da8567b0ddcea1b30ffc098224215100aef4475cd6aa951dbb52163668e7b96e7eb4d8a7bc3194bc371e8bc7f8b91063f95749658f6fb8a28a7c5ced6a162f1e59009251000431eca6ce63d7df8dea09e2d8f4657b56192c959ff90bb82d242fa64c0e5f21c43c4f751b6abab07d27a68e27f01b042086c4ff623efba94b34b77fd5431d191560c230bf72d95a7ed768a59448fb90e7f605a4a40052448ef3d22ec03c9f533974b01a60c5d03aed853e0afc5c821f7026d149a189a4a3bedd72eb98d2af580cdf0b21ee7fe6fca22bd9c3b8837b3c6f3ab52af6c30336bcd8b7c28e07296c29b224bd3c6b7b7ffc8ba79ead3e9e5f7e50963e77fcd1cd6ccc90e34e58b8828587c7a25db72250675ad3075f5a65557f09492e3c1a2dcfb184e80498d4da0492e577f7c46d7c21ae2efbac400a7541743bb4afff3a5cb2b16559e7df5eec6202c363a9e618fb8d344deb1c3a79372b4a68ac586b01b12c89456a87e5c222ccfce6cd2fef07345be88c9457722218ee508e9deeb8632aa67105845a983c27b4995768c29b57e794196deccf341f82bb52cc6abb3910b40c877c09e34cc4d35ce0fd</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Typing passwd。</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>随记</tag>
+        <tag>生活</tag>
+        <tag>diary</tag>
       </tags>
   </entry>
 </search>
