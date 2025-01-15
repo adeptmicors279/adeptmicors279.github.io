@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2024/4/15随记</title>
+    <url>/posts/b1f5bf5e.html</url>
+    <content><![CDATA[<h1 id="一天的开始"><a href="#一天的开始" class="headerlink" title="一天的开始"></a>一天的开始</h1><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2019021996&auto=0&height=66"></iframe>
+
+<p>记得几天前，电梯里就有一幅小孩画的画<br>右上角画的是太阳，中间是一个很大的蜗牛，下面是绿地和飞着的蝴蝶（大概？<br>每天早上看到这幅画都会给我带来一天开始的好心情</p>
+<p>可惜的是<br>今天晚上，我看不到那副画了<br>也许是被人丢掉了，但我更希望是原作者拿走了它<br>原本想拍下那幅画，可惜没有适宜的时机</p>
+<span id="more"></span>
+
+<hr>
+<p>上课上的好无聊…<br>总之最烦的我认为就是化学了，因为学不会<br>想当初我学化学还是因为没有物生地的班级，现在化学废了，没办法的事</p>
+<p>上完课发现自己根本不需要查漏补缺<br>因为没意义，差的太多了….</p>
+<hr>
+<p>明天还要考试，而且是期中<br>说摆烂不在乎是假的，毕竟期中啊…..<br>真怀念初中的时候，对成绩满不在乎，丝毫不关注成绩，那种纯真的摆烂带给我的不止一星半点的快乐</p>
+<p>而现在<br>只能在压抑之中</p>
+<p>不过无所谓了，不无病呻吟了<br>总之<br><img src="https://bucket.iczrx.cn/2024/04/15/661d4e0a3e630.jpg" alt="62A35772361FD6B8F9B56D37FC037871.jpg"><br>开摆！<br>哪怕是有意而为，至少比苦逼的内卷好吧<br>与其加入这无意义无止境的精神内耗之中<br>调整好自己的心态才重要吧</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span> (<span class="string">&#x27;--------------------分割线--------------------&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<p>换了个分割线<br><s>为什么？哪有那么多为什么呢</s><br>呐，说什么好呢<br>小区电梯里，广告牌上（现在被人拆掉了）女明星的胸部被戳了两个洞<br>学校厕所里，墙上有人画了个OlO<br>这些搞恶趣味的人们是有多闲呢，反正我看了是反感的</p>
+<p>也许那张小孩画的画，放在电梯里，不消几日就消失，也和这些“高素质人群”有着密切联系吧</p>
+<hr>
+<p>思绪万千，却码不出什么字来<br>还能说些什么呢？</p>
+<p>也许今天的作业还没写完？<br>也许明天考试内容没复习？<br>然而我懒得写甚至懒得抄<br>复习也是没可能的</p>
+<p>夜里了，写完随记到了第二天了<br>先就这样吧<br><img src="https://bucket.iczrx.cn/2024/04/16/661d530f459ec.jpg" alt="30E3BFF54A8FA7A04D5EE9BC67A0C4AE.jpg"></p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2024-5-1随记</title>
     <url>/posts/d6a200d.html</url>
     <content><![CDATA[<h1 id="打包问题"><a href="#打包问题" class="headerlink" title="打包问题"></a>打包问题</h1><p>不知道抽什么风，pyinstaller打包了会报错</p>
@@ -35,28 +66,16 @@
       </tags>
   </entry>
   <entry>
-    <title>2024/4/15随记</title>
-    <url>/posts/b1f5bf5e.html</url>
-    <content><![CDATA[<h1 id="一天的开始"><a href="#一天的开始" class="headerlink" title="一天的开始"></a>一天的开始</h1><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2019021996&auto=0&height=66"></iframe>
-
-<p>记得几天前，电梯里就有一幅小孩画的画<br>右上角画的是太阳，中间是一个很大的蜗牛，下面是绿地和飞着的蝴蝶（大概？<br>每天早上看到这幅画都会给我带来一天开始的好心情</p>
-<p>可惜的是<br>今天晚上，我看不到那副画了<br>也许是被人丢掉了，但我更希望是原作者拿走了它<br>原本想拍下那幅画，可惜没有适宜的时机</p>
-<span id="more"></span>
-
+    <title>2024-4-20随记</title>
+    <url>/posts/1bd8065d.html</url>
+    <content><![CDATA[<h1 id="OCR进度"><a href="#OCR进度" class="headerlink" title="OCR进度"></a>OCR进度</h1><p>OCR的项目进展已经快一半了，用的是tkintertools<br>其实一开始的确想用pyqt<br>但是想了想，还要去学一个新的模块，好烦<br>然后直接选择tktools了<br>至于美观，肯定比tk美观</p>
+<h2 id="以前的版本"><a href="#以前的版本" class="headerlink" title="以前的版本"></a>以前的版本</h2><p>年少不知return和传参好，错把global当成宝</p>
+<p>之前写的一个OCR里面全是全局变量，特别逆天，能用全局变量绝不用传参和return<br>UI用的tkinter<br>因为烂，所以源码就不放了<br>不过给大家下了玩玩还是可以的<br><a href="https://wwo.lanzoum.com/iSXQz1scva2f">点此下载</a></p>
 <hr>
-<p>上课上的好无聊…<br>总之最烦的我认为就是化学了，因为学不会<br>想当初我学化学还是因为没有物生地的班级，现在化学废了，没办法的事</p>
-<p>上完课发现自己根本不需要查漏补缺<br>因为没意义，差的太多了….</p>
-<hr>
-<p>明天还要考试，而且是期中<br>说摆烂不在乎是假的，毕竟期中啊…..<br>真怀念初中的时候，对成绩满不在乎，丝毫不关注成绩，那种纯真的摆烂带给我的不止一星半点的快乐</p>
-<p>而现在<br>只能在压抑之中</p>
-<p>不过无所谓了，不无病呻吟了<br>总之<br><img src="https://bucket.iczrx.cn/2024/04/15/661d4e0a3e630.jpg" alt="62A35772361FD6B8F9B56D37FC037871.jpg"><br>开摆！<br>哪怕是有意而为，至少比苦逼的内卷好吧<br>与其加入这无意义无止境的精神内耗之中<br>调整好自己的心态才重要吧</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span> (<span class="string">&#x27;--------------------分割线--------------------&#x27;</span>)</span><br></pre></td></tr></table></figure>
-<p>换了个分割线<br><s>为什么？哪有那么多为什么呢</s><br>呐，说什么好呢<br>小区电梯里，广告牌上（现在被人拆掉了）女明星的胸部被戳了两个洞<br>学校厕所里，墙上有人画了个OlO<br>这些搞恶趣味的人们是有多闲呢，反正我看了是反感的</p>
-<p>也许那张小孩画的画，放在电梯里，不消几日就消失，也和这些“高素质人群”有着密切联系吧</p>
-<hr>
-<p>思绪万千，却码不出什么字来<br>还能说些什么呢？</p>
-<p>也许今天的作业还没写完？<br>也许明天考试内容没复习？<br>然而我懒得写甚至懒得抄<br>复习也是没可能的</p>
-<p>夜里了，写完随记到了第二天了<br>先就这样吧<br><img src="https://bucket.iczrx.cn/2024/04/16/661d530f459ec.jpg" alt="30E3BFF54A8FA7A04D5EE9BC67A0C4AE.jpg"></p>
+<h1 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h1><p>寄了，这下彻底废了<br>以后要把精力放在学习上了…..<br>虽然极不情愿，但是没办法</p>
+<h1 id="每日一蚌"><a href="#每日一蚌" class="headerlink" title="每日一蚌"></a>每日一蚌</h1><p>我朋友把idcard和phone两个变量搞反了导致de了半天的bug<br>发现还是因为去掉了字符数量限制，到后端一看身份证和手机号一样的</p>
+<p>让我们一起笑他wwwwwwwww</p>
+<h1 id="转载声明"><a href="#转载声明" class="headerlink" title="转载声明"></a>转载声明</h1><p>待会搞，不过yysy<br>我平常发些日常的东西在上面也不需要标注转载说明<br>能不能在写blog的时候可以选择去掉<br>等我细细研究一下NexT</p>
 ]]></content>
       <categories>
         <category>日常</category>
@@ -119,25 +138,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2024-4-20随记</title>
-    <url>/posts/1bd8065d.html</url>
-    <content><![CDATA[<h1 id="OCR进度"><a href="#OCR进度" class="headerlink" title="OCR进度"></a>OCR进度</h1><p>OCR的项目进展已经快一半了，用的是tkintertools<br>其实一开始的确想用pyqt<br>但是想了想，还要去学一个新的模块，好烦<br>然后直接选择tktools了<br>至于美观，肯定比tk美观</p>
-<h2 id="以前的版本"><a href="#以前的版本" class="headerlink" title="以前的版本"></a>以前的版本</h2><p>年少不知return和传参好，错把global当成宝</p>
-<p>之前写的一个OCR里面全是全局变量，特别逆天，能用全局变量绝不用传参和return<br>UI用的tkinter<br>因为烂，所以源码就不放了<br>不过给大家下了玩玩还是可以的<br><a href="https://wwo.lanzoum.com/iSXQz1scva2f">点此下载</a></p>
-<hr>
-<h1 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h1><p>寄了，这下彻底废了<br>以后要把精力放在学习上了…..<br>虽然极不情愿，但是没办法</p>
-<h1 id="每日一蚌"><a href="#每日一蚌" class="headerlink" title="每日一蚌"></a>每日一蚌</h1><p>我朋友把idcard和phone两个变量搞反了导致de了半天的bug<br>发现还是因为去掉了字符数量限制，到后端一看身份证和手机号一样的</p>
-<p>让我们一起笑他wwwwwwwww</p>
-<h1 id="转载声明"><a href="#转载声明" class="headerlink" title="转载声明"></a>转载声明</h1><p>待会搞，不过yysy<br>我平常发些日常的东西在上面也不需要标注转载说明<br>能不能在写blog的时候可以选择去掉<br>等我细细研究一下NexT</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2024-4-23随记</title>
     <url>/posts/2a301cc0.html</url>
     <content><![CDATA[<h1 id="假期"><a href="#假期" class="headerlink" title="假期"></a>假期</h1><p>马上就快五一了<br>现在调休连着上课累死了<br>根本没时间发blog</p>
@@ -146,48 +146,6 @@
 <hr>
 <p>不写了<br>左手现在使不上劲，估计昨天给自己干废了，现在小臂肌肉还疼<br>估计腱鞘炎（玩音游玩的，后遗症落下了属于是）</p>
 <p>等有时间再把近况进行详细说明吧</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2024-5-5随记</title>
-    <url>/posts/f925041e.html</url>
-    <content><![CDATA[<h1 id="网站崩了"><a href="#网站崩了" class="headerlink" title="网站崩了"></a>网站崩了</h1><p>这个b代码块的主题一直改不了</p>
-<p><img src="https://bucket.iczrx.cn/2024/05/05/6636694227625.jpg" alt="如下"></p>
-<p>即使设置里改为mac，hexo clean了也没用</p>
-<p>而且</p>
-<p>自从安上了butterfly就一直有烦人的报错</p>
-<p>但是不影响使用</p>
-<p><img src="https://bucket.iczrx.cn/2024/05/05/663669b2478c1.png" alt="报错如下"></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR Script load failed: themes\butterfly\scripts\events\init.js</span><br><span class="line">TypeError: require(...) is not a function</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR Script load failed: themes\butterfly\scripts\events\welcome.js</span><br><span class="line">TypeError: require(...) is not a function</span><br></pre></td></tr></table></figure>
-
-<p>解决方法</p>
-<p><a href="https://cloud.tencent.com/developer/article/2388627">Hexo升级之后Butterfly主题不兼容，发生报错：TypeError: require(…) is not a function-腾讯云开发者社区-腾讯云 (tencent.com)</a></p>
-<p>但是吧，我npm升级了没有用，所以打算手动升级</p>
-<p>结果升完级天真的以为_config.yml文件是一样的</p>
-<p>想都没想直接把旧版的复制进去了</p>
-<p>然后又是报错</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR </span><br><span class="line">TypeError: E:\hexo\blog\themes\butterfly\layout\includes\layout.pug:2</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://bucket.iczrx.cn/2024/05/05/66366a555b7b3.png"></p>
-<p>行！</p>
-<p>估计又是什么乱七八糟的问题</p>
-<p>大不了我重新配置一下</p>
-<p>后来我重新配置了一遍，成功解决</p>
-<p>在此期间我直接把报错生成的网页直接推到GitHub上了</p>
-<p>所以网站崩了一会</p>
-<p>然后设置好主题</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span> (<span class="string">&#x27;hello&#x27;</span>)</span><br></pre></td></tr></table></figure>
-
-<p>好了</p>
-<p>终于成功了</p>
 ]]></content>
       <categories>
         <category>日常</category>
@@ -211,6 +169,31 @@
 <h1 id="五一假期"><a href="#五一假期" class="headerlink" title="五一假期"></a>五一假期</h1><p>铸币学校放4天<br>江苏改革之后假期都是全的<br>别的学校都放全了<br>就我们学校铸币<br>赶进度（一天时间也赶不了多少进度）</p>
 <p>到时候看看renpy怎么用<br>续写sprb的故事（其实就是把官方小说做成日后谈）</p>
 <h1 id="万花镜和o神联动？"><a href="#万花镜和o神联动？" class="headerlink" title="万花镜和o神联动？"></a>万花镜和o神联动？</h1><p>要真联动4里面也和初音联动了<br>估计官方整活（或者也有可能碰瓷？蹭热度？）<br>类似于三色绘恋里的‘移不动，联不通’和‘魔兽争霸’</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2025-1-6小高考备考</title>
+    <url>/posts/32c88d2b.html</url>
+    <content><![CDATA[<h1 id="有关小高考"><a href="#有关小高考" class="headerlink" title="有关小高考"></a>有关小高考</h1><p>小高考（有的人也叫做会考，不过我一般都这么叫就是了）是高二年级的合格性考试，不要求高分但是要求过关</p>
+<p>如果不过关就只能高三补考，如果还不过貌似只能走单招上大专了呢</p>
+<p><del><strong>所以说啊究竟是谁想出来的这种阴间考试啊（恼）</strong></del></p>
+<p>如大多数学校一样，我们学校是向来不重视的，而且往届也就几个人不过，但是去年那届好像有100多个人没过，今年照旧不重视啊~~~</p>
+<p>虽说只要合格就行但是生物政治历史这三门我是真的一点不会啊（死人学校不上必修死到临头才开始补），不算今天就剩3天开考，很难想象我该怎么女娲补天补上去</p>
+<p>之前还想着学点html和css还有js把网站好好改改，现在看来是真的一点时间都没有了，小高考考完就是期末（虽然我直接放弃了就是了）</p>
+<h1 id="计算机考试"><a href="#计算机考试" class="headerlink" title="计算机考试"></a>计算机考试</h1><p>前几天刚刚考完计算机，虽说不算难但是前面那个概念题我是真的不想看（问我农民秋天收麦子是不是知识和计算机有关系吗？），不过考试登录的时候倒是没看见那几个人机朋友（指平时训练用的软件登录窗口的照片）</p>
+<p>我的座位是对着空调的，暖气开的我想睡觉。老师宣布完考完可以交卷离开一堆人跑了，我想多睡会儿但是看到人全跑了也没好意思多留（沟槽的学校借着计算机考试连着上俩星期）</p>
+<p>Python考题很简单，没有涉及到任何数学问题，这对我来说是极好的，因为我写操作题不喜欢盯着题干看就是了</p>
+<h1 id="近几次模拟"><a href="#近几次模拟" class="headerlink" title="近几次模拟"></a>近几次模拟</h1><p>虽说学起来很吃力，但是最近几次模拟考也不是特别差</p>
+<p>生物没过人之常情，写了一面基因配对写完感觉自己分析的很有道理可以全对，对完答案发现全错，这就是生物吗</p>
+<p>模拟考试偶遇人文地理，拼尽全力无法战胜（其实前面基础知识忘光了）</p>
+<p>神奇的是政治居然过了（这次改的松）</p>
+<p>倒不是说完全没有希望全过，但是时间压缩在这三天里确实很难了</p>
 ]]></content>
       <categories>
         <category>日常</category>
@@ -268,31 +251,6 @@
 <p>现在？——早就没了吧</p>
 <h1 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h1><p>待会把樱之诗的里奈线推了吧</p>
 <p>虽说我更偏向百合线就是了……</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2025-1-6小高考备考</title>
-    <url>/posts/32c88d2b.html</url>
-    <content><![CDATA[<h1 id="有关小高考"><a href="#有关小高考" class="headerlink" title="有关小高考"></a>有关小高考</h1><p>小高考（有的人也叫做会考，不过我一般都这么叫就是了）是高二年级的合格性考试，不要求高分但是要求过关</p>
-<p>如果不过关就只能高三补考，如果还不过貌似只能走单招上大专了呢</p>
-<p><del><strong>所以说啊究竟是谁想出来的这种阴间考试啊（恼）</strong></del></p>
-<p>如大多数学校一样，我们学校是向来不重视的，而且往届也就几个人不过，但是去年那届好像有100多个人没过，今年照旧不重视啊~~~</p>
-<p>虽说只要合格就行但是生物政治历史这三门我是真的一点不会啊（死人学校不上必修死到临头才开始补），不算今天就剩3天开考，很难想象我该怎么女娲补天补上去</p>
-<p>之前还想着学点html和css还有js把网站好好改改，现在看来是真的一点时间都没有了，小高考考完就是期末（虽然我直接放弃了就是了）</p>
-<h1 id="计算机考试"><a href="#计算机考试" class="headerlink" title="计算机考试"></a>计算机考试</h1><p>前几天刚刚考完计算机，虽说不算难但是前面那个概念题我是真的不想看（问我农民秋天收麦子是不是知识和计算机有关系吗？），不过考试登录的时候倒是没看见那几个人机朋友（指平时训练用的软件登录窗口的照片）</p>
-<p>我的座位是对着空调的，暖气开的我想睡觉。老师宣布完考完可以交卷离开一堆人跑了，我想多睡会儿但是看到人全跑了也没好意思多留（沟槽的学校借着计算机考试连着上俩星期）</p>
-<p>Python考题很简单，没有涉及到任何数学问题，这对我来说是极好的，因为我写操作题不喜欢盯着题干看就是了</p>
-<h1 id="近几次模拟"><a href="#近几次模拟" class="headerlink" title="近几次模拟"></a>近几次模拟</h1><p>虽说学起来很吃力，但是最近几次模拟考也不是特别差</p>
-<p>生物没过人之常情，写了一面基因配对写完感觉自己分析的很有道理可以全对，对完答案发现全错，这就是生物吗</p>
-<p>模拟考试偶遇人文地理，拼尽全力无法战胜（其实前面基础知识忘光了）</p>
-<p>神奇的是政治居然过了（这次改的松）</p>
-<p>倒不是说完全没有希望全过，但是时间压缩在这三天里确实很难了</p>
 ]]></content>
       <categories>
         <category>日常</category>
@@ -401,59 +359,6 @@
       <tags>
         <tag>Python</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Python自动上传网页至GitHub</title>
-    <url>/posts/d2958731.html</url>
-    <content><![CDATA[<p>怎么个事儿呢<br>就是说我这个网页部署在GitHub的一个文件夹里，根目录是我的主页，但是这就导致了一个问题：<br>我没法直接通过hexo d上传文件<br>这样倒也好解决，直接手动上传好啦<br>但是我懒~~~~~<br>于是乎用Python写了个能自动上传的程序<br>这样下次写东西直接上传即可</p>
-<h1 id="导入模块"><a href="#导入模块" class="headerlink" title="导入模块"></a>导入模块</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">from <span class="keyword">time</span> import ctime,<span class="keyword">time</span></span><br><span class="line">import <span class="keyword">time</span> as t</span><br><span class="line">import shutil</span><br><span class="line">import os.path</span><br><span class="line">from shutil import copyfile</span><br><span class="line">from os import system <span class="comment"># 导入os模块中的system方法</span></span><br></pre></td></tr></table></figure>
-<p>这边说一下具体思路<br>就是通过system命令行执行git指令</p>
-<span id="more"></span>
-
-<h1 id="git上传"><a href="#git上传" class="headerlink" title="git上传"></a>git上传</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">def get_time():</span><br><span class="line">    <span class="string">&quot;&quot;</span><span class="string">&quot; 获取当前时间 &quot;</span><span class="string">&quot;&quot;</span></span><br><span class="line">    <span class="built_in">return</span> ctime() <span class="comment"># 获取当前时间并返回到函数调用处</span></span><br><span class="line"></span><br><span class="line">def create_git_order(<span class="keyword">time</span>):</span><br><span class="line">    <span class="string">&quot;&quot;</span><span class="string">&quot; 生成git指令并执行 &quot;</span><span class="string">&quot;&quot;</span></span><br><span class="line">    order_arr = [<span class="string">&quot;git add E:/Github/adeptmicors279.github.io&quot;</span>,<span class="string">&quot;git commit -m &quot;</span> + <span class="string">&#x27;&quot;&#x27;</span> + <span class="keyword">time</span> + <span class="string">&#x27;&quot;&#x27;</span>,<span class="string">&quot;git push origin main&quot;</span>] <span class="comment"># 创建指令集合</span></span><br><span class="line">    <span class="keyword">for</span> order <span class="keyword">in</span> order_arr:</span><br><span class="line">        system(order) <span class="comment"># 执行每一项指令</span></span><br><span class="line"></span><br><span class="line">def put_file(<span class="keyword">time</span>):</span><br><span class="line">    <span class="string">&quot;&quot;</span><span class="string">&quot; 在桌面放置文件 &quot;</span><span class="string">&quot;&quot;</span></span><br><span class="line">    file = open(r<span class="string">&quot;C:\Users\1\Desktop\git_push_time.txt&quot;</span>,<span class="string">&quot;w&quot;</span>) <span class="comment"># 此处的路径根据自己实际需求配置</span></span><br><span class="line">    file.write(<span class="keyword">time</span> + <span class="string">&quot;完成最后一次提交&quot;</span>)</span><br></pre></td></tr></table></figure>
-<p>这边我也是直接复制的，大致意思是创建命令列表并遍历执行<br>配套的执行代码是</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    <span class="built_in">date</span> = get_time() <span class="comment"># 获取时间</span></span><br><span class="line">    create_git_order(<span class="built_in">date</span>) <span class="comment"># 提交到git</span></span><br><span class="line">    put_file(<span class="built_in">date</span>) <span class="comment"># 在桌面创建文件</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="创建文件并写入开头"><a href="#创建文件并写入开头" class="headerlink" title="创建文件并写入开头"></a>创建文件并写入开头</h1><p>我用的是NexT主题，开头格式是</p>
-<blockquote>
-<hr>
-<h2 id="title-title-date-year-month-date-hour-minute-second-tags-tags"><a href="#title-title-date-year-month-date-hour-minute-second-tags-tags" class="headerlink" title="title: {title}date: {year}-{month}-{date} {hour}:{minute}:{second}tags: {tags}"></a>title: {title}<br>date: {year}-{month}-{date} {hour}:{minute}:{second}<br>tags: {tags}</h2><p>所以直接上代码</p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">struct = t.localtime()</span><br><span class="line">year=struct[0]</span><br><span class="line">month=struct[1]</span><br><span class="line"><span class="built_in">date</span>=struct[2]</span><br><span class="line">hour=struct[3]</span><br><span class="line">minute=struct[4]</span><br><span class="line">second=struct[5]</span><br><span class="line">title=str(input(<span class="string">&#x27;请输入标题：&#x27;</span>))</span><br><span class="line">tags=str(input(<span class="string">&#x27;请输入标签，标签用英文逗号隔开：&#x27;</span>))</span><br><span class="line">tags=str(tags.split(<span class="string">&#x27;,&#x27;</span>))</span><br><span class="line">tags=tags.replace(<span class="string">&#x27;[&#x27;</span>,<span class="string">&#x27;&#x27;</span>).replace(<span class="string">&#x27;]&#x27;</span>,<span class="string">&#x27;&#x27;</span>).replace(<span class="string">&quot;&#x27;&quot;</span>,<span class="string">&quot;&quot;</span>)</span><br><span class="line">text=f<span class="string">&#x27;&#x27;</span><span class="string">&#x27;---</span></span><br><span class="line"><span class="string">title: &#123;title&#125;</span></span><br><span class="line"><span class="string">date: &#123;year&#125;-&#123;month&#125;-&#123;date&#125; &#123;hour&#125;:&#123;minute&#125;:&#123;second&#125;</span></span><br><span class="line"><span class="string">tags: &#123;tags&#125;</span></span><br><span class="line"><span class="string">---&#x27;</span><span class="string">&#x27;&#x27;</span></span><br><span class="line"><span class="built_in">print</span> (text)</span><br><span class="line">with open(title+<span class="string">&#x27;.md&#x27;</span>,<span class="string">&#x27;w&#x27;</span>,encoding=<span class="string">&#x27;utf-8&#x27;</span>) as f:</span><br><span class="line">    f.write(text)</span><br><span class="line"></span><br><span class="line">answer=input(<span class="string">&#x27;是否完成编辑？1/0&#x27;</span>)</span><br><span class="line"><span class="keyword">if</span> answer==<span class="string">&#x27;1&#x27;</span>:</span><br><span class="line">    flag=True</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    flag=False</span><br></pre></td></tr></table></figure>
-<p>获取时间并获取标题和tag，写入文件头<br>然后?然后就自己编辑去吧！</p>
-<p>是否完成编辑用True和False方便易读</p>
-<h1 id="移动文件至hexo目录"><a href="#移动文件至hexo目录" class="headerlink" title="移动文件至hexo目录"></a>移动文件至hexo目录</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> flag==True:</span><br><span class="line">    path=os.path.abspath(title+<span class="string">&#x27;.md&#x27;</span>)</span><br><span class="line">    pathto=<span class="string">&#x27;E:\\hexo\\blog\\source\\_posts\\&#x27;</span>+title+<span class="string">&#x27;.md&#x27;</span></span><br><span class="line">    copyfile(<span class="string">&#x27;./&#x27;</span>+title+<span class="string">&#x27;.md&#x27;</span>,pathto)</span><br><span class="line">    answer1=str(input(<span class="string">&#x27;是否上传文件？1/0&#x27;</span>))</span><br><span class="line">    <span class="keyword">if</span> answer1==<span class="string">&#x27;1&#x27;</span>:</span><br><span class="line">        sign=True</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span> (<span class="string">&#x27;取消上传，缓存至本地&#x27;</span>)</span><br></pre></td></tr></table></figure>
-<p>传入_post目录，准备上传</p>
-<h1 id="开始上传"><a href="#开始上传" class="headerlink" title="开始上传"></a>开始上传</h1><h2 id="打包"><a href="#打包" class="headerlink" title="打包"></a>打包</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> sign==True:</span><br><span class="line">    os.chdir(r<span class="string">&#x27;E:\hexo\blog&#x27;</span>)</span><br><span class="line">    system(<span class="string">&#x27;hexo g&#x27;</span>)</span><br></pre></td></tr></table></figure>
-<p>一并写入命令集提交给os模块去</p>
-<h2 id="替换本地仓库"><a href="#替换本地仓库" class="headerlink" title="替换本地仓库"></a>替换本地仓库</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">t.sleep(10)</span><br><span class="line">shutil.rmtree(r<span class="string">&#x27;E:\Github\adeptmicors279.github.io\homepage&#x27;</span>)</span><br><span class="line">shutil.copytree(r<span class="string">&#x27;E:\hexo\blog\public&#x27;</span>, r<span class="string">&#x27;E:\Github\adeptmicors279.github.io\homepage&#x27;</span>)</span><br><span class="line">os.chdir(r<span class="string">&#x27;E:\Github\adeptmicors279.github.io&#x27;</span>)</span><br></pre></td></tr></table></figure>
-<p>替换掉之后，便可上传，记得设置工作目录<br>最后接上</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    <span class="built_in">date</span> = get_time() <span class="comment"># 获取时间</span></span><br><span class="line">    create_git_order(<span class="built_in">date</span>) <span class="comment"># 提交到git</span></span><br><span class="line">    put_file(<span class="built_in">date</span>) <span class="comment"># 在桌面创建文件</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="免密登录GitHub"><a href="#免密登录GitHub" class="headerlink" title="免密登录GitHub"></a>免密登录GitHub</h2><h3 id="对用户名和密码进行设置"><a href="#对用户名和密码进行设置" class="headerlink" title="对用户名和密码进行设置"></a>对用户名和密码进行设置</h3><p>咱就是说，你总不能推送上去一次，就输入一次密码吧</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&#x27;用户名&#x27;</span></span><br><span class="line">git config --global user.email <span class="string">&#x27;用户邮箱&#x27;</span></span><br></pre></td></tr></table></figure>
-<p>在git里输入，配置一下</p>
-<h1 id="生成公钥和私钥"><a href="#生成公钥和私钥" class="headerlink" title="生成公钥和私钥"></a>生成公钥和私钥</h1> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa</span><br></pre></td></tr></table></figure>
-<p>生成公钥和私钥的命令</p>
-<p>生成的一般在你的user目录里的.ssh<br>没有？没有别问我，我润了<br>然后去GitHub上配置<br>这里不做赘述</p>
-<h3 id="代码总结"><a href="#代码总结" class="headerlink" title="代码总结"></a>代码总结</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">from <span class="keyword">time</span> import ctime,<span class="keyword">time</span></span><br><span class="line">import <span class="keyword">time</span> as t</span><br><span class="line">import shutil</span><br><span class="line">import os.path</span><br><span class="line">from shutil import copyfile</span><br><span class="line">from os import system <span class="comment"># 导入os模块中的system方法</span></span><br><span class="line">def get_time():</span><br><span class="line">    <span class="string">&quot;&quot;</span><span class="string">&quot; 获取当前时间 &quot;</span><span class="string">&quot;&quot;</span></span><br><span class="line">    <span class="built_in">return</span> ctime() <span class="comment"># 获取当前时间并返回到函数调用处</span></span><br><span class="line"></span><br><span class="line">def create_git_order(<span class="keyword">time</span>):</span><br><span class="line">    <span class="string">&quot;&quot;</span><span class="string">&quot; 生成git指令并执行 &quot;</span><span class="string">&quot;&quot;</span></span><br><span class="line">    order_arr = [<span class="string">&quot;git add E:/Github/adeptmicors279.github.io&quot;</span>,<span class="string">&quot;git commit -m &quot;</span> + <span class="string">&#x27;&quot;&#x27;</span> + <span class="keyword">time</span> + <span class="string">&#x27;&quot;&#x27;</span>,<span class="string">&quot;git push origin main&quot;</span>] <span class="comment"># 创建指令集合</span></span><br><span class="line">    <span class="keyword">for</span> order <span class="keyword">in</span> order_arr:</span><br><span class="line">        system(order) <span class="comment"># 执行每一项指令</span></span><br><span class="line"></span><br><span class="line">def put_file(<span class="keyword">time</span>):</span><br><span class="line">    <span class="string">&quot;&quot;</span><span class="string">&quot; 在桌面放置文件 &quot;</span><span class="string">&quot;&quot;</span></span><br><span class="line">    file = open(r<span class="string">&quot;C:\Users\1\Desktop\git_push_time.txt&quot;</span>,<span class="string">&quot;w&quot;</span>) <span class="comment"># 此处的路径根据自己实际需求配置</span></span><br><span class="line">    file.write(<span class="keyword">time</span> + <span class="string">&quot;完成最后一次提交&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">struct = t.localtime()</span><br><span class="line">year=struct[0]</span><br><span class="line">month=struct[1]</span><br><span class="line"><span class="built_in">date</span>=struct[2]</span><br><span class="line">hour=struct[3]</span><br><span class="line">minute=struct[4]</span><br><span class="line">second=struct[5]</span><br><span class="line">title=str(input(<span class="string">&#x27;请输入标题：&#x27;</span>))</span><br><span class="line">tags=str(input(<span class="string">&#x27;请输入标签，标签用英文逗号隔开：&#x27;</span>))</span><br><span class="line">tags=str(tags.split(<span class="string">&#x27;,&#x27;</span>))</span><br><span class="line">tags=tags.replace(<span class="string">&#x27;[&#x27;</span>,<span class="string">&#x27;&#x27;</span>).replace(<span class="string">&#x27;]&#x27;</span>,<span class="string">&#x27;&#x27;</span>).replace(<span class="string">&quot;&#x27;&quot;</span>,<span class="string">&quot;&quot;</span>)</span><br><span class="line">text=f<span class="string">&#x27;&#x27;</span><span class="string">&#x27;---</span></span><br><span class="line"><span class="string">title: &#123;title&#125;</span></span><br><span class="line"><span class="string">date: &#123;year&#125;-&#123;month&#125;-&#123;date&#125; &#123;hour&#125;:&#123;minute&#125;:&#123;second&#125;</span></span><br><span class="line"><span class="string">tags: &#123;tags&#125;</span></span><br><span class="line"><span class="string">---&#x27;</span><span class="string">&#x27;&#x27;</span></span><br><span class="line"><span class="built_in">print</span> (text)</span><br><span class="line">with open(title+<span class="string">&#x27;.md&#x27;</span>,<span class="string">&#x27;w&#x27;</span>,encoding=<span class="string">&#x27;utf-8&#x27;</span>) as f:</span><br><span class="line">    f.write(text)</span><br><span class="line"></span><br><span class="line">answer=input(<span class="string">&#x27;是否完成编辑？1/0&#x27;</span>)</span><br><span class="line"><span class="keyword">if</span> answer==<span class="string">&#x27;1&#x27;</span>:</span><br><span class="line">    flag=True</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    flag=False</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> flag==True:</span><br><span class="line">    path=os.path.abspath(title+<span class="string">&#x27;.md&#x27;</span>)</span><br><span class="line">    pathto=<span class="string">&#x27;E:\\hexo\\blog\\source\\_posts\\&#x27;</span>+title+<span class="string">&#x27;.md&#x27;</span></span><br><span class="line">    copyfile(<span class="string">&#x27;./&#x27;</span>+title+<span class="string">&#x27;.md&#x27;</span>,pathto)</span><br><span class="line">    answer1=str(input(<span class="string">&#x27;是否上传文件？1/0&#x27;</span>))</span><br><span class="line">    <span class="keyword">if</span> answer1==<span class="string">&#x27;1&#x27;</span>:</span><br><span class="line">        sign=True</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span> (<span class="string">&#x27;取消上传，缓存至本地&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> sign==True:</span><br><span class="line">    os.chdir(r<span class="string">&#x27;E:\hexo\blog&#x27;</span>)</span><br><span class="line">    system(<span class="string">&#x27;hexo g&#x27;</span>)</span><br><span class="line">    shutil.rmtree(r<span class="string">&#x27;E:\Github\adeptmicors279.github.io\homepage&#x27;</span>)</span><br><span class="line">    shutil.copytree(r<span class="string">&#x27;E:\hexo\blog\public&#x27;</span>, r<span class="string">&#x27;E:\Github\adeptmicors279.github.io\homepage&#x27;</span>)</span><br><span class="line">    os.chdir(r<span class="string">&#x27;E:\Github\adeptmicors279.github.io&#x27;</span>)</span><br><span class="line">    <span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">        <span class="built_in">date</span> = get_time() <span class="comment"># 获取时间</span></span><br><span class="line">        create_git_order(<span class="built_in">date</span>) <span class="comment"># 提交到git</span></span><br><span class="line">        put_file(<span class="built_in">date</span>) <span class="comment"># 在桌面创建文件</span></span><br></pre></td></tr></table></figure>
-<p>最后…..没有最后了<br>再不睡觉明天就要上课睡了<br>see you tomorrow~</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于此站</title>
-    <url>/posts/d27f355a.html</url>
-    <content><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1476470866&auto=1&height=66"></iframe>
-
-<p>由于兴趣使然搭建的罢了</p>
-<p>平常偶尔发发东西</p>
-]]></content>
   </entry>
   <entry>
     <title>平凡的天才展现才能，真正的天才让人忘记才能————樱之诗全线推完有感</title>
@@ -686,6 +591,48 @@
       </tags>
   </entry>
   <entry>
+    <title>2024-5-5随记</title>
+    <url>/posts/f925041e.html</url>
+    <content><![CDATA[<h1 id="网站崩了"><a href="#网站崩了" class="headerlink" title="网站崩了"></a>网站崩了</h1><p>这个b代码块的主题一直改不了</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/05/6636694227625.jpg" alt="如下"></p>
+<p>即使设置里改为mac，hexo clean了也没用</p>
+<p>而且</p>
+<p>自从安上了butterfly就一直有烦人的报错</p>
+<p>但是不影响使用</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/05/663669b2478c1.png" alt="报错如下"></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR Script load failed: themes\butterfly\scripts\events\init.js</span><br><span class="line">TypeError: require(...) is not a function</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR Script load failed: themes\butterfly\scripts\events\welcome.js</span><br><span class="line">TypeError: require(...) is not a function</span><br></pre></td></tr></table></figure>
+
+<p>解决方法</p>
+<p><a href="https://cloud.tencent.com/developer/article/2388627">Hexo升级之后Butterfly主题不兼容，发生报错：TypeError: require(…) is not a function-腾讯云开发者社区-腾讯云 (tencent.com)</a></p>
+<p>但是吧，我npm升级了没有用，所以打算手动升级</p>
+<p>结果升完级天真的以为_config.yml文件是一样的</p>
+<p>想都没想直接把旧版的复制进去了</p>
+<p>然后又是报错</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR </span><br><span class="line">TypeError: E:\hexo\blog\themes\butterfly\layout\includes\layout.pug:2</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://bucket.iczrx.cn/2024/05/05/66366a555b7b3.png"></p>
+<p>行！</p>
+<p>估计又是什么乱七八糟的问题</p>
+<p>大不了我重新配置一下</p>
+<p>后来我重新配置了一遍，成功解决</p>
+<p>在此期间我直接把报错生成的网页直接推到GitHub上了</p>
+<p>所以网站崩了一会</p>
+<p>然后设置好主题</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span> (<span class="string">&#x27;hello&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>好了</p>
+<p>终于成功了</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>若、生命于明日落幕</title>
     <url>/posts/d9c7071d.html</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>可能会有所剧透，剧透处会提醒</p>
@@ -752,6 +699,122 @@
       <tags>
         <tag>Galgame</tag>
         <tag>VNG</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于此站</title>
+    <url>/posts/d27f355a.html</url>
+    <content><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1476470866&auto=1&height=66"></iframe>
+
+<p>由于兴趣使然搭建的罢了</p>
+<p>平常偶尔发发东西</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Python自动上传网页至GitHub</title>
+    <url>/posts/d2958731.html</url>
+    <content><![CDATA[<p>怎么个事儿呢<br>就是说我这个网页部署在GitHub的一个文件夹里，根目录是我的主页，但是这就导致了一个问题：<br>我没法直接通过hexo d上传文件<br>这样倒也好解决，直接手动上传好啦<br>但是我懒~~~~~<br>于是乎用Python写了个能自动上传的程序<br>这样下次写东西直接上传即可</p>
+<h1 id="导入模块"><a href="#导入模块" class="headerlink" title="导入模块"></a>导入模块</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">from <span class="keyword">time</span> import ctime,<span class="keyword">time</span></span><br><span class="line">import <span class="keyword">time</span> as t</span><br><span class="line">import shutil</span><br><span class="line">import os.path</span><br><span class="line">from shutil import copyfile</span><br><span class="line">from os import system <span class="comment"># 导入os模块中的system方法</span></span><br></pre></td></tr></table></figure>
+<p>这边说一下具体思路<br>就是通过system命令行执行git指令</p>
+<span id="more"></span>
+
+<h1 id="git上传"><a href="#git上传" class="headerlink" title="git上传"></a>git上传</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">def get_time():</span><br><span class="line">    <span class="string">&quot;&quot;</span><span class="string">&quot; 获取当前时间 &quot;</span><span class="string">&quot;&quot;</span></span><br><span class="line">    <span class="built_in">return</span> ctime() <span class="comment"># 获取当前时间并返回到函数调用处</span></span><br><span class="line"></span><br><span class="line">def create_git_order(<span class="keyword">time</span>):</span><br><span class="line">    <span class="string">&quot;&quot;</span><span class="string">&quot; 生成git指令并执行 &quot;</span><span class="string">&quot;&quot;</span></span><br><span class="line">    order_arr = [<span class="string">&quot;git add E:/Github/adeptmicors279.github.io&quot;</span>,<span class="string">&quot;git commit -m &quot;</span> + <span class="string">&#x27;&quot;&#x27;</span> + <span class="keyword">time</span> + <span class="string">&#x27;&quot;&#x27;</span>,<span class="string">&quot;git push origin main&quot;</span>] <span class="comment"># 创建指令集合</span></span><br><span class="line">    <span class="keyword">for</span> order <span class="keyword">in</span> order_arr:</span><br><span class="line">        system(order) <span class="comment"># 执行每一项指令</span></span><br><span class="line"></span><br><span class="line">def put_file(<span class="keyword">time</span>):</span><br><span class="line">    <span class="string">&quot;&quot;</span><span class="string">&quot; 在桌面放置文件 &quot;</span><span class="string">&quot;&quot;</span></span><br><span class="line">    file = open(r<span class="string">&quot;C:\Users\1\Desktop\git_push_time.txt&quot;</span>,<span class="string">&quot;w&quot;</span>) <span class="comment"># 此处的路径根据自己实际需求配置</span></span><br><span class="line">    file.write(<span class="keyword">time</span> + <span class="string">&quot;完成最后一次提交&quot;</span>)</span><br></pre></td></tr></table></figure>
+<p>这边我也是直接复制的，大致意思是创建命令列表并遍历执行<br>配套的执行代码是</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    <span class="built_in">date</span> = get_time() <span class="comment"># 获取时间</span></span><br><span class="line">    create_git_order(<span class="built_in">date</span>) <span class="comment"># 提交到git</span></span><br><span class="line">    put_file(<span class="built_in">date</span>) <span class="comment"># 在桌面创建文件</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="创建文件并写入开头"><a href="#创建文件并写入开头" class="headerlink" title="创建文件并写入开头"></a>创建文件并写入开头</h1><p>我用的是NexT主题，开头格式是</p>
+<blockquote>
+<hr>
+<h2 id="title-title-date-year-month-date-hour-minute-second-tags-tags"><a href="#title-title-date-year-month-date-hour-minute-second-tags-tags" class="headerlink" title="title: {title}date: {year}-{month}-{date} {hour}:{minute}:{second}tags: {tags}"></a>title: {title}<br>date: {year}-{month}-{date} {hour}:{minute}:{second}<br>tags: {tags}</h2><p>所以直接上代码</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">struct = t.localtime()</span><br><span class="line">year=struct[0]</span><br><span class="line">month=struct[1]</span><br><span class="line"><span class="built_in">date</span>=struct[2]</span><br><span class="line">hour=struct[3]</span><br><span class="line">minute=struct[4]</span><br><span class="line">second=struct[5]</span><br><span class="line">title=str(input(<span class="string">&#x27;请输入标题：&#x27;</span>))</span><br><span class="line">tags=str(input(<span class="string">&#x27;请输入标签，标签用英文逗号隔开：&#x27;</span>))</span><br><span class="line">tags=str(tags.split(<span class="string">&#x27;,&#x27;</span>))</span><br><span class="line">tags=tags.replace(<span class="string">&#x27;[&#x27;</span>,<span class="string">&#x27;&#x27;</span>).replace(<span class="string">&#x27;]&#x27;</span>,<span class="string">&#x27;&#x27;</span>).replace(<span class="string">&quot;&#x27;&quot;</span>,<span class="string">&quot;&quot;</span>)</span><br><span class="line">text=f<span class="string">&#x27;&#x27;</span><span class="string">&#x27;---</span></span><br><span class="line"><span class="string">title: &#123;title&#125;</span></span><br><span class="line"><span class="string">date: &#123;year&#125;-&#123;month&#125;-&#123;date&#125; &#123;hour&#125;:&#123;minute&#125;:&#123;second&#125;</span></span><br><span class="line"><span class="string">tags: &#123;tags&#125;</span></span><br><span class="line"><span class="string">---&#x27;</span><span class="string">&#x27;&#x27;</span></span><br><span class="line"><span class="built_in">print</span> (text)</span><br><span class="line">with open(title+<span class="string">&#x27;.md&#x27;</span>,<span class="string">&#x27;w&#x27;</span>,encoding=<span class="string">&#x27;utf-8&#x27;</span>) as f:</span><br><span class="line">    f.write(text)</span><br><span class="line"></span><br><span class="line">answer=input(<span class="string">&#x27;是否完成编辑？1/0&#x27;</span>)</span><br><span class="line"><span class="keyword">if</span> answer==<span class="string">&#x27;1&#x27;</span>:</span><br><span class="line">    flag=True</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    flag=False</span><br></pre></td></tr></table></figure>
+<p>获取时间并获取标题和tag，写入文件头<br>然后?然后就自己编辑去吧！</p>
+<p>是否完成编辑用True和False方便易读</p>
+<h1 id="移动文件至hexo目录"><a href="#移动文件至hexo目录" class="headerlink" title="移动文件至hexo目录"></a>移动文件至hexo目录</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> flag==True:</span><br><span class="line">    path=os.path.abspath(title+<span class="string">&#x27;.md&#x27;</span>)</span><br><span class="line">    pathto=<span class="string">&#x27;E:\\hexo\\blog\\source\\_posts\\&#x27;</span>+title+<span class="string">&#x27;.md&#x27;</span></span><br><span class="line">    copyfile(<span class="string">&#x27;./&#x27;</span>+title+<span class="string">&#x27;.md&#x27;</span>,pathto)</span><br><span class="line">    answer1=str(input(<span class="string">&#x27;是否上传文件？1/0&#x27;</span>))</span><br><span class="line">    <span class="keyword">if</span> answer1==<span class="string">&#x27;1&#x27;</span>:</span><br><span class="line">        sign=True</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span> (<span class="string">&#x27;取消上传，缓存至本地&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<p>传入_post目录，准备上传</p>
+<h1 id="开始上传"><a href="#开始上传" class="headerlink" title="开始上传"></a>开始上传</h1><h2 id="打包"><a href="#打包" class="headerlink" title="打包"></a>打包</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> sign==True:</span><br><span class="line">    os.chdir(r<span class="string">&#x27;E:\hexo\blog&#x27;</span>)</span><br><span class="line">    system(<span class="string">&#x27;hexo g&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<p>一并写入命令集提交给os模块去</p>
+<h2 id="替换本地仓库"><a href="#替换本地仓库" class="headerlink" title="替换本地仓库"></a>替换本地仓库</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">t.sleep(10)</span><br><span class="line">shutil.rmtree(r<span class="string">&#x27;E:\Github\adeptmicors279.github.io\homepage&#x27;</span>)</span><br><span class="line">shutil.copytree(r<span class="string">&#x27;E:\hexo\blog\public&#x27;</span>, r<span class="string">&#x27;E:\Github\adeptmicors279.github.io\homepage&#x27;</span>)</span><br><span class="line">os.chdir(r<span class="string">&#x27;E:\Github\adeptmicors279.github.io&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<p>替换掉之后，便可上传，记得设置工作目录<br>最后接上</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    <span class="built_in">date</span> = get_time() <span class="comment"># 获取时间</span></span><br><span class="line">    create_git_order(<span class="built_in">date</span>) <span class="comment"># 提交到git</span></span><br><span class="line">    put_file(<span class="built_in">date</span>) <span class="comment"># 在桌面创建文件</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="免密登录GitHub"><a href="#免密登录GitHub" class="headerlink" title="免密登录GitHub"></a>免密登录GitHub</h2><h3 id="对用户名和密码进行设置"><a href="#对用户名和密码进行设置" class="headerlink" title="对用户名和密码进行设置"></a>对用户名和密码进行设置</h3><p>咱就是说，你总不能推送上去一次，就输入一次密码吧</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&#x27;用户名&#x27;</span></span><br><span class="line">git config --global user.email <span class="string">&#x27;用户邮箱&#x27;</span></span><br></pre></td></tr></table></figure>
+<p>在git里输入，配置一下</p>
+<h1 id="生成公钥和私钥"><a href="#生成公钥和私钥" class="headerlink" title="生成公钥和私钥"></a>生成公钥和私钥</h1> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa</span><br></pre></td></tr></table></figure>
+<p>生成公钥和私钥的命令</p>
+<p>生成的一般在你的user目录里的.ssh<br>没有？没有别问我，我润了<br>然后去GitHub上配置<br>这里不做赘述</p>
+<h3 id="代码总结"><a href="#代码总结" class="headerlink" title="代码总结"></a>代码总结</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">from <span class="keyword">time</span> import ctime,<span class="keyword">time</span></span><br><span class="line">import <span class="keyword">time</span> as t</span><br><span class="line">import shutil</span><br><span class="line">import os.path</span><br><span class="line">from shutil import copyfile</span><br><span class="line">from os import system <span class="comment"># 导入os模块中的system方法</span></span><br><span class="line">def get_time():</span><br><span class="line">    <span class="string">&quot;&quot;</span><span class="string">&quot; 获取当前时间 &quot;</span><span class="string">&quot;&quot;</span></span><br><span class="line">    <span class="built_in">return</span> ctime() <span class="comment"># 获取当前时间并返回到函数调用处</span></span><br><span class="line"></span><br><span class="line">def create_git_order(<span class="keyword">time</span>):</span><br><span class="line">    <span class="string">&quot;&quot;</span><span class="string">&quot; 生成git指令并执行 &quot;</span><span class="string">&quot;&quot;</span></span><br><span class="line">    order_arr = [<span class="string">&quot;git add E:/Github/adeptmicors279.github.io&quot;</span>,<span class="string">&quot;git commit -m &quot;</span> + <span class="string">&#x27;&quot;&#x27;</span> + <span class="keyword">time</span> + <span class="string">&#x27;&quot;&#x27;</span>,<span class="string">&quot;git push origin main&quot;</span>] <span class="comment"># 创建指令集合</span></span><br><span class="line">    <span class="keyword">for</span> order <span class="keyword">in</span> order_arr:</span><br><span class="line">        system(order) <span class="comment"># 执行每一项指令</span></span><br><span class="line"></span><br><span class="line">def put_file(<span class="keyword">time</span>):</span><br><span class="line">    <span class="string">&quot;&quot;</span><span class="string">&quot; 在桌面放置文件 &quot;</span><span class="string">&quot;&quot;</span></span><br><span class="line">    file = open(r<span class="string">&quot;C:\Users\1\Desktop\git_push_time.txt&quot;</span>,<span class="string">&quot;w&quot;</span>) <span class="comment"># 此处的路径根据自己实际需求配置</span></span><br><span class="line">    file.write(<span class="keyword">time</span> + <span class="string">&quot;完成最后一次提交&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">struct = t.localtime()</span><br><span class="line">year=struct[0]</span><br><span class="line">month=struct[1]</span><br><span class="line"><span class="built_in">date</span>=struct[2]</span><br><span class="line">hour=struct[3]</span><br><span class="line">minute=struct[4]</span><br><span class="line">second=struct[5]</span><br><span class="line">title=str(input(<span class="string">&#x27;请输入标题：&#x27;</span>))</span><br><span class="line">tags=str(input(<span class="string">&#x27;请输入标签，标签用英文逗号隔开：&#x27;</span>))</span><br><span class="line">tags=str(tags.split(<span class="string">&#x27;,&#x27;</span>))</span><br><span class="line">tags=tags.replace(<span class="string">&#x27;[&#x27;</span>,<span class="string">&#x27;&#x27;</span>).replace(<span class="string">&#x27;]&#x27;</span>,<span class="string">&#x27;&#x27;</span>).replace(<span class="string">&quot;&#x27;&quot;</span>,<span class="string">&quot;&quot;</span>)</span><br><span class="line">text=f<span class="string">&#x27;&#x27;</span><span class="string">&#x27;---</span></span><br><span class="line"><span class="string">title: &#123;title&#125;</span></span><br><span class="line"><span class="string">date: &#123;year&#125;-&#123;month&#125;-&#123;date&#125; &#123;hour&#125;:&#123;minute&#125;:&#123;second&#125;</span></span><br><span class="line"><span class="string">tags: &#123;tags&#125;</span></span><br><span class="line"><span class="string">---&#x27;</span><span class="string">&#x27;&#x27;</span></span><br><span class="line"><span class="built_in">print</span> (text)</span><br><span class="line">with open(title+<span class="string">&#x27;.md&#x27;</span>,<span class="string">&#x27;w&#x27;</span>,encoding=<span class="string">&#x27;utf-8&#x27;</span>) as f:</span><br><span class="line">    f.write(text)</span><br><span class="line"></span><br><span class="line">answer=input(<span class="string">&#x27;是否完成编辑？1/0&#x27;</span>)</span><br><span class="line"><span class="keyword">if</span> answer==<span class="string">&#x27;1&#x27;</span>:</span><br><span class="line">    flag=True</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    flag=False</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> flag==True:</span><br><span class="line">    path=os.path.abspath(title+<span class="string">&#x27;.md&#x27;</span>)</span><br><span class="line">    pathto=<span class="string">&#x27;E:\\hexo\\blog\\source\\_posts\\&#x27;</span>+title+<span class="string">&#x27;.md&#x27;</span></span><br><span class="line">    copyfile(<span class="string">&#x27;./&#x27;</span>+title+<span class="string">&#x27;.md&#x27;</span>,pathto)</span><br><span class="line">    answer1=str(input(<span class="string">&#x27;是否上传文件？1/0&#x27;</span>))</span><br><span class="line">    <span class="keyword">if</span> answer1==<span class="string">&#x27;1&#x27;</span>:</span><br><span class="line">        sign=True</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span> (<span class="string">&#x27;取消上传，缓存至本地&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> sign==True:</span><br><span class="line">    os.chdir(r<span class="string">&#x27;E:\hexo\blog&#x27;</span>)</span><br><span class="line">    system(<span class="string">&#x27;hexo g&#x27;</span>)</span><br><span class="line">    shutil.rmtree(r<span class="string">&#x27;E:\Github\adeptmicors279.github.io\homepage&#x27;</span>)</span><br><span class="line">    shutil.copytree(r<span class="string">&#x27;E:\hexo\blog\public&#x27;</span>, r<span class="string">&#x27;E:\Github\adeptmicors279.github.io\homepage&#x27;</span>)</span><br><span class="line">    os.chdir(r<span class="string">&#x27;E:\Github\adeptmicors279.github.io&#x27;</span>)</span><br><span class="line">    <span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">        <span class="built_in">date</span> = get_time() <span class="comment"># 获取时间</span></span><br><span class="line">        create_git_order(<span class="built_in">date</span>) <span class="comment"># 提交到git</span></span><br><span class="line">        put_file(<span class="built_in">date</span>) <span class="comment"># 在桌面创建文件</span></span><br></pre></td></tr></table></figure>
+<p>最后…..没有最后了<br>再不睡觉明天就要上课睡了<br>see you tomorrow~</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>随手写点</title>
+    <url>/posts/a2d48a3b.html</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="为什么不想被人看到还要发上来呢，可能是我自己想看。" data-whm="无法效验，但是你还是可以看到。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="14d8ea5a656daf7cfcc7bdee2f8ea00933a1a6a98ad6bb22f709eabbaabefd5b">556d4e71e0b6d7c26e161104df85a9ea64b1aaae16cb3a9dc0e824920f84aaf59bf3546b59b8bfa714e23c6d7610c5ba7649b3048e0a41b5827f6d9f21f6c23a075f63904c9cd5d77fe6b64b5c1d5260b8460d2bf672517f906be0541d0d2f8c29216871475ee507a181eca393fcf9622c86557f4ee2453be0f594c9451922e1bd3f0f504b89a885a47284b3afce5ccd29ea034f342a4724ba4e43fd934d8931889c7b89d0c09338f18b4340f42663f3bb930be12a55dd7b43660a0ff4b399d68f59550f69fdca37471c64dc10d7656b84c4d11114b8d13313054d6c9cb5e3e4793264c3654881a7bb8baa171a7af9f405f9a313aee7f77c49b9eeb0eb9f490c44cce7489efb95b4112b3772223593662ca3a669ee90971d379d9078edeb7ab12aab4fe5d4a6495d8202bddff345b50da39265bd6211d71d24234fbaf75759cd32bf23854ff2de35bcc54667489a3837b238ba05a1c34b93b6fea6f50dc4cceca560a604ba3b5e9409b671f17caad021112780ab2b19d2d93475db23cda9c8c4cd08f613cdff290a10d31e822622dffda3229bb379b5eb2de21fa430e7d0d142551366414c7145d9eb1b2b9e7c6ad5be6c88c3346d6c96c47dcd2595c93094d2f02a039cdde3e07b7163002a9e0bdee5f8d821c660eeeb820bfd724f70b32e5f9c798713262757f20ababc7b22717832024328ed46d28f9f625c8f41f6703e3f9a6f7ec9302fef203d66cbaf60922eeb98272358b4e9c55811d09f87d80898bf95913d6ec78c535f900e7198175106470765977183c09d32a6dddcc2b29293a6fa31f9d3a5282ab3e631b24c671e4e8877adf065167453620f4eb34231845d223ae5e985d367e613dc2bb50ef650695c5ca6a86ac74255add2ba82db3ae5abd314e2b66fbed2ffa9793bf6405678b9a3596c2d819587411b69cefe881609b411e89480fd7dc5c6e5c9479a96aadc30c23f3cb63c70799bdea18e6704e76b161712822a242ac916087ddef0afc4f473b7b9d8487a9f8f518d7754bf988d610c2169bf3203f92ea08c82ab64f42284ae75347148edc97f99db05bfc72c0b85ddf53017a0422534513cdf04aa8590aa9cfed00aa77eea78f244c9ae5bbb8e4faf6cf2c4b1de82cefc8cb89f244441e9557250c9ea1744110c62a1a0fb3115945b704f9daa55db5f199c6cd550955e1bb7e5482d7a37181a3c8c39bd43b9604a6a945cec642584d8479c034d51014f8f6aaf783bf7ec0af12af983a6d933e24176ee57e7bca9d16d72874a1f6f74625f5a53926d0abf48100ff7276a842c3d1306647867506efe794061d02c5ffd6c4711ddd63a142276f831463e88b9b1d8105d79ea8c258cc83c9bdf66aaed71c55f45472c853d65446b1e6ad04427d4fad8dc60d875572c4d61dfdb72ca1cccf3247306a541c15cee8d7f7aa07216a7a1d306092b011370844e632836ae1f2e688029628d72d57981934da934341bc836db5f7198ba471a283f373eb6f8024664d7fdb7daf252bfc2fea49c88aab62bf00c7fe17a8b670416159e6d8b840fb6b84b99438a4f1eb15762ba33f96b86e39b73da6e1321e1399b476ef8ad5ba6b4fe29e61ccb57590eb358f081cfc8d251887b5d5aeca00f7cdea120594437dfd74fd136808b8e6a449ce18078748302fc2993b39979bd7ee1f0e153e7f6f7947bf771ddbd907a1f2a42d458b4ac8ab6905fcca28cffc80f7181101ea95775cf0c8f18964ddf29aa084c993ed3b19a21b961198b0d6892dda6c9d3768d4babd72b985112b441e6e4b8fc953bee3ca6bf5f01c485ff578df15f7b3e77c0d529dc6764c3a46456a3001f66badb851400e51945d6b8f667c5cff91c250550d98497462301cf5f0872afcb5c9b5b9e966b830d6b3fed9dc3fa9de7aee0e58a8f2150f0e2a5af3d89896b6ed79aef0163391f66bda19276e30eb041b157f3fbad9daac6de49efa4c3f524d09df502cd95ab17e413daa35743f7fdd69adb3a1a638b07e578e188fcb36b10c41fc5b3362b7d7f8312abfec3a4a96bd53b97c28977a5a18700d005fbba44e4b8cb67ec4f763d0173fcdaeedcf5a191caf0458515590185c6fc9a536cd3a401b9af177a4528f28601b7445841ff0466dc75177fd7701a03c512df9db2693956fadfbb7b28dfba623cdbad2e6b709db0736f4dba5cfe0871a55c69354f338b688620fcc761aeac1870b5b7d3ce240917c847e92b46ebfbf24dc5393b34145c46ef8c262ce0f85988739a167ea74e45fe6e8eb22e74fce458866aa36b0835de04b7da97fe046184981290aec410e367b7ee08aa6de0e266e6d64d014d2107fb2d769142712a20a48e68e7e3da4170be777c602664408d05880bf321b1b97c71f6cd664d3336664aef7a22cfcbae26993e91c75d43b5a713115f768e3e4c191cd4608bbb4cfeefbab6972d73dbf7c60033b7ee50154b2e692c406c2c07dd8a61c1d12c89e5bd9b3712fb39b3f57b28fa19807533cdc8213e7c70dab0be87b0b247ee0a1998edbe348d0440651d7a2ea20adecded24463352eb12b1ce5ba9e28d0e8fbe4d685a02ff10e22396eb9a9aa2e910817f8a3b1d2ec284fc7bf3924bc5d6fb8c3044b15377271bde967835c15981aa7004b0e465c068a77d72f468e776e6924672073983c5a8d1e77bf28b022c28f8f2d5bcc937a405ff1c05ab68bf9ce07c710a4e5e15fb9257f352727a46007eed2734f96195a13c2a02ff6c46b0f46778ed9b346641957dcd738b5fe018d94d63b71d1fc94cc640a2c08f74378b8994a79c23caf5fab206c3f004faa6905bf21e3dd085308aefcea5632a6c315d8d44a2061c5cb98e75a78cdbcb289b9f7669a0f8a06ecc70f92a0fa9770bac15b88063c1220a9189a632baba44727d628ad76da812e19b8f93cae17f54eff7fe4c338fa68a45e997754d6e6da4431693a439de8fef817dff7806a1365ec107ed1a5dde444b7cc919a6aaba086e938642b5dcd07dc9cf692854e414e4aad9bf5d48628eeec8c1d2a219cacad20a62946d1c300b63fc5d01926f016c32893ce7a26c1c2caf2764b1a2b93afee8d8f7f9b7e064ae65c0d76384e8da46294b916ebc0d25e2f4fe324d715dc8b4f32f22059e7de749a0dccd5b7bbc2631ff020fed5f18acc0068e6181b1c8292ce3b61073c1c38be983613dd2282472637968647389cfdb5d5325f011cf194b0858f064cb451b2619cd2f2e8c8503af5b56f632a9082d66be5a6a5a168db4edd4502b96d7887966bb95d537b87deeddd63524203cffd325af515b5e3e9f0b53a4c3c813decaf06d39cb4ee5cf45dcf69dd7071b2d1fcc766caa045f62d4039d5266d6d64e6fdb67751a9cd1b38b04795a97c0bbd7392ad19baa0445f1349848e62a039a03945d8435c43228ef5aec11b6b2b9d6eacf0e0e2209022cecfab6663bf289cd338190ede5833888ef8cd4042e4d47fa87b13f9df5d1ae8b73aa712265258f242a733d926f53b19521df3e271fe74fd7ca96a70ed021580734af3e8d0c966260c5ef19a7c46fb425e34a25d2f3fc7fcb76ffba75b33968be26064dda6a79246d5e5d38dd3dfd7908b7685105dd6f128afb6d99dd8188b2fe3b49e8c38a7967c93a7fed854c0e65a7d573f18f6e0befe38a337fb6aad789a8e50bfe0e0db95cea7dc10734b970676d02429845b7b81f1c26750eaa514205c0096e8d21e234b15ede27f3c5e9631170775975f89bf415f3e86f967627f2a25570c68f667ae8755788d36de78e9b1f72062d03b2ed78eb900e8ca8504b7442312dcc7fce6a2cc026a4f38ddd84eec48773738be69daf4270830f5148ab53ece37c2ab0a70822fd6bfa145e24cd79c55db20475d9c6c94d9510b0aa9f31067bbb9dcf506010a494bf026f7fb42a2663f59870508cdeba36150e25c61b613745343ceee0b63f5ab0152acbc16c3c91736b056ce586848e8ef92dc6299cc64590304e251c0c66e0c77bf5b98d1620d9bd535d1742f094e22396344cf449dcb41988bd894084415a67d871d77e6621fedbf72dd9b8c5fb5e3feadbbad6a085d57c8bd6798e7852f8ad68b5b04f65a8122756d94c3fc7b352434297c92342f2ff7504952b3151d2894b55f0aebc08e29b716860a802ab613f24ccda82a2e5e6661f0fed4152d8cbf78efa29a2cea0e73f48413e010764eab87448928490a5880ccdbff6625cc24be7ccac9320b4d7345f6813b127c151e5d043ae31a80fe2bab14140fed5d5050f95eec9c2ab2bab06af03c0cb7ad1b48d0243b8b80133f1098dadd60ba93c6aad2d0447ad3e8ba298c0fe9a5534ad8115957cbf6b93fde956d67fbd0ef9b7cf196eef227d6f4ba7ef59d47829a6d47d5808860fe1bdf88d4bf992a1e7f2decbe7c9b05167fe432e66baa511370f8c5e4255ecfb8108f94df6cc840808311da6733659bb49313e6cfa5a7df5546716daded5dae9a3d9b44a88a288acc849855dd24ba0f2401acfaabef5970ad3e2f068157781322393fa2675bde6f0d49d3c8654797ee1845638e99cf09384c1a440b5d80eae614213e442ccd010997c04ee54050397d0748d1dbbb606776983025e420c4350604dffac91729f41b20eb86e47500c95b950760ebf0a24a118f883661e4e6519c21003d29302f552e1fca4be6959bf553d72fd90f3b0b0c04e81681875a447577c233c30ccd6d512b27a8e80bd532ddb60ff47c686c6c9bb9f3f93bdc8f9f8c0a6acb4643d34445f5920519457cbc5f3bb5bf636168dc555ce4a988fc8854a6f8f4b55643e5e3cd3d6c8b449357087421e8d10b77ba61f42c422fdf4154349b327727500f5070df196653fe6e980f6304a5038cc72bff137721720a43e0c10d86d761f13ab12255ce1810d59c21594a4ab04599d71fee25bc7fc0daf5d220599a264f4fd91448e8595f1d2cbd7ba72401915a3729cafbf127064184b1600f83e371e71f6ac745e9e82f5d568521dd34dc0ba38cbfe83b70e77f9a78ab37471448a316020d8696de8736b2747afe56a971f0b055020ae95eb6a4b3673b3cfab0da1b399b56c8d3821dfa841a01640c3389518d07699b48120477eb23e0eac5891b95042db1704dff05bfdb8c80eba183da0f6e2b66568c88e603fcb7600028c0127b8fe62a04cb057945eace151a0df5cc487aec21b634bc87558fc48fad613cc66837f55473959d14ec2b74cb90dd575769e11142f1d5d19c3a0a03213cac004d3dddd8d6fa492cd8f88d2684ec7abc377ba63552ddac36fcf16e5f05c0182a50844a41eb16f111cc5260539a0ebe7005c7ae4e32904ae1da6cf0d2cfe5873a0e5bccf25a3df9a44d26d4812a4dd90495d18a207999c08fd8a2ebb8c0ae3de1c3c07de205cdaef375f454e6e83460a441bf8cd782d022045b6e2e639713796b33df728e245cdbfa543f4bbbb08e12955458c6ad2ba3299e91028e578f2267f93b4914a4c525336a2f16d0a97f0ddca9a5a31592a6f058fe56c7354bf814d8afee20055031ac3f55db0d69bdc77c7299ca8896877f7fc415971fe4449153814ab4162a207a8cd4198dfcfbed33dca31e20648ef2d0ddaba4b7057dac486334b50f199b8b12fa4401cea4a7a7cf76f1928d3061982e044d54f4af1a16dc443d33bf22506e3e7956e31e401ef8d1622830587dbd01fe0b3882632bb10962d9fbfe637d008f2e55b796d4e85cc07a07812041d897cb5e0af8f90d51b77bb149aba2aa5ecf7df5d41af9dfcd88ddafebc67a9051954f5125cdc8c21a85c35f60acfa868f664bd79d58a561e2fbee62b47064e6922e56debcb9d37db568ef4b178fee9f1a534eabfdc91b5f2e61fdeecc6057356c1a3468a336176f7c88884a78d521d96cba2b8f2fc18b04b15ae4cca9d4856f835657ff715b26e74463aaf2da368df54736f6233f9a2a9f9af7e3d4fcc5f95bea5f50d0b3f6108b4d2fc0ca9ba71c3e561532f592f698b5757c0da19be094151c5cb878d1eb62efa7b7005bb7f2b3660dc9e4d1f4981abb14325dcb68b697e7edbe746e39d1ffce65cceb99e3d5e23d1521c8cc4677a4116c0d3160835d79612c0f1804e1fafa9403655d9f150833e7885b342d53ffa7595db0f305f12141817a027d08fa24fe77d2011cc15aea420504bf1853e855455ba9b31984839a841b2205b4d02b36015d9a357fb4c613283621e6e498f1a2d9deea567044d26b251116936ab7214e5fea15d963929c8500ee30b8e45384417da9d6a44d6ac0d97b6e41e47f1f75772c091d1b49c931d540504241e9319f9ff6a5f8e264f506bc5bf2e4b3d29a7ec1efc565993cc24269850c9d693f2daf3fc4efa2f65eac65b8c5a14c6b6b93ea0d2a608f29ba02b3833861e765a42a9ac94d6bf1cb8b69418219b99d9ca86a668249d7227f31633771c041e4d027f5dea494f31ad1293b8c52a167879e21b8d5c182ec927369103b719153668f1e99e8d92047e1203795831b55053aa11dd9a5d1f6717d43a55b95c8fbe1cff1e28d166e0114b6f384117bf156a0ca92c86186c269592d8c64f5a409683771d6b135e6eac4847a8ca08e50432aa46c24caea304164d0d1c9e2e9207db84ccb5e122816ee273f7b2faccf36ac7b36a1e3254a094ba42a2c67ec947c1067f364686d23ee28e0a8c737ba7aa9447109d00318b4d98cc15a434b73d3bc0a335ae142bc680a4b7fcbcceeb80c098faf9f5026c4cfbdfc9a6332f70af63099ff2066e75dd9ffea38cc244a50d15673a87d9a5c8fbcd7a5fd82cf106c76d085ef45e07c2c5410f088e3501fdb88142bedef42cb8a9755eb038340c43f69e794e6434d9f79ac86b4e3364ba87f5fcd1dcdc5d5476cd7fe72ed03de9867b289c8d5bd2a01059ef92448fdd70f51157332045e57d7ab9e8867f6b624a9e0213ca0a60f1bad8dbd704eddee51fedd4e685b87152e9e99f679e57d28864fdecf59426c8a3b3af7c4646b10db279944fb2c7327537b8ce9681d95a4c0b7e3bfcca6537a46d322f4237ab5794227bc0fdc1f787b275c141e4c2a7638ab478eff79c5bcffabea03add349a16e1c37d5fdda5e8824a582a78ef0bb9b3237279e957df0badc5231e93d01ba0eece26d089f3b2de17146880c5bcf4640fda5e97138dc791ba13bef8f3a15bd40a67b88673a3d7c0bc6c65da5134c76ad2fb396360bcb952690215c4ae1f37d6857ee02f2d7cb71b1cb85c7d8da70c15fd6be86dd6cbe7051ada391fae390821b388859a59756b74e64e69968c784b5eb8049358a9ee9604747132c7c70062d3cb4e830281b9d52839e26182f9c82153029287e0db3dadffe30cb0ba43dbad9a02496b7b1d88abfaf8b7b3e812124b0f796d9458c2ac479df6d185639054cbfe4276d24889148b9f8d7202db73cfccde1a1ba58cc3be731f2bc169e9c0db831748fa8b97380518cd079c84c50bd5404625b0740b035dc206caeaa3f194578d1a92a0c80140b8a8c72f5da2c9866f2c192372a92afc3f5f0e3c95882ebe16e5437512ed44956ad932da56ed34a2d1cde41fec27cbd62b23ba193181d958026d56410dbcd3ccfc7609bd269407fe5f2b6523496b7bf852f5f70b588255699ca9585c492911817e8779ca5797ae98364b19ac12bb0a97395f52c15726fa51951d237361e5f7c3e5e6fd486ee228ebea91a2f5634dffc747b921cd560e44c33839d577a1ac0485b107e7e5cfb0eff9841e83c534e05b8639af4b258d926783cfe2b688916e2352952117ab1ff8eb9215d7b9fa14d708c038310e1cf30bfddfcee2b6a63b9104a9a85b01c5ea431472e1a0746a0fc2b51e51d41d818fb3ecf84ed87c483cc8d780caeef2ab1f1ab4d217e49b7a7d39780b21ca97b62a4673108dcaae02fe6e6f4d66b13b8c90aae4d68827fb74e863a0801052ab9c3b6eaeedce90f4ca2fccc72cebfb7a726cc048e3154c864b4e44b56dad66a88aeede26600f11afa7960c3e507ffa28da4f409128828fc9bc2b098eed5ad95ec9dc359ba8ef89d26a5dca12caad6c36f44b77e9feae5463fbf1baa750802b58f83efa9dfa06da2177b758b124cd23f87797bad5b7fadc0b1495ba837db83cad98587d637b14c3d39fbbcc407bec1f6718a183e0eba49abe043f1b48329ba010275dedf6fa5e37e4bf5d652f9a5a9b7a5721063b2a58249a22e48c35218ef7c1be396aad9d1bc6d358a44232f1ab08a20d3761256ec1227fdbe3ded06caa7b7983d847ceedb0cd9872846194540953312bb4bb2c3776d22af117479fdcc81031923c106af743b2af425556b8fc0635e0cbc2a43e1ee58c051999f6317451b17a4ca15345b90298567e798e12d03b70a6dba0ad1a775ce84696efbe33331ee2ff090cfd6d9487d43494febbc83a3b1f116accda48139f1ef3c2fa1f01032cf841fe30742183922ae41f269eb04e486678bc444bdb9e79a6887f5724ca8ffe9a85c968b47efd1ae4ba509f07aaff8672e98dcf389423f112e893d63d09ee897f01f666e229c754f95f10cd7789cc60c2351d40f343fccf1dfa80f9b139cc778b36af3fc15ff93a2c5ed866eb6ba6557c0c181ce0f49a1bd02e9c904743baff1140d698159c3bc84abd68fdbaf57e08fe10aa70db33b1c41ca8cfff1a34ff479aabaeabadac5742f73b408c387cdce63912109372895f204b5565db8b55b143c77ba6214e05f848cd4bb2f412e338db8e771e12dcd48b12c48b001785187b4ecdfcf7b988bc1770cd069a3d42fc8d4a41650d9755dfd1f036f886c286411e539f7d4265f9abf960c3c88709600c8f180ed6a20b3ec0dba0a18eb2ebeca3214e04a8701a516a1dda594ece75d709190d910cd63d31b6bb8f75df130ca0ec6472e7294879cb1fa077509c152d82f30284b3194c99bc0e7450e07c2f3ce197c039a77c033fef68257c94b237bfb3eb50692343eef050bc028e8cafe5e56732ed53cde12d673a4c4c6f5e9e4b446cfb87fd4594448560b67599b5bca429324fa4441be7e5cafa28e5ad33eff32110636f37b1c7dee472b7cd3380c2fe151ad343296f772c86a15ef8182ea40ba072aab8b20f98f64d54d3f52ab2e7293d0c7079cee8f29d197fddd7cc06c391fe4b2117792096c4db1bf03be38577dd482dbbe0a26dbaee56d64bdfed3a794376b683897321d9d6a1208b4c740c4af80348d411879a108a3950710a928e6ea5850f406ce6669980e6d78e3a03d45cf14e7191cc6f49de71fa701f5b6076f49749ce6c3a3c08109f8e4142a5bcc6534ba05b51e4d640485268fed89b0eebd9a29f942ab520a1710c8a1e8fd45fc895154d87cb86afb5723771f7a817063a9d4fc8810e8a5e193b5af510e3f15be423662188baa1aba0ba24b278cfff2cc07f470b94286e3991c01d1667ac72cdd3a7015d340b85073bd2c4463cb80f390a6f817de8dfbfbaf9d659affbc1349e4ec7a8146cddc0d9a8762c971e7e0927bf885527abb9eac82e09bdc0c233f8189d24d236ff240c1f4b3a7933948c71335bc31f7cf6d7052cba746f5f948c98743c824d123c2c21916c3bf6d6a9e3ee5b35239799b0d75bdc09e928ae6d02f943f206c40c19cd5cc0281e762b2509021730ccce073aa2af726b0007b42f2166075b191f48d9d3525d0755021116aa718aa0c76e6f1e32e029c9814598119bf456fae8e239537ff34e8390356c7333822a2fdb808f01bf351e250851887e83607bf4e4f24aadd2a35a193a58af5eb35ef01ddf2b588768c1671a0298335019a2473dc908972677036f4c7d1d61bd1f1326a39447e03d78d2f738b38987da70</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Typing passwd。</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记一次paddleocr打包问题：FileNotFoundError以及ModuleNotFoundError</title>
+    <url>/posts/6793f133.html</url>
+    <content><![CDATA[<h1 id="为什么打包paddleocr时会报错"><a href="#为什么打包paddleocr时会报错" class="headerlink" title="为什么打包paddleocr时会报错"></a>为什么打包paddleocr时会报错</h1><p>在处理报错之前，我们先看看报错内容</p>
+<p><code>FileNotFoundError: [Errno 2] No such file or directory: &#39;E:\\python\\python3.11(64bit)\\dist\\demo1\\_internal\\paddleocr\\tools/__init__.py&#39;</code></p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/6633bdefd8268.png" alt="报错内容如下"></p>
+<p>报错filenofound</p>
+<p>未找到文件，看起来貌似是打包时没有把文件打包全</p>
+<h2 id="处理问题"><a href="#处理问题" class="headerlink" title="处理问题"></a>处理问题</h2><p>进入你创建的虚拟环境（当然你不创建也没关系）</p>
+<p>输入<code>pyinstall -w -D 你的路径</code>进行不完满打包</p>
+<p>然后打开<code>dist</code>里的<code>_internal</code>目录</p>
+<p>把你的Python解释器里安装的paddleocr模块全部复制过来</p>
+<p>这时候，你就会发现，欸，还是会报错，但是内容变了</p>
+<p>变成了：<code>ModuleNotFoundError: No module named &#39;shapely&#39;</code></p>
+<p>别慌，按照上述方法，继续把python解释器里site-packages里的模块给复制过来</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ModuleNotFoundError: No module named &#x27;pyclipper&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;skimage&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;pywt&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imgaug&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imageio&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;fasttext&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;lmdb&#x27;</span><br><span class="line"></span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imghdr&#x27;  </span><br><span class="line">	ModuleNotFoundError: No module named &#x27;fasttext_pybind&#x27;</span><br><span class="line"></span><br><span class="line">	ImportError: cannot import name &#x27;signal&#x27; from &#x27;scipy&#x27; (你的路径\scipy\__init__.pyc)</span><br></pre></td></tr></table></figure>
+
+<p>发生以下报错解决方法同上</p>
+<p>然后你就会发现</p>
+<p>打包完的程序可以运行了</p>
+<p>当然，请善用Windows的搜索功能</p>
+<p>如果懒得用，直接在IDE开发环境里敲</p>
+<p><code>import 模块名</code></p>
+<p>然后再按住CTRL鼠标左键即可进入模块的py文件</p>
+<p>顶部查看一下路径即可</p>
+<h2 id="那么，为什么会有这种问题呢"><a href="#那么，为什么会有这种问题呢" class="headerlink" title="那么，为什么会有这种问题呢"></a>那么，为什么会有这种问题呢</h2><p>那么，你得问pyinstaller为什么打包不全</p>
+<h1 id="OCR下载地址"><a href="#OCR下载地址" class="headerlink" title="OCR下载地址"></a>OCR下载地址</h1><p><a href="https://github.com/txptxp1/OCR-to-translate">https://github.com/txptxp1/OCR-to-translate</a></p>
+<p>这是我写的一个OCR翻译器</p>
+<p>由于paddleocr体积大</p>
+<p>我接入的本地ocr就是paddleocr</p>
+<p>所以导致我打包之后的软件体积也巨大</p>
+<p>解决方案要么去掉，要么给个选项运行的时候直接从服务器下载paddleocr文件然后本地部署</p>
+<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>参考文章<a href="https://blog.csdn.net/m0_46875088/article/details/122096159">paddleocr 打包问题_paddleocr打包太难了-CSDN博客</a></p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -976,69 +1039,6 @@
       <tags>
         <tag>Galgame</tag>
         <tag>VNG</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记一次paddleocr打包问题：FileNotFoundError以及ModuleNotFoundError</title>
-    <url>/posts/6793f133.html</url>
-    <content><![CDATA[<h1 id="为什么打包paddleocr时会报错"><a href="#为什么打包paddleocr时会报错" class="headerlink" title="为什么打包paddleocr时会报错"></a>为什么打包paddleocr时会报错</h1><p>在处理报错之前，我们先看看报错内容</p>
-<p><code>FileNotFoundError: [Errno 2] No such file or directory: &#39;E:\\python\\python3.11(64bit)\\dist\\demo1\\_internal\\paddleocr\\tools/__init__.py&#39;</code></p>
-<p><img src="https://bucket.iczrx.cn/2024/05/03/6633bdefd8268.png" alt="报错内容如下"></p>
-<p>报错filenofound</p>
-<p>未找到文件，看起来貌似是打包时没有把文件打包全</p>
-<h2 id="处理问题"><a href="#处理问题" class="headerlink" title="处理问题"></a>处理问题</h2><p>进入你创建的虚拟环境（当然你不创建也没关系）</p>
-<p>输入<code>pyinstall -w -D 你的路径</code>进行不完满打包</p>
-<p>然后打开<code>dist</code>里的<code>_internal</code>目录</p>
-<p>把你的Python解释器里安装的paddleocr模块全部复制过来</p>
-<p>这时候，你就会发现，欸，还是会报错，但是内容变了</p>
-<p>变成了：<code>ModuleNotFoundError: No module named &#39;shapely&#39;</code></p>
-<p>别慌，按照上述方法，继续把python解释器里site-packages里的模块给复制过来</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ModuleNotFoundError: No module named &#x27;pyclipper&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;skimage&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;pywt&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imgaug&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imageio&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;fasttext&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;lmdb&#x27;</span><br><span class="line"></span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imghdr&#x27;  </span><br><span class="line">	ModuleNotFoundError: No module named &#x27;fasttext_pybind&#x27;</span><br><span class="line"></span><br><span class="line">	ImportError: cannot import name &#x27;signal&#x27; from &#x27;scipy&#x27; (你的路径\scipy\__init__.pyc)</span><br></pre></td></tr></table></figure>
-
-<p>发生以下报错解决方法同上</p>
-<p>然后你就会发现</p>
-<p>打包完的程序可以运行了</p>
-<p>当然，请善用Windows的搜索功能</p>
-<p>如果懒得用，直接在IDE开发环境里敲</p>
-<p><code>import 模块名</code></p>
-<p>然后再按住CTRL鼠标左键即可进入模块的py文件</p>
-<p>顶部查看一下路径即可</p>
-<h2 id="那么，为什么会有这种问题呢"><a href="#那么，为什么会有这种问题呢" class="headerlink" title="那么，为什么会有这种问题呢"></a>那么，为什么会有这种问题呢</h2><p>那么，你得问pyinstaller为什么打包不全</p>
-<h1 id="OCR下载地址"><a href="#OCR下载地址" class="headerlink" title="OCR下载地址"></a>OCR下载地址</h1><p><a href="https://github.com/txptxp1/OCR-to-translate">https://github.com/txptxp1/OCR-to-translate</a></p>
-<p>这是我写的一个OCR翻译器</p>
-<p>由于paddleocr体积大</p>
-<p>我接入的本地ocr就是paddleocr</p>
-<p>所以导致我打包之后的软件体积也巨大</p>
-<p>解决方案要么去掉，要么给个选项运行的时候直接从服务器下载paddleocr文件然后本地部署</p>
-<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>参考文章<a href="https://blog.csdn.net/m0_46875088/article/details/122096159">paddleocr 打包问题_paddleocr打包太难了-CSDN博客</a></p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>随手写点</title>
-    <url>/posts/a2d48a3b.html</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="为什么不想被人看到还要发上来呢，可能是我自己想看。" data-whm="无法效验，但是你还是可以看到。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="14d8ea5a656daf7cfcc7bdee2f8ea00933a1a6a98ad6bb22f709eabbaabefd5b">556d4e71e0b6d7c26e161104df85a9ea64b1aaae16cb3a9dc0e824920f84aaf59bf3546b59b8bfa714e23c6d7610c5ba7649b3048e0a41b5827f6d9f21f6c23a075f63904c9cd5d77fe6b64b5c1d5260b8460d2bf672517f906be0541d0d2f8c29216871475ee507a181eca393fcf9622c86557f4ee2453be0f594c9451922e1bd3f0f504b89a885a47284b3afce5ccd29ea034f342a4724ba4e43fd934d8931889c7b89d0c09338f18b4340f42663f3bb930be12a55dd7b43660a0ff4b399d68f59550f69fdca37471c64dc10d7656b84c4d11114b8d13313054d6c9cb5e3e4793264c3654881a7bb8baa171a7af9f405f9a313aee7f77c49b9eeb0eb9f490c44cce7489efb95b4112b3772223593662ca3a669ee90971d379d9078edeb7ab12aab4fe5d4a6495d8202bddff345b50da39265bd6211d71d24234fbaf75759cd32bf23854ff2de35bcc54667489a3837b238ba05a1c34b93b6fea6f50dc4cceca560a604ba3b5e9409b671f17caad021112780ab2b19d2d93475db23cda9c8c4cd08f613cdff290a10d31e822622dffda3229bb379b5eb2de21fa430e7d0d142551366414c7145d9eb1b2b9e7c6ad5be6c88c3346d6c96c47dcd2595c93094d2f02a039cdde3e07b7163002a9e0bdee5f8d821c660eeeb820bfd724f70b32e5f9c798713262757f20ababc7b22717832024328ed46d28f9f625c8f41f6703e3f9a6f7ec9302fef203d66cbaf60922eeb98272358b4e9c55811d09f87d80898bf95913d6ec78c535f900e7198175106470765977183c09d32a6dddcc2b29293a6fa31f9d3a5282ab3e631b24c671e4e8877adf065167453620f4eb34231845d223ae5e985d367e613dc2bb50ef650695c5ca6a86ac74255add2ba82db3ae5abd314e2b66fbed2ffa9793bf6405678b9a3596c2d819587411b69cefe881609b411e89480fd7dc5c6e5c9479a96aadc30c23f3cb63c70799bdea18e6704e76b161712822a242ac916087ddef0afc4f473b7b9d8487a9f8f518d7754bf988d610c2169bf3203f92ea08c82ab64f42284ae75347148edc97f99db05bfc72c0b85ddf53017a0422534513cdf04aa8590aa9cfed00aa77eea78f244c9ae5bbb8e4faf6cf2c4b1de82cefc8cb89f244441e9557250c9ea1744110c62a1a0fb3115945b704f9daa55db5f199c6cd550955e1bb7e5482d7a37181a3c8c39bd43b9604a6a945cec642584d8479c034d51014f8f6aaf783bf7ec0af12af983a6d933e24176ee57e7bca9d16d72874a1f6f74625f5a53926d0abf48100ff7276a842c3d1306647867506efe794061d02c5ffd6c4711ddd63a142276f831463e88b9b1d8105d79ea8c258cc83c9bdf66aaed71c55f45472c853d65446b1e6ad04427d4fad8dc60d875572c4d61dfdb72ca1cccf3247306a541c15cee8d7f7aa07216a7a1d306092b011370844e632836ae1f2e688029628d72d57981934da934341bc836db5f7198ba471a283f373eb6f8024664d7fdb7daf252bfc2fea49c88aab62bf00c7fe17a8b670416159e6d8b840fb6b84b99438a4f1eb15762ba33f96b86e39b73da6e1321e1399b476ef8ad5ba6b4fe29e61ccb57590eb358f081cfc8d251887b5d5aeca00f7cdea120594437dfd74fd136808b8e6a449ce18078748302fc2993b39979bd7ee1f0e153e7f6f7947bf771ddbd907a1f2a42d458b4ac8ab6905fcca28cffc80f7181101ea95775cf0c8f18964ddf29aa084c993ed3b19a21b961198b0d6892dda6c9d3768d4babd72b985112b441e6e4b8fc953bee3ca6bf5f01c485ff578df15f7b3e77c0d529dc6764c3a46456a3001f66badb851400e51945d6b8f667c5cff91c250550d98497462301cf5f0872afcb5c9b5b9e966b830d6b3fed9dc3fa9de7aee0e58a8f2150f0e2a5af3d89896b6ed79aef0163391f66bda19276e30eb041b157f3fbad9daac6de49efa4c3f524d09df502cd95ab17e413daa35743f7fdd69adb3a1a638b07e578e188fcb36b10c41fc5b3362b7d7f8312abfec3a4a96bd53b97c28977a5a18700d005fbba44e4b8cb67ec4f763d0173fcdaeedcf5a191caf0458515590185c6fc9a536cd3a401b9af177a4528f28601b7445841ff0466dc75177fd7701a03c512df9db2693956fadfbb7b28dfba623cdbad2e6b709db0736f4dba5cfe0871a55c69354f338b688620fcc761aeac1870b5b7d3ce240917c847e92b46ebfbf24dc5393b34145c46ef8c262ce0f85988739a167ea74e45fe6e8eb22e74fce458866aa36b0835de04b7da97fe046184981290aec410e367b7ee08aa6de0e266e6d64d014d2107fb2d769142712a20a48e68e7e3da4170be777c602664408d05880bf321b1b97c71f6cd664d3336664aef7a22cfcbae26993e91c75d43b5a713115f768e3e4c191cd4608bbb4cfeefbab6972d73dbf7c60033b7ee50154b2e692c406c2c07dd8a61c1d12c89e5bd9b3712fb39b3f57b28fa19807533cdc8213e7c70dab0be87b0b247ee0a1998edbe348d0440651d7a2ea20adecded24463352eb12b1ce5ba9e28d0e8fbe4d685a02ff10e22396eb9a9aa2e910817f8a3b1d2ec284fc7bf3924bc5d6fb8c3044b15377271bde967835c15981aa7004b0e465c068a77d72f468e776e6924672073983c5a8d1e77bf28b022c28f8f2d5bcc937a405ff1c05ab68bf9ce07c710a4e5e15fb9257f352727a46007eed2734f96195a13c2a02ff6c46b0f46778ed9b346641957dcd738b5fe018d94d63b71d1fc94cc640a2c08f74378b8994a79c23caf5fab206c3f004faa6905bf21e3dd085308aefcea5632a6c315d8d44a2061c5cb98e75a78cdbcb289b9f7669a0f8a06ecc70f92a0fa9770bac15b88063c1220a9189a632baba44727d628ad76da812e19b8f93cae17f54eff7fe4c338fa68a45e997754d6e6da4431693a439de8fef817dff7806a1365ec107ed1a5dde444b7cc919a6aaba086e938642b5dcd07dc9cf692854e414e4aad9bf5d48628eeec8c1d2a219cacad20a62946d1c300b63fc5d01926f016c32893ce7a26c1c2caf2764b1a2b93afee8d8f7f9b7e064ae65c0d76384e8da46294b916ebc0d25e2f4fe324d715dc8b4f32f22059e7de749a0dccd5b7bbc2631ff020fed5f18acc0068e6181b1c8292ce3b61073c1c38be983613dd2282472637968647389cfdb5d5325f011cf194b0858f064cb451b2619cd2f2e8c8503af5b56f632a9082d66be5a6a5a168db4edd4502b96d7887966bb95d537b87deeddd63524203cffd325af515b5e3e9f0b53a4c3c813decaf06d39cb4ee5cf45dcf69dd7071b2d1fcc766caa045f62d4039d5266d6d64e6fdb67751a9cd1b38b04795a97c0bbd7392ad19baa0445f1349848e62a039a03945d8435c43228ef5aec11b6b2b9d6eacf0e0e2209022cecfab6663bf289cd338190ede5833888ef8cd4042e4d47fa87b13f9df5d1ae8b73aa712265258f242a733d926f53b19521df3e271fe74fd7ca96a70ed021580734af3e8d0c966260c5ef19a7c46fb425e34a25d2f3fc7fcb76ffba75b33968be26064dda6a79246d5e5d38dd3dfd7908b7685105dd6f128afb6d99dd8188b2fe3b49e8c38a7967c93a7fed854c0e65a7d573f18f6e0befe38a337fb6aad789a8e50bfe0e0db95cea7dc10734b970676d02429845b7b81f1c26750eaa514205c0096e8d21e234b15ede27f3c5e9631170775975f89bf415f3e86f967627f2a25570c68f667ae8755788d36de78e9b1f72062d03b2ed78eb900e8ca8504b7442312dcc7fce6a2cc026a4f38ddd84eec48773738be69daf4270830f5148ab53ece37c2ab0a70822fd6bfa145e24cd79c55db20475d9c6c94d9510b0aa9f31067bbb9dcf506010a494bf026f7fb42a2663f59870508cdeba36150e25c61b613745343ceee0b63f5ab0152acbc16c3c91736b056ce586848e8ef92dc6299cc64590304e251c0c66e0c77bf5b98d1620d9bd535d1742f094e22396344cf449dcb41988bd894084415a67d871d77e6621fedbf72dd9b8c5fb5e3feadbbad6a085d57c8bd6798e7852f8ad68b5b04f65a8122756d94c3fc7b352434297c92342f2ff7504952b3151d2894b55f0aebc08e29b716860a802ab613f24ccda82a2e5e6661f0fed4152d8cbf78efa29a2cea0e73f48413e010764eab87448928490a5880ccdbff6625cc24be7ccac9320b4d7345f6813b127c151e5d043ae31a80fe2bab14140fed5d5050f95eec9c2ab2bab06af03c0cb7ad1b48d0243b8b80133f1098dadd60ba93c6aad2d0447ad3e8ba298c0fe9a5534ad8115957cbf6b93fde956d67fbd0ef9b7cf196eef227d6f4ba7ef59d47829a6d47d5808860fe1bdf88d4bf992a1e7f2decbe7c9b05167fe432e66baa511370f8c5e4255ecfb8108f94df6cc840808311da6733659bb49313e6cfa5a7df5546716daded5dae9a3d9b44a88a288acc849855dd24ba0f2401acfaabef5970ad3e2f068157781322393fa2675bde6f0d49d3c8654797ee1845638e99cf09384c1a440b5d80eae614213e442ccd010997c04ee54050397d0748d1dbbb606776983025e420c4350604dffac91729f41b20eb86e47500c95b950760ebf0a24a118f883661e4e6519c21003d29302f552e1fca4be6959bf553d72fd90f3b0b0c04e81681875a447577c233c30ccd6d512b27a8e80bd532ddb60ff47c686c6c9bb9f3f93bdc8f9f8c0a6acb4643d34445f5920519457cbc5f3bb5bf636168dc555ce4a988fc8854a6f8f4b55643e5e3cd3d6c8b449357087421e8d10b77ba61f42c422fdf4154349b327727500f5070df196653fe6e980f6304a5038cc72bff137721720a43e0c10d86d761f13ab12255ce1810d59c21594a4ab04599d71fee25bc7fc0daf5d220599a264f4fd91448e8595f1d2cbd7ba72401915a3729cafbf127064184b1600f83e371e71f6ac745e9e82f5d568521dd34dc0ba38cbfe83b70e77f9a78ab37471448a316020d8696de8736b2747afe56a971f0b055020ae95eb6a4b3673b3cfab0da1b399b56c8d3821dfa841a01640c3389518d07699b48120477eb23e0eac5891b95042db1704dff05bfdb8c80eba183da0f6e2b66568c88e603fcb7600028c0127b8fe62a04cb057945eace151a0df5cc487aec21b634bc87558fc48fad613cc66837f55473959d14ec2b74cb90dd575769e11142f1d5d19c3a0a03213cac004d3dddd8d6fa492cd8f88d2684ec7abc377ba63552ddac36fcf16e5f05c0182a50844a41eb16f111cc5260539a0ebe7005c7ae4e32904ae1da6cf0d2cfe5873a0e5bccf25a3df9a44d26d4812a4dd90495d18a207999c08fd8a2ebb8c0ae3de1c3c07de205cdaef375f454e6e83460a441bf8cd782d022045b6e2e639713796b33df728e245cdbfa543f4bbbb08e12955458c6ad2ba3299e91028e578f2267f93b4914a4c525336a2f16d0a97f0ddca9a5a31592a6f058fe56c7354bf814d8afee20055031ac3f55db0d69bdc77c7299ca8896877f7fc415971fe4449153814ab4162a207a8cd4198dfcfbed33dca31e20648ef2d0ddaba4b7057dac486334b50f199b8b12fa4401cea4a7a7cf76f1928d3061982e044d54f4af1a16dc443d33bf22506e3e7956e31e401ef8d1622830587dbd01fe0b3882632bb10962d9fbfe637d008f2e55b796d4e85cc07a07812041d897cb5e0af8f90d51b77bb149aba2aa5ecf7df5d41af9dfcd88ddafebc67a9051954f5125cdc8c21a85c35f60acfa868f664bd79d58a561e2fbee62b47064e6922e56debcb9d37db568ef4b178fee9f1a534eabfdc91b5f2e61fdeecc6057356c1a3468a336176f7c88884a78d521d96cba2b8f2fc18b04b15ae4cca9d4856f835657ff715b26e74463aaf2da368df54736f6233f9a2a9f9af7e3d4fcc5f95bea5f50d0b3f6108b4d2fc0ca9ba71c3e561532f592f698b5757c0da19be094151c5cb878d1eb62efa7b7005bb7f2b3660dc9e4d1f4981abb14325dcb68b697e7edbe746e39d1ffce65cceb99e3d5e23d1521c8cc4677a4116c0d3160835d79612c0f1804e1fafa9403655d9f150833e7885b342d53ffa7595db0f305f12141817a027d08fa24fe77d2011cc15aea420504bf1853e855455ba9b31984839a841b2205b4d02b36015d9a357fb4c613283621e6e498f1a2d9deea567044d26b251116936ab7214e5fea15d963929c8500ee30b8e45384417da9d6a44d6ac0d97b6e41e47f1f75772c091d1b49c931d540504241e9319f9ff6a5f8e264f506bc5bf2e4b3d29a7ec1efc565993cc24269850c9d693f2daf3fc4efa2f65eac65b8c5a14c6b6b93ea0d2a608f29ba02b3833861e765a42a9ac94d6bf1cb8b69418219b99d9ca86a668249d7227f31633771c041e4d027f5dea494f31ad1293b8c52a167879e21b8d5c182ec927369103b719153668f1e99e8d92047e1203795831b55053aa11dd9a5d1f6717d43a55b95c8fbe1cff1e28d166e0114b6f384117bf156a0ca92c86186c269592d8c64f5a409683771d6b135e6eac4847a8ca08e50432aa46c24caea304164d0d1c9e2e9207db84ccb5e122816ee273f7b2faccf36ac7b36a1e3254a094ba42a2c67ec947c1067f364686d23ee28e0a8c737ba7aa9447109d00318b4d98cc15a434b73d3bc0a335ae142bc680a4b7fcbcceeb80c098faf9f5026c4cfbdfc9a6332f70af63099ff2066e75dd9ffea38cc244a50d15673a87d9a5c8fbcd7a5fd82cf106c76d085ef45e07c2c5410f088e3501fdb88142bedef42cb8a9755eb038340c43f69e794e6434d9f79ac86b4e3364ba87f5fcd1dcdc5d5476cd7fe72ed03de9867b289c8d5bd2a01059ef92448fdd70f51157332045e57d7ab9e8867f6b624a9e0213ca0a60f1bad8dbd704eddee51fedd4e685b87152e9e99f679e57d28864fdecf59426c8a3b3af7c4646b10db279944fb2c7327537b8ce9681d95a4c0b7e3bfcca6537a46d322f4237ab5794227bc0fdc1f787b275c141e4c2a7638ab478eff79c5bcffabea03add349a16e1c37d5fdda5e8824a582a78ef0bb9b3237279e957df0badc5231e93d01ba0eece26d089f3b2de17146880c5bcf4640fda5e97138dc791ba13bef8f3a15bd40a67b88673a3d7c0bc6c65da5134c76ad2fb396360bcb952690215c4ae1f37d6857ee02f2d7cb71b1cb85c7d8da70c15fd6be86dd6cbe7051ada391fae390821b388859a59756b74e64e69968c784b5eb8049358a9ee9604747132c7c70062d3cb4e830281b9d52839e26182f9c82153029287e0db3dadffe30cb0ba43dbad9a02496b7b1d88abfaf8b7b3e812124b0f796d9458c2ac479df6d185639054cbfe4276d24889148b9f8d7202db73cfccde1a1ba58cc3be731f2bc169e9c0db831748fa8b97380518cd079c84c50bd5404625b0740b035dc206caeaa3f194578d1a92a0c80140b8a8c72f5da2c9866f2c192372a92afc3f5f0e3c95882ebe16e5437512ed44956ad932da56ed34a2d1cde41fec27cbd62b23ba193181d958026d56410dbcd3ccfc7609bd269407fe5f2b6523496b7bf852f5f70b588255699ca9585c492911817e8779ca5797ae98364b19ac12bb0a97395f52c15726fa51951d237361e5f7c3e5e6fd486ee228ebea91a2f5634dffc747b921cd560e44c33839d577a1ac0485b107e7e5cfb0eff9841e83c534e05b8639af4b258d926783cfe2b688916e2352952117ab1ff8eb9215d7b9fa14d708c038310e1cf30bfddfcee2b6a63b9104a9a85b01c5ea431472e1a0746a0fc2b51e51d41d818fb3ecf84ed87c483cc8d780caeef2ab1f1ab4d217e49b7a7d39780b21ca97b62a4673108dcaae02fe6e6f4d66b13b8c90aae4d68827fb74e863a0801052ab9c3b6eaeedce90f4ca2fccc72cebfb7a726cc048e3154c864b4e44b56dad66a88aeede26600f11afa7960c3e507ffa28da4f409128828fc9bc2b098eed5ad95ec9dc359ba8ef89d26a5dca12caad6c36f44b77e9feae5463fbf1baa750802b58f83efa9dfa06da2177b758b124cd23f87797bad5b7fadc0b1495ba837db83cad98587d637b14c3d39fbbcc407bec1f6718a183e0eba49abe043f1b48329ba010275dedf6fa5e37e4bf5d652f9a5a9b7a5721063b2a58249a22e48c35218ef7c1be396aad9d1bc6d358a44232f1ab08a20d3761256ec1227fdbe3ded06caa7b7983d847ceedb0cd9872846194540953312bb4bb2c3776d22af117479fdcc81031923c106af743b2af425556b8fc0635e0cbc2a43e1ee58c051999f6317451b17a4ca15345b90298567e798e12d03b70a6dba0ad1a775ce84696efbe33331ee2ff090cfd6d9487d43494febbc83a3b1f116accda48139f1ef3c2fa1f01032cf841fe30742183922ae41f269eb04e486678bc444bdb9e79a6887f5724ca8ffe9a85c968b47efd1ae4ba509f07aaff8672e98dcf389423f112e893d63d09ee897f01f666e229c754f95f10cd7789cc60c2351d40f343fccf1dfa80f9b139cc778b36af3fc15ff93a2c5ed866eb6ba6557c0c181ce0f49a1bd02e9c904743baff1140d698159c3bc84abd68fdbaf57e08fe10aa70db33b1c41ca8cfff1a34ff479aabaeabadac5742f73b408c387cdce63912109372895f204b5565db8b55b143c77ba6214e05f848cd4bb2f412e338db8e771e12dcd48b12c48b001785187b4ecdfcf7b988bc1770cd069a3d42fc8d4a41650d9755dfd1f036f886c286411e539f7d4265f9abf960c3c88709600c8f180ed6a20b3ec0dba0a18eb2ebeca3214e04a8701a516a1dda594ece75d709190d910cd63d31b6bb8f75df130ca0ec6472e7294879cb1fa077509c152d82f30284b3194c99bc0e7450e07c2f3ce197c039a77c033fef68257c94b237bfb3eb50692343eef050bc028e8cafe5e56732ed53cde12d673a4c4c6f5e9e4b446cfb87fd4594448560b67599b5bca429324fa4441be7e5cafa28e5ad33eff32110636f37b1c7dee472b7cd3380c2fe151ad343296f772c86a15ef8182ea40ba072aab8b20f98f64d54d3f52ab2e7293d0c7079cee8f29d197fddd7cc06c391fe4b2117792096c4db1bf03be38577dd482dbbe0a26dbaee56d64bdfed3a794376b683897321d9d6a1208b4c740c4af80348d411879a108a3950710a928e6ea5850f406ce6669980e6d78e3a03d45cf14e7191cc6f49de71fa701f5b6076f49749ce6c3a3c08109f8e4142a5bcc6534ba05b51e4d640485268fed89b0eebd9a29f942ab520a1710c8a1e8fd45fc895154d87cb86afb5723771f7a817063a9d4fc8810e8a5e193b5af510e3f15be423662188baa1aba0ba24b278cfff2cc07f470b94286e3991c01d1667ac72cdd3a7015d340b85073bd2c4463cb80f390a6f817de8dfbfbaf9d659affbc1349e4ec7a8146cddc0d9a8762c971e7e0927bf885527abb9eac82e09bdc0c233f8189d24d236ff240c1f4b3a7933948c71335bc31f7cf6d7052cba746f5f948c98743c824d123c2c21916c3bf6d6a9e3ee5b35239799b0d75bdc09e928ae6d02f943f206c40c19cd5cc0281e762b2509021730ccce073aa2af726b0007b42f2166075b191f48d9d3525d0755021116aa718aa0c76e6f1e32e029c9814598119bf456fae8e239537ff34e8390356c7333822a2fdb808f01bf351e250851887e83607bf4e4f24aadd2a35a193a58af5eb35ef01ddf2b588768c1671a0298335019a2473dc908972677036f4c7d1d61bd1f1326a39447e03d78d2f738b38987da70</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Typing passwd。</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
       </tags>
   </entry>
 </search>
