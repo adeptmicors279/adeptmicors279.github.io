@@ -1,3 +1,174 @@
-/* build time:Fri Jan 24 2025 13:57:39 GMT+0800 (中国标准时间)*/
-body{background:url(https://bucket.iczrx.cn/2025/01/22/6790873a67d7b.jpg) no-repeat;background-attachment:fixed;background-position:center center;background-repeat:no-repeat;background-attachment:fixed;background-size:cover;background-color:#464646}.title{width:80%;height:auto;font-size:40px;font-weight:700;color:#e7e3e3;margin:0 auto;text-align:center;margin-top:5%}.show_content{width:60%;background-color:#918f8f56;border-radius:15px;height:auto;margin:0 auto;margin-top:5%;padding:20px;overflow:visible}cite{padding:30px;width:70%;text-align:center;justify-content:center;display:flex;margin:0 auto;font-size:35px;font-weight:600}.button{width:20%;max-width:100px;border:#000 solid 2px;height:auto;margin:10px auto;justify-content:center;text-align:center;border-radius:5px;font-size:large;font-weight:550;-moz-user-select:-moz-none;-moz-user-select:none;-o-user-select:none;-khtml-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}.button:hover{background-color:#83838377;color:#e7e3e3;cursor:pointer}.front{display:block;margin:0 auto;justify-content:center;text-align:center}.back{display:none}.paratext{font-size:35px;font-weight:600;margin:0 auto;text-align:center;justify-content:center;display:flex;color:#c7ecfd}.text{font-size:22px;font-weight:500;margin:0 auto;display:flex}hr{width:60%;margin:0 auto;margin-top:20px;margin-bottom:20px}.subtext{font-size:15px;font-weight:550;margin:0 auto;text-align:right;justify-content:right;display:flex;color:#9370db}.color_box{width:70%;display:block;margin:0 auto;margin-top:25px;margin-bottom:25px;border-radius:8px;text-align:center;font-size:22px;font-weight:600;padding:20px}.para2text{font-size:20px;font-weight:700;text-align:left;margin:20px auto;padding:10px}.link_box{width:70%;display:block;margin:20px auto;text-align:center;justify-content:center;font-size:larger;font-weight:500;padding:20px;border-radius:10px;padding:20px;transition:font-size .5s ease,font-weight .5s ease,color .5s ease;border:#000 solid 2px;cursor:pointer}.link_box:hover{font-size:x-large;font-weight:800;color:beige}.table{width:70%;margin:20px auto;justify-content:center;display:flex;padding:20px}.table_box{width:100px;height:80px;background-color:#ffffffab;margin-right:8px;font-size:auto;display:flex;font-weight:450;text-align:center;border-radius:10px;border:#000 solid 2px;transition:font-weight .5s ease,color .5s ease;cursor:pointer;justify-content:center;align-items:center}.table_box:hover{font-weight:550;color:#a5a5a5}
-/* rebuild by neat */
+body{
+    background: url('https://bucket.iczrx.cn/2025/01/22/6790873a67d7b.jpg') no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;    
+}
+
+.title{
+    width: 80%;
+    height: auto;
+    font-size: 40px;
+    font-weight: 700;
+    color: #e7e3e3;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.show_content{
+    width: 60%;
+    background-color: #918f8f56;
+    border-radius: 15px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 20px;
+    overflow: visible;
+}
+
+cite{
+    padding: 30px;
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: 600;
+}
+.button{
+    width: 20%;
+    max-width: 100px;
+    border: #000000 solid 2px;
+    height: auto;
+    margin: 10px auto;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 550;
+    
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.button:hover{
+    background-color: #83838377;
+    color: #e7e3e3;
+    cursor: pointer;
+}
+.front{
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+.back{
+    display: none;
+}
+.paratext{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: #c7ecfd;
+}
+.text{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 auto;
+    display: flex;
+}
+hr{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.subtext{
+    font-size: 15px;
+    font-weight: 550;
+    margin: 0 auto;
+    text-align: right;
+    justify-content: right;
+    display: flex;
+    color: rgb(147, 112, 219);
+}
+.color_box{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px;
+
+}
+.para2text{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    margin: 20px auto;
+    padding: 10px;
+}
+.link_box{
+    width: 70%;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    transition: font-size 0.5s ease, font-weight 0.5s ease, color 0.5s ease;
+    border: #000000 solid 2px;
+    cursor: pointer;
+}
+.link_box:hover{
+    font-size: x-large;
+    font-weight: 800;
+    color: beige;
+}
+.table{
+    width: 70%;
+    margin: 20px auto;
+    justify-content: center;
+    display: flex; 
+    padding: 20px;
+}
+.table_box{
+    width: 100px;
+    height: 80px;
+    background-color: #ffffffab;
+    margin-right: 8px;
+    font-size: auto;
+    display: flex;
+    font-weight: 450;
+    text-align: center;
+    border-radius: 10px;
+    border: #000000 solid 2px;
+    transition: font-weight 0.5s ease, color 0.5s ease;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.table_box:hover{
+    font-weight: 550;
+    color: rgb(165, 165, 165);
+}
