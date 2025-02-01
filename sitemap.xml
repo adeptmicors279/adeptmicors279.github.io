@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://amicors.cc/posts/d2958731.html</loc>
+    
+    <lastmod>2025-02-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://amicors.cc/posts/5769b4d0.html</loc>
+    
+    <lastmod>2025-02-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://amicors.cc/posts/bcca9bd1.html</loc>
+    
+    <lastmod>2025-02-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://amicors.cc/posts/1aad9c90.html</loc>
     
     <lastmod>2025-02-01</lastmod>
@@ -111,33 +138,6 @@
   
   <url>
     <loc>https://amicors.cc/posts/b1f5bf5e.html</loc>
-    
-    <lastmod>2025-01-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://amicors.cc/posts/d2958731.html</loc>
-    
-    <lastmod>2025-01-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://amicors.cc/posts/bcca9bd1.html</loc>
-    
-    <lastmod>2025-01-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://amicors.cc/posts/5769b4d0.html</loc>
     
     <lastmod>2025-01-11</lastmod>
     
@@ -277,20 +277,6 @@
   </url>
   
   <url>
-    <loc>https://amicors.cc/tags/Galgame/</loc>
-    <lastmod>2025-02-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://amicors.cc/tags/VNG/</loc>
-    <lastmod>2025-02-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://amicors.cc/tags/Linux/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -299,6 +285,20 @@
   
   <url>
     <loc>https://amicors.cc/tags/Manjaro/</loc>
+    <lastmod>2025-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://amicors.cc/tags/Galgame/</loc>
+    <lastmod>2025-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://amicors.cc/tags/VNG/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
