@@ -6,7 +6,7 @@
   <link href="https://amicors.cc/atom.xml" rel="self"/>
   
   <link href="https://amicors.cc/"/>
-  <updated>2025-02-01T10:19:48.758Z</updated>
+  <updated>2025-02-04T15:47:44.959Z</updated>
   <id>https://amicors.cc/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Electron初尝试</title>
+    <link href="https://amicors.cc/posts/a85098ca.html"/>
+    <id>https://amicors.cc/posts/a85098ca.html</id>
+    <published>2025-02-04T14:07:00.000Z</published>
+    <updated>2025-02-04T15:47:44.959Z</updated>
+    
+    
+    <summary type="html">浅尝一下electron，以及有关electron-builder无法下载GitHub文件的问题</summary>
+    
+    
+    
+    <category term="Electron" scheme="https://amicors.cc/categories/Electron/"/>
+    
+    
+    <category term="Electron" scheme="https://amicors.cc/tags/Electron/"/>
+    
+    <category term="HTML" scheme="https://amicors.cc/tags/HTML/"/>
+    
+    <category term="Javascript" scheme="https://amicors.cc/tags/Javascript/"/>
+    
+    <category term="CSS" scheme="https://amicors.cc/tags/CSS/"/>
+    
+  </entry>
   
   <entry>
     <title>如何在Manjaro上游玩galgame</title>
@@ -463,28 +488,6 @@
     <summary type="html">&lt;p&gt;说是4&amp;#x2F;17的随记&lt;br&gt;其实已经快4&amp;#x2F;18了&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id=&quot;关于OCR翻译器&quot;&gt;&lt;a href=&quot;#关于OCR翻译器&quot; class=&quot;headerlink&quot; title=&quot;关于OCR翻译器&quot;&gt;&lt;/a&gt;关于OCR翻译器&lt;/h1&gt;&lt;p&gt;这个是我好久之前写的一个项目&lt;br&gt;用的是tk图形库&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="日常" scheme="https://amicors.cc/categories/%E6%97%A5%E5%B8%B8/"/>
-    
-    
-    <category term="日记" scheme="https://amicors.cc/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2024/4/15随记</title>
-    <link href="https://amicors.cc/posts/b1f5bf5e.html"/>
-    <id>https://amicors.cc/posts/b1f5bf5e.html</id>
-    <published>2024-04-15T15:38:50.000Z</published>
-    <updated>2025-01-11T08:29:22.824Z</updated>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;一天的开始&quot;&gt;&lt;a href=&quot;#一天的开始&quot; class=&quot;headerlink&quot; title=&quot;一天的开始&quot;&gt;&lt;/a&gt;一天的开始&lt;/h1&gt;&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=2019021996&amp;auto=0&amp;height=66&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;记得几天前，电梯里就有一幅小孩画的画&lt;br&gt;右上角画的是太阳，中间是一个很大的蜗牛，下面是绿地和飞着的蝴蝶（大概？&lt;br&gt;每天早上看到这幅画都会给我带来一天开始的好心情&lt;/p&gt;
-&lt;p&gt;可惜的是&lt;br&gt;今天晚上，我看不到那副画了&lt;br&gt;也许是被人丢掉了，但我更希望是原作者拿走了它&lt;br&gt;原本想拍下那幅画，可惜没有适宜的时机&lt;/p&gt;</summary>
     
     
     
