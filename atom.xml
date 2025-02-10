@@ -6,7 +6,7 @@
   <link href="https://amicors.cc/atom.xml" rel="self"/>
   
   <link href="https://amicors.cc/"/>
-  <updated>2025-02-04T16:27:20.632Z</updated>
+  <updated>2025-02-10T11:50:18.723Z</updated>
   <id>https://amicors.cc/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Electron-builder无法下载github文件</title>
+    <link href="https://amicors.cc/posts/undefined.html"/>
+    <id>https://amicors.cc/posts/undefined.html</id>
+    <published>2025-02-10T11:19:53.000Z</published>
+    <updated>2025-02-10T11:50:18.723Z</updated>
+    
+    
+    <summary type="html">解决electron-builder无法下载GitHub文件的问题</summary>
+    
+    
+    
+    <category term="Electron" scheme="https://amicors.cc/categories/Electron/"/>
+    
+    
+    <category term="Electron" scheme="https://amicors.cc/tags/Electron/"/>
+    
+    <category term="HTML" scheme="https://amicors.cc/tags/HTML/"/>
+    
+    <category term="Javascript" scheme="https://amicors.cc/tags/Javascript/"/>
+    
+    <category term="CSS" scheme="https://amicors.cc/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>嘉立创免费打板以及PCB绘制</title>
+    <link href="https://amicors.cc/posts/undefined.html"/>
+    <id>https://amicors.cc/posts/undefined.html</id>
+    <published>2025-02-10T11:19:06.000Z</published>
+    <updated>2025-02-10T11:19:06.866Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Electron初尝试</title>
@@ -64,11 +102,11 @@
     <category term="Linux" scheme="https://amicors.cc/categories/Galgame/Linux/"/>
     
     
+    <category term="Galgame" scheme="https://amicors.cc/tags/Galgame/"/>
+    
     <category term="Linux" scheme="https://amicors.cc/tags/Linux/"/>
     
     <category term="Manjaro" scheme="https://amicors.cc/tags/Manjaro/"/>
-    
-    <category term="Galgame" scheme="https://amicors.cc/tags/Galgame/"/>
     
   </entry>
   
@@ -453,48 +491,6 @@
     <category term="Galgame" scheme="https://amicors.cc/tags/Galgame/"/>
     
     <category term="VNG" scheme="https://amicors.cc/tags/VNG/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2024-4-18随记</title>
-    <link href="https://amicors.cc/posts/a6b84fd9.html"/>
-    <id>https://amicors.cc/posts/a6b84fd9.html</id>
-    <published>2024-04-18T15:01:37.000Z</published>
-    <updated>2025-01-11T08:27:31.552Z</updated>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;考试终于结束了&lt;/p&gt;
-&lt;p&gt;BYD英语没考好，当然其他几门也没考好&lt;/p&gt;
-&lt;p&gt;地理选择错13题，老师教的不行（不是开脱，上学期教的班全倒数，分班之后也是）&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="日常" scheme="https://amicors.cc/categories/%E6%97%A5%E5%B8%B8/"/>
-    
-    
-    <category term="日记" scheme="https://amicors.cc/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2024/4/17随记</title>
-    <link href="https://amicors.cc/posts/266aae77.html"/>
-    <id>https://amicors.cc/posts/266aae77.html</id>
-    <published>2024-04-17T15:44:03.000Z</published>
-    <updated>2025-01-11T08:29:25.699Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;说是4&amp;#x2F;17的随记&lt;br&gt;其实已经快4&amp;#x2F;18了&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&quot;关于OCR翻译器&quot;&gt;&lt;a href=&quot;#关于OCR翻译器&quot; class=&quot;headerlink&quot; title=&quot;关于OCR翻译器&quot;&gt;&lt;/a&gt;关于OCR翻译器&lt;/h1&gt;&lt;p&gt;这个是我好久之前写的一个项目&lt;br&gt;用的是tk图形库&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="日常" scheme="https://amicors.cc/categories/%E6%97%A5%E5%B8%B8/"/>
-    
-    
-    <category term="日记" scheme="https://amicors.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   

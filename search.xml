@@ -98,6 +98,23 @@
       </tags>
   </entry>
   <entry>
+    <title>2024-4-23随记</title>
+    <url>/posts/2a301cc0.html</url>
+    <content><![CDATA[<h1 id="假期"><a href="#假期" class="headerlink" title="假期"></a>假期</h1><p>马上就快五一了<br>现在调休连着上课累死了<br>根本没时间发blog</p>
+<h1 id="进度"><a href="#进度" class="headerlink" title="进度"></a>进度</h1><p>剩下quick_start还有翻译API的接入</p>
+<h1 id="五一计划"><a href="#五一计划" class="headerlink" title="五一计划"></a>五一计划</h1><p>打算把summer pockets的官方小说改成游戏<br>引擎使用：Renpy<br>手机得益于renpy的模拟器可以模拟器运行<br>原生适配Windows<br>其他平台以后再说？</p>
+<hr>
+<p>不写了<br>左手现在使不上劲，估计昨天给自己干废了，现在小臂肌肉还疼<br>估计腱鞘炎（玩音游玩的，后遗症落下了属于是）</p>
+<p>等有时间再把近况进行详细说明吧</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2024-4-18随记</title>
     <url>/posts/a6b84fd9.html</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>考试终于结束了</p>
@@ -138,23 +155,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2024-4-23随记</title>
-    <url>/posts/2a301cc0.html</url>
-    <content><![CDATA[<h1 id="假期"><a href="#假期" class="headerlink" title="假期"></a>假期</h1><p>马上就快五一了<br>现在调休连着上课累死了<br>根本没时间发blog</p>
-<h1 id="进度"><a href="#进度" class="headerlink" title="进度"></a>进度</h1><p>剩下quick_start还有翻译API的接入</p>
-<h1 id="五一计划"><a href="#五一计划" class="headerlink" title="五一计划"></a>五一计划</h1><p>打算把summer pockets的官方小说改成游戏<br>引擎使用：Renpy<br>手机得益于renpy的模拟器可以模拟器运行<br>原生适配Windows<br>其他平台以后再说？</p>
-<hr>
-<p>不写了<br>左手现在使不上劲，估计昨天给自己干废了，现在小臂肌肉还疼<br>估计腱鞘炎（玩音游玩的，后遗症落下了属于是）</p>
-<p>等有时间再把近况进行详细说明吧</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2024-04-28随记</title>
     <url>/posts/78399448.html</url>
     <content><![CDATA[<h1 id="有关ocr翻译器"><a href="#有关ocr翻译器" class="headerlink" title="有关ocr翻译器"></a>有关ocr翻译器</h1><h2 id="在线OCR"><a href="#在线OCR" class="headerlink" title="在线OCR"></a>在线OCR</h2><p>百度的免费额度用完了<br>用在测试上的<br>当时想能不能优化代码提高效率<br>结果倒欠了百度整整0.08元的巨款<br>嗯没错，OCR欠费了…</p>
@@ -169,48 +169,6 @@
 <h1 id="五一假期"><a href="#五一假期" class="headerlink" title="五一假期"></a>五一假期</h1><p>铸币学校放4天<br>江苏改革之后假期都是全的<br>别的学校都放全了<br>就我们学校铸币<br>赶进度（一天时间也赶不了多少进度）</p>
 <p>到时候看看renpy怎么用<br>续写sprb的故事（其实就是把官方小说做成日后谈）</p>
 <h1 id="万花镜和o神联动？"><a href="#万花镜和o神联动？" class="headerlink" title="万花镜和o神联动？"></a>万花镜和o神联动？</h1><p>要真联动4里面也和初音联动了<br>估计官方整活（或者也有可能碰瓷？蹭热度？）<br>类似于三色绘恋里的‘移不动，联不通’和‘魔兽争霸’</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2024-5-5随记</title>
-    <url>/posts/f925041e.html</url>
-    <content><![CDATA[<h1 id="网站崩了"><a href="#网站崩了" class="headerlink" title="网站崩了"></a>网站崩了</h1><p>这个b代码块的主题一直改不了</p>
-<p><img src="https://bucket.iczrx.cn/2024/05/05/6636694227625.jpg" alt="如下"></p>
-<p>即使设置里改为mac，hexo clean了也没用</p>
-<p>而且</p>
-<p>自从安上了butterfly就一直有烦人的报错</p>
-<p>但是不影响使用</p>
-<p><img src="https://bucket.iczrx.cn/2024/05/05/663669b2478c1.png" alt="报错如下"></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR Script load failed: themes\butterfly\scripts\events\init.js</span><br><span class="line">TypeError: require(...) is not a function</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR Script load failed: themes\butterfly\scripts\events\welcome.js</span><br><span class="line">TypeError: require(...) is not a function</span><br></pre></td></tr></table></figure>
-
-<p>解决方法</p>
-<p><a href="https://cloud.tencent.com/developer/article/2388627">Hexo升级之后Butterfly主题不兼容，发生报错：TypeError: require(…) is not a function-腾讯云开发者社区-腾讯云 (tencent.com)</a></p>
-<p>但是吧，我npm升级了没有用，所以打算手动升级</p>
-<p>结果升完级天真的以为_config.yml文件是一样的</p>
-<p>想都没想直接把旧版的复制进去了</p>
-<p>然后又是报错</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR </span><br><span class="line">TypeError: E:\hexo\blog\themes\butterfly\layout\includes\layout.pug:2</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://bucket.iczrx.cn/2024/05/05/66366a555b7b3.png"></p>
-<p>行！</p>
-<p>估计又是什么乱七八糟的问题</p>
-<p>大不了我重新配置一下</p>
-<p>后来我重新配置了一遍，成功解决</p>
-<p>在此期间我直接把报错生成的网页直接推到GitHub上了</p>
-<p>所以网站崩了一会</p>
-<p>然后设置好主题</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span> (<span class="string">&#x27;hello&#x27;</span>)</span><br></pre></td></tr></table></figure>
-
-<p>好了</p>
-<p>终于成功了</p>
 ]]></content>
       <categories>
         <category>日常</category>
@@ -268,6 +226,48 @@
 <p>现在？——早就没了吧</p>
 <h1 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h1><p>待会把樱之诗的里奈线推了吧</p>
 <p>虽说我更偏向百合线就是了……</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024-5-5随记</title>
+    <url>/posts/f925041e.html</url>
+    <content><![CDATA[<h1 id="网站崩了"><a href="#网站崩了" class="headerlink" title="网站崩了"></a>网站崩了</h1><p>这个b代码块的主题一直改不了</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/05/6636694227625.jpg" alt="如下"></p>
+<p>即使设置里改为mac，hexo clean了也没用</p>
+<p>而且</p>
+<p>自从安上了butterfly就一直有烦人的报错</p>
+<p>但是不影响使用</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/05/663669b2478c1.png" alt="报错如下"></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR Script load failed: themes\butterfly\scripts\events\init.js</span><br><span class="line">TypeError: require(...) is not a function</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR Script load failed: themes\butterfly\scripts\events\welcome.js</span><br><span class="line">TypeError: require(...) is not a function</span><br></pre></td></tr></table></figure>
+
+<p>解决方法</p>
+<p><a href="https://cloud.tencent.com/developer/article/2388627">Hexo升级之后Butterfly主题不兼容，发生报错：TypeError: require(…) is not a function-腾讯云开发者社区-腾讯云 (tencent.com)</a></p>
+<p>但是吧，我npm升级了没有用，所以打算手动升级</p>
+<p>结果升完级天真的以为_config.yml文件是一样的</p>
+<p>想都没想直接把旧版的复制进去了</p>
+<p>然后又是报错</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR </span><br><span class="line">TypeError: E:\hexo\blog\themes\butterfly\layout\includes\layout.pug:2</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://bucket.iczrx.cn/2024/05/05/66366a555b7b3.png"></p>
+<p>行！</p>
+<p>估计又是什么乱七八糟的问题</p>
+<p>大不了我重新配置一下</p>
+<p>后来我重新配置了一遍，成功解决</p>
+<p>在此期间我直接把报错生成的网页直接推到GitHub上了</p>
+<p>所以网站崩了一会</p>
+<p>然后设置好主题</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span> (<span class="string">&#x27;hello&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>好了</p>
+<p>终于成功了</p>
 ]]></content>
       <categories>
         <category>日常</category>
@@ -420,6 +420,38 @@
       </tags>
   </entry>
   <entry>
+    <title>Electron-builder无法下载github文件</title>
+    <url>/posts/undefined.html</url>
+    <content><![CDATA[<p>个人留档</p>
+<p>参考文章：<a href="https://blog.csdn.net/weixin_44490021/article/details/141465519">【Electron】桌面应用开发electron-builder打包报错问题处理-CSDN博客</a></p>
+<h1 id="1-挂全局代理"><a href="#1-挂全局代理" class="headerlink" title="1.挂全局代理"></a>1.挂全局代理</h1><p>挂个代理</p>
+<h1 id="2-本地下载文件并导入"><a href="#2-本地下载文件并导入" class="headerlink" title="2.本地下载文件并导入"></a>2.本地下载文件并导入</h1><p>通过cnpm我们下载了electron-builder</p>
+<p>运行打包命令后builder会自动进行下载所需要的文件</p>
+<p>这时候去GitHub的镜像站之类的把这几个问价下好</p>
+<p>下载过程中长时间下不下来就去找日志里的链接</p>
+<p>通过GitHub加速或者镜像站或者什么别的方法进行下载之后，对其进行解压</p>
+<p>然后分别在<code>C:\Users\uername\AppData\Local</code>下的</p>
+<p><code>C:\Users\username\AppData\Local\electron\Cache</code></p>
+<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMRZ6nkDfm4fiVSHww7J-KDpAj4nLIAAsrFMRsVA0hVlA2JwNGGHxQBAAMCAAN5AAM2BA.png"></p>
+<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMSZ6nkMmPio3lUkKBDmdPBhNZ4f_wAAsvFMRsVA0hVA-ZigfHQV4oBAAMCAAN5AAM2BA.png"></p>
+<p>在<code>C:\Users\1\AppData\Local\electron-builder\Cache</code>中</p>
+<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMTZ6nkboQih89oH1z21SgCnfbFMWgAAszFMRsVA0hVpkRMl2YlqmkBAAMCAAN5AAM2BA.png"></p>
+<p>这样的图片不怎么方便，我列个树形图吧</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\USERS\1\APPDATA\LOCAL\ELECTRON</span><br><span class="line">└─Cache</span><br><span class="line">    └─electron-v34.0.2-win32-x64</span><br><span class="line">        ├─locales</span><br><span class="line">        └─resources</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">C:\USERS\1\APPDATA\LOCAL\ELECTRON-BUILDER</span><br><span class="line">└─Cache</span><br><span class="line">    ├─electron-v34.0.2-win32-x64</span><br><span class="line">    │  ├─locales</span><br><span class="line">    │  └─resources</span><br><span class="line">    ├─nsis</span><br><span class="line">    │  ├─nsis-3.0.4.1</span><br><span class="line">    │  │  ├─Bin</span><br><span class="line">    │  │  ├─Contrib</span><br><span class="line">    │  │  │  ├─Graphics</span><br><span class="line">    │  │  │  │  ├─Checks</span><br><span class="line">    │  │  │  │  ├─Header</span><br><span class="line">    │  │  │  │  ├─Icons</span><br><span class="line">    │  │  │  │  └─Wizard</span><br><span class="line">    │  │  │  ├─Language files</span><br><span class="line">    │  │  │  ├─Modern UI</span><br><span class="line">    │  │  │  ├─Modern UI 2</span><br><span class="line">    │  │  │  │  └─Pages</span><br><span class="line">    │  │  │  ├─UIs</span><br><span class="line">    │  │  │  └─zip2exe</span><br><span class="line">    │  │  ├─Include</span><br><span class="line">    │  │  │  └─Win</span><br><span class="line">    │  │  ├─linux</span><br><span class="line">    │  │  ├─mac</span><br><span class="line">    │  │  ├─Menu</span><br><span class="line">    │  │  │  └─images</span><br><span class="line">    │  │  ├─Plugins</span><br><span class="line">    │  │  │  ├─x86-ansi</span><br><span class="line">    │  │  │  └─x86-unicode</span><br><span class="line">    │  │  └─Stubs</span><br><span class="line">    │  └─nsis-resources-3.4.1</span><br><span class="line">    │      └─plugins</span><br><span class="line">    │          ├─x64-ansi</span><br><span class="line">    │          ├─x64-unicode</span><br><span class="line">    │          ├─x86-ansi</span><br><span class="line">    │          └─x86-unicode</span><br><span class="line">    └─winCodeSign</span><br><span class="line">        └─winCodeSign-2.6.0</span><br><span class="line">            ├─appxAssets</span><br><span class="line">            ├─darwin</span><br><span class="line">            │  ├─10.12</span><br><span class="line">            │  │  └─lib</span><br><span class="line">            │  │      ├─engines</span><br><span class="line">            │  │      └─pkgconfig</span><br><span class="line">            │  └─ci</span><br><span class="line">            ├─linux</span><br><span class="line">            ├─openssl-ia32</span><br><span class="line">            ├─windows-10</span><br><span class="line">            │  ├─ia32</span><br><span class="line">            │  └─x64</span><br><span class="line">            └─windows-6</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>我们可以很清晰的看到，我们需要在electron-builder下创建nsis，winCodeSign，electron-v34.0.2-win32-x64这三个文件夹后才可以再把文件解压进去，如果直接解压文件是识别不到的</p>
+]]></content>
+      <categories>
+        <category>Electron</category>
+      </categories>
+      <tags>
+        <tag>Electron</tag>
+        <tag>HTML</tag>
+        <tag>Javascript</tag>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python爬取pixiv图片</title>
     <url>/posts/5769b4d0.html</url>
     <content><![CDATA[<h1 id="带检索功能的爬虫"><a href="#带检索功能的爬虫" class="headerlink" title="带检索功能的爬虫"></a>带检索功能的爬虫</h1><p>代码如下</p>
@@ -528,6 +560,11 @@
       </tags>
   </entry>
   <entry>
+    <title>嘉立创免费打板以及PCB绘制</title>
+    <url>/posts/undefined.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>关于此站</title>
     <url>/posts/d27f355a.html</url>
     <content><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1476470866&auto=1&height=66"></iframe>
@@ -537,75 +574,20 @@
 ]]></content>
   </entry>
   <entry>
-    <title>如何在Manjaro上游玩galgame</title>
-    <url>/posts/1aad9c90.html</url>
-    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><div class="note warning flat"><p>此文章并不一定百分百有效，具体请看个人</p>
-<p>本文对于一些汉化过的galgame并不百分百有效</p>
-</div>
-
-<p>有关Arch Linux游玩galgame的文章倒是不少，但是Manjaro倒是没几个</p>
-<p>于是乎今天就来写写有关Manjaro的</p>
-<p>起初我也想安装Arch来着，但是安装的时候挂载挂错了，把EFI安到别的分区了遂放弃（其实就是懒得再去装一遍了，直接选择Manjaro的GUI安装）</p>
-<h1 id="Wine兼容层与Proton"><a href="#Wine兼容层与Proton" class="headerlink" title="Wine兼容层与Proton"></a>Wine兼容层与Proton</h1><p>首推的最方便的游玩方式</p>
-<p>通过wine和proton不仅可以玩galgame，也可以玩一些别的游戏</p>
-<p>由于Manjaro的Wiki东西很少，于是乎就写了这篇文章</p>
-<p>首先，介绍一下wine兼容层</p>
-<blockquote>
-<p>[Wine 是一款免费和开源的<strong>兼容层</strong>，使得在运行 Linux、FreeBSD 或其他一些操作系统的计算机上运行一些 Windows 应用程序成为可能。它也是 Valve 用来让 Steam Deck 用户在 Linux 驱动的手持设备上玩 Windows 游戏的 Proton 软件的基础。Wine（Wine Is Not an Emulator）能够在多种兼容 POSIX 接口的操作系统上运行 Windows 应用</p>
-</blockquote>
-<p>看到这里你应该明白wine和proton的关系了，proton就是v社基于wine开发的工具（你的steam deck能玩Windows游戏就是proton的功劳）</p>
-<p>&nbsp;</p>
-<h2 id="Wine"><a href="#Wine" class="headerlink" title="Wine"></a>Wine</h2><p>在安装wine之前，你得先至少准备好Windows下的所有字体文件，不然会乱码</p>
-<p>Windows字体文件<code>C:\Windows\Fonts</code>,打包后存好</p>
-<p>然后切到你的Manjaro</p>
-<p>在Manjaro下安装wine安装 Winemultilib 存储库，利用vim进入 <code>/etc/pacman.conf</code> 将<code>[multilib]</code>部分取消注释即可</p>
-<p>输入</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -S wine wine-mono wine-gecko</span><br><span class="line"><span class="comment">#稳定版</span></span><br><span class="line"><span class="built_in">sudo</span> pacman -S wine-staging wine-mono wine-gecko</span><br><span class="line"><span class="comment">#测试版</span></span><br></pre></td></tr></table></figure>
-
-<p>这样的话，一个基本的wine就安装好了<br>当然你也可以安装更多的依赖，详见<a href="https://wiki.archlinuxcn.org/wiki/Wine#%E5%8F%82%E8%A7%81">Arch Wiki</a><br>请在参阅arch wiki的时候记住你用的是Manjaro而不是Arch，提问请去Manjaro的社区</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wine --version</span><br></pre></td></tr></table></figure>
-
-<p>通过此来查看自己的版本</p>
-<p>输入后</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wine regedit</span><br></pre></td></tr></table></figure>
-
-<p>这时候会自动跳转出来一个界面，大概如下<br><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMJZ5zbDP2IBFoXSGQjPxtou6s1wAQAAsLCMRvQjelUR64o8YFsDw0BAAMCAAN3AAM2BA.png" alt="win regedit"><br>你会发现，诶，文字怎么变成方格了<br>这其实是缺失字体导致的，解决方法也很简单，将你准备好的字体移动到<code>/home/$&#123;username&#125;/.wine/drive_c/windows/Fonts</code>（如果找不到<code>.wine</code>请打开显示隐藏文件）<br>创建<code>zh.reg</code></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"> REGEDIT4</span><br><span class="line"></span><br><span class="line">[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]</span><br><span class="line"></span><br><span class="line">“Arial”=”simsun”</span><br><span class="line"></span><br><span class="line">“Arial CE,238”=”simsun”</span><br><span class="line"></span><br><span class="line">“Arial CYR,204”=”simsun”</span><br><span class="line"></span><br><span class="line">“Arial Greek,161”=”simsun”</span><br><span class="line"></span><br><span class="line">“Arial TUR,162”=”simsun”</span><br><span class="line"></span><br><span class="line">“Courier New”=”simsun”</span><br><span class="line"></span><br><span class="line">“Courier New CE,238”=”simsun”</span><br><span class="line"></span><br><span class="line">“Courier New CYR,204”=”simsun”</span><br><span class="line"></span><br><span class="line">“Courier New Greek,161”=”simsun”</span><br><span class="line"></span><br><span class="line">“Courier New TUR,162”=”simsun”</span><br><span class="line"></span><br><span class="line">“FixedSys”=”simsun”</span><br><span class="line"></span><br><span class="line">“Helv”=”simsun”</span><br><span class="line"></span><br><span class="line">“Helvetica”=”simsun”</span><br><span class="line"></span><br><span class="line">“MS Sans Serif”=”simsun”</span><br><span class="line"></span><br><span class="line">“MS Shell Dlg”=”simsun”</span><br><span class="line"></span><br><span class="line">“MS Shell Dlg 2”=”simsun”</span><br><span class="line"></span><br><span class="line">“System”=”simsun”</span><br><span class="line"></span><br><span class="line">“Tahoma”=”simsun”</span><br><span class="line"></span><br><span class="line">“Times”=”simsun”</span><br><span class="line"></span><br><span class="line">“Times New Roman CE,238”=”simsun”</span><br><span class="line"></span><br><span class="line">“Times New Roman CYR,204”=”simsun”</span><br><span class="line"></span><br><span class="line">“Times New Roman Greek,161”=”simsun”</span><br><span class="line"></span><br><span class="line">“Times New Roman TUR,162”=”simsun”</span><br><span class="line"></span><br><span class="line">“Tms Rmn”=”simsun”</span><br></pre></td></tr></table></figure>
-<p>导入之后重启wine即可</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">winecfg</span><br></pre></td></tr></table></figure>
-<p>通过此可以进行更多的设置<br>自此可以使用wine了</p>
-<h2 id="wine进阶"><a href="#wine进阶" class="headerlink" title="wine进阶"></a>wine进阶</h2><p>虽说能运行一些小游戏是不错，但是对于galgame还是不够的<br>WINEARCH这个变量决定了你模拟的Windows是32位或是64位的x86。对应的值为win32及win64，如果你的系统是64位的它就默认是win64<br>在64位的情况下运行32位的软件会出错</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">WINEARCH=win32 WINEPREFIX=/home/你的username/.wine_32 winecfg</span><br><span class="line"><span class="comment">#指定路径创建32位的文件夹</span></span><br></pre></td></tr></table></figure>
-<p>我个人不建议直接删掉.wine文件夹然后直接让他重新配置，而是创建一个wine_32文件夹来指定这个这个文件夹里运行32位应用<br><code>WINEPREFIX</code>这个路径是可变的，你可以随便取名</p>
-<p>但是运行32位应用时需指定</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">WINEPREFIX=~/.wine_32 wine program.exe</span><br></pre></td></tr></table></figure>
-<p>否则仍然按照默认的wine64运行</p>
-<p>&nbsp;</p>
-<p>在windows上玩游戏经常会遇到dll缺失带来的报错，那么wine上就更多了</p>
-<p>安装<code>winetricks</code></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">yay -S winetricks</span><br></pre></td></tr></table></figure>
-<p>（注：yay是AUR的软件仓，具体请百度搜索或者参考Arch Wiki）<br>然后在终端运行winetricks</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">winetricks</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMKZ5zjMIkhYmOdG_dydkq2TkoUA8sAAuHCMRvQjelUFNI6dkUSgiQBAAMCAAN5AAM2BA.png" alt="如图"></p>
-<p>会出现如图GUI，意思是让你选一个wine的文件夹，默认就好<br>这时候他会问你要不要发送数据这样利于winetricks的开发，看个人，我点的yes<br><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMLZ5zkBKi3REWzqdb3lYM8ep-2V3cAAuLCMRvQjelU6rM6oRx8XbgBAAMCAAN5AAM2BA.png"><br>点击安装dll就好了<br>他会让你选择安装的dll,值得注意的是，winetricks安装的dll有点是仅支持32位的<br>所以选择安装dll时得注意</p>
-<p>其实光下载一个wine在下载好依赖就可以应对绝大部分的galgame了</p>
-<p>如果嫌麻烦可以使用playonlinux来管理wine的使用和磁盘数</p>
-<h2 id="Proton"><a href="#Proton" class="headerlink" title="Proton"></a>Proton</h2><p>proton的易用性比wine好很多</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -S steam</span><br></pre></td></tr></table></figure>
-<p>通过此命令下载steam<br>登陆账号之后在设置里启用<br><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMMZ53si7yA7wyKoQQB5ZHcJ-Bi6VAAAi7BMRvE5fFUuUJFJ9342iYBAAMCAAN5AAM2BA.png" alt="设置界面"><br>通过兼容性来启用steam的proton<br>然后把你想要运行的exe文件添加到steam<br>添加到steam之后点击齿轮图标<br><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMNZ53tAcViNFBeQU8c_iZBBqiZ5oAAAjDBMRvE5fFUxxGNuvecau0BAAMCAANtAAM2BA.png"><br>找到<code>属性--&gt;兼容性--&gt;强制使用特定steam play兼容性工具</code><br><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMOZ53tctnDwjNh3RjBH9TK900cw1UAAjLBMRvE5fFUD5R8ipFAicgBAAMCAAN4AAM2BA.png"></p>
-<p>选择你要使用的proton版本，之后点击启动，steam就会下载proton了</p>
+    <title>新年快乐</title>
+    <url>/posts/2b9cc7eb.html</url>
+    <content><![CDATA[<h1 id="祝各位2025新年快乐"><a href="#祝各位2025新年快乐" class="headerlink" title="祝各位2025新年快乐"></a>祝各位2025新年快乐</h1><p>大年初一都要过完了才想起来今年是新年（</p>
+<p>不过还是祝各位新年快乐，新的一年里万事如意</p>
+<p>（后面憋不出话了……</p>
 <hr>
-<h1 id="虚拟机"><a href="#虚拟机" class="headerlink" title="虚拟机"></a>虚拟机</h1><p>虚拟机说实话我并不推荐，如果想使用虚拟机不如买个盘装双系统<br>一个是虚拟机卡，一个是虚拟机不方便<br>虚拟机软件例如vmware,kmv，VirtualBox等知名软件都可以使用<br>兼容性肯定比wine强，但是运行效率就不尽人意了<br>所以双系统&gt;&gt;wine&#x2F;proton&gt;&gt;虚拟机</p>
+<p>大年初二还要去走亲戚真的是麻烦呢，最烦的就是走亲戚了</p>
+<p>压岁钱不要也罢（反正到不了我手上），但是走亲戚又要被亲戚们灵魂拷问了</p>
+<p>要不就是，“诶xxx……知道叫我什么吧”</p>
+<p>我（尴尬愣住，尴尬笑笑）：“哦，你是…..?”</p>
+<p>然后给压岁钱还要互相推搡一番（很奇怪诶，明明都是互相给，这样一算账也平了，却还要互相推搡假作一番戏，真的是无趣）</p>
 ]]></content>
-      <categories>
-        <category>Galgame</category>
-        <category>Linux</category>
-      </categories>
       <tags>
-        <tag>Linux</tag>
-        <tag>Manjaro</tag>
-        <tag>Galgame</tag>
+        <tag>日记</tag>
       </tags>
   </entry>
   <entry>
@@ -777,20 +759,75 @@
       </tags>
   </entry>
   <entry>
-    <title>新年快乐</title>
-    <url>/posts/2b9cc7eb.html</url>
-    <content><![CDATA[<h1 id="祝各位2025新年快乐"><a href="#祝各位2025新年快乐" class="headerlink" title="祝各位2025新年快乐"></a>祝各位2025新年快乐</h1><p>大年初一都要过完了才想起来今年是新年（</p>
-<p>不过还是祝各位新年快乐，新的一年里万事如意</p>
-<p>（后面憋不出话了……</p>
+    <title>如何在Manjaro上游玩galgame</title>
+    <url>/posts/1aad9c90.html</url>
+    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><div class="note warning flat"><p>此文章并不一定百分百有效，具体请看个人</p>
+<p>本文对于一些汉化过的galgame并不百分百有效</p>
+</div>
+
+<p>有关Arch Linux游玩galgame的文章倒是不少，但是Manjaro倒是没几个</p>
+<p>于是乎今天就来写写有关Manjaro的</p>
+<p>起初我也想安装Arch来着，但是安装的时候挂载挂错了，把EFI安到别的分区了遂放弃（其实就是懒得再去装一遍了，直接选择Manjaro的GUI安装）</p>
+<h1 id="Wine兼容层与Proton"><a href="#Wine兼容层与Proton" class="headerlink" title="Wine兼容层与Proton"></a>Wine兼容层与Proton</h1><p>首推的最方便的游玩方式</p>
+<p>通过wine和proton不仅可以玩galgame，也可以玩一些别的游戏</p>
+<p>由于Manjaro的Wiki东西很少，于是乎就写了这篇文章</p>
+<p>首先，介绍一下wine兼容层</p>
+<blockquote>
+<p>[Wine 是一款免费和开源的<strong>兼容层</strong>，使得在运行 Linux、FreeBSD 或其他一些操作系统的计算机上运行一些 Windows 应用程序成为可能。它也是 Valve 用来让 Steam Deck 用户在 Linux 驱动的手持设备上玩 Windows 游戏的 Proton 软件的基础。Wine（Wine Is Not an Emulator）能够在多种兼容 POSIX 接口的操作系统上运行 Windows 应用</p>
+</blockquote>
+<p>看到这里你应该明白wine和proton的关系了，proton就是v社基于wine开发的工具（你的steam deck能玩Windows游戏就是proton的功劳）</p>
+<p>&nbsp;</p>
+<h2 id="Wine"><a href="#Wine" class="headerlink" title="Wine"></a>Wine</h2><p>在安装wine之前，你得先至少准备好Windows下的所有字体文件，不然会乱码</p>
+<p>Windows字体文件<code>C:\Windows\Fonts</code>,打包后存好</p>
+<p>然后切到你的Manjaro</p>
+<p>在Manjaro下安装wine安装 Winemultilib 存储库，利用vim进入 <code>/etc/pacman.conf</code> 将<code>[multilib]</code>部分取消注释即可</p>
+<p>输入</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -S wine wine-mono wine-gecko</span><br><span class="line"><span class="comment">#稳定版</span></span><br><span class="line"><span class="built_in">sudo</span> pacman -S wine-staging wine-mono wine-gecko</span><br><span class="line"><span class="comment">#测试版</span></span><br></pre></td></tr></table></figure>
+
+<p>这样的话，一个基本的wine就安装好了<br>当然你也可以安装更多的依赖，详见<a href="https://wiki.archlinuxcn.org/wiki/Wine#%E5%8F%82%E8%A7%81">Arch Wiki</a><br>请在参阅arch wiki的时候记住你用的是Manjaro而不是Arch，提问请去Manjaro的社区</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wine --version</span><br></pre></td></tr></table></figure>
+
+<p>通过此来查看自己的版本</p>
+<p>输入后</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wine regedit</span><br></pre></td></tr></table></figure>
+
+<p>这时候会自动跳转出来一个界面，大概如下<br><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMJZ5zbDP2IBFoXSGQjPxtou6s1wAQAAsLCMRvQjelUR64o8YFsDw0BAAMCAAN3AAM2BA.png" alt="win regedit"><br>你会发现，诶，文字怎么变成方格了<br>这其实是缺失字体导致的，解决方法也很简单，将你准备好的字体移动到<code>/home/$&#123;username&#125;/.wine/drive_c/windows/Fonts</code>（如果找不到<code>.wine</code>请打开显示隐藏文件）<br>创建<code>zh.reg</code></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"> REGEDIT4</span><br><span class="line"></span><br><span class="line">[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]</span><br><span class="line"></span><br><span class="line">“Arial”=”simsun”</span><br><span class="line"></span><br><span class="line">“Arial CE,238”=”simsun”</span><br><span class="line"></span><br><span class="line">“Arial CYR,204”=”simsun”</span><br><span class="line"></span><br><span class="line">“Arial Greek,161”=”simsun”</span><br><span class="line"></span><br><span class="line">“Arial TUR,162”=”simsun”</span><br><span class="line"></span><br><span class="line">“Courier New”=”simsun”</span><br><span class="line"></span><br><span class="line">“Courier New CE,238”=”simsun”</span><br><span class="line"></span><br><span class="line">“Courier New CYR,204”=”simsun”</span><br><span class="line"></span><br><span class="line">“Courier New Greek,161”=”simsun”</span><br><span class="line"></span><br><span class="line">“Courier New TUR,162”=”simsun”</span><br><span class="line"></span><br><span class="line">“FixedSys”=”simsun”</span><br><span class="line"></span><br><span class="line">“Helv”=”simsun”</span><br><span class="line"></span><br><span class="line">“Helvetica”=”simsun”</span><br><span class="line"></span><br><span class="line">“MS Sans Serif”=”simsun”</span><br><span class="line"></span><br><span class="line">“MS Shell Dlg”=”simsun”</span><br><span class="line"></span><br><span class="line">“MS Shell Dlg 2”=”simsun”</span><br><span class="line"></span><br><span class="line">“System”=”simsun”</span><br><span class="line"></span><br><span class="line">“Tahoma”=”simsun”</span><br><span class="line"></span><br><span class="line">“Times”=”simsun”</span><br><span class="line"></span><br><span class="line">“Times New Roman CE,238”=”simsun”</span><br><span class="line"></span><br><span class="line">“Times New Roman CYR,204”=”simsun”</span><br><span class="line"></span><br><span class="line">“Times New Roman Greek,161”=”simsun”</span><br><span class="line"></span><br><span class="line">“Times New Roman TUR,162”=”simsun”</span><br><span class="line"></span><br><span class="line">“Tms Rmn”=”simsun”</span><br></pre></td></tr></table></figure>
+<p>导入之后重启wine即可</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">winecfg</span><br></pre></td></tr></table></figure>
+<p>通过此可以进行更多的设置<br>自此可以使用wine了</p>
+<h2 id="wine进阶"><a href="#wine进阶" class="headerlink" title="wine进阶"></a>wine进阶</h2><p>虽说能运行一些小游戏是不错，但是对于galgame还是不够的<br>WINEARCH这个变量决定了你模拟的Windows是32位或是64位的x86。对应的值为win32及win64，如果你的系统是64位的它就默认是win64<br>在64位的情况下运行32位的软件会出错</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">WINEARCH=win32 WINEPREFIX=/home/你的username/.wine_32 winecfg</span><br><span class="line"><span class="comment">#指定路径创建32位的文件夹</span></span><br></pre></td></tr></table></figure>
+<p>我个人不建议直接删掉.wine文件夹然后直接让他重新配置，而是创建一个wine_32文件夹来指定这个这个文件夹里运行32位应用<br><code>WINEPREFIX</code>这个路径是可变的，你可以随便取名</p>
+<p>但是运行32位应用时需指定</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">WINEPREFIX=~/.wine_32 wine program.exe</span><br></pre></td></tr></table></figure>
+<p>否则仍然按照默认的wine64运行</p>
+<p>&nbsp;</p>
+<p>在windows上玩游戏经常会遇到dll缺失带来的报错，那么wine上就更多了</p>
+<p>安装<code>winetricks</code></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">yay -S winetricks</span><br></pre></td></tr></table></figure>
+<p>（注：yay是AUR的软件仓，具体请百度搜索或者参考Arch Wiki）<br>然后在终端运行winetricks</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">winetricks</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMKZ5zjMIkhYmOdG_dydkq2TkoUA8sAAuHCMRvQjelUFNI6dkUSgiQBAAMCAAN5AAM2BA.png" alt="如图"></p>
+<p>会出现如图GUI，意思是让你选一个wine的文件夹，默认就好<br>这时候他会问你要不要发送数据这样利于winetricks的开发，看个人，我点的yes<br><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMLZ5zkBKi3REWzqdb3lYM8ep-2V3cAAuLCMRvQjelU6rM6oRx8XbgBAAMCAAN5AAM2BA.png"><br>点击安装dll就好了<br>他会让你选择安装的dll,值得注意的是，winetricks安装的dll有点是仅支持32位的<br>所以选择安装dll时得注意</p>
+<p>其实光下载一个wine在下载好依赖就可以应对绝大部分的galgame了</p>
+<p>如果嫌麻烦可以使用playonlinux来管理wine的使用和磁盘数</p>
+<h2 id="Proton"><a href="#Proton" class="headerlink" title="Proton"></a>Proton</h2><p>proton的易用性比wine好很多</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -S steam</span><br></pre></td></tr></table></figure>
+<p>通过此命令下载steam<br>登陆账号之后在设置里启用<br><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMMZ53si7yA7wyKoQQB5ZHcJ-Bi6VAAAi7BMRvE5fFUuUJFJ9342iYBAAMCAAN5AAM2BA.png" alt="设置界面"><br>通过兼容性来启用steam的proton<br>然后把你想要运行的exe文件添加到steam<br>添加到steam之后点击齿轮图标<br><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMNZ53tAcViNFBeQU8c_iZBBqiZ5oAAAjDBMRvE5fFUxxGNuvecau0BAAMCAANtAAM2BA.png"><br>找到<code>属性--&gt;兼容性--&gt;强制使用特定steam play兼容性工具</code><br><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMOZ53tctnDwjNh3RjBH9TK900cw1UAAjLBMRvE5fFUD5R8ipFAicgBAAMCAAN4AAM2BA.png"></p>
+<p>选择你要使用的proton版本，之后点击启动，steam就会下载proton了</p>
 <hr>
-<p>大年初二还要去走亲戚真的是麻烦呢，最烦的就是走亲戚了</p>
-<p>压岁钱不要也罢（反正到不了我手上），但是走亲戚又要被亲戚们灵魂拷问了</p>
-<p>要不就是，“诶xxx……知道叫我什么吧”</p>
-<p>我（尴尬愣住，尴尬笑笑）：“哦，你是…..?”</p>
-<p>然后给压岁钱还要互相推搡一番（很奇怪诶，明明都是互相给，这样一算账也平了，却还要互相推搡假作一番戏，真的是无趣）</p>
+<h1 id="虚拟机"><a href="#虚拟机" class="headerlink" title="虚拟机"></a>虚拟机</h1><p>虚拟机说实话我并不推荐，如果想使用虚拟机不如买个盘装双系统<br>一个是虚拟机卡，一个是虚拟机不方便<br>虚拟机软件例如vmware,kmv，VirtualBox等知名软件都可以使用<br>兼容性肯定比wine强，但是运行效率就不尽人意了<br>所以双系统&gt;&gt;wine&#x2F;proton&gt;&gt;虚拟机</p>
 ]]></content>
+      <categories>
+        <category>Galgame</category>
+        <category>Linux</category>
+      </categories>
       <tags>
-        <tag>日记</tag>
+        <tag>Galgame</tag>
+        <tag>Linux</tag>
+        <tag>Manjaro</tag>
       </tags>
   </entry>
   <entry>
@@ -829,30 +866,6 @@
       </categories>
       <tags>
         <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>推完纸上魔法使有感</title>
-    <url>/posts/f02d2f5a.html</url>
-    <content><![CDATA[<h1 id="为什么说日向彼方是神"><a href="#为什么说日向彼方是神" class="headerlink" title="为什么说日向彼方是神"></a>为什么说日向彼方是神</h1><p>为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神</p>
-<p><img src="https://bucket.iczrx.cn/2024/08/01/66aa83c1595ef.png" alt="彼方可爱捏"></p>
-<p><img src="https://bucket.iczrx.cn/2024/08/01/66aa8489cad9c.jpeg" alt="守护琉璃的彼方"></p>
-<p>只有彼方才拥有者与魔法使正面对抗的实力🥰🥰🥰</p>
-<p>还要傻逼魔法使最后还把彼方ntr了，早知道不玩fin😡😡😡</p>
-<p>推到蓝宝石那边我都傻了，之前确实想过岬可能是蓝宝石的女主，直到彼方证实了岬不是我才意识到是彼方啊啊啊啊啊啊啊啊啊</p>
-<hr>
-<p>可恶的夜子，居然狠心的把理央撕了😭😭😭（理央线）</p>
-<p>还有魔法使太cs了😡一定要狠狠的撕书（我踏马撕撕撕）</p>
-]]></content>
-      <categories>
-        <category>Galgame</category>
-      </categories>
-      <tags>
-        <tag>Galgame</tag>
-        <tag>VNG</tag>
-        <tag>ADV</tag>
-        <tag>ウグイスカグラ</tag>
-        <tag>纸上魔法使</tag>
       </tags>
   </entry>
   <entry>
@@ -922,6 +935,71 @@
       <tags>
         <tag>Galgame</tag>
         <tag>VNG</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>推完纸上魔法使有感</title>
+    <url>/posts/f02d2f5a.html</url>
+    <content><![CDATA[<h1 id="为什么说日向彼方是神"><a href="#为什么说日向彼方是神" class="headerlink" title="为什么说日向彼方是神"></a>为什么说日向彼方是神</h1><p>为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神</p>
+<p><img src="https://bucket.iczrx.cn/2024/08/01/66aa83c1595ef.png" alt="彼方可爱捏"></p>
+<p><img src="https://bucket.iczrx.cn/2024/08/01/66aa8489cad9c.jpeg" alt="守护琉璃的彼方"></p>
+<p>只有彼方才拥有者与魔法使正面对抗的实力🥰🥰🥰</p>
+<p>还要傻逼魔法使最后还把彼方ntr了，早知道不玩fin😡😡😡</p>
+<p>推到蓝宝石那边我都傻了，之前确实想过岬可能是蓝宝石的女主，直到彼方证实了岬不是我才意识到是彼方啊啊啊啊啊啊啊啊啊</p>
+<hr>
+<p>可恶的夜子，居然狠心的把理央撕了😭😭😭（理央线）</p>
+<p>还有魔法使太cs了😡一定要狠狠的撕书（我踏马撕撕撕）</p>
+]]></content>
+      <categories>
+        <category>Galgame</category>
+      </categories>
+      <tags>
+        <tag>Galgame</tag>
+        <tag>VNG</tag>
+        <tag>ADV</tag>
+        <tag>ウグイスカグラ</tag>
+        <tag>纸上魔法使</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记一次paddleocr打包问题：FileNotFoundError以及ModuleNotFoundError</title>
+    <url>/posts/6793f133.html</url>
+    <content><![CDATA[<h1 id="为什么打包paddleocr时会报错"><a href="#为什么打包paddleocr时会报错" class="headerlink" title="为什么打包paddleocr时会报错"></a>为什么打包paddleocr时会报错</h1><p>在处理报错之前，我们先看看报错内容</p>
+<p><code>FileNotFoundError: [Errno 2] No such file or directory: &#39;E:\\python\\python3.11(64bit)\\dist\\demo1\\_internal\\paddleocr\\tools/__init__.py&#39;</code></p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/6633bdefd8268.png" alt="报错内容如下"></p>
+<p>报错filenofound</p>
+<p>未找到文件，看起来貌似是打包时没有把文件打包全</p>
+<h2 id="处理问题"><a href="#处理问题" class="headerlink" title="处理问题"></a>处理问题</h2><p>进入你创建的虚拟环境（当然你不创建也没关系）</p>
+<p>输入<code>pyinstall -w -D 你的路径</code>进行不完满打包</p>
+<p>然后打开<code>dist</code>里的<code>_internal</code>目录</p>
+<p>把你的Python解释器里安装的paddleocr模块全部复制过来</p>
+<p>这时候，你就会发现，欸，还是会报错，但是内容变了</p>
+<p>变成了：<code>ModuleNotFoundError: No module named &#39;shapely&#39;</code></p>
+<p>别慌，按照上述方法，继续把python解释器里site-packages里的模块给复制过来</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ModuleNotFoundError: No module named &#x27;pyclipper&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;skimage&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;pywt&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imgaug&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imageio&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;fasttext&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;lmdb&#x27;</span><br><span class="line"></span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imghdr&#x27;  </span><br><span class="line">	ModuleNotFoundError: No module named &#x27;fasttext_pybind&#x27;</span><br><span class="line"></span><br><span class="line">	ImportError: cannot import name &#x27;signal&#x27; from &#x27;scipy&#x27; (你的路径\scipy\__init__.pyc)</span><br></pre></td></tr></table></figure>
+
+<p>发生以下报错解决方法同上</p>
+<p>然后你就会发现</p>
+<p>打包完的程序可以运行了</p>
+<p>当然，请善用Windows的搜索功能</p>
+<p>如果懒得用，直接在IDE开发环境里敲</p>
+<p><code>import 模块名</code></p>
+<p>然后再按住CTRL鼠标左键即可进入模块的py文件</p>
+<p>顶部查看一下路径即可</p>
+<h2 id="那么，为什么会有这种问题呢"><a href="#那么，为什么会有这种问题呢" class="headerlink" title="那么，为什么会有这种问题呢"></a>那么，为什么会有这种问题呢</h2><p>那么，你得问pyinstaller为什么打包不全</p>
+<h1 id="OCR下载地址"><a href="#OCR下载地址" class="headerlink" title="OCR下载地址"></a>OCR下载地址</h1><p><a href="https://github.com/txptxp1/OCR-to-translate">https://github.com/txptxp1/OCR-to-translate</a></p>
+<p>这是我写的一个OCR翻译器</p>
+<p>由于paddleocr体积大</p>
+<p>我接入的本地ocr就是paddleocr</p>
+<p>所以导致我打包之后的软件体积也巨大</p>
+<p>解决方案要么去掉，要么给个选项运行的时候直接从服务器下载paddleocr文件然后本地部署</p>
+<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>参考文章<a href="https://blog.csdn.net/m0_46875088/article/details/122096159">paddleocr 打包问题_paddleocr打包太难了-CSDN博客</a></p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -1146,47 +1224,6 @@
       <tags>
         <tag>Galgame</tag>
         <tag>VNG</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记一次paddleocr打包问题：FileNotFoundError以及ModuleNotFoundError</title>
-    <url>/posts/6793f133.html</url>
-    <content><![CDATA[<h1 id="为什么打包paddleocr时会报错"><a href="#为什么打包paddleocr时会报错" class="headerlink" title="为什么打包paddleocr时会报错"></a>为什么打包paddleocr时会报错</h1><p>在处理报错之前，我们先看看报错内容</p>
-<p><code>FileNotFoundError: [Errno 2] No such file or directory: &#39;E:\\python\\python3.11(64bit)\\dist\\demo1\\_internal\\paddleocr\\tools/__init__.py&#39;</code></p>
-<p><img src="https://bucket.iczrx.cn/2024/05/03/6633bdefd8268.png" alt="报错内容如下"></p>
-<p>报错filenofound</p>
-<p>未找到文件，看起来貌似是打包时没有把文件打包全</p>
-<h2 id="处理问题"><a href="#处理问题" class="headerlink" title="处理问题"></a>处理问题</h2><p>进入你创建的虚拟环境（当然你不创建也没关系）</p>
-<p>输入<code>pyinstall -w -D 你的路径</code>进行不完满打包</p>
-<p>然后打开<code>dist</code>里的<code>_internal</code>目录</p>
-<p>把你的Python解释器里安装的paddleocr模块全部复制过来</p>
-<p>这时候，你就会发现，欸，还是会报错，但是内容变了</p>
-<p>变成了：<code>ModuleNotFoundError: No module named &#39;shapely&#39;</code></p>
-<p>别慌，按照上述方法，继续把python解释器里site-packages里的模块给复制过来</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ModuleNotFoundError: No module named &#x27;pyclipper&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;skimage&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;pywt&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imgaug&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imageio&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;fasttext&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;lmdb&#x27;</span><br><span class="line"></span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imghdr&#x27;  </span><br><span class="line">	ModuleNotFoundError: No module named &#x27;fasttext_pybind&#x27;</span><br><span class="line"></span><br><span class="line">	ImportError: cannot import name &#x27;signal&#x27; from &#x27;scipy&#x27; (你的路径\scipy\__init__.pyc)</span><br></pre></td></tr></table></figure>
-
-<p>发生以下报错解决方法同上</p>
-<p>然后你就会发现</p>
-<p>打包完的程序可以运行了</p>
-<p>当然，请善用Windows的搜索功能</p>
-<p>如果懒得用，直接在IDE开发环境里敲</p>
-<p><code>import 模块名</code></p>
-<p>然后再按住CTRL鼠标左键即可进入模块的py文件</p>
-<p>顶部查看一下路径即可</p>
-<h2 id="那么，为什么会有这种问题呢"><a href="#那么，为什么会有这种问题呢" class="headerlink" title="那么，为什么会有这种问题呢"></a>那么，为什么会有这种问题呢</h2><p>那么，你得问pyinstaller为什么打包不全</p>
-<h1 id="OCR下载地址"><a href="#OCR下载地址" class="headerlink" title="OCR下载地址"></a>OCR下载地址</h1><p><a href="https://github.com/txptxp1/OCR-to-translate">https://github.com/txptxp1/OCR-to-translate</a></p>
-<p>这是我写的一个OCR翻译器</p>
-<p>由于paddleocr体积大</p>
-<p>我接入的本地ocr就是paddleocr</p>
-<p>所以导致我打包之后的软件体积也巨大</p>
-<p>解决方案要么去掉，要么给个选项运行的时候直接从服务器下载paddleocr文件然后本地部署</p>
-<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>参考文章<a href="https://blog.csdn.net/m0_46875088/article/details/122096159">paddleocr 打包问题_paddleocr打包太难了-CSDN博客</a></p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
