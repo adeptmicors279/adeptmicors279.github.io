@@ -98,6 +98,25 @@
       </tags>
   </entry>
   <entry>
+    <title>2024-4-20随记</title>
+    <url>/posts/1bd8065d.html</url>
+    <content><![CDATA[<h1 id="OCR进度"><a href="#OCR进度" class="headerlink" title="OCR进度"></a>OCR进度</h1><p>OCR的项目进展已经快一半了，用的是tkintertools<br>其实一开始的确想用pyqt<br>但是想了想，还要去学一个新的模块，好烦<br>然后直接选择tktools了<br>至于美观，肯定比tk美观</p>
+<h2 id="以前的版本"><a href="#以前的版本" class="headerlink" title="以前的版本"></a>以前的版本</h2><p>年少不知return和传参好，错把global当成宝</p>
+<p>之前写的一个OCR里面全是全局变量，特别逆天，能用全局变量绝不用传参和return<br>UI用的tkinter<br>因为烂，所以源码就不放了<br>不过给大家下了玩玩还是可以的<br><a href="https://wwo.lanzoum.com/iSXQz1scva2f">点此下载</a></p>
+<hr>
+<h1 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h1><p>寄了，这下彻底废了<br>以后要把精力放在学习上了…..<br>虽然极不情愿，但是没办法</p>
+<h1 id="每日一蚌"><a href="#每日一蚌" class="headerlink" title="每日一蚌"></a>每日一蚌</h1><p>我朋友把idcard和phone两个变量搞反了导致de了半天的bug<br>发现还是因为去掉了字符数量限制，到后端一看身份证和手机号一样的</p>
+<p>让我们一起笑他wwwwwwwww</p>
+<h1 id="转载声明"><a href="#转载声明" class="headerlink" title="转载声明"></a>转载声明</h1><p>待会搞，不过yysy<br>我平常发些日常的东西在上面也不需要标注转载说明<br>能不能在写blog的时候可以选择去掉<br>等我细细研究一下NexT</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2024-4-18随记</title>
     <url>/posts/a6b84fd9.html</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>考试终于结束了</p>
@@ -110,25 +129,6 @@
 <h1 id="规划"><a href="#规划" class="headerlink" title="规划"></a>规划</h1><p>暑假打算学一下html，css，js这些<br>前后端什么的<br>到时候看看有没有闲钱搞个服务器<br>单片机目前没时间学而且设备限制学不了</p>
 <hr>
 <p>虽然说无聊但是日子还是得过的<br>马上放五一了，假期准备躺着过</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2024-4-20随记</title>
-    <url>/posts/1bd8065d.html</url>
-    <content><![CDATA[<h1 id="OCR进度"><a href="#OCR进度" class="headerlink" title="OCR进度"></a>OCR进度</h1><p>OCR的项目进展已经快一半了，用的是tkintertools<br>其实一开始的确想用pyqt<br>但是想了想，还要去学一个新的模块，好烦<br>然后直接选择tktools了<br>至于美观，肯定比tk美观</p>
-<h2 id="以前的版本"><a href="#以前的版本" class="headerlink" title="以前的版本"></a>以前的版本</h2><p>年少不知return和传参好，错把global当成宝</p>
-<p>之前写的一个OCR里面全是全局变量，特别逆天，能用全局变量绝不用传参和return<br>UI用的tkinter<br>因为烂，所以源码就不放了<br>不过给大家下了玩玩还是可以的<br><a href="https://wwo.lanzoum.com/iSXQz1scva2f">点此下载</a></p>
-<hr>
-<h1 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h1><p>寄了，这下彻底废了<br>以后要把精力放在学习上了…..<br>虽然极不情愿，但是没办法</p>
-<h1 id="每日一蚌"><a href="#每日一蚌" class="headerlink" title="每日一蚌"></a>每日一蚌</h1><p>我朋友把idcard和phone两个变量搞反了导致de了半天的bug<br>发现还是因为去掉了字符数量限制，到后端一看身份证和手机号一样的</p>
-<p>让我们一起笑他wwwwwwwww</p>
-<h1 id="转载声明"><a href="#转载声明" class="headerlink" title="转载声明"></a>转载声明</h1><p>待会搞，不过yysy<br>我平常发些日常的东西在上面也不需要标注转载说明<br>能不能在写blog的时候可以选择去掉<br>等我细细研究一下NexT</p>
 ]]></content>
       <categories>
         <category>日常</category>
@@ -220,6 +220,31 @@
       </tags>
   </entry>
   <entry>
+    <title>2025-1-6小高考备考</title>
+    <url>/posts/32c88d2b.html</url>
+    <content><![CDATA[<h1 id="有关小高考"><a href="#有关小高考" class="headerlink" title="有关小高考"></a>有关小高考</h1><p>小高考（有的人也叫做会考，不过我一般都这么叫就是了）是高二年级的合格性考试，不要求高分但是要求过关</p>
+<p>如果不过关就只能高三补考，如果还不过貌似只能走单招上大专了呢</p>
+<p><del><strong>所以说啊究竟是谁想出来的这种阴间考试啊（恼）</strong></del></p>
+<p>如大多数学校一样，我们学校是向来不重视的，而且往届也就几个人不过，但是去年那届好像有100多个人没过，今年照旧不重视啊~~~</p>
+<p>虽说只要合格就行但是生物政治历史这三门我是真的一点不会啊（死人学校不上必修死到临头才开始补），不算今天就剩3天开考，很难想象我该怎么女娲补天补上去</p>
+<p>之前还想着学点html和css还有js把网站好好改改，现在看来是真的一点时间都没有了，小高考考完就是期末（虽然我直接放弃了就是了）</p>
+<h1 id="计算机考试"><a href="#计算机考试" class="headerlink" title="计算机考试"></a>计算机考试</h1><p>前几天刚刚考完计算机，虽说不算难但是前面那个概念题我是真的不想看（问我农民秋天收麦子是不是知识和计算机有关系吗？），不过考试登录的时候倒是没看见那几个人机朋友（指平时训练用的软件登录窗口的照片）</p>
+<p>我的座位是对着空调的，暖气开的我想睡觉。老师宣布完考完可以交卷离开一堆人跑了，我想多睡会儿但是看到人全跑了也没好意思多留（沟槽的学校借着计算机考试连着上俩星期）</p>
+<p>Python考题很简单，没有涉及到任何数学问题，这对我来说是极好的，因为我写操作题不喜欢盯着题干看就是了</p>
+<h1 id="近几次模拟"><a href="#近几次模拟" class="headerlink" title="近几次模拟"></a>近几次模拟</h1><p>虽说学起来很吃力，但是最近几次模拟考也不是特别差</p>
+<p>生物没过人之常情，写了一面基因配对写完感觉自己分析的很有道理可以全对，对完答案发现全错，这就是生物吗</p>
+<p>模拟考试偶遇人文地理，拼尽全力无法战胜（其实前面基础知识忘光了）</p>
+<p>神奇的是政治居然过了（这次改的松）</p>
+<p>倒不是说完全没有希望全过，但是时间压缩在这三天里确实很难了</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2024-6-8随记</title>
     <url>/posts/a17f591b.html</url>
     <content><![CDATA[<h1 id="FTP"><a href="#FTP" class="headerlink" title="FTP"></a>FTP</h1><p>折腾了一下午FTP搞得我头疼</p>
@@ -274,63 +299,6 @@
       </categories>
       <tags>
         <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2025-1-6小高考备考</title>
-    <url>/posts/32c88d2b.html</url>
-    <content><![CDATA[<h1 id="有关小高考"><a href="#有关小高考" class="headerlink" title="有关小高考"></a>有关小高考</h1><p>小高考（有的人也叫做会考，不过我一般都这么叫就是了）是高二年级的合格性考试，不要求高分但是要求过关</p>
-<p>如果不过关就只能高三补考，如果还不过貌似只能走单招上大专了呢</p>
-<p><del><strong>所以说啊究竟是谁想出来的这种阴间考试啊（恼）</strong></del></p>
-<p>如大多数学校一样，我们学校是向来不重视的，而且往届也就几个人不过，但是去年那届好像有100多个人没过，今年照旧不重视啊~~~</p>
-<p>虽说只要合格就行但是生物政治历史这三门我是真的一点不会啊（死人学校不上必修死到临头才开始补），不算今天就剩3天开考，很难想象我该怎么女娲补天补上去</p>
-<p>之前还想着学点html和css还有js把网站好好改改，现在看来是真的一点时间都没有了，小高考考完就是期末（虽然我直接放弃了就是了）</p>
-<h1 id="计算机考试"><a href="#计算机考试" class="headerlink" title="计算机考试"></a>计算机考试</h1><p>前几天刚刚考完计算机，虽说不算难但是前面那个概念题我是真的不想看（问我农民秋天收麦子是不是知识和计算机有关系吗？），不过考试登录的时候倒是没看见那几个人机朋友（指平时训练用的软件登录窗口的照片）</p>
-<p>我的座位是对着空调的，暖气开的我想睡觉。老师宣布完考完可以交卷离开一堆人跑了，我想多睡会儿但是看到人全跑了也没好意思多留（沟槽的学校借着计算机考试连着上俩星期）</p>
-<p>Python考题很简单，没有涉及到任何数学问题，这对我来说是极好的，因为我写操作题不喜欢盯着题干看就是了</p>
-<h1 id="近几次模拟"><a href="#近几次模拟" class="headerlink" title="近几次模拟"></a>近几次模拟</h1><p>虽说学起来很吃力，但是最近几次模拟考也不是特别差</p>
-<p>生物没过人之常情，写了一面基因配对写完感觉自己分析的很有道理可以全对，对完答案发现全错，这就是生物吗</p>
-<p>模拟考试偶遇人文地理，拼尽全力无法战胜（其实前面基础知识忘光了）</p>
-<p>神奇的是政治居然过了（这次改的松）</p>
-<p>倒不是说完全没有希望全过，但是时间压缩在这三天里确实很难了</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Electron-builder无法下载github文件</title>
-    <url>/posts/undefined.html</url>
-    <content><![CDATA[<p>个人留档</p>
-<p>参考文章：<a href="https://blog.csdn.net/weixin_44490021/article/details/141465519">【Electron】桌面应用开发electron-builder打包报错问题处理-CSDN博客</a></p>
-<h1 id="1-挂全局代理"><a href="#1-挂全局代理" class="headerlink" title="1.挂全局代理"></a>1.挂全局代理</h1><p>挂个代理</p>
-<h1 id="2-本地下载文件并导入"><a href="#2-本地下载文件并导入" class="headerlink" title="2.本地下载文件并导入"></a>2.本地下载文件并导入</h1><p>通过cnpm我们下载了electron-builder</p>
-<p>运行打包命令后builder会自动进行下载所需要的文件</p>
-<p>这时候去GitHub的镜像站之类的把这几个问价下好</p>
-<p>下载过程中长时间下不下来就去找日志里的链接</p>
-<p>通过GitHub加速或者镜像站或者什么别的方法进行下载之后，对其进行解压</p>
-<p>然后分别在<code>C:\Users\uername\AppData\Local</code>下的</p>
-<p><code>C:\Users\username\AppData\Local\electron\Cache</code></p>
-<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMRZ6nkDfm4fiVSHww7J-KDpAj4nLIAAsrFMRsVA0hVlA2JwNGGHxQBAAMCAAN5AAM2BA.png"></p>
-<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMSZ6nkMmPio3lUkKBDmdPBhNZ4f_wAAsvFMRsVA0hVA-ZigfHQV4oBAAMCAAN5AAM2BA.png"></p>
-<p>在<code>C:\Users\1\AppData\Local\electron-builder\Cache</code>中</p>
-<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMTZ6nkboQih89oH1z21SgCnfbFMWgAAszFMRsVA0hVpkRMl2YlqmkBAAMCAAN5AAM2BA.png"></p>
-<p>这样的图片不怎么方便，我列个树形图吧</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\USERS\1\APPDATA\LOCAL\ELECTRON</span><br><span class="line">└─Cache</span><br><span class="line">    └─electron-v34.0.2-win32-x64</span><br><span class="line">        ├─locales</span><br><span class="line">        └─resources</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">C:\USERS\1\APPDATA\LOCAL\ELECTRON-BUILDER</span><br><span class="line">└─Cache</span><br><span class="line">    ├─electron-v34.0.2-win32-x64</span><br><span class="line">    │  ├─locales</span><br><span class="line">    │  └─resources</span><br><span class="line">    ├─nsis</span><br><span class="line">    │  ├─nsis-3.0.4.1</span><br><span class="line">    │  │  ├─Bin</span><br><span class="line">    │  │  ├─Contrib</span><br><span class="line">    │  │  │  ├─Graphics</span><br><span class="line">    │  │  │  │  ├─Checks</span><br><span class="line">    │  │  │  │  ├─Header</span><br><span class="line">    │  │  │  │  ├─Icons</span><br><span class="line">    │  │  │  │  └─Wizard</span><br><span class="line">    │  │  │  ├─Language files</span><br><span class="line">    │  │  │  ├─Modern UI</span><br><span class="line">    │  │  │  ├─Modern UI 2</span><br><span class="line">    │  │  │  │  └─Pages</span><br><span class="line">    │  │  │  ├─UIs</span><br><span class="line">    │  │  │  └─zip2exe</span><br><span class="line">    │  │  ├─Include</span><br><span class="line">    │  │  │  └─Win</span><br><span class="line">    │  │  ├─linux</span><br><span class="line">    │  │  ├─mac</span><br><span class="line">    │  │  ├─Menu</span><br><span class="line">    │  │  │  └─images</span><br><span class="line">    │  │  ├─Plugins</span><br><span class="line">    │  │  │  ├─x86-ansi</span><br><span class="line">    │  │  │  └─x86-unicode</span><br><span class="line">    │  │  └─Stubs</span><br><span class="line">    │  └─nsis-resources-3.4.1</span><br><span class="line">    │      └─plugins</span><br><span class="line">    │          ├─x64-ansi</span><br><span class="line">    │          ├─x64-unicode</span><br><span class="line">    │          ├─x86-ansi</span><br><span class="line">    │          └─x86-unicode</span><br><span class="line">    └─winCodeSign</span><br><span class="line">        └─winCodeSign-2.6.0</span><br><span class="line">            ├─appxAssets</span><br><span class="line">            ├─darwin</span><br><span class="line">            │  ├─10.12</span><br><span class="line">            │  │  └─lib</span><br><span class="line">            │  │      ├─engines</span><br><span class="line">            │  │      └─pkgconfig</span><br><span class="line">            │  └─ci</span><br><span class="line">            ├─linux</span><br><span class="line">            ├─openssl-ia32</span><br><span class="line">            ├─windows-10</span><br><span class="line">            │  ├─ia32</span><br><span class="line">            │  └─x64</span><br><span class="line">            └─windows-6</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>我们可以很清晰的看到，我们需要在electron-builder下创建nsis，winCodeSign，electron-v34.0.2-win32-x64这三个文件夹后才可以再把文件解压进去，如果直接解压文件是识别不到的</p>
-]]></content>
-      <categories>
-        <category>Electron</category>
-      </categories>
-      <tags>
-        <tag>Electron</tag>
-        <tag>HTML</tag>
-        <tag>Javascript</tag>
-        <tag>CSS</tag>
       </tags>
   </entry>
   <entry>
@@ -403,6 +371,38 @@
 
 <p>即可打包</p>
 <p>PS：有关解决GitHub下载不下来文件的解决方法明天再发吧</p>
+]]></content>
+      <categories>
+        <category>Electron</category>
+      </categories>
+      <tags>
+        <tag>Electron</tag>
+        <tag>HTML</tag>
+        <tag>Javascript</tag>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Electron-builder无法下载github文件</title>
+    <url>/posts/undefined.html</url>
+    <content><![CDATA[<p>个人留档</p>
+<p>参考文章：<a href="https://blog.csdn.net/weixin_44490021/article/details/141465519">【Electron】桌面应用开发electron-builder打包报错问题处理-CSDN博客</a></p>
+<h1 id="1-挂全局代理"><a href="#1-挂全局代理" class="headerlink" title="1.挂全局代理"></a>1.挂全局代理</h1><p>挂个代理</p>
+<h1 id="2-本地下载文件并导入"><a href="#2-本地下载文件并导入" class="headerlink" title="2.本地下载文件并导入"></a>2.本地下载文件并导入</h1><p>通过cnpm我们下载了electron-builder</p>
+<p>运行打包命令后builder会自动进行下载所需要的文件</p>
+<p>这时候去GitHub的镜像站之类的把这几个问价下好</p>
+<p>下载过程中长时间下不下来就去找日志里的链接</p>
+<p>通过GitHub加速或者镜像站或者什么别的方法进行下载之后，对其进行解压</p>
+<p>然后分别在<code>C:\Users\uername\AppData\Local</code>下的</p>
+<p><code>C:\Users\username\AppData\Local\electron\Cache</code></p>
+<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMRZ6nkDfm4fiVSHww7J-KDpAj4nLIAAsrFMRsVA0hVlA2JwNGGHxQBAAMCAAN5AAM2BA.png"></p>
+<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMSZ6nkMmPio3lUkKBDmdPBhNZ4f_wAAsvFMRsVA0hVA-ZigfHQV4oBAAMCAAN5AAM2BA.png"></p>
+<p>在<code>C:\Users\1\AppData\Local\electron-builder\Cache</code>中</p>
+<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMTZ6nkboQih89oH1z21SgCnfbFMWgAAszFMRsVA0hVpkRMl2YlqmkBAAMCAAN5AAM2BA.png"></p>
+<p>这样的图片不怎么方便，我列个树形图吧</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\USERS\1\APPDATA\LOCAL\ELECTRON</span><br><span class="line">└─Cache</span><br><span class="line">    └─electron-v34.0.2-win32-x64</span><br><span class="line">        ├─locales</span><br><span class="line">        └─resources</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">C:\USERS\1\APPDATA\LOCAL\ELECTRON-BUILDER</span><br><span class="line">└─Cache</span><br><span class="line">    ├─electron-v34.0.2-win32-x64</span><br><span class="line">    │  ├─locales</span><br><span class="line">    │  └─resources</span><br><span class="line">    ├─nsis</span><br><span class="line">    │  ├─nsis-3.0.4.1</span><br><span class="line">    │  │  ├─Bin</span><br><span class="line">    │  │  ├─Contrib</span><br><span class="line">    │  │  │  ├─Graphics</span><br><span class="line">    │  │  │  │  ├─Checks</span><br><span class="line">    │  │  │  │  ├─Header</span><br><span class="line">    │  │  │  │  ├─Icons</span><br><span class="line">    │  │  │  │  └─Wizard</span><br><span class="line">    │  │  │  ├─Language files</span><br><span class="line">    │  │  │  ├─Modern UI</span><br><span class="line">    │  │  │  ├─Modern UI 2</span><br><span class="line">    │  │  │  │  └─Pages</span><br><span class="line">    │  │  │  ├─UIs</span><br><span class="line">    │  │  │  └─zip2exe</span><br><span class="line">    │  │  ├─Include</span><br><span class="line">    │  │  │  └─Win</span><br><span class="line">    │  │  ├─linux</span><br><span class="line">    │  │  ├─mac</span><br><span class="line">    │  │  ├─Menu</span><br><span class="line">    │  │  │  └─images</span><br><span class="line">    │  │  ├─Plugins</span><br><span class="line">    │  │  │  ├─x86-ansi</span><br><span class="line">    │  │  │  └─x86-unicode</span><br><span class="line">    │  │  └─Stubs</span><br><span class="line">    │  └─nsis-resources-3.4.1</span><br><span class="line">    │      └─plugins</span><br><span class="line">    │          ├─x64-ansi</span><br><span class="line">    │          ├─x64-unicode</span><br><span class="line">    │          ├─x86-ansi</span><br><span class="line">    │          └─x86-unicode</span><br><span class="line">    └─winCodeSign</span><br><span class="line">        └─winCodeSign-2.6.0</span><br><span class="line">            ├─appxAssets</span><br><span class="line">            ├─darwin</span><br><span class="line">            │  ├─10.12</span><br><span class="line">            │  │  └─lib</span><br><span class="line">            │  │      ├─engines</span><br><span class="line">            │  │      └─pkgconfig</span><br><span class="line">            │  └─ci</span><br><span class="line">            ├─linux</span><br><span class="line">            ├─openssl-ia32</span><br><span class="line">            ├─windows-10</span><br><span class="line">            │  ├─ia32</span><br><span class="line">            │  └─x64</span><br><span class="line">            └─windows-6</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>我们可以很清晰的看到，我们需要在electron-builder下创建nsis，winCodeSign，electron-v34.0.2-win32-x64这三个文件夹后才可以再把文件解压进去，如果直接解压文件是识别不到的</p>
 ]]></content>
       <categories>
         <category>Electron</category>
@@ -516,15 +516,6 @@
       </tags>
   </entry>
   <entry>
-    <title>关于此站</title>
-    <url>/posts/d27f355a.html</url>
-    <content><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1476470866&auto=1&height=66"></iframe>
-
-<p>由于兴趣使然搭建的罢了</p>
-<p>平常偶尔发发东西</p>
-]]></content>
-  </entry>
-  <entry>
     <title>Python自动上传网页至GitHub</title>
     <url>/posts/d2958731.html</url>
     <content><![CDATA[<p>怎么个事儿呢<br>就是说我这个网页部署在GitHub的一个文件夹里，根目录是我的主页，但是这就导致了一个问题：<br>我没法直接通过hexo d上传文件<br>这样倒也好解决，直接手动上传好啦<br>但是我懒~~~~~<br>于是乎用Python写了个能自动上传的程序<br>这样下次写东西直接上传即可</p>
@@ -567,6 +558,15 @@
       <tags>
         <tag>Python</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>关于此站</title>
+    <url>/posts/d27f355a.html</url>
+    <content><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1476470866&auto=1&height=66"></iframe>
+
+<p>由于兴趣使然搭建的罢了</p>
+<p>平常偶尔发发东西</p>
+]]></content>
   </entry>
   <entry>
     <title>如何在Manjaro上游玩galgame</title>
@@ -826,30 +826,6 @@
       </tags>
   </entry>
   <entry>
-    <title>推完纸上魔法使有感</title>
-    <url>/posts/f02d2f5a.html</url>
-    <content><![CDATA[<h1 id="为什么说日向彼方是神"><a href="#为什么说日向彼方是神" class="headerlink" title="为什么说日向彼方是神"></a>为什么说日向彼方是神</h1><p>为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神</p>
-<p><img src="https://bucket.iczrx.cn/2024/08/01/66aa83c1595ef.png" alt="彼方可爱捏"></p>
-<p><img src="https://bucket.iczrx.cn/2024/08/01/66aa8489cad9c.jpeg" alt="守护琉璃的彼方"></p>
-<p>只有彼方才拥有者与魔法使正面对抗的实力🥰🥰🥰</p>
-<p>还要傻逼魔法使最后还把彼方ntr了，早知道不玩fin😡😡😡</p>
-<p>推到蓝宝石那边我都傻了，之前确实想过岬可能是蓝宝石的女主，直到彼方证实了岬不是我才意识到是彼方啊啊啊啊啊啊啊啊啊</p>
-<hr>
-<p>可恶的夜子，居然狠心的把理央撕了😭😭😭（理央线）</p>
-<p>还有魔法使太cs了😡一定要狠狠的撕书（我踏马撕撕撕）</p>
-]]></content>
-      <categories>
-        <category>Galgame</category>
-      </categories>
-      <tags>
-        <tag>Galgame</tag>
-        <tag>VNG</tag>
-        <tag>ADV</tag>
-        <tag>ウグイスカグラ</tag>
-        <tag>纸上魔法使</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>杂谈:近况以及五一假期安排</title>
     <url>/posts/d5e66b04.html</url>
     <content><![CDATA[<h1 id="网站主题变更NexT–-butterfly"><a href="#网站主题变更NexT–-butterfly" class="headerlink" title="网站主题变更NexT–&gt;butterfly"></a>网站主题变更NexT–&gt;butterfly</h1><p>昨天，我把网站的主题从NexT换成了butterfly<br>NexT简介大方，功能强<br>但是好多功能都需要自己手动去添加（我是v7的版本）<br>太过于麻烦，而且出了问题还得一步步排查<br>特别是对我这种没有html，js语法基础的人更是头疼<br>所以，为了方便，我换成了butterfly<br>至少集成了一些常用的东西<br>不用一个个去配置了<br>当时我换NexT背景换半天都有问题，最后直接填写的链接才解决<br>设置的圆角还有bug<br>所以索性换了butterfly<br>还美观些</p>
@@ -954,6 +930,30 @@
       <tags>
         <tag>Galgame</tag>
         <tag>VNG</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>推完纸上魔法使有感</title>
+    <url>/posts/f02d2f5a.html</url>
+    <content><![CDATA[<h1 id="为什么说日向彼方是神"><a href="#为什么说日向彼方是神" class="headerlink" title="为什么说日向彼方是神"></a>为什么说日向彼方是神</h1><p>为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神</p>
+<p><img src="https://bucket.iczrx.cn/2024/08/01/66aa83c1595ef.png" alt="彼方可爱捏"></p>
+<p><img src="https://bucket.iczrx.cn/2024/08/01/66aa8489cad9c.jpeg" alt="守护琉璃的彼方"></p>
+<p>只有彼方才拥有者与魔法使正面对抗的实力🥰🥰🥰</p>
+<p>还要傻逼魔法使最后还把彼方ntr了，早知道不玩fin😡😡😡</p>
+<p>推到蓝宝石那边我都傻了，之前确实想过岬可能是蓝宝石的女主，直到彼方证实了岬不是我才意识到是彼方啊啊啊啊啊啊啊啊啊</p>
+<hr>
+<p>可恶的夜子，居然狠心的把理央撕了😭😭😭（理央线）</p>
+<p>还有魔法使太cs了😡一定要狠狠的撕书（我踏马撕撕撕）</p>
+]]></content>
+      <categories>
+        <category>Galgame</category>
+      </categories>
+      <tags>
+        <tag>Galgame</tag>
+        <tag>VNG</tag>
+        <tag>ADV</tag>
+        <tag>ウグイスカグラ</tag>
+        <tag>纸上魔法使</tag>
       </tags>
   </entry>
   <entry>
