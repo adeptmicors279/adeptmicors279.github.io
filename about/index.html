@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="utf-8">
+        <title>关于我</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style2.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" media="(min-width:431px)">
+    </head>
+
+    <body>
+        <div class="title">
+            关于Adeptmicors279
+        </div>
+        <!--content-->
+        <div class="show_content">
+            <!--front-->
+            <div class="front">
+                <cite>
+                    愿你我在人生之路上，笑容永驻…<br>
+                    正如芸芸众生都曾做过的那样，<br>
+                    我们也迈出了第一步。<br>
+                    在这道路的前方，<br>
+                    大概就是，<br>
+                    美好的每一天
+                </cite>
+                <div class="button" title="别问我为什么不加个动画，我不会（）" onclick="turn()" onbeforecopy='return false'>
+                    翻页
+                </div>
+                <div class="button" onclick="backhome()" onbeforecopy='return false'>
+                    返回首页
+                </div>
+            </div>
+            <!--back-->
+            <div class="back">
+                <!--name-->
+                <div class="paratext">
+                    关于Adeptmicors279
+                </div>
+                <div class="text">
+                    ID源自于登录Minecraft账号时微软给我随机生成的<br>
+                    后来也曾因为ID过长想换掉<br>
+                    但是绞劲脑汁也没想出来好的ID<br>
+                    于是就一直用着了<br>
+                </div>
+                <hr>
+                <!--game-->
+                <div class="paratext">
+                    虚拟世界的旅途
+                </div>
+                <div class="subtext">
+                    ——在纷繁的虚拟世界中，有着令人栖息片刻的小小世界
+                </div>
+                <div class="para2text" style="color: rgb(255, 69, 0);">
+                    Visual Novel Game–在站台上观望美好的的故事
+                </div>
+                <div class="color_box" style="background-color:rgb(255, 228, 225); color:rgb(255, 69, 0);">
+                    去用心体会另一个世界的故事吧。
+                </div>
+                <div class="para2text" style="color:  rgb(0, 100, 0);">
+                    Rhythm Game–音乐游戏
+                </div>
+                <div class="color_box" style="background-color:  rgb(240, 248, 255); color: color rgb(0, 100, 0);">
+                    尽管菜，但是手指随着bpm而敲动何尝不是一项美差呢<br>
+                    音游曲的质量大多都是很高的，而某些游戏的曲库怎么什么牛鬼蛇神都有（
+                </div>
+                <div class="para2text" style="color:  rgb(65, 105, 225);">
+                    我爱死这份工作了，而且永远也不会腻
+                </div>
+                <div class="color_box" style="background-color: rgb(230, 247, 255);color:  rgb(65, 105, 225);">
+                    尽管不论是官服还是NorthStar服务器，我都是被吊打的存在<br>
+                    但是我还是喜欢玩ttf2<br>
+                    天哪，德罗，我简直爱死这份工作（采集机正在遭受攻击......<br>
+                </div>
+                <hr>
+                <!--history-->
+                <div class="paratext">
+                    个人成长史 
+                </div>
+                <div class="subtext">
+                    其实当日记写写也不错对吧
+                </div>
+                <div class="para2text" style="color:  rgb(214, 145, 142);">
+                    小学
+                </div>
+                <div class="link_box" style="background-color: rgba(199, 247, 255, 0.445);" onclick="window.open('https://amicors.cc','_self')">
+                    虽说早已经记不清了,但是我的小学老师倒是挺好的,至少小学我度过的挺愉快的
+                </div>
+                <div class="para2text" style="color:  rgb(235, 248, 187);">
+                    初中
+                </div>
+                <div class="link_box" style="background-color: rgba(255, 253, 134, 0.445);" onclick="window.open('https://amicors.cc','_self')"/>
+                    开摆！
+                </div>
+                <hr>
+                <!--skills-->
+                <div class="paratext">
+                    个人技能
+                </div>
+                <div class="subtext">
+                    ——技能点一共就这么多,可惜我没点学习上
+                </div>
+                <div class="para2text" title="等什么时候有时间也许就能增加点数了" style="color: rgb(255, 69, 0);">
+                    当前剩余点数: 0
+                </div>
+                <div class="table">
+                    <div class="table_box" title="蟒蛇语言">
+                        会点蟒蛇语言
+                    </div>
+                    <div class="table_box" title="能熟练的在一台PC上安装双系统也是很了不起的">
+                        会安装Linux
+                    </div>
+                    <div class="table_box" title="虽说打着打着也会无聊">
+                        打游戏也是放松的一环嘛
+                    </div>
+                    <div class="table_box" title="前端可能不太适合我,毕竟这是把设计师的活儿交给程序员">
+                        会点前端
+                    </div>
+                </div>
+                <hr>
+
+
+
+
+                <!--button-->
+                <div class="button" title="别问我为什么不加个动画，我不会（）" onclick="turn()" onbeforecopy='return false'>
+                    翻页
+                </div>
+                <div class="button" onclick="backhome()" onbeforecopy='return false'>
+                    返回首页
+                </div>
+            </div>
+
+
+
+            <script>
+                function backhome(){
+                    location.href = "https://amicors.cc";
+                }
+                function turn(){
+                    // 获取所有具有特定类名的元素
+                    const elements = document.querySelectorAll('.front');
+                    // 遍历这些元素
+                    elements.forEach(element => {
+                      const currentDisplay = window.getComputedStyle(element).display;
+                      if (currentDisplay === 'none') {
+                        element.style.display = 'block';
+                      } else {
+                        element.style.display = 'none';
+                      }
+                    });
+                    const elements2 = document.querySelectorAll('.back');
+                    elements2.forEach(element => {
+                      const currentDisplay = window.getComputedStyle(element).display;
+                      if (currentDisplay === 'none') {
+                        element.style.display = 'block';
+
+                      } else {
+                        element.style.display = 'none';
+                      }
+                    });
+                    
+                }
+            </script>
+        </div>
+
+    </body>
+
+
+
+</html>
