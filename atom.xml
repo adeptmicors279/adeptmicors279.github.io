@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>amicors的博客</title>
+  <icon>https://amicors.cc/icon.png</icon>
+  <subtitle>长夜破浪伴晓梦 梦晓伴浪破夜长</subtitle>
+  <link href="https://amicors.cc/atom.xml" rel="self"/>
+  
+  <link href="https://amicors.cc/"/>
+  <updated>2025-09-21T03:00:55.395Z</updated>
+  <id>https://amicors.cc/</id>
+  
+  <author>
+    <name>adeptmicors279</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>nonebot机器人插件</title>
+    <link href="https://amicors.cc/posts/4ea89631.html"/>
+    <id>https://amicors.cc/posts/4ea89631.html</id>
+    <published>2025-09-21T02:42:00.000Z</published>
+    <updated>2025-09-21T03:00:55.395Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;前几日由于群友需要qq机器人来爬取jm本子，遂将引进该“尖端技术”的重任委托于我&lt;/p&gt;
+&lt;p&gt;经过我不屑的寻找，终于发现了好用的bot——nonebot&lt;/p&gt;
+&lt;p&gt;在此之前我也尝试过别的bot，但是感觉还是nonebot方便快捷，而且api文档很详细，最终选择了他&lt;/</summary>
+        
+      
+    
+    
+    
+    <category term="Python" scheme="https://amicors.cc/categories/Python/"/>
+    
+    
+    <category term="Python" scheme="https://amicors.cc/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>姬野永远，鸟谷真琴头像</title>
+    <link href="https://amicors.cc/posts/6f7e9229.html"/>
+    <id>https://amicors.cc/posts/6f7e9229.html</id>
+    <published>2025-08-30T10:50:00.000Z</published>
+    <updated>2025-09-21T03:00:55.396Z</updated>
+    
+    
+    <summary type="html">简单做了俩头像</summary>
+    
+    
+    
+    <category term="Galgame" scheme="https://amicors.cc/categories/Galgame/"/>
+    
+    
+    <category term="Galgame" scheme="https://amicors.cc/tags/Galgame/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>永不落幕的前奏诗</title>
+    <link href="https://amicors.cc/posts/caf1cd17.html"/>
+    <id>https://amicors.cc/posts/caf1cd17.html</id>
+    <published>2025-08-08T12:44:40.000Z</published>
+    <updated>2025-09-21T03:00:55.396Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;note warning flat&quot;&gt;&lt;p&gt;剧透警告&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;未全线通过建议全线通过后再阅读&lt;/p&gt;
+&lt;p&gt;我个人玩了大概15h全线通关，原本是被永远举着验孕棒那张图吸引才下的游戏（没戳就是这张）&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Galgame" scheme="https://amicors.cc/categories/Galgame/"/>
+    
+    
+    <category term="Galgame" scheme="https://amicors.cc/tags/Galgame/"/>
+    
+    <category term="VNG" scheme="https://amicors.cc/tags/VNG/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>装甲恶鬼村正英雄篇有感</title>
+    <link href="https://amicors.cc/posts/d70b38e6.html"/>
+    <id>https://amicors.cc/posts/d70b38e6.html</id>
+    <published>2025-07-20T05:08:40.000Z</published>
+    <updated>2025-09-21T03:00:55.396Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;note warning</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Galgame" scheme="https://amicors.cc/tags/Galgame/"/>
+    
+    <category term="VNG" scheme="https://amicors.cc/tags/VNG/"/>
+    
+    <category term="ADV" scheme="https://amicors.cc/tags/ADV/"/>
+    
+    <category term="装甲悪鬼村正" scheme="https://amicors.cc/tags/%E8%A3%85%E7%94%B2%E6%82%AA%E9%AC%BC%E6%9D%91%E6%AD%A3/"/>
+    
+    <category term="装甲饿鬼村正" scheme="https://amicors.cc/tags/%E8%A3%85%E7%94%B2%E9%A5%BF%E9%AC%BC%E6%9D%91%E6%AD%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Electron-builder无法下载github文件</title>
+    <link href="https://amicors.cc/posts/undefined.html"/>
+    <id>https://amicors.cc/posts/undefined.html</id>
+    <published>2025-02-10T11:19:53.000Z</published>
+    <updated>2025-09-21T03:00:55.395Z</updated>
+    
+    
+    <summary type="html">解决electron-builder无法下载GitHub文件的问题</summary>
+    
+    
+    
+    <category term="Electron" scheme="https://amicors.cc/categories/Electron/"/>
+    
+    
+    <category term="Electron" scheme="https://amicors.cc/tags/Electron/"/>
+    
+    <category term="HTML" scheme="https://amicors.cc/tags/HTML/"/>
+    
+    <category term="Javascript" scheme="https://amicors.cc/tags/Javascript/"/>
+    
+    <category term="CSS" scheme="https://amicors.cc/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Electron初尝试</title>
+    <link href="https://amicors.cc/posts/a85098ca.html"/>
+    <id>https://amicors.cc/posts/a85098ca.html</id>
+    <published>2025-02-04T14:07:00.000Z</published>
+    <updated>2025-09-21T03:00:55.395Z</updated>
+    
+    
+    <summary type="html">浅尝一下electron，以及有关electron-builder无法下载GitHub文件的问题</summary>
+    
+    
+    
+    <category term="Electron" scheme="https://amicors.cc/categories/Electron/"/>
+    
+    
+    <category term="Electron" scheme="https://amicors.cc/tags/Electron/"/>
+    
+    <category term="HTML" scheme="https://amicors.cc/tags/HTML/"/>
+    
+    <category term="Javascript" scheme="https://amicors.cc/tags/Javascript/"/>
+    
+    <category term="CSS" scheme="https://amicors.cc/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在Manjaro上游玩galgame</title>
+    <link href="https://amicors.cc/posts/1aad9c90.html"/>
+    <id>https://amicors.cc/posts/1aad9c90.html</id>
+    <published>2025-01-31T05:21:29.000Z</published>
+    <updated>2025-09-21T03:00:55.396Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h1&gt;&lt;div class=&quot;note warning</summary>
+        
+      
+    
+    
+    
+    <category term="Galgame" scheme="https://amicors.cc/categories/Galgame/"/>
+    
+    <category term="Linux" scheme="https://amicors.cc/categories/Galgame/Linux/"/>
+    
+    
+    <category term="Galgame" scheme="https://amicors.cc/tags/Galgame/"/>
+    
+    <category term="Linux" scheme="https://amicors.cc/tags/Linux/"/>
+    
+    <category term="Manjaro" scheme="https://amicors.cc/tags/Manjaro/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>平凡的天才展现才能，真正的天才让人忘记才能————樱之诗全线推完有感</title>
+    <link href="https://amicors.cc/posts/cf9739a6.html"/>
+    <id>https://amicors.cc/posts/cf9739a6.html</id>
+    <published>2024-07-15T13:10:41.000Z</published>
+    <updated>2025-09-21T03:00:55.396Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;樱之诗简介部分&quot;&gt;&lt;a href=&quot;#樱之诗简介部分&quot; class=&quot;headerlink&quot; title=&quot;樱之诗简介部分&quot;&gt;&lt;/a&gt;樱之诗简介部分&lt;/h1&gt;&lt;p&gt;《樱之诗》（原名：《サクラノ詩 －櫻の森の上を舞う－》）是&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Galgame" scheme="https://amicors.cc/categories/Galgame/"/>
+    
+    
+    <category term="Galgame" scheme="https://amicors.cc/tags/Galgame/"/>
+    
+    <category term="VNG" scheme="https://amicors.cc/tags/VNG/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python爬取pixiv图片</title>
+    <link href="https://amicors.cc/posts/5769b4d0.html"/>
+    <id>https://amicors.cc/posts/5769b4d0.html</id>
+    <published>2024-05-11T18:10:57.000Z</published>
+    <updated>2025-09-21T03:00:55.395Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;带检索功能的爬虫&quot;&gt;&lt;a href=&quot;#带检索功能的爬虫&quot; class=&quot;headerlink&quot; title=&quot;带检索功能的爬虫&quot;&gt;&lt;/a&gt;带检索功能的爬虫&lt;/h1&gt;&lt;p&gt;代码如下&lt;/p&gt;
+&lt;figure class=&quot;highlight</summary>
+        
+      
+    
+    
+    
+    <category term="Python" scheme="https://amicors.cc/categories/Python/"/>
+    
+    
+    <category term="Python" scheme="https://amicors.cc/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>萌新也能看懂的Galgame入坑教程</title>
+    <link href="https://amicors.cc/posts/74d5df8b.html"/>
+    <id>https://amicors.cc/posts/74d5df8b.html</id>
+    <published>2024-05-02T17:12:01.000Z</published>
+    <updated>2025-09-21T03:00:55.396Z</updated>
+    
+    
+    <summary type="html">Galgame入坑指南</summary>
+    
+    
+    
+    <category term="Galgame" scheme="https://amicors.cc/categories/Galgame/"/>
+    
+    
+    <category term="Galgame" scheme="https://amicors.cc/tags/Galgame/"/>
+    
+    <category term="VNG" scheme="https://amicors.cc/tags/VNG/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记一次paddleocr打包问题：FileNotFoundError以及ModuleNotFoundError</title>
+    <link href="https://amicors.cc/posts/6793f133.html"/>
+    <id>https://amicors.cc/posts/6793f133.html</id>
+    <published>2024-05-02T16:17:00.000Z</published>
+    <updated>2025-09-21T03:00:55.396Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;为什么打包paddleocr时会报错&quot;&gt;&lt;a href=&quot;#为什么打包paddleocr时会报错&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Python" scheme="https://amicors.cc/categories/Python/"/>
+    
+    
+    <category term="Python" scheme="https://amicors.cc/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>若、生命于明日落幕</title>
+    <link href="https://amicors.cc/posts/d9c7071d.html"/>
+    <id>https://amicors.cc/posts/d9c7071d.html</id>
+    <published>2024-04-19T16:12:35.000Z</published>
+    <updated>2025-09-21T03:00:55.396Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;可能会有所剧透，剧透处会提醒&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我决定于明日死去。因此，我要把今天活到最后。&lt;br&gt;明日死ぬと決めた。だから今日を、最期まで生きようと思う&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Galgame" scheme="https://amicors.cc/categories/Galgame/"/>
+    
+    
+    <category term="Galgame" scheme="https://amicors.cc/tags/Galgame/"/>
+    
+    <category term="VNG" scheme="https://amicors.cc/tags/VNG/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于此站</title>
+    <link href="https://amicors.cc/posts/d27f355a.html"/>
+    <id>https://amicors.cc/posts/d27f355a.html</id>
+    <published>2024-04-13T10:18:30.000Z</published>
+    <updated>2025-09-21T03:00:55.395Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>

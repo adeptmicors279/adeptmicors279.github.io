@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Electron-builder无法下载github文件</title>
+    <url>/posts/undefined.html</url>
+    <content><![CDATA[<p>个人留档</p>
+<p>参考文章：<a href="https://blog.csdn.net/weixin_44490021/article/details/141465519">【Electron】桌面应用开发electron-builder打包报错问题处理-CSDN博客</a></p>
+<h1 id="1-挂全局代理"><a href="#1-挂全局代理" class="headerlink" title="1.挂全局代理"></a>1.挂全局代理</h1><p>挂个代理</p>
+<h1 id="2-本地下载文件并导入"><a href="#2-本地下载文件并导入" class="headerlink" title="2.本地下载文件并导入"></a>2.本地下载文件并导入</h1><p>通过cnpm我们下载了electron-builder</p>
+<p>运行打包命令后builder会自动进行下载所需要的文件</p>
+<p>这时候去GitHub的镜像站之类的把这几个问价下好</p>
+<p>下载过程中长时间下不下来就去找日志里的链接</p>
+<p>通过GitHub加速或者镜像站或者什么别的方法进行下载之后，对其进行解压</p>
+<p>然后分别在<code>C:\Users\uername\AppData\Local</code>下的</p>
+<p><code>C:\Users\username\AppData\Local\electron\Cache</code></p>
+<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMRZ6nkDfm4fiVSHww7J-KDpAj4nLIAAsrFMRsVA0hVlA2JwNGGHxQBAAMCAAN5AAM2BA.png"></p>
+<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMSZ6nkMmPio3lUkKBDmdPBhNZ4f_wAAsvFMRsVA0hVA-ZigfHQV4oBAAMCAAN5AAM2BA.png"></p>
+<p>在<code>C:\Users\1\AppData\Local\electron-builder\Cache</code>中</p>
+<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMTZ6nkboQih89oH1z21SgCnfbFMWgAAszFMRsVA0hVpkRMl2YlqmkBAAMCAAN5AAM2BA.png"></p>
+<p>这样的图片不怎么方便，我列个树形图吧</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\USERS\1\APPDATA\LOCAL\ELECTRON</span><br><span class="line">└─Cache</span><br><span class="line">    └─electron-v34.0.2-win32-x64</span><br><span class="line">        ├─locales</span><br><span class="line">        └─resources</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">C:\USERS\1\APPDATA\LOCAL\ELECTRON-BUILDER</span><br><span class="line">└─Cache</span><br><span class="line">    ├─electron-v34.0.2-win32-x64</span><br><span class="line">    │  ├─locales</span><br><span class="line">    │  └─resources</span><br><span class="line">    ├─nsis</span><br><span class="line">    │  ├─nsis-3.0.4.1</span><br><span class="line">    │  │  ├─Bin</span><br><span class="line">    │  │  ├─Contrib</span><br><span class="line">    │  │  │  ├─Graphics</span><br><span class="line">    │  │  │  │  ├─Checks</span><br><span class="line">    │  │  │  │  ├─Header</span><br><span class="line">    │  │  │  │  ├─Icons</span><br><span class="line">    │  │  │  │  └─Wizard</span><br><span class="line">    │  │  │  ├─Language files</span><br><span class="line">    │  │  │  ├─Modern UI</span><br><span class="line">    │  │  │  ├─Modern UI 2</span><br><span class="line">    │  │  │  │  └─Pages</span><br><span class="line">    │  │  │  ├─UIs</span><br><span class="line">    │  │  │  └─zip2exe</span><br><span class="line">    │  │  ├─Include</span><br><span class="line">    │  │  │  └─Win</span><br><span class="line">    │  │  ├─linux</span><br><span class="line">    │  │  ├─mac</span><br><span class="line">    │  │  ├─Menu</span><br><span class="line">    │  │  │  └─images</span><br><span class="line">    │  │  ├─Plugins</span><br><span class="line">    │  │  │  ├─x86-ansi</span><br><span class="line">    │  │  │  └─x86-unicode</span><br><span class="line">    │  │  └─Stubs</span><br><span class="line">    │  └─nsis-resources-3.4.1</span><br><span class="line">    │      └─plugins</span><br><span class="line">    │          ├─x64-ansi</span><br><span class="line">    │          ├─x64-unicode</span><br><span class="line">    │          ├─x86-ansi</span><br><span class="line">    │          └─x86-unicode</span><br><span class="line">    └─winCodeSign</span><br><span class="line">        └─winCodeSign-2.6.0</span><br><span class="line">            ├─appxAssets</span><br><span class="line">            ├─darwin</span><br><span class="line">            │  ├─10.12</span><br><span class="line">            │  │  └─lib</span><br><span class="line">            │  │      ├─engines</span><br><span class="line">            │  │      └─pkgconfig</span><br><span class="line">            │  └─ci</span><br><span class="line">            ├─linux</span><br><span class="line">            ├─openssl-ia32</span><br><span class="line">            ├─windows-10</span><br><span class="line">            │  ├─ia32</span><br><span class="line">            │  └─x64</span><br><span class="line">            └─windows-6</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>我们可以很清晰的看到，我们需要在electron-builder下创建nsis，winCodeSign，electron-v34.0.2-win32-x64这三个文件夹后才可以再把文件解压进去，如果直接解压文件是识别不到的</p>
+]]></content>
+      <categories>
+        <category>Electron</category>
+      </categories>
+      <tags>
+        <tag>Electron</tag>
+        <tag>HTML</tag>
+        <tag>Javascript</tag>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Electron初尝试</title>
+    <url>/posts/a85098ca.html</url>
+    <content><![CDATA[<p>最近学习了下前端（js还没怎么学）</p>
+<p>在了解js的途中了解到了Electron</p>
+<p>早闻其大名于是就来尝试一下</p>
+<h1 id="Electron的安装与配置"><a href="#Electron的安装与配置" class="headerlink" title="Electron的安装与配置"></a>Electron的安装与配置</h1><h2 id="node-js"><a href="#node-js" class="headerlink" title="node.js"></a>node.js</h2><p><a href="https://nodejs.org/">https://nodejs.org/</a></p>
+<p>这是node.js的官网，需要下载node.js才可以使用</p>
+<p>检查安装</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="git"><a href="#git" class="headerlink" title="git"></a>git</h2><p><a href="https://git-scm.com/downloads/win">https://git-scm.com/downloads/win</a></p>
+<p>需要下载这两者</p>
+<p>检查安装</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure>
+
+<h2 id="换源"><a href="#换源" class="headerlink" title="换源"></a>换源</h2><p>由于一些原因，npm，pip以及各类Linux的包管在国内的速度可以说几乎为0</p>
+<p>那么就需要国内的镜像站进行下载</p>
+<blockquote>
+<p>npm 官方原始镜像网址是：<a href="https://registry.npmjs.org/">https://registry.npmjs.org/</a><br>淘宝镜像：<a href="http://registry.npmmirror.com/">http://registry.npmmirror.com</a></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmmirror.com</span><br></pre></td></tr></table></figure>
+
+<p>进行换源</p>
+<h2 id="创建工作目录以及初始化"><a href="#创建工作目录以及初始化" class="headerlink" title="创建工作目录以及初始化"></a>创建工作目录以及初始化</h2><p>然后随便找个地方新建一个文件夹，并且在此目录打开git bash进行初始化</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> <span class="built_in">test</span> <span class="comment">#test是文件夹名称</span></span><br><span class="line"><span class="built_in">cd</span> <span class="built_in">test</span></span><br><span class="line">npm init <span class="comment">#进行初始化，有让你填写的东西可以直接回车跳过</span></span><br></pre></td></tr></table></figure>
+
+<p>然后下载electron</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g electron</span><br><span class="line"><span class="comment">#或者说如果无法下载可以线通过淘宝源下载cnpm</span></span><br><span class="line">npm install -g cnpm --registry=https://registry.npmmirror.com</span><br><span class="line">cnpm install -g electron</span><br></pre></td></tr></table></figure>
+
+<p><code>test</code>文件夹会生成一个<code>package.json</code> 文件</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;test&quot;</span><span class="punctuation">,</span> # 你项目的名称（必填！）</span><br><span class="line">  <span class="attr">&quot;version&quot;</span><span class="punctuation">:</span> <span class="string">&quot;1.0.0&quot;</span><span class="punctuation">,</span> # 版本（必填！）</span><br><span class="line">  <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&quot;</span><span class="punctuation">,</span> # 描述（必填！）</span><br><span class="line">  <span class="attr">&quot;license&quot;</span><span class="punctuation">:</span> <span class="string">&quot;ISC&quot;</span><span class="punctuation">,</span> # 协议</span><br><span class="line">  <span class="attr">&quot;author&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&quot;</span><span class="punctuation">,</span> #作者（必填！）</span><br><span class="line">  <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;commonjs&quot;</span><span class="punctuation">,</span> </span><br><span class="line">  <span class="attr">&quot;main&quot;</span><span class="punctuation">:</span> <span class="string">&quot;index.js&quot;</span><span class="punctuation">,</span> # 程序入口</span><br><span class="line">  <span class="attr">&quot;scripts&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;test&quot;</span><span class="punctuation">:</span> <span class="string">&quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;</span> </span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p>在此目录下创建一个文件<code>inex.js</code></p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 导入模块</span></span><br><span class="line"><span class="keyword">const</span> &#123; app, <span class="title class_">BrowserWindow</span> &#125; = <span class="built_in">require</span>(<span class="string">&#x27;electron&#x27;</span>)</span><br><span class="line"></span><br><span class="line">app.<span class="title function_">on</span>(<span class="string">&#x27;ready&#x27;</span>, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="comment">//当app准备好后，执行createWindow创建窗口</span></span><br><span class="line">  <span class="keyword">const</span> win = <span class="keyword">new</span> <span class="title class_">BrowserWindow</span>(&#123;</span><br><span class="line">    <span class="attr">width</span>: <span class="number">800</span>, <span class="comment">//窗口宽度</span></span><br><span class="line">    <span class="attr">height</span>: <span class="number">600</span>, <span class="comment">//窗口高度</span></span><br><span class="line">    <span class="attr">autoHideMenuBar</span>: <span class="literal">true</span>, <span class="comment">//自动隐藏菜单档</span></span><br><span class="line">    <span class="attr">alwaysOnTop</span>: <span class="literal">true</span>, <span class="comment">//置顶</span></span><br><span class="line">    <span class="attr">x</span>: <span class="number">100</span>, <span class="comment">//窗口位置x坐标</span></span><br><span class="line">    <span class="attr">y</span>: <span class="number">100</span> <span class="comment">//窗口位置y坐标</span></span><br><span class="line">  &#125;)</span><br><span class="line">  <span class="comment">//加载一个页面</span></span><br><span class="line">  win.<span class="title function_">loadFile</span>(<span class="string">&#x27;&#x27;</span>) <span class="comment">//此处写你存html的路径</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>然后git bash里输入</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm start</span><br></pre></td></tr></table></figure>
+
+<p>你就会发现</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm start</span><br><span class="line">npm error Missing script: <span class="string">&quot;start&quot;</span></span><br><span class="line">npm error</span><br><span class="line">npm error Did you mean one of these?</span><br><span class="line">npm error   npm star <span class="comment"># Mark your favorite packages</span></span><br><span class="line">npm error   npm stars <span class="comment"># View packages marked as favorites</span></span><br><span class="line">npm error</span><br><span class="line">npm error To see a list of scripts, run:</span><br><span class="line">npm error   npm run</span><br><span class="line">npm error A complete <span class="built_in">log</span> of this run can be found <span class="keyword">in</span>: C:\Users\1\AppData\Local\npm-cache\_logs\2025-02-04T15_17_29_225Z-debug-0.log</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>报错，显示为缺失start</p>
+<p>让我们回到刚刚的<code>package.js</code>文件，找到</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="attr">&quot;scripts&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;test&quot;</span><span class="punctuation">:</span> <span class="string">&quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p>并且添加一个start，修改如下</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="attr">&quot;scripts&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">   <span class="attr">&quot;start&quot;</span><span class="punctuation">:</span> <span class="string">&quot;electron .&quot;</span><span class="punctuation">,</span></span><br><span class="line">   <span class="attr">&quot;test&quot;</span><span class="punctuation">:</span> <span class="string">&quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p>这样就能成功运行了</p>
+<h1 id="打包"><a href="#打包" class="headerlink" title="打包"></a>打包</h1><div class="tabs" id="分类-1"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="分类-1-1">electron-builder</button><button type="button" class="tab " data-href="分类-1-2">electron-forge</button></ul><div class="tab-contents"><div class="tab-item-content active" id="分类-1-1"><p>electron-builder是electron社区开发的打包工具，用起来相对简便</p></div><div class="tab-item-content" id="分类-1-2"><p> electron官方的打包工具(本文不提及使用方法) </p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<p>electron-builder安装起来很简单（前提是你得有一个良好的网络环境）</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save-dev electron-builder</span><br><span class="line"><span class="comment"># 或者</span></span><br><span class="line">cnpm install --save-dev electron-builder</span><br></pre></td></tr></table></figure>
+
+<p>继续去<code>package.js</code>里面</p>
+<p>添加一个build</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="attr">&quot;build&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;productName&quot;</span><span class="punctuation">:</span><span class="string">&quot;xxxx&quot;</span><span class="punctuation">,</span><span class="comment">//项目名 这也是生成的exe文件的前缀名</span></span><br><span class="line">    <span class="attr">&quot;appId&quot;</span><span class="punctuation">:</span> <span class="string">&quot;com.leon.xxxxx&quot;</span><span class="punctuation">,</span><span class="comment">//包名  </span></span><br><span class="line">    <span class="attr">&quot;copyright&quot;</span><span class="punctuation">:</span><span class="string">&quot;xxxx&quot;</span><span class="punctuation">,</span><span class="comment">//版权  信息</span></span><br><span class="line">    <span class="attr">&quot;directories&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span> <span class="comment">// 输出文件夹</span></span><br><span class="line">      <span class="attr">&quot;output&quot;</span><span class="punctuation">:</span> <span class="string">&quot;build&quot;</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span> </span><br><span class="line">    <span class="attr">&quot;nsis&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;oneClick&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span> <span class="comment">// 是否一键安装</span></span><br><span class="line">      <span class="attr">&quot;allowElevation&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span> <span class="comment">// 允许请求提升。 如果为false，则用户必须使用提升的权限重新启动安装程序。</span></span><br><span class="line">      <span class="attr">&quot;allowToChangeInstallationDirectory&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span> <span class="comment">// 允许修改安装目录</span></span><br><span class="line">      <span class="attr">&quot;installerIcon&quot;</span><span class="punctuation">:</span> <span class="string">&quot;./build/icons/aaa.ico&quot;</span><span class="punctuation">,</span><span class="comment">// 安装图标</span></span><br><span class="line">      <span class="attr">&quot;uninstallerIcon&quot;</span><span class="punctuation">:</span> <span class="string">&quot;./build/icons/bbb.ico&quot;</span><span class="punctuation">,</span><span class="comment">//卸载图标</span></span><br><span class="line">      <span class="attr">&quot;installerHeaderIcon&quot;</span><span class="punctuation">:</span> <span class="string">&quot;./build/icons/aaa.ico&quot;</span><span class="punctuation">,</span> <span class="comment">// 安装时头部图标</span></span><br><span class="line">      <span class="attr">&quot;createDesktopShortcut&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span> <span class="comment">// 创建桌面图标</span></span><br><span class="line">      <span class="attr">&quot;createStartMenuShortcut&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span><span class="comment">// 创建开始菜单图标</span></span><br><span class="line">      <span class="attr">&quot;shortcutName&quot;</span><span class="punctuation">:</span> <span class="string">&quot;xxxx&quot;</span><span class="punctuation">,</span> <span class="comment">// 图标名称</span></span><br><span class="line">      <span class="attr">&quot;include&quot;</span><span class="punctuation">:</span> <span class="string">&quot;build/script/installer.nsh&quot;</span><span class="punctuation">,</span> <span class="comment">// 包含的自定义nsis脚本</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;publish&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">      <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;provider&quot;</span><span class="punctuation">:</span> <span class="string">&quot;generic&quot;</span><span class="punctuation">,</span> <span class="comment">// 服务器提供商 也可以是GitHub等等</span></span><br><span class="line">        <span class="attr">&quot;url&quot;</span><span class="punctuation">:</span> <span class="string">&quot;http://xxxxx/&quot;</span> <span class="comment">// 服务器地址</span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;files&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">      <span class="string">&quot;dist/electron/**/*&quot;</span></span><br><span class="line">    <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;dmg&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;contents&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">        <span class="punctuation">&#123;</span></span><br><span class="line">          <span class="attr">&quot;x&quot;</span><span class="punctuation">:</span> <span class="number">410</span><span class="punctuation">,</span></span><br><span class="line">          <span class="attr">&quot;y&quot;</span><span class="punctuation">:</span> <span class="number">150</span><span class="punctuation">,</span></span><br><span class="line">          <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;link&quot;</span><span class="punctuation">,</span></span><br><span class="line">          <span class="attr">&quot;path&quot;</span><span class="punctuation">:</span> <span class="string">&quot;/Applications&quot;</span></span><br><span class="line">        <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="punctuation">&#123;</span></span><br><span class="line">          <span class="attr">&quot;x&quot;</span><span class="punctuation">:</span> <span class="number">130</span><span class="punctuation">,</span></span><br><span class="line">          <span class="attr">&quot;y&quot;</span><span class="punctuation">:</span> <span class="number">150</span><span class="punctuation">,</span></span><br><span class="line">          <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;file&quot;</span></span><br><span class="line">        <span class="punctuation">&#125;</span></span><br><span class="line">      <span class="punctuation">]</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;mac&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;icon&quot;</span><span class="punctuation">:</span> <span class="string">&quot;build/icons/icon.icns&quot;</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;win&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;icon&quot;</span><span class="punctuation">:</span> <span class="string">&quot;build/icons/aims.ico&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;target&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">        <span class="punctuation">&#123;</span></span><br><span class="line">          <span class="attr">&quot;target&quot;</span><span class="punctuation">:</span> <span class="string">&quot;nsis&quot;</span><span class="punctuation">,</span></span><br><span class="line">          <span class="attr">&quot;arch&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">            <span class="string">&quot;ia32&quot;</span></span><br><span class="line">          <span class="punctuation">]</span></span><br><span class="line">        <span class="punctuation">&#125;</span></span><br><span class="line">      <span class="punctuation">]</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;linux&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;icon&quot;</span><span class="punctuation">:</span> <span class="string">&quot;build/icons&quot;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p>详情请见<a href="https://www.jianshu.com/p/4699b825d285">Electron-builder打包详解 - 简书</a></p>
+<p>当然，还要在script里添加进行build的命令</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="attr">&quot;scripts&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">   <span class="attr">&quot;start&quot;</span><span class="punctuation">:</span> <span class="string">&quot;electron .&quot;</span><span class="punctuation">,</span></span><br><span class="line">   <span class="attr">&quot;test&quot;</span><span class="punctuation">:</span> <span class="string">&quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;</span><span class="punctuation">,</span></span><br><span class="line">   <span class="attr">&quot;build&quot;</span><span class="punctuation">:</span> <span class="string">&quot;electron-builder&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p>然后运行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm run build</span><br></pre></td></tr></table></figure>
+
+<p>即可打包</p>
+]]></content>
+      <categories>
+        <category>Electron</category>
+      </categories>
+      <tags>
+        <tag>Electron</tag>
+        <tag>HTML</tag>
+        <tag>Javascript</tag>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python爬取pixiv图片</title>
+    <url>/posts/5769b4d0.html</url>
+    <content><![CDATA[<h1 id="带检索功能的爬虫"><a href="#带检索功能的爬虫" class="headerlink" title="带检索功能的爬虫"></a>带检索功能的爬虫</h1><p>代码如下</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="keyword">import</span> urllib3</span><br><span class="line"><span class="keyword">import</span> urllib</span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> os.path</span><br><span class="line"><span class="keyword">if</span> os.path.exists(<span class="string">&#x27;img&#x27;</span>):</span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    os.mkdir(<span class="string">&#x27;img&#x27;</span>)</span><br><span class="line">urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)</span><br><span class="line">url = <span class="string">&#x27;https://www.pixiv.net/&#x27;</span></span><br><span class="line">headers = &#123;</span><br><span class="line">    <span class="string">&quot;User-Agent&quot;</span>: <span class="string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Cookie&quot;</span>:</span><br><span class="line">    <span class="string">&quot;填入你的cookie&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">keywords = <span class="built_in">str</span>(<span class="built_in">input</span>(<span class="string">&#x27;输入关键词进行搜索&#x27;</span>))</span><br><span class="line">keywords = urllib.parse.quote(keywords)</span><br><span class="line">search_url = <span class="string">f&quot;https://www.pixiv.net/ajax/search/artworks/<span class="subst">&#123;keywords&#125;</span>?word=<span class="subst">&#123;keywords&#125;</span>&amp;order=date_d&amp;mode=all&amp;p=1&amp;csw=0&amp;s_mode=s_tag&amp;type=all&amp;lang=zh&quot;</span></span><br><span class="line">resp = requests.get(url=search_url, headers=headers, verify=<span class="literal">False</span>)</span><br><span class="line">resp.close()</span><br><span class="line"><span class="comment"># print (resp.json())</span></span><br><span class="line">result = resp.json()</span><br><span class="line">num = <span class="built_in">int</span>(<span class="built_in">len</span>(result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>]))</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, num):</span><br><span class="line">    <span class="built_in">id</span> = result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][i][<span class="string">&#x27;id&#x27;</span>]</span><br><span class="line">    title = result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][i][<span class="string">&#x27;title&#x27;</span>]</span><br><span class="line">    pageCount = result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][i][<span class="string">&#x27;pageCount&#x27;</span>]</span><br><span class="line">    createDate = result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][i][<span class="string">&#x27;createDate&#x27;</span>]</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&#x27;作品编号:<span class="subst">&#123;i&#125;</span>,作品标题:<span class="subst">&#123;title&#125;</span>,作品id:<span class="subst">&#123;<span class="built_in">id</span>&#125;</span>,作品页数:<span class="subst">&#123;pageCount&#125;</span>,创作时间:<span class="subst">&#123;createDate&#125;</span>&#x27;</span>)</span><br><span class="line">choose = <span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&#x27;请输入需要爬取的图片编号&#x27;</span>))</span><br><span class="line"><span class="built_in">id</span> = result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][choose][<span class="string">&#x27;id&#x27;</span>]</span><br><span class="line">pageCount = result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][choose][<span class="string">&#x27;pageCount&#x27;</span>]</span><br><span class="line">img_url = <span class="string">f&#x27;https://www.pixiv.net/artworks/<span class="subst">&#123;<span class="built_in">id</span>&#125;</span>&#x27;</span></span><br><span class="line">createDate = createDate.replace(<span class="string">&#x27;-&#x27;</span>, <span class="string">&#x27;/&#x27;</span>).replace(<span class="string">&#x27;T&#x27;</span>, <span class="string">&#x27;/&#x27;</span>).replace(<span class="string">&#x27;:&#x27;</span>, <span class="string">&#x27;/&#x27;</span>)</span><br><span class="line">createDate = createDate.split(<span class="string">&#x27;+&#x27;</span>)</span><br><span class="line">createDate = createDate[<span class="number">0</span>]</span><br><span class="line">download_url = <span class="string">&#x27;https://i.pximg.net/img-master/img/&#123;createDate&#125;/&#123;id&#125;_p&#123;pageCount&#125;_square1200.jpg&#x27;</span></span><br><span class="line">headers_down = &#123;</span><br><span class="line">    <span class="string">&quot;User-Agent&quot;</span>: <span class="string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Cookie&quot;</span>:</span><br><span class="line">    <span class="string">&quot;填入你的cookie&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Referer&quot;</span>:</span><br><span class="line">    <span class="string">&quot;https://www.pixiv.net/&quot;</span></span><br><span class="line">&#125;</span><br><span class="line">image = requests.get(url=download_url, headers=headers_down)</span><br><span class="line">image.encoding = <span class="string">&#x27;utf-8&#x27;</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">f&#x27;img/<span class="subst">&#123;<span class="built_in">id</span>&#125;</span>.png&#x27;</span>, <span class="string">&#x27;wb&#x27;</span>)<span class="keyword">as</span> f:</span><br><span class="line">    f.write(image.content)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<p>思路详解</p>
+<p>打开pixiv前端的源码</p>
+<p>会发现如下</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/12/66407937868fb.png" alt="没有想要的图片"></p>
+<p>于是xpath和bs4以及re正则提取界面源码的方法就没法用了</p>
+<p>那怎么办</p>
+<p>我们先随意搜索一个东西</p>
+<p>这里以litter busters举例</p>
+<p>搜索玩打开前端源码</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/12/664079b9b0d6b.png" alt="界面源码"></p>
+<p>还是没有任何我们想要的东西</p>
+<p>打开开发者控制台进行刷新界面抓包看看</p>
+<p>但是在搜索界面一直没有什么发现，只有一些杂乱的数据</p>
+<p>于是我换了个思路，从主页的搜索框搜索，获取完整的抓包数据</p>
+<p>最终，我发现了这个</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/12/66407b20b4b20.png" alt="抓包数据"></p>
+<p>很长的名字</p>
+<p>我翻了好久无意中翻到的</p>
+<p>打开看看</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/12/66407b654541b.png" alt="获取的数据"></p>
+<p>居然是json</p>
+<p>我打开body，往里面翻了翻</p>
+<p>就找到了如图的数据</p>
+<p>没错，正是我想要的</p>
+<p>这就是搜索界面的所有信息</p>
+<p>存在<code>[&#39;body&#39;][&#39;illustMange&#39;][&#39;data&#39;]</code>里</p>
+<p>打开其中一个</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/12/66407c18b6360.png"></p>
+<p>这就是我想要得了</p>
+<p>现在我们记录下我们需要的信息</p>
+<p>然后随记点开一个图片</p>
+<p>进去的时候记得抓包，等加载出图片的时候寻找图片</p>
+<p>找到图片的链接为</p>
+<p><code>https://i.pximg.net/img-master/img/2024/05/11/09/39/28/118621977_p0_master1200.jpg</code></p>
+<p>其中，img后面的应该是之前抓包出来的化画作信息的日期，日期后面是id，p0是这个作品的第几张图片</p>
+<p>现在，我们对其进行修改</p>
+<p>先获取图片的id，日期，页数</p>
+<p>然后用f替换</p>
+<p><code>download——url=&#39;https://i.pximg.net/img-master/img/&#123;createDate&#125;/&#123;id&#125;_p&#123;pageCount&#125;_square1200.jpg&#39;</code></p>
+<p>为什么master1200会变为square1200，这个我也不清楚</p>
+<p>反正我爬的图片链接就是以square1200结尾的</p>
+<p>对了，记得搞好请求头</p>
+<p>“Referer”:”<a href="https://www.pixiv.net/">https://www.pixiv.net/</a>“</p>
+<p>然后就可以愉快的爬图片了</p>
+<p><strong>注：此代码无法批量爬取图片，例如日榜之类，只带有搜索功能，以及，我只做了默认第一页搜索结果的爬取，page懒得搞了</strong></p>
+<h2 id="批量爬取图片"><a href="#批量爬取图片" class="headerlink" title="批量爬取图片"></a>批量爬取图片</h2><p>还没写…</p>
+<p>最近比较忙没时间更新blog</p>
+<p>润了</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>nonebot机器人插件</title>
+    <url>/posts/4ea89631.html</url>
+    <content><![CDATA[<p>前几日由于群友需要qq机器人来爬取jm本子，遂将引进该“尖端技术”的重任委托于我</p>
+<p>经过我不屑的寻找，终于发现了好用的bot——nonebot</p>
+<p>在此之前我也尝试过别的bot，但是感觉还是nonebot方便快捷，而且api文档很详细，最终选择了他</p>
+<h1 id="插件开发思路"><a href="#插件开发思路" class="headerlink" title="插件开发思路"></a>插件开发思路</h1><ol>
+<li>获取车牌并爬取jm</li>
+<li>下载到本地并合并为pdf</li>
+<li>控制机器人发送pdf</li>
+<li>记录车牌号并缓存，下次优先检查缓存发送</li>
+</ol>
+<h2 id="爬取jm"><a href="#爬取jm" class="headerlink" title="爬取jm"></a>爬取jm</h2><p>我这里直接使用了jmcomic这个模块</p>
+<p>使用起来很简单</p>
+<p>不过我只是临时用用所以并没有处理多章节下载合并的情况</p>
+<h2 id="合并pdf"><a href="#合并pdf" class="headerlink" title="合并pdf"></a>合并pdf</h2><p>我使用了PIL的Image库来处理图片</p>
+<h2 id="发送"><a href="#发送" class="headerlink" title="发送"></a>发送</h2><p>这里需要调用bot.callapi</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">await</span> bot.call_api(</span><br><span class="line">            <span class="string">&quot;upload_group_file&quot;</span>,</span><br><span class="line">            group_id=event.group_id,</span><br><span class="line">            file=<span class="string">f&quot;<span class="subst">&#123;path&#125;</span>/<span class="subst">&#123;jmid&#125;</span>.pdf&quot;</span>,</span><br><span class="line">            name=<span class="string">f&quot;<span class="subst">&#123;jmid&#125;</span>.pdf&quot;</span>,</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+
+<p>由于一些原因导致我一开始callapi死活用不了，后来发现是前面一个异步函数的问题</p>
+<p>nonebot里进行任何操作最好加上await，不然容易堵塞</p>
+<h2 id="缓存"><a href="#缓存" class="headerlink" title="缓存"></a>缓存</h2><p>下载后记录名字与车牌写进json</p>
+<p>等到下次使用时进行检测，如果有缓存直接发送缓存，也可以手动清除缓存</p>
+<h2 id="完整插件"><a href="#完整插件" class="headerlink" title="完整插件"></a>完整插件</h2><p>由于是临时写的，代码好多地方都不规范</p>
+<p>而且jmcomic多个章节下载我也没处理</p>
+<p>反正能用就行</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">Author: adeptmicors279</span></span><br><span class="line"><span class="string">Date: 2025-07-29 18:48:19</span></span><br><span class="line"><span class="string">LastEditTime: 2024-08-08 23:15:31</span></span><br><span class="line"><span class="string">LastEditors: 279</span></span><br><span class="line"><span class="string">Description: jm</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">import</span> shutil</span><br><span class="line"><span class="keyword">import</span> jmcomic</span><br><span class="line"><span class="keyword">from</span> jmcomic <span class="keyword">import</span> *</span><br><span class="line"><span class="keyword">from</span> nonebot.params <span class="keyword">import</span> ArgPlainText</span><br><span class="line"><span class="keyword">from</span> nonebot.adapters <span class="keyword">import</span> Message</span><br><span class="line"><span class="keyword">from</span> nonebot.params <span class="keyword">import</span> CommandArg</span><br><span class="line"><span class="keyword">from</span> nonebot.rule <span class="keyword">import</span> to_me</span><br><span class="line"><span class="keyword">from</span> nonebot <span class="keyword">import</span> on_regex, on_command</span><br><span class="line"><span class="keyword">from</span> nonebot.typing <span class="keyword">import</span> T_State</span><br><span class="line"><span class="keyword">from</span> nonebot.adapters.onebot.v11 <span class="keyword">import</span> GroupMessageEvent, Bot, Message</span><br><span class="line"><span class="keyword">from</span> nonebot.matcher <span class="keyword">import</span> Matcher</span><br><span class="line"><span class="keyword">from</span> nonebot.adapters.onebot.v11 <span class="keyword">import</span> MessageSegment</span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image</span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> json</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">images_to_pdf</span>(<span class="params">image_folder, output_path</span>):</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 获取文件夹中所有图片文件</span></span><br><span class="line">    image_files = [f <span class="keyword">for</span> f <span class="keyword">in</span> os.listdir(image_folder)]</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 存储Image对象的列表</span></span><br><span class="line">    image_list = []</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 按文件名顺序读取图片</span></span><br><span class="line">    <span class="keyword">for</span> file <span class="keyword">in</span> image_files:</span><br><span class="line">        file_path = os.path.join(image_folder, file)</span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            <span class="comment"># 打开图片并转换为RGB模式</span></span><br><span class="line">            img = Image.<span class="built_in">open</span>(file_path)</span><br><span class="line">            <span class="keyword">if</span> img.mode != <span class="string">&quot;RGB&quot;</span>:</span><br><span class="line">                img = img.convert(<span class="string">&quot;RGB&quot;</span>)</span><br><span class="line">            image_list.append(img)</span><br><span class="line">        <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;无法处理文件 <span class="subst">&#123;file&#125;</span>: <span class="subst">&#123;<span class="built_in">str</span>(e)&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> image_list:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;未找到有效图片&quot;</span>)</span><br><span class="line">        <span class="keyword">return</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># 使用第一张图片创建PDF</span></span><br><span class="line">    first_image = image_list[<span class="number">0</span>]</span><br><span class="line">    <span class="comment"># 将其余图片附加到PDF中</span></span><br><span class="line">    remaining_images = image_list[<span class="number">1</span>:]</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 保存为PDF</span></span><br><span class="line">    first_image.save(output_path, save_all=<span class="literal">True</span>,</span><br><span class="line">                     append_images=remaining_images)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 关闭所有图片</span></span><br><span class="line">    <span class="keyword">for</span> img <span class="keyword">in</span> image_list:</span><br><span class="line">        img.close()</span><br><span class="line"></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;PDF已成功生成: <span class="subst">&#123;output_path&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line">title = <span class="literal">None</span></span><br><span class="line">Test = on_regex(pattern=<span class="string">r&quot;^测试$&quot;</span>, priority=<span class="number">2</span>, rule=to_me())</span><br><span class="line">jm_get = on_command(<span class="string">&quot;jm&quot;</span>, priority=<span class="number">1</span>, rule=to_me())</span><br><span class="line">test_send_file = on_command(<span class="string">&quot;test_send&quot;</span>, priority=<span class="number">10</span>, rule=to_me())</span><br><span class="line"><span class="built_in">help</span> = on_regex(pattern=<span class="string">r&quot;^帮助$&quot;</span>,priority=<span class="number">1</span>)</span><br><span class="line">jm_clean_cache = on_command(<span class="string">&quot;jmn&quot;</span>,priority=<span class="number">3</span>,rule=to_me())</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@Test.handle()</span></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">Test_send</span>(<span class="params">bot: Bot, event: GroupMessageEvent, state: T_State</span>):</span><br><span class="line">    msg = <span class="string">&quot;Bot启动正常&quot;</span></span><br><span class="line">    <span class="keyword">await</span> Test.finish(message=Message(msg))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@jm_get.handle()</span></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">jm_get_send</span>(<span class="params">bot: Bot, event: GroupMessageEvent, state: T_State, args: Message = CommandArg(<span class="params"></span>)</span>):</span><br><span class="line">    <span class="keyword">if</span> jmid := args.extract_plain_text():</span><br><span class="line">        <span class="keyword">await</span> jm_get.send(</span><br><span class="line">            message=Message(<span class="string">f&quot;正在获取JMID为<span class="subst">&#123;jmid&#125;</span>的comic\n获取时间较长,优先检查缓存内容&quot;</span>)</span><br><span class="line">        )</span><br><span class="line">        </span><br><span class="line">        path = os.getcwd() <span class="comment"># 设定路径        </span></span><br><span class="line">        <span class="keyword">if</span> os.path.exists(<span class="built_in">str</span>(jmid)+<span class="string">&#x27;.pdf&#x27;</span>):</span><br><span class="line">            <span class="keyword">await</span> jm_get.send(message=Message(<span class="string">&quot;检查到缓存内容&quot;</span>))</span><br><span class="line">            <span class="keyword">await</span> bot.call_api(</span><br><span class="line">            <span class="string">&quot;upload_group_file&quot;</span>,</span><br><span class="line">            group_id=event.group_id,</span><br><span class="line">            file=<span class="string">f&quot;<span class="subst">&#123;path&#125;</span>/<span class="subst">&#123;jmid&#125;</span>.pdf&quot;</span>,</span><br><span class="line">            name=<span class="string">f&quot;<span class="subst">&#123;jmid&#125;</span>.pdf&quot;</span>,</span><br><span class="line">        )                </span><br><span class="line">            <span class="keyword">await</span> jm_get.finish(message=Message(<span class="string">&quot;获取完成&quot;</span>))</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">        </span><br><span class="line">        </span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> os.path.exists(<span class="built_in">str</span>(jmid)+<span class="string">&#x27;.pdf&#x27;</span>):</span><br><span class="line">            <span class="keyword">await</span> jm_get.send(message=Message(<span class="string">&quot;未检测到缓存内容,联网下载&quot;</span>))</span><br><span class="line">            client = JmOption.default().new_jm_client()</span><br><span class="line">            <span class="comment"># 设置client</span></span><br><span class="line">            page = client.search_site(search_query=<span class="string">f&quot;<span class="subst">&#123;jmid&#125;</span>&quot;</span>)</span><br><span class="line">            album: JmAlbumDetail = page.single_album</span><br><span class="line"></span><br><span class="line">            jmcomic.download_album(<span class="built_in">int</span>(jmid))</span><br><span class="line">            images_to_pdf(image_folder=album.title + <span class="string">r&quot;/&quot;</span>,</span><br><span class="line">                        output_path=<span class="string">f&quot;./<span class="subst">&#123;jmid&#125;</span>.pdf&quot;</span>)</span><br><span class="line">            </span><br><span class="line">            <span class="comment"># 记录缓存内容</span></span><br><span class="line">            <span class="keyword">with</span> <span class="built_in">open</span> (<span class="string">r&#x27;./src/plugins/jm/name_id.json&#x27;</span>,<span class="string">&#x27;r&#x27;</span>)<span class="keyword">as</span> cache:</span><br><span class="line">                dic = json.load(cache)</span><br><span class="line">                dic[<span class="built_in">str</span>(album.title)] = <span class="built_in">int</span>(jmid)             </span><br><span class="line">            <span class="keyword">with</span> <span class="built_in">open</span> (<span class="string">r&#x27;./src/plugins/jm/name_id.json&#x27;</span>,<span class="string">&#x27;w&#x27;</span>)<span class="keyword">as</span> new_cache:</span><br><span class="line">                json.dump(dic,new_cache)</span><br><span class="line">                </span><br><span class="line">            <span class="comment"># await jm_get.send(message=Message(str(event.group_id)))</span></span><br><span class="line">            <span class="keyword">await</span> bot.call_api(</span><br><span class="line">                <span class="string">&quot;upload_group_file&quot;</span>,</span><br><span class="line">                group_id=event.group_id,</span><br><span class="line">                file=<span class="string">f&quot;<span class="subst">&#123;path&#125;</span>/<span class="subst">&#123;jmid&#125;</span>.pdf&quot;</span>,</span><br><span class="line">                name=<span class="string">f&quot;<span class="subst">&#123;jmid&#125;</span>.pdf&quot;</span>,</span><br><span class="line">            )</span><br><span class="line">            <span class="keyword">await</span> jm_get.finish(message=Message(<span class="string">&quot;获取完成&quot;</span>))</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>            </span><br><span class="line"></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        msg = <span class="string">&quot;未识别到jm车牌号&quot;</span></span><br><span class="line">        <span class="keyword">await</span> jm_get.finish(message=Message(msg))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@jm_clean_cache.handle()</span></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">jm_get_new</span>(<span class="params">bot: Bot, event: GroupMessageEvent</span>):</span><br><span class="line">    <span class="keyword">await</span> jm_clean_cache.send(</span><br><span class="line">        message=Message(<span class="string">f&quot;该操作会刷新缓存,请稍等...&quot;</span>)</span><br><span class="line">    )</span><br><span class="line">    path = os.getcwd() <span class="comment"># 设定路径</span></span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">r&#x27;./src/plugins/jm/name_id.json&#x27;</span>,<span class="string">&#x27;r&#x27;</span>)<span class="keyword">as</span> cache:</span><br><span class="line">        dic = json.load(cache)</span><br><span class="line">        name_cache = dic.keys()</span><br><span class="line">        jmid_cache = dic.values()</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> name_cache:</span><br><span class="line">            shutil.rmtree(<span class="built_in">str</span>(path+<span class="string">rf&quot;/<span class="subst">&#123;i&#125;</span>&quot;</span>))</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> jmid_cache:</span><br><span class="line">            os.remove(<span class="built_in">str</span>(i)+<span class="string">&quot;.pdf&quot;</span>)</span><br><span class="line">        dic = &#123;&#125;</span><br><span class="line">        json.dump(dic,cache)</span><br><span class="line">        </span><br><span class="line">    <span class="keyword">await</span> jm_clean_cache.finish(message=Message(<span class="string">&quot;缓存删除成功&quot;</span>))</span><br><span class="line">        </span><br><span class="line">        </span><br><span class="line"></span><br><span class="line"><span class="meta">@test_send_file.handle()</span></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">test_send_file</span>(<span class="params">bot: Bot, event: GroupMessageEvent, state: T_State</span>):</span><br><span class="line">    <span class="keyword">await</span> bot.call_api(</span><br><span class="line">        <span class="string">&quot;upload_group_file&quot;</span>,</span><br><span class="line">        group_id=event.group_id,</span><br><span class="line">        file=<span class="string">&quot;./1201023.pdf&quot;</span>,</span><br><span class="line">        name=<span class="string">&quot;1201023.pdf&quot;</span></span><br><span class="line">    )</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@help.handle()</span></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">help_menu</span>(<span class="params">bot: Bot, event: GroupMessageEvent, state: T_State</span>):</span><br><span class="line">    msg = <span class="string">&quot;输入/jm xxxxx 即可获取comic\n所有功能需要@机器人才能完成&quot;</span></span><br><span class="line">    <span class="keyword">await</span> <span class="built_in">help</span>.finish(message=Message(msg))</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于此站</title>
+    <url>/posts/d27f355a.html</url>
+    <content><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1476470866&auto=1&height=66"></iframe>
+
+<p>由于兴趣使然搭建的罢了</p>
+<p>平常偶尔发发东西</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>姬野永远，鸟谷真琴头像</title>
+    <url>/posts/6f7e9229.html</url>
+    <content><![CDATA[<p>昨天和今天照着这个教程用PS照着搓了俩头像</p>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114422542499938&bvid=BV1JoGUzQEJa&cid=29699868449&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+<p>如图</p>
+<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAANSaLLZo6LHzyJE5fv5P5_6LNWJFjEAAq_JMRv185hVZdT-5VGb8bcBAAMCAAN4AAM2BA.png" alt="鸟谷真琴"></p>
+<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAANTaLLZrpIvUDhQiiSqXEZxrSwT4z4AArDJMRv185hVC_V19AwQqFwBAAMCAAN4AAM2BA.png" alt="永远头像"></p>
+<p>第一张的原图是我从游戏cg里扣下来的，第二张原图是直接从pixiv上找的 <a href="https://www.pixiv.net/artworks/89515253">原链接</a></p>
+<p>虽然初中的时候在学校接触过Photoshop，但是都快忘光了，就只记得一个抠图（所以第一张扣的很差，第二张我才回忆起来怎么扣）</p>
+]]></content>
+      <categories>
+        <category>Galgame</category>
+      </categories>
+      <tags>
+        <tag>Galgame</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何在Manjaro上游玩galgame</title>
+    <url>/posts/1aad9c90.html</url>
+    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><div class="note warning flat"><p>此文章并不一定百分百有效，具体请看个人</p>
+<p>本文对于一些汉化过的galgame并不百分百有效</p>
+</div>
+
+<p>有关Arch Linux游玩galgame的文章倒是不少，但是Manjaro倒是没几个</p>
+<p>于是乎今天就来写写有关Manjaro的</p>
+<p>起初我也想安装Arch来着，但是安装的时候挂载挂错了，把EFI安到别的分区了遂放弃（其实就是懒得再去装一遍了，直接选择Manjaro的GUI安装）</p>
+<h1 id="Wine兼容层与Proton"><a href="#Wine兼容层与Proton" class="headerlink" title="Wine兼容层与Proton"></a>Wine兼容层与Proton</h1><p>首推的最方便的游玩方式</p>
+<p>通过wine和proton不仅可以玩galgame，也可以玩一些别的游戏</p>
+<p>由于Manjaro的Wiki东西很少，于是乎就写了这篇文章</p>
+<p>首先，介绍一下wine兼容层</p>
+<blockquote>
+<p>[Wine 是一款免费和开源的<strong>兼容层</strong>，使得在运行 Linux、FreeBSD 或其他一些操作系统的计算机上运行一些 Windows 应用程序成为可能。它也是 Valve 用来让 Steam Deck 用户在 Linux 驱动的手持设备上玩 Windows 游戏的 Proton 软件的基础。Wine（Wine Is Not an Emulator）能够在多种兼容 POSIX 接口的操作系统上运行 Windows 应用</p>
+</blockquote>
+<p>看到这里你应该明白wine和proton的关系了，proton就是v社基于wine开发的工具（你的steam deck能玩Windows游戏就是proton的功劳）</p>
+<p>&nbsp;</p>
+<h2 id="Wine"><a href="#Wine" class="headerlink" title="Wine"></a>Wine</h2><p>在安装wine之前，你得先至少准备好Windows下的所有字体文件，不然会乱码</p>
+<p>Windows字体文件<code>C:\Windows\Fonts</code>,打包后存好</p>
+<p>然后切到你的Manjaro</p>
+<p>在Manjaro下安装wine安装 Winemultilib 存储库，利用vim进入 <code>/etc/pacman.conf</code> 将<code>[multilib]</code>部分取消注释即可</p>
+<p>输入</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -S wine wine-mono wine-gecko</span><br><span class="line"><span class="comment">#稳定版</span></span><br><span class="line"><span class="built_in">sudo</span> pacman -S wine-staging wine-mono wine-gecko</span><br><span class="line"><span class="comment">#测试版</span></span><br></pre></td></tr></table></figure>
+
+<p>这样的话，一个基本的wine就安装好了<br>当然你也可以安装更多的依赖，详见<a href="https://wiki.archlinuxcn.org/wiki/Wine#%E5%8F%82%E8%A7%81">Arch Wiki</a><br>请在参阅arch wiki的时候记住你用的是Manjaro而不是Arch，提问请去Manjaro的社区</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wine --version</span><br></pre></td></tr></table></figure>
+
+<p>通过此来查看自己的版本</p>
+<p>输入后</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wine regedit</span><br></pre></td></tr></table></figure>
+
+<p>这时候会自动跳转出来一个界面，大概如下<br><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMJZ5zbDP2IBFoXSGQjPxtou6s1wAQAAsLCMRvQjelUR64o8YFsDw0BAAMCAAN3AAM2BA.png" alt="win regedit"><br>你会发现，诶，文字怎么变成方格了<br>这其实是缺失字体导致的，解决方法也很简单，将你准备好的字体移动到<code>/home/$&#123;username&#125;/.wine/drive_c/windows/Fonts</code>（如果找不到<code>.wine</code>请打开显示隐藏文件）<br>创建<code>zh.reg</code></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"> REGEDIT4</span><br><span class="line"></span><br><span class="line">[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]</span><br><span class="line"></span><br><span class="line">“Arial”=”simsun”</span><br><span class="line"></span><br><span class="line">“Arial CE,238”=”simsun”</span><br><span class="line"></span><br><span class="line">“Arial CYR,204”=”simsun”</span><br><span class="line"></span><br><span class="line">“Arial Greek,161”=”simsun”</span><br><span class="line"></span><br><span class="line">“Arial TUR,162”=”simsun”</span><br><span class="line"></span><br><span class="line">“Courier New”=”simsun”</span><br><span class="line"></span><br><span class="line">“Courier New CE,238”=”simsun”</span><br><span class="line"></span><br><span class="line">“Courier New CYR,204”=”simsun”</span><br><span class="line"></span><br><span class="line">“Courier New Greek,161”=”simsun”</span><br><span class="line"></span><br><span class="line">“Courier New TUR,162”=”simsun”</span><br><span class="line"></span><br><span class="line">“FixedSys”=”simsun”</span><br><span class="line"></span><br><span class="line">“Helv”=”simsun”</span><br><span class="line"></span><br><span class="line">“Helvetica”=”simsun”</span><br><span class="line"></span><br><span class="line">“MS Sans Serif”=”simsun”</span><br><span class="line"></span><br><span class="line">“MS Shell Dlg”=”simsun”</span><br><span class="line"></span><br><span class="line">“MS Shell Dlg 2”=”simsun”</span><br><span class="line"></span><br><span class="line">“System”=”simsun”</span><br><span class="line"></span><br><span class="line">“Tahoma”=”simsun”</span><br><span class="line"></span><br><span class="line">“Times”=”simsun”</span><br><span class="line"></span><br><span class="line">“Times New Roman CE,238”=”simsun”</span><br><span class="line"></span><br><span class="line">“Times New Roman CYR,204”=”simsun”</span><br><span class="line"></span><br><span class="line">“Times New Roman Greek,161”=”simsun”</span><br><span class="line"></span><br><span class="line">“Times New Roman TUR,162”=”simsun”</span><br><span class="line"></span><br><span class="line">“Tms Rmn”=”simsun”</span><br></pre></td></tr></table></figure>
+<p>导入之后重启wine即可</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">winecfg</span><br></pre></td></tr></table></figure>
+<p>通过此可以进行更多的设置<br>自此可以使用wine了</p>
+<h2 id="wine进阶"><a href="#wine进阶" class="headerlink" title="wine进阶"></a>wine进阶</h2><p>虽说能运行一些小游戏是不错，但是对于galgame还是不够的<br>WINEARCH这个变量决定了你模拟的Windows是32位或是64位的x86。对应的值为win32及win64，如果你的系统是64位的它就默认是win64<br>在64位的情况下运行32位的软件会出错</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">WINEARCH=win32 WINEPREFIX=/home/你的username/.wine_32 winecfg</span><br><span class="line"><span class="comment">#指定路径创建32位的文件夹</span></span><br></pre></td></tr></table></figure>
+<p>我个人不建议直接删掉.wine文件夹然后直接让他重新配置，而是创建一个wine_32文件夹来指定这个这个文件夹里运行32位应用<br><code>WINEPREFIX</code>这个路径是可变的，你可以随便取名</p>
+<p>但是运行32位应用时需指定</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">WINEPREFIX=~/.wine_32 wine program.exe</span><br></pre></td></tr></table></figure>
+<p>否则仍然按照默认的wine64运行</p>
+<p>&nbsp;</p>
+<p>在windows上玩游戏经常会遇到dll缺失带来的报错，那么wine上就更多了</p>
+<p>安装<code>winetricks</code></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">yay -S winetricks</span><br></pre></td></tr></table></figure>
+<p>（注：yay是AUR的软件仓，具体请百度搜索或者参考Arch Wiki）<br>然后在终端运行winetricks</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">winetricks</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMKZ5zjMIkhYmOdG_dydkq2TkoUA8sAAuHCMRvQjelUFNI6dkUSgiQBAAMCAAN5AAM2BA.png" alt="如图"></p>
+<p>会出现如图GUI，意思是让你选一个wine的文件夹，默认就好<br>这时候他会问你要不要发送数据这样利于winetricks的开发，看个人，我点的yes<br><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMLZ5zkBKi3REWzqdb3lYM8ep-2V3cAAuLCMRvQjelU6rM6oRx8XbgBAAMCAAN5AAM2BA.png"><br>点击安装dll就好了<br>他会让你选择安装的dll,值得注意的是，winetricks安装的dll有点是仅支持32位的<br>所以选择安装dll时得注意</p>
+<p>其实光下载一个wine在下载好依赖就可以应对绝大部分的galgame了</p>
+<p>如果嫌麻烦可以使用playonlinux来管理wine的使用和磁盘数</p>
+<h2 id="Proton"><a href="#Proton" class="headerlink" title="Proton"></a>Proton</h2><p>proton的易用性比wine好很多</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -S steam</span><br></pre></td></tr></table></figure>
+<p>通过此命令下载steam<br>登陆账号之后在设置里启用<br><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMMZ53si7yA7wyKoQQB5ZHcJ-Bi6VAAAi7BMRvE5fFUuUJFJ9342iYBAAMCAAN5AAM2BA.png" alt="设置界面"><br>通过兼容性来启用steam的proton<br>然后把你想要运行的exe文件添加到steam<br>添加到steam之后点击齿轮图标<br><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMNZ53tAcViNFBeQU8c_iZBBqiZ5oAAAjDBMRvE5fFUxxGNuvecau0BAAMCAANtAAM2BA.png"><br>找到<code>属性--&gt;兼容性--&gt;强制使用特定steam play兼容性工具</code><br><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAAMOZ53tctnDwjNh3RjBH9TK900cw1UAAjLBMRvE5fFUD5R8ipFAicgBAAMCAAN4AAM2BA.png"></p>
+<p>选择你要使用的proton版本，之后点击启动，steam就会下载proton了</p>
+<hr>
+<h1 id="虚拟机"><a href="#虚拟机" class="headerlink" title="虚拟机"></a>虚拟机</h1><p>虚拟机说实话我并不推荐，如果想使用虚拟机不如买个盘装双系统<br>一个是虚拟机卡，一个是虚拟机不方便<br>虚拟机软件例如vmware,kmv，VirtualBox等知名软件都可以使用<br>兼容性肯定比wine强，但是运行效率就不尽人意了<br>所以双系统&gt;&gt;wine&#x2F;proton&gt;&gt;虚拟机</p>
+]]></content>
+      <categories>
+        <category>Galgame</category>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Galgame</tag>
+        <tag>Linux</tag>
+        <tag>Manjaro</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>平凡的天才展现才能，真正的天才让人忘记才能————樱之诗全线推完有感</title>
+    <url>/posts/cf9739a6.html</url>
+    <content><![CDATA[<h1 id="樱之诗简介部分"><a href="#樱之诗简介部分" class="headerlink" title="樱之诗简介部分"></a>樱之诗简介部分</h1><p>《樱之诗》（原名：《サクラノ詩 －櫻の森の上を舞う－》）是<a href="https://baike.baidu.com/item/%E6%9E%95%E7%A4%BE/7596676?fromModule=lemma_inlink">枕社</a>在2015年10月23日推出的一款<a href="https://baike.baidu.com/item/%E7%BE%8E%E5%B0%91%E5%A5%B3%E6%B8%B8%E6%88%8F/4852646?fromModule=lemma_inlink">美少女游戏</a>。</p>
+<p>以『言叶と旋律』（言语和旋律）『幸福に生きよ』（活在幸福中）为主题的『<a href="https://baike.baidu.com/item/%E7%B4%A0%E6%99%B4%E6%97%A5/1775043?fromModule=lemma_inlink">素晴日</a>』的作者<a href="https://baike.baidu.com/item/SCA-%E8%87%AA/24170347?fromModule=lemma_inlink">SCA-自</a>，将会一边沿袭其主题一边描绘这之前的物语『樱之诗』。 </p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=399367387&auto=1&height=66"></iframe>
+
+<blockquote>
+<p>将瞬间封存起来的永恒。</p>
+<p>—『幸福前方的物语』</p>
+<p>『它若是虚无的话 虚无本身即是如此』如同一切是我中的<a href="https://baike.baidu.com/item/%E4%BC%97%E7%94%9F/33177?fromModule=lemma_inlink">众生</a>，故也是众生各自中的一切。</p>
+<p>—『春和修罗』序</p>
+<p>与艺术家的绘画一起留下的诗的最后，如此这般地写道。艺术家去世之后，一如往常的人们，一如往常的幸福<a href="https://baike.baidu.com/item/%E5%85%89%E6%99%AF/227496?fromModule=lemma_inlink">光景</a>延伸着。</p>
+<p>轻轻晃动的樱的森林中响起世界的声音</p>
+<p>优美的音色奏响起世界之声</p>
+<p>—『樱之诗』</p>
+</blockquote>
+<p>春天。由于世界著名的艺术家父亲的去世，变得天涯孤独的主人公·草薙直哉，要开始了寄居在友人的<a href="https://baike.baidu.com/item/%E5%A4%8F%E7%9B%AE%E5%9C%AD/53098812?fromModule=lemma_inlink">夏目圭</a>家的生活。</p>
+<p>在那里迎接他的是在他将要上学的地方担任班主任的夏目蓝，以及从事演员的圭的妹妹夏目雫。</p>
+<p>然后，随着新学期的到来，幼时转校离去的青梅竹马御桜禀再度出现在他的面前。</p>
+<p>随风飞舞的樱花花瓣的彼方，那是，有如曾经约定下的再会——。</p>
+<p>时间将思念重叠在一起，当感情的奔流成形之时，在那里相遇到的光景将会是？</p>
+<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><div class="note warning flat"><p>剧透警告</p>
+</div>
+
+<hr>
+<h1 id="《卧樱》"><a href="#《卧樱》" class="headerlink" title="《卧樱》"></a>《卧樱》</h1><blockquote>
+<p>假象的布满春色的天空<br>只是随意而为的因果交流电灯<br>在明亮的，明亮的，明亮的闪耀着<br>watermelon的电气石<br>声音与言语的交叉点<br>在这色彩愈发纷繁的世界中<br>七朵樱花越了过去<br>追上我并越了过去<br>我不在风景之前<br>风景也不在我之前<br>追上，赶上，消失不见<br>被轻轻柔柔包裹的世界烟消云散<br>在轻轻飘摇的樱花林中世界鸣响<br>世界在美妙的音色中放声鸣响<br>它若是虚无的话那虚无本即是如此<br>至某种程度相通于众生<br>如一切是我中的众生<br>故也是众生中各自的一切</p>
+</blockquote>
+<p>这是草薙健一郎在爱妻水菜死亡后创作的《卧樱》的题词</p>
+<p><img src="https://bucket.iczrx.cn/2024/07/16/6695dbecdb7d4.jpeg" alt="卧樱"></p>
+<blockquote>
+</blockquote>
+<p>包括在开头OP中也有提到 </p>
+<p><img src="https://bucket.iczrx.cn/2024/07/16/6695dc401f230.jpg" alt="OP部分题词"></p>
+<blockquote>
+<p>它若是虚无的话那虚无本即是如此<br>至某种程度相通于众生<br>如一切是我中的众生<br>故也是众生中各自的一切</p>
+<p>​						——《春与修罗》序</p>
+</blockquote>
+<p>以及开头部分直哉和圭在草地上的对话也有这部分</p>
+<p>可以说，这一部分是贯穿全文，甚至与剧情发展有着直接联系的存在</p>
+<p>这首诗健一郎本人在剧情中说过，是对“幸福”的描写</p>
+<p>这一部分直接在开头给出确实让一开始游玩的我匪夷所思</p>
+<p>但是随着剧情不断的展开，个人线对于信息不断地补充，尤其是第IV章草薙健一郎与水菜的的回忆被讲述之后，这首诗在此作中的含义才渐渐明了</p>
+<hr>
+<h1 id="七片花瓣，樱花下的足迹和樱花下的灰色足迹"><a href="#七片花瓣，樱花下的足迹和樱花下的灰色足迹" class="headerlink" title="七片花瓣，樱花下的足迹和樱花下的灰色足迹"></a>七片花瓣，樱花下的足迹和樱花下的灰色足迹</h1><blockquote>
+<p>“作品是为何而诞生，为何而创作……”</p>
+<p>“我们是为了什么而创作……只要认清那点就毫无问题……就算刻在头上的不是自己的名字也没有关系……”</p>
+</blockquote>
+<p>明石在创作出樱花下的足迹后，放弃了名誉，将作者（领导人）身份让给了直哉</p>
+<p>直哉在此之前创作出的《樱七象图》（卧樱的续作，被健一郎认作是自己的墓志铭）</p>
+<p>樱花下的足迹被长山香奈改为樱花下的灰色足迹后，直哉用惊人的方式，通过彩绘玻璃，掐好时间，成功映照出了更美的画作</p>
+<blockquote>
+<p>“我们是为了什么而创作……只要认清那点就毫无问题……就算刻在头上的不是自己的名字也没有关系……”</p>
+</blockquote>
+<p>这句话是明石说的</p>
+<p>直哉当着众人的面。宣布了这幅画的作者是长山香奈</p>
+<p>即使樱子后来询问他时，他也只是无所谓的态度（和当时的明石好像哦）</p>
+<p>因为这三次创作，直哉都知道究竟是为了谁，为了什么而创作，所以即使不冠上自己的名字，也无所谓</p>
+<p>而在长山香奈一再纠缠直哉之后，直哉带她去了画室，却并没有创作出如当初一样的画，可能是直哉再次作画却没有了目的，作品是为何而诞生，为何而创作……，他自己是为了什么而创作……</p>
+<p>樱花下的足迹，给人以纯粹的快乐</p>
+<p>《樱七象图》，既是给父亲的墓志铭，也是为了拯救雫而画，但是无论怎么说，都是直哉为了自己而画的（原作中有说）</p>
+<p>樱花下的灰色足迹，直哉用了另一种方式，守护住了画作，并以另一种方式升华了它（彩绘玻璃），同样如樱子所说，让人感受到了快乐</p>
+<p>这便是作品本身的意义，只要知道是为了什么而创作，为了什么而存在就好</p>
+<hr>
+<h1 id="《春日狂想》"><a href="#《春日狂想》" class="headerlink" title="《春日狂想》"></a>《春日狂想》</h1><blockquote>
+<p>挚爱之人死去的时候，<br>我必须杀死自己。<br>挚爱之人死去的时候，<br>除此之外，别无他法。<br>然若如此，罪业深重，<br>只好继续长生下去的话，<br>便保有一份仕奉的心情。<br>便保有一份仕奉的心情。<br>因为挚爱之人，死去了，<br>因为他真真确确地，死去了，<br>因为已经无论如何，无法挽救了，<br>至少为了他，至少为了他，<br>我必须保有一份，仕奉的心情。<br>                        ——中原中也《春日狂想》</p>
+</blockquote>
+<p>直哉在折笔之前曾创作过一幅画名为《樱日狂想》（草薙直哉在母亲死亡之后所做的作品），很容易就能让人联想到《春日狂想》</p>
+<p><img src="https://bucket.iczrx.cn/2024/07/17/669776c1e4014.jpg" alt="樱日狂想"></p>
+<p>由此可以引出樱之诗的一个重要的观点——侍奉精神 为了他人而牺牲自己</p>
+<p>例如：为了接住稟而不惜右手</p>
+<p>为了雫的自由而作出《樱七相图》</p>
+<p>为了里奈献出自己最后的笔力</p>
+<p>优美放弃对里奈的爱，在千年樱之下祝福直哉和里奈</p>
+<p>直哉隐瞒自己折笔的原因并且不再创作，就此冷落自己的才能</p>
+<p>正是因为无法杀死自己，无法放下这些情感，所以才罪业深重仍然对逝者有着无尽的思念</p>
+<p>挚爱之人的离世，对于生者来说，是一种无法填补的空白和永恒的失落。选择“保有一份仕奉的心情”，将对逝者的爱转化为一种持续的、内在的情感状态，并且带着这种情感继续的活下去，带着这份罪业，带着这份侍奉精神去为了自己所珍爱的而牺牲自己</p>
+<p>所以，直哉在失去母亲之后，抱着侍奉精神，对待他人</p>
+<hr>
+<h1 id="圭和《快乐王子》"><a href="#圭和《快乐王子》" class="headerlink" title="圭和《快乐王子》"></a>圭和《快乐王子》</h1><blockquote>
+<p>然而最后他也知道自己快要死去了。他剩下的力气只够再飞到王子的肩上一回。“再见了，亲爱的王子！”他喃喃地说，“你愿重让我亲吻你的手吗？”</p>
+<p>  “我真高兴你终于要飞往埃及去了，小燕子，”王子说，“你在这儿呆得太长了。不过你得亲我的嘴唇，因为我爱你。”</p>
+<p>“我要去的地方不是埃及，”燕子说，“我要去死亡之家。死亡是长眠的兄弟，不是吗？”</p>
+<p>接着他亲吻了快乐王子的嘴唇，然后就跌落在王子的脚下，死去了。</p>
+<p>‘’小燕子，飞吧，南飞吧’’</p>
+</blockquote>
+<p>直哉一直奉行着他的侍奉精神，对圭也是如此</p>
+<p>他坚持不画画，认为即使画了也比不上圭</p>
+<p>直到长山香奈的出现</p>
+<p>长山香奈前几条线几乎可以说是反派的存在，在稟线干扰稟和直哉，在里奈&amp;优美线里找优美的麻烦，在里奈线里找里奈的麻烦</p>
+<p>但是，她这样一个人，却是无比的希望直哉再次作画</p>
+<p>当她第一次看见直哉的画时，她自己所创造的那个世界，毁灭了</p>
+<p>她倾佩于直哉的才能，对美有着独到的理解，并且一直相信着自己的眼睛和直觉，猜到了《樱七相图》是草薙直哉的赝作而不是健一郎的真品</p>
+<p>当她看见直哉失去才能时不断嘲笑却又希望直哉作出反驳</p>
+<blockquote>
+<p>我的美就是那样的东西</p>
+<p>才能会背叛凡人，但技术不会</p>
+</blockquote>
+<p>她在看到直哉的画之后就无法再认可自己的作品，所以才那么想超越禀和直哉，以至于利用出名来与天才对抗，她（凡人）与直哉，稟（天才）对抗的方式</p>
+<p>总之，收到了蓝和香奈的影响，直哉又开始画画了</p>
+<p>而圭，也一直在等着他</p>
+<p>后面V和VI对《快乐王子》的引用，圭是燕子，直哉是王子，圭一直等待着直哉，当圭看见《樱七相图》的时候，圭就已经知道了</p>
+<p>圭的梦想是和直哉一起成为世界大师，所以他想创作出一幅画，一幅能推动直哉，让他去重拾画笔的画</p>
+<p>那幅画就是《向日葵》</p>
+<p>圭终于能和直哉同等水平的竞技了，但是，在穆尔展开始后，圭因为车祸（这边我玩的时候也没搞明白怎么死的，明明毫发无伤但是还是死了，可能是睡眠不足受到惊吓死了？）去世，圭赢了直哉，打败了他</p>
+<p>可当圭死了之后，直哉失去了作画的理由，当直哉喝酒，蓝抱住直哉的时候有个选项</p>
+<p><img src="https://bucket.iczrx.cn/2024/07/17/6697816b3bbf5.png" alt="决定你能否进入TE的选项"></p>
+<p>直哉怀疑自己究竟错了吗，抱有的侍奉精神，如果他不去隐瞒折笔的缘由，不去画画，不去为了他人的话，也许圭就不会死？</p>
+<p>直哉不知道自己是否做错了，为了他人而牺牲自己，结果却不如不做牺牲（其他线圭都没死，只有这条线圭死了）</p>
+<p>如上文所说</p>
+<p><code>正是因为无法杀死自己，无法放下这些情感，所以才罪业深重仍然对逝者有着无尽的思念</code></p>
+<p><code>挚爱之人的离世，对于生者来说，是一种无法填补的空白和永恒的失落。选择“保有一份仕奉的心情”，将对逝者的爱转化为一种持续的、内在的情感状态，并且带着这种情感继续的活下去，带着这份罪业，带着这份侍奉精神去为了自己所珍爱的而牺牲自己</code></p>
+<p>死去的人无法复活，重要的是背负起罪业然后继续活下去，并且“保有一份仕奉的心情”</p>
+<p>如果你选择了我错了（进入蓝线）</p>
+<p>如果你选择我不知道（进入TE)</p>
+<p>蓝线——直哉和蓝在一起，过着平凡普通的生活</p>
+<p>TE——直哉孤身一人，继续保持着以往的作风</p>
+<hr>
+<h1 id="Olympia"><a href="#Olympia" class="headerlink" title="Olympia"></a>Olympia</h1><p>Olympia在游戏中隐含两个意思，一个是爱德华·马奈的油画</p>
+<p><img src="https://bucket.iczrx.cn/2024/07/17/669786aed6098.jpg" alt="爱德华·马奈的油画"></p>
+<p>1862年，马奈揣摩着女人慵懒侧卧的风姿，需要一个裸女。这时候16岁的妓女维克托里娜・默朗碰巧来到他的面前，他便顺势提笔，邀她入画，并以希腊最高女神的称呼——“奥林匹亚”为她命名。画中描绘了一位裸露全身的佳人躺在适的床上，上半身微侧向外，她的右肘靠在绢质披巾中，身体处在明亮的光线中，影子微妙地包含于灰色轮席线中，一身着白衣的黑人女侍手捧花束站在她的身后，持花女黑人粉红色衣隐在深暗的背景中，衬托出裸女白皙的皮肤。裸女冰肌玉肤，头结丝带，脖子上挂着坠子，腕上戴着手镯，脚上穿着丝织拖鞋。脚边床上坐看一只黑色的猫。</p>
+<p>在游戏中也提到，传言有个富商看到这幅画中妓女的眼神让他感到十分不爽，让他想起自己嫖娼的经历</p>
+<p><img src="https://bucket.iczrx.cn/2024/07/17/6697877c32d5c.png" alt="水菜给健一郎当模特"></p>
+<p>而健一郎为水菜做的画也是如此</p>
+<p>健一郎模仿了Olympia并借此狠狠的讽刺中村章一，使得中村章一撕掉了画作，让夏目家索赔了10亿</p>
+<p>另一个则是歌剧《霍夫曼的故事》</p>
+<p>剧中人物：奥林比亚 诗人的情人甲（木偶） <a href="https://baike.baidu.com/item/%E5%A5%B3%E9%AB%98%E9%9F%B3/587433?fromModule=lemma_inlink">女高音</a></p>
+<blockquote>
+<p>第一幕：奥林比亚 意大利学者斯帕兰扎尼之家</p>
+<p>在斯帕兰扎尼家的客厅。霍夫曼隔窗看过博士的女儿奥林比亚后，就害起了<a href="https://baike.baidu.com/item/%E7%9B%B8%E6%80%9D%E7%97%85/2404520?fromModule=lemma_inlink">相思病</a>，早就听说奥林比亚能歌善舞，于是他就要求当博士的学生，一天见到沉睡的奥林比亚后，便唱出热烈的情歌：《啊！我要和她共同生活！》。</p>
+<p>尼克劳斯登场。听过霍夫曼的故事后，他就讲出一段故事，说七宝眼的机械木偶也能表演绝技：跳舞和说话，就像真人，他警告霍夫曼要小心。</p>
+<p>这时魔术师高佩流斯来访，对着迷地看着奥林比亚的霍夫曼说，他有奇妙的眼睛，能看透女人心，于是他卖给霍夫曼一副“魔法眼镜”。霍夫曼戴上这眼镜，看着奥林比亚变得无比漂亮、可爱，简直像仙女一般。</p>
+<p>斯帕兰扎尼进来后，看到高佩流斯来了，既紧张又惊讶。两个人神秘兮兮地为奥林比亚的所有权发生争吵后，终于达成协议，斯帕兰扎尼取得合法的木偶主权，他把一张高额支票交给高佩流斯。</p>
+<p>应邀的一大群客人登场，顺应大家的请求后，博士介绍了他的女儿奥林比亚。客人对她的美貌赞叹不已。对戴上魔法眼镜的霍夫曼而言，奥林比亚显得格外漂亮迷人，此时他真是如醉如痴。不久，博士就说，要让大家听听女儿的歌喉。</p>
+<p>接着，奥林比亚在博士的<a href="https://baike.baidu.com/item/%E7%AB%96%E7%90%B4/353057?fromModule=lemma_inlink">竖琴</a>伴奏下，唱出著名的花腔<a href="https://baike.baidu.com/item/%E5%92%8F%E5%8F%B9%E8%B0%83/3159?fromModule=lemma_inlink">咏叹调</a>：《林中小鸟唱出憧憬之歌》。</p>
+<p>她的歌声，中途因发条松了。于是有趣地滑落下来。仆人柯谢尼尔赶紧用手碰触她的肩膀，结果又恢复活力，继续唱下去。这段歌曲不仅<a href="https://baike.baidu.com/item/%E4%BC%98%E7%BE%8E%E5%8A%A8%E5%90%AC/16124270?fromModule=lemma_inlink">优美动听</a>，也很幽默生动，受到世人的喜爱。这是全剧中给人印象最深的、极具<a href="https://baike.baidu.com/item/%E6%88%8F%E5%89%A7%E6%80%A7/5815195?fromModule=lemma_inlink">戏剧性</a>的部分。由于晚餐已经准备好，博士就请客人们到餐厅，舞台只剩下奥林比亚和霍夫曼两人。这时，他就迫不及待地向奥林比亚倾吐爱意：“他们终于走了”，我很高兴真的只剩下“我们两个！”当霍夫曼把手放到她肩膀时，她只回答说：“是，是！但诗人居然以为她也深爱自己。后来当霍夫曼用力握住她的手时，奥林比亚就像上了发条似的飞快地跑到室外去了。</p>
+<p>霍夫曼拼命在后头紧着，当尼克劳斯撞见后也随着跑出去。这时高佩流斯很生气地进来，由于支票拿不到钱，他很愤怒地表示要报仇，然后躲到布帘后面。</p>
+<p>接着，开始奏出华丽的<a href="https://baike.baidu.com/item/%E5%9C%86%E8%88%9E%E6%9B%B2/195974?fromModule=lemma_inlink">圆舞曲</a>，霍夫曼搂着奥林比亚边舞边进来，可是她却越跳越快，而且不能停止。看到这情景的博士，赶快用手碰一下她的肩膀，好不容易才停了下来。这时霍夫曼因体力不支倒在地上，幸好只把眼镜弄坏，并未受伤，而奥林比亚则边唱边离开了。</p>
+<p>不一会儿，后面传来东西碎裂的声音。博士听了吓得脸色发白，马上飞也似地跑过去，霍夫曼也跟在他的后面。接着，斯帕兰扎尼和高佩流斯彼此咒骂着登场。这时，霍夫曼才知道奥林比亚原来只是一具机械木偶而已。回到舞台时，他脸色苍白，表情沮丧。于是客人们以合唱嘲笑迷恋机械人的诗人，幕落。</p>
+</blockquote>
+<p>通过《霍夫曼的故事》的第一张我们可以得出，Olympia是人偶，一具精致的机械木偶，这里也暗示着吹是一具人偶，吹自己也说了衣服品牌是Olympia</p>
+<p>在稟经历火灾之后，雫阻止了稟唤醒千年樱（详情见雫线），并且以食梦的方式夺走了天才般具象化的能力，这份能力（以及相关的记忆）全部到了吹身上。</p>
+<p>Olympia在游戏中不仅是指向健一郎的仿作，也指向了吹</p>
+<h1 id="平凡的天才展现才能，真正的天才让人忘记才能"><a href="#平凡的天才展现才能，真正的天才让人忘记才能" class="headerlink" title="平凡的天才展现才能，真正的天才让人忘记才能"></a>平凡的天才展现才能，真正的天才让人忘记才能</h1><p>圭，稟都是平凡的天才，他们固然拥有着才能，但是却无法达到直哉的高度</p>
+<p>直哉在月下和吹的那场比赛，香奈是见证人，只有香奈见证到了二人的才能</p>
+<p>直哉不是不能继续作画，而是不想去作画，包括TE里他并没有去当艺术家，而是去当了美术教师，偶尔喊朋友出来喝酒，面临着被辞退的风险，过着普通人的生活。虽然失去右手的能力，但是仍然能创作出惊人的画作。</p>
+<p>这是其他人比不上的，稟失去记忆画出的画也仅仅是“较好”。直哉不再依赖于右手才华，而是相信自己的技法、努力、想法，平心而论，这样的艺术之道更加宽广</p>
+<p><code>平凡的天才失去了才华便泯然众人矣，所以他们只能展露才华。</code><br><code>真正的天才失去了才华依然光彩熠熠，所以他们让人忘记才华。</code></p>
+<p>（此处参考了贴吧的一些东西<a href="https://tieba.baidu.com/p/7707146272">何谓平凡的天才，真正的天才？【樱之诗吧】_百度贴吧 (baidu.com)</a>）</p>
+<h1 id="美"><a href="#美" class="headerlink" title="美"></a>美</h1><p>樱之诗中有几次草坪上的对话</p>
+<p>开头的圭与直哉</p>
+<p>结尾的稟与直哉</p>
+<p>禀认为“自然模仿艺术”，是类似王尔德的唯美主义的观点，而直哉认为“自然模仿艺术”，是亚里士多德的观点</p>
+<p>稟说直哉心中有一个神，弱小的神</p>
+<p>这个神<code>在美的面前，既不做裁决、也不做惩罚。是个在最终审判之日什么都不做的神......</code></p>
+<p>禀认为美作为美而存在，本身即是价值，直哉认为美只有人的发现才有价值</p>
+<p>稟心中是强大的神，就如同健一郎所说</p>
+<p>而直哉心中弱小的神最后给出的解释（TE）：美是由人定义的，美的标准随人的看法而不断变化，这样看来，直哉心中的神的确是世界上最弱小的神明。</p>
+]]></content>
+      <categories>
+        <category>Galgame</category>
+      </categories>
+      <tags>
+        <tag>Galgame</tag>
+        <tag>VNG</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>永不落幕的前奏诗</title>
+    <url>/posts/caf1cd17.html</url>
+    <content><![CDATA[<div class="note warning flat"><p>剧透警告</p>
+</div>
+
+<p>未全线通过建议全线通过后再阅读</p>
+<p>我个人玩了大概15h全线通关，原本是被永远举着验孕棒那张图吸引才下的游戏（没戳就是这张）</p>
+<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAANMaJYPTzPIePUBhVLpmwXE3AjCvT4AAvvIMRsZO7FUUTLkMsuoE3EBAAMCAAN3AAM2BA.png" alt="QQ截图20250808215234"></p>
+<p>玩完序章发现永远黑长直加无口太对我胃口了😋</p>
+<h1 id="真响线"><a href="#真响线" class="headerlink" title="真响线"></a>真响线</h1><p>首先真响线玩的我火大，原因有两个，一个是永远对真响说了很过分的话，但是不否认这番话确实让男主和真响直面了情感，是很有必要的，另一个是海滩上永远拿着真响手机</p>
+<p><img src="https://img.amicors.cc/file/BQACAgUAAyEGAASEePlKAAM5aJYOl7oo__9LRmve3mTawM8qdjIAAhAZAAIZO7FUSJzgOQN3v8A2BA.psc" alt="img"></p>
+<p><img src="https://img.amicors.cc/file/BQACAgUAAyEGAASEePlKAAM6aJYOlz4HJQhAeMVE2jw6aP3ukd4AAhEZAAIZO7FUr-q1xQjL9582BA.psc" alt="img"></p>
+<p><img src="https://img.amicors.cc/file/BQACAgUAAyEGAASEePlKAAM9aJYOnPpmkmAQpV1UCpQRvGT7ekAAAhQZAAIZO7FUi-BYEUSKPkE2BA.psc" alt="img"></p>
+<p>为什么不做我的英雄.jpg</p>
+<p>玩到这里是真的气愤，一直支持终的是真响，信任他的是真响，让终意识到自己不是怪物而是英雄的也是真响。永远自己作做，被真响抢先了，反过头来还想要和终在一起，败犬闹麻了</p>
+<p>虽然在永远线里也能看出来永远的内心很矛盾，一方面是对终的思念，一方面又想让终离开没有未来的自己</p>
+<p>但是在真响线里，我只能说永远落得败犬下场就是活该</p>
+<hr>
+<h1 id="小遥线"><a href="#小遥线" class="headerlink" title="小遥线"></a>小遥线</h1><p>说实话其实我个人不怎么喜欢小遥这个人物，单纯不喜欢发型（）</p>
+<p>但是小遥线个人觉得也是很棒的</p>
+<p>首先是男主终于支棱起来了，至少比真响线里只会偷听谈话来得实在</p>
+<p>以及小遥对终的能力的肯定，对终的祝福，真的是有力的反驳了永远认为其罪孽的话语</p>
+<p><img src="https://img.amicors.cc/file/BQACAgUAAyEGAASEePlKAAM8aJYOmBEcst2dJ6DVo9PAxrurnF4AAhMZAAIZO7FUJkI_6rDUNz82BA.psc" alt="img"></p>
+<p>爽！😋</p>
+<p>不过小遥线没有真响线那种名场面</p>
+<p>为什么不做我的英雄.jpg</p>
+<p>本来是对小遥无感的，但是随着事情发展也确实感受到了小遥的魅力</p>
+<p>终哐哐写书，小遥也展现了原本的自己，大好结局</p>
+<p><img src="https://img.amicors.cc/file/BQACAgUAAyEGAASEePlKAAM-aJYOnKeV0E1nQKO5cINCyDZ49egAAhUZAAIZO7FUnHlr_VHfkp02BA.psc" alt="img"></p>
+<p><img src="https://img.amicors.cc/file/BQACAgUAAyEGAASEePlKAANCaJYOpCv7nkAGwEzJD4cnuOalx30AAhkZAAIZO7FUqCwp3ssXw6U2BA.psc" alt="img"></p>
+<p>而且不论小遥还是男主都有审视自己重新出发的勇气</p>
+<p>这不比某懦弱的，只知道躲在心墙里的真女主强多了</p>
+<p>后面还有男主怼永远可惜没截图</p>
+<hr>
+<h1 id="永远线"><a href="#永远线" class="headerlink" title="永远线"></a>永远线</h1><p>但是话又说回来了，一码归一码，本来就是奔着永远线来的，前两条线印象再怎么差都要推一推啊😋</p>
+<p>前面说到终和永远分了，个人感觉纯纯终的锅</p>
+<p>首先终天天要死要活的样子感觉这个能力很痛苦，结结果和人相处的时候就时不时用一下</p>
+<p>灯塔上永远本来因为男主失忆挺生气的，结果男主还一个劲的想知道永远什么心情想应对过去，是我我也生气😡</p>
+<p>而且小时候终好歹也是为了保护永远使用的能力，长大了直接把这个”痛苦”的能力拿来当自己的保护壳</p>
+<p>说实话进步没有就算了还退步</p>
+<p>想吐槽还有就是开头的机械降神，本来男主就一个共感能力结果和我说其他两条世界线永远的感受传过来了，给我干哪儿来了？设定上太割裂了以至于我不知道如何吐槽</p>
+<p>男主写的小说被烧掉</p>
+<p><img src="https://img.amicors.cc/file/BQACAgUAAyEGAASEePlKAANBaJYOoq1bebbpyj8fbuNf1QRYwvUAAhgZAAIZO7FUxSTGLguLmEA2BA.psc" alt="img"></p>
+<p><img src="https://img.amicors.cc/file/BQACAgUAAyEGAASEePlKAAM_aJYOnMTK5pHpxSWF6aJw_1rMmqgAAhYZAAIZO7FUPOhzZK8QpIk2BA.psc" alt="img"></p>
+<p>取而代之的是什么呢，是男主和永远的结婚证哒😋</p>
+<p><img src="https://img.amicors.cc/file/BQACAgUAAyEGAASEePlKAANFaJYOpIGAU0FGRwLCUWlr_-zXPrAAAhwZAAIZO7FUHd21NqecjV82BA.psc" alt="img"></p>
+<p><img src="https://img.amicors.cc/file/BQACAgUAAyEGAASEePlKAANIaJYOqjaX0hjVLObAf4qpAmeR_wMAAh8ZAAIZO7FU9UUWeRdwhz02BA.psc" alt="img"></p>
+<p><img src="https://img.amicors.cc/file/BQACAgUAAyEGAASEePlKAANAaJYOoNH_uhwy54KOiuCh6zeMyw8AAhcZAAIZO7FUm9OwAAGPNGo1NgQ.psc" alt="img"></p>
+<p><img src="https://img.amicors.cc/file/BQACAgUAAyEGAASEePlKAANEaJYOpHG-jSaKMWYEWrskPCcfwJEAAhsZAAIZO7FUTPgUgeDat5Q2BA.psc" alt="img"></p>
+<p>但是故事怎么可能草草结束呢</p>
+<p>前面说了，永远的内心是 很矛盾的，她自己也舍不得终，但是又期望终和她再也没有瓜葛</p>
+<p>因为对于永远来说，如果不打破心墙就意味着自己的内心彻底崩塌，自己是没有未来的，而她本人大概也没想出来解决办法所以不抱期待了</p>
+<p>永远的心墙不仅加厚了，而且她的心也在逐渐消失（可能是心墙裂缝后的禁断反应？）</p>
+<p>终使用了能力进入永远的内心，他看到了永远手上的书，意识到永远正在消失</p>
+<p>永远悲观的心态一直认为心墙无法打破，哪怕自己喜欢的美好结局也无法实现</p>
+<p>她的悲伤，不仅来源于心的消失，来源于对终的不舍，同时也担心着终，不希望他执着于没有未来的自己</p>
+<p>但是过于温柔过于优柔寡断也会伤害他人，永远期望终不要因她受伤，但是如果不坦然面对问题的话就会像当时两人分手一样，对两人造成巨大的创伤</p>
+<p><img src="https://img.amicors.cc/file/BQACAgUAAyEGAASEePlKAANDaJYOpHahXyUUIpCN_i-0iCbsbEQAAhoZAAIZO7FU-t_cy4w7c0I2BA.psc" alt="img"></p>
+<p><img src="https://img.amicors.cc/file/BQACAgUAAyEGAASEePlKAANJaJYOqn_-QBfWOT9qU9mimjNiCMsAAiAZAAIZO7FUslRpV1s_JZQ2BA.psc" alt="img"></p>
+<p><img src="https://img.amicors.cc/file/BQACAgUAAyEGAASEePlKAANGaJYOqqJmWwVmhCyZBjy1jCfWOqcAAh0ZAAIZO7FUhxC554_8L0A2BA.psc" alt="img"></p>
+<p>在众人的帮助下（这条线感觉所有人都帮了男主好多）找到了了出走的永远</p>
+<p>灯塔上，男主进入永远的内心，体会到了永远内心残余的感情，那是对终的爱</p>
+<p><img src="https://img.amicors.cc/file/BQACAgUAAyEGAASEePlKAANKaJYOsSzDWygh7cKabjs-RV6wGpMAAiEZAAIZO7FU8xJ9Q3pE2m02BA.psc" alt="img"></p>
+<p><img src="https://img.amicors.cc/file/BQACAgUAAyEGAASEePlKAANHaJYOqnXd1jWSbQcvS6KGNx-B8EMAAh4ZAAIZO7FUex_MT5R3pms2BA.psc" alt="img"></p>
+<p><img src="https://img.amicors.cc/file/BQACAgUAAyEGAASEePlKAANLaJYOs0RlSbjgGlj0mduF9s7maQADIhkAAhk7sVSfZnTsVhkrGDYE.psc" alt="img"></p>
+<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAANNaJamaWkcsaIHPW2OXY6u3NSTQtgAAsDJMRsZO7FUkHIiqB6jI6UBAAMCAAN3AAM2BA.png" alt="img"></p>
+<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAANOaJamnRsFYVsExviCO-oQlzLSyZIAAsHJMRsZO7FUCIWEASYuEDMBAAMCAAN3AAM2BA.png" alt="QQ截图20250808101110"></p>
+<p><img src="https://img.amicors.cc/file/BQACAgUAAyEGAASEePlKAAMzaJYOi2GVmOpH4ovM8VKhNCMjUMgAAgoZAAIZO7FUOu37tvBTqcQ2BA.psc" alt="img"></p>
+<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAANPaJamvDWDgY-h5Kxo6Ljc7FTw48sAAsLJMRsZO7FUshXgsj72CHcBAAMCAAN3AAM2BA.png" alt="QQ截图20250808101220"></p>
+<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAANQaJam1WJG3X3_zazg9t4LrWZ1ExAAAsPJMRsZO7FUv0dzMC8u10ABAAMCAAN3AAM2BA.png" alt="QQ截图20250808101205"></p>
+<p><img src="https://img.amicors.cc/file/AgACAgUAAyEGAASEePlKAANRaJam5w8K-etPD7AdCDJ5yoRQoCoAAsTJMRsZO7FUI3xuM8ektysBAAMCAAN3AAM2BA.png" alt="QQ截图20250808101250"></p>
+<p><img src="https://img.amicors.cc/file/BQACAgUAAyEGAASEePlKAAM7aJYOl4kiT0_A7q1EYjduWve4ousAAhIZAAIZO7FUm_s8Z2qAgdE2BA.psc" alt="img"></p>
+<p>永远对终的爱泛起了强烈的情感，最终打破心墙</p>
+<p><img src="https://img.amicors.cc/file/BQACAgUAAyEGAASEePlKAAM4aJYOlYypnpCQX4o9rbD9G_ocw2cAAg8ZAAIZO7FUyjXcDQpG4PY2BA.psc" alt="img"></p>
+<p>过完这条线对永远又有所改观，至少在永远线里，能真切感受到永远对终的感情，自己内心的纠结与悲伤，还有对终的爱</p>
+<p> 不愧为真女主</p>
+<p>过会就去玩序曲和fd，已经迫不及待看到永远的after story了😋</p>
+<p>PS：永远可爱捏🥰，玩完永远线发现永远太有魅力了</p>
+]]></content>
+      <categories>
+        <category>Galgame</category>
+      </categories>
+      <tags>
+        <tag>Galgame</tag>
+        <tag>VNG</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>若、生命于明日落幕</title>
+    <url>/posts/d9c7071d.html</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>可能会有所剧透，剧透处会提醒</p>
+<blockquote>
+<p>我决定于明日死去。因此，我要把今天活到最后。<br>明日死ぬと決めた。だから今日を、最期まで生きようと思う</p>
+</blockquote>
+<span id="more"></span>
+<h1 id="相关介绍"><a href="#相关介绍" class="headerlink" title="相关介绍"></a>相关介绍</h1><p>《若、生命于明日落幕》（日语：あした、人生（いのち）が終わるとしたら）是由同人社团OverFlowers制作发行的一部冒险游戏，于2022年12月31日发行。<br><img src="https://bucket.iczrx.cn/2024/04/20/662299aa5a788.jpg" alt="若、生命于明日落幕.jpg"></p>
+<h1 id="游戏时长"><a href="#游戏时长" class="headerlink" title="游戏时长"></a>游戏时长</h1><p>我这里大概用了40min左右就推完了<br><img src="https://bucket.iczrx.cn/2024/04/20/66229a09a1df0.png" alt="QQ截图20240419005020.png"><br>总的来说还是不错的短篇</p>
+<h1 id="故事概要-（有剧透！谨慎观看）"><a href="#故事概要-（有剧透！谨慎观看）" class="headerlink" title="故事概要 （有剧透！谨慎观看）"></a>故事概要 （有剧透！谨慎观看）</h1><p>白石紬希，女高中生<br>一天天重复的生活，同学的嘲笑，无意义的努力，渺茫的未来，使得她厌倦了生活<br>不论学习还是运动，紬希都处于平均以下。<br>无论梦想还是目标抑或是想做的事，紬希都没有。<br>尽管如此，成年人们仍然告诉她“为了未来而努力是值得的”，于是她开始朝着看不见的『未来』努力奔跑。</p>
+<p>—-直到有一天，车站出了事故，有人踏入了车站站台的黄线</p>
+<blockquote>
+<p>并非想要死去，只是因为活着很痛苦，所以想要消失而已</p>
+</blockquote>
+<p>这让紬希有了寻死的想法，她旷了一天的课，去玩自己想玩的，吃自己喜欢的，到了傍晚最后走向大海….</p>
+<h1 id="结局"><a href="#结局" class="headerlink" title="结局"></a>结局</h1><p>结局当然是没死的</p>
+<blockquote>
+<p>……但是，才这个时间吗？<br>这样的话，还有能做的事吧<br>想要消失，但却找借口不消失，最后选择了留下来的，是谁呢？<br>没有死去的，是何方之人呢。</p>
+</blockquote>
+<p>在走向大海之前，紬希停住了</p>
+<blockquote>
+<p>并非想要死去，只是因为活着很痛苦，所以想要消失而已</p>
+</blockquote>
+<p>紬希并不是想死，只是厌倦着生活中的一切<br>生活中有着令她备受苦难的东西：母亲回家后的关心，蛋包饭，老师真诚的建议…<br>自己被自己的精神折磨，母亲对她的温柔成了自己的负罪感</p>
+<p>这些东西背负在她身上<br>即使她上进，她努力，仍然无济于事，再加上身上背负的担子<br>使她有了不想死但是也不想活的想法</p>
+<p>拒绝上补习班，但是学习却学不过<br>在意成绩却又不想去面对<br>成绩崩坏，心态炸裂，从而对人生失望，对学习厌烦的死循环就出现了<br>总归来说，就是摆烂摆不烂，内卷卷不过<br>而且身上还有各种负担，以及从出生开始就被灌输的要考好学校的观点<br>但是上了重点高中之后又跟不上</p>
+<blockquote>
+<p>因为向上走就意味着“比周围的人更好”</p>
+</blockquote>
+<p>最终导致了</p>
+<blockquote>
+<p>明明不懂得降生于世的含义，不懂活着的理由，却还是要继续前行<br>在这种艰难混沌的世界————<br>人生只有接二连三的痛苦</p>
+</blockquote>
+<p><img src="https://bucket.iczrx.cn/2024/04/20/662320e0d3597.png" alt="C8C00787FF1B1F2465EB28FAC35CF6C6.png"><br>但是在她游玩了一天之后，她发现了，自己只是想寻求一个解脱，一个能给自己喘息的时间<br>其实并不想死，只是不想活着，不想面对<br>所以，才会在生命落幕前，反复的问自己</p>
+<blockquote>
+<p>……但是，才这个时间吗？<br>这样的话，还有能做的事吧</p>
+</blockquote>
+<p>她看到了这个世界的美丽</p>
+<blockquote>
+<p>天涯接海岸，天地一沉潜<br>……为什么，会这么美丽……</p>
+</blockquote>
+<p>最后，紬希释然了，重新回归到了那令她反感厌恶的生活中去了<br>不想活，和想去死。绝不是同一件事，而紬希只是属于前者<br>如果她真的想死的话，早就在车站站台，踏入那条黄色的警戒线了</p>
+<h1 id="摆烂与内卷"><a href="#摆烂与内卷" class="headerlink" title="摆烂与内卷"></a>摆烂与内卷</h1><p>在说摆烂与内卷前先说说自己的经历</p>
+<p>在初二的时候，我曾在开学的一个月内内卷过，但是后来心态发生的转变和我的成绩有很大关系<br>明明和别人一样去死命内卷了成绩却反而下降了<br>自此之后到初三下学期前，我都一直在摆烂<br>当时的情况是这样的，一种极致的摆烂状态：<br>    什么也不思考<br>    什么也不要去管<br>    过好眼前的生活并让自己乐在其中就好了<br>对于当时的我来说，分数，就是依托没用的数字</p>
+<p>但是从初三下学期开始，我突然又变的在意分数了（妈的，鬼知道什么原因😅）</p>
+<p>摆烂摆不下，内卷卷不过<br>直到现在还没成功跳出这个怪圈<br>并不是想内卷，而是不得不去，既有自己心里的原因，也有外在环境的因素</p>
+<p>口口声声说开摆，却又有几时能真正摆下来呢</p>
+<p>所以当时我晚上推游戏的时候想到：<br>    明明她可以摆烂，非得要把自己推到这种痛苦的位置上</p>
+<p>但是想了一下<br>摆烂摆不烂，内卷卷不过<br>我不是也这样吗🤣<br>那好像我也没什么资格说这事了</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>虽然篇幅短小<br>而且叙述平淡<br>但是对上电波的话还是能感受到些什么的<br><img src="https://bucket.iczrx.cn/2024/04/20/662324401b0c8.png" alt="QQ截图20240420101059.png"></p>
+<p>一开始我还以为和Narcissu一样表达作者的生死观来着<br>现在看来好像并不算是<br>至少生死观是没有的<br>更多的是对生活碌碌无为，只能给自己徒增压力的现象的描写吧</p>
+<p>作品取材还是相当真是的，但是对不上电波的可能认为很无聊<br>对于我，则恰好与我的经历稍有些重合之处吧</p>
+<blockquote>
+<p>明明不懂得降生于世的含义，不懂活着的理由，却还是要继续前行</p>
+</blockquote>
+<p>继续前行不是自己能决定的，大部分人还是被逼迫的<br>那又有什么办法呢<br>大多因学业寻死的人<br>大概也和紬希一样<br>反复的、一天天的<br>在艰难混沌的日常中<br>体会着接二连三的痛苦<br>他们也许不是想死<br>只是不想活</p>
+<h1 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h1><p>少一点精神内耗，养好精神<br>这才是最重要的吧</p>
+<h2 id="PS"><a href="#PS" class="headerlink" title="PS"></a>PS</h2><p>一开始我看这个选项什么还没想好，没有选项还以为是剧情锁<br>结果发现是真没有选项…..<br>blog从昨天晚上开始写的，太困就睡觉了<br>文笔有限，写的不行望多包涵</p>
+<h1 id="有关正作"><a href="#有关正作" class="headerlink" title="有关正作"></a>有关正作</h1><p>附上正作链接<br><a href="https://www.dlsite.com/home/work/=/product_id/RJ01012429.html">https://www.dlsite.com/home/work/=/product_id/RJ01012429.html</a><br>同人社团OverFlowers的作品<br>有能力的可以补个票<br>如果新用户拿券可以白嫖好多游戏</p>
+]]></content>
+      <categories>
+        <category>Galgame</category>
+      </categories>
+      <tags>
+        <tag>Galgame</tag>
+        <tag>VNG</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>萌新也能看懂的Galgame入坑教程</title>
+    <url>/posts/74d5df8b.html</url>
+    <content><![CDATA[<h1 id="什么是Galgame？"><a href="#什么是Galgame？" class="headerlink" title="什么是Galgame？"></a>什么是Galgame？</h1><h2 id="Galgame定义"><a href="#Galgame定义" class="headerlink" title="Galgame定义"></a>Galgame定义</h2><p>要想入坑，其实并不需要完全了解Galgame的定义</p>
+<p>因为Galgame的定义比较宽泛，个人理解不同包含的游戏也不同</p>
+<p>根据百度百科对Galgame的定义</p>
+<blockquote>
+<p>Galgame（日文假名：ギャルゲーム，<a href="https://baike.baidu.com/item/%E5%B9%B3%E6%96%87%E5%BC%8F%E7%BD%97%E9%A9%AC%E5%AD%97/4513631?fromModule=lemma_inlink">平文式罗马字</a>：Gyaru Gēmu，又称<a href="https://baike.baidu.com/item/%E7%BE%8E%E5%B0%91%E5%A5%B3%E6%B8%B8%E6%88%8F/4852646?fromModule=lemma_inlink">美少女游戏</a>）是一种玩家可以与动画美少女进行互动的<a href="https://baike.baidu.com/item/%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F/195750?fromModule=lemma_inlink">电子游戏</a>，其受众主体是男性。galgame的<a href="https://baike.baidu.com/item/%E6%B8%B8%E6%88%8F%E7%B1%BB%E5%9E%8B/360147?fromModule=lemma_inlink">游戏类型</a>大多数是vng(<a href="https://baike.baidu.com/item/%E8%A7%86%E8%A7%89%E5%B0%8F%E8%AF%B4/7283954?fromModule=lemma_inlink">视觉小说</a>)但是也有交互式的galgame。</p>
+<p>其中“ギャル”是日语中对于英文<a href="https://baike.baidu.com/item/%E5%A4%96%E6%9D%A5%E8%AF%8D/3726571?fromModule=lemma_inlink">外来词</a>“gal”<a href="https://baike.baidu.com/item/%E7%89%87%E5%81%87%E5%90%8D/1132594?fromModule=lemma_inlink">片假名</a>表记，是由于日本人对于“gal”的不规范的发音而形成的。（而gal则是英语中<a href="https://baike.baidu.com/item/girl/31345?fromModule=lemma_inlink">girl</a>的俚语表示，girl的日语表记为ガール）</p>
+<p>实质上这是一个错误。不过现如今已经给众人所接受。</p>
+<p>另外，“galgame”一词还有另外一种解释：“GAL”是由3个<a href="https://baike.baidu.com/item/%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D/10876304?fromModule=lemma_inlink">英语单词</a>“girl and love”的开头字母组合而成。此说法源于某论坛用户提出的所谓“galgame新定义”。</p>
+<p><strong>“</strong><a href="https://baike.baidu.com/item/%E7%BE%8E%E5%B0%91%E5%A5%B3%E6%B8%B8%E6%88%8F/4852646?fromModule=lemma_inlink">美少女游戏</a>”不是“<a href="https://baike.baidu.com/item/%E6%88%90%E4%BA%BA%E6%B8%B8%E6%88%8F/9445295?fromModule=lemma_inlink">成人游戏</a>”的<a href="https://baike.baidu.com/item/%E5%90%8C%E4%B9%89%E8%AF%8D/67068?fromModule=lemma_inlink">同义词</a><strong>。</strong>自『Virtual IDOL vol.2』开始使用今，该用词不是专指18禁的游戏软件，而是单纯为“有美少女登场的游戏”的代名词。因此，游戏中包含<a href="https://baike.baidu.com/item/%E8%89%B2%E6%83%85/794645?fromModule=lemma_inlink">色情</a>元素但并没有美少女登场的游戏，不能被分类为美少女游戏。</p>
+</blockquote>
+<p>这是摘自百度百科的相关内容，需要深入了解请戳链接</p>
+<p><a href="https://baike.baidu.com/item/GALgame/423361">GalGame_百度百科 (baidu.com)</a></p>
+<h2 id="那么，Galgame到底是什么呢"><a href="#那么，Galgame到底是什么呢" class="headerlink" title="那么，Galgame到底是什么呢"></a>那么，Galgame到底是什么呢</h2><p>也许，你会在视频平台上看到过这些</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/6633cb6356b32.webp" alt="ATRI"></p>
+<p><img src="https://pica.zhimg.com/v2-d57d9a0fe26fd17bbbf491cd04d2a44a_720w.jpg?source=172ae18b" alt="千恋万花"></p>
+<p><img src="https://tse2-mm.cn.bing.net/th/id/OIP-C._CjRb-FZq3NDM1YpwPKV-AHaHU?rs=1&pid=ImgDetMain" alt="常轨脱离Creative"></p>
+<p>Galgame其实就是以美少女出场的文字游戏，视觉小说</p>
+<p>当然，个人定义不同，理解也会有偏差</p>
+<h2 id="Galgame好玩吗？"><a href="#Galgame好玩吗？" class="headerlink" title="Galgame好玩吗？"></a>Galgame好玩吗？</h2><p>这个得分人</p>
+<p>但是Galgame带给你的绝对不只是一张张r18的hscene和CG</p>
+<h1 id="说了那么多，我该如何入坑呢？"><a href="#说了那么多，我该如何入坑呢？" class="headerlink" title="说了那么多，我该如何入坑呢？"></a>说了那么多，我该如何入坑呢？</h1><p>根据我快三年的游玩经历，总结出来了一条真理</p>
+<p>那就是：</p>
+<p>​	<del>多上网冲浪</del></p>
+<p>开玩笑的，但是游玩Galgame的确门槛稍高</p>
+<p>你需要熟练掌握的技能有：</p>
+<ol>
+<li>熟练的使用解压软件</li>
+<li>下载资源时不要在线解压</li>
+<li>有一个理解能力较好的脑子和一颗安静的心和诚恳的态度</li>
+<li>有钱时记得支持正作</li>
+</ol>
+<h2 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h2><p>Galgame其实不是说下载及玩的游戏</p>
+<p>这类游戏需要你有一点动手能力</p>
+<h3 id="PC端"><a href="#PC端" class="headerlink" title="PC端"></a>PC端</h3><h4 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h4><p>Windows其实是最好入坑的一个平台</p>
+<p>现在说一说Windows的游玩途径</p>
+<h5 id="下载即玩Steam"><a href="#下载即玩Steam" class="headerlink" title="下载即玩Steam"></a>下载即玩Steam</h5><p><img src="https://bucket.iczrx.cn/2024/05/03/6633d1d78dc54.png" alt="三色绘恋"></p>
+<p>steam上的Galgame基本下载即玩</p>
+<p>有时候需要汉化补丁（这个下文再讲）</p>
+<h5 id="从各大网站上下载资源"><a href="#从各大网站上下载资源" class="headerlink" title="从各大网站上下载资源"></a>从各大网站上下载资源</h5><h6 id="压缩包介绍"><a href="#压缩包介绍" class="headerlink" title="压缩包介绍"></a>压缩包介绍</h6><p>这里不过多说明网站</p>
+<p>但是，你从网站上下载的文件，大概率是这样的</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/6633d2a5d41ca.png" alt="假装这是个Galgame"></p>
+<p>这样的</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/6633d2a67cefa.png" alt="假装这是个Galgame"></p>
+<p>甚至是</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/6633d2a754311.png" alt="假装这是个Galgame"></p>
+<p>这样的!</p>
+<p>那么，我们该如何应对并且处理他们呢？</p>
+<p>其实，zip,rar,7z等都是压缩包的格式</p>
+<p>这边  推荐使用7-zip这款解压神器</p>
+<p><img src="https://pic1.zhimg.com/v2-eabfe0eff1d6e5ce9e509ba73d7b6304_r.jpg" alt="7-zip下载"></p>
+<p><a href="https://www.7-zip.org/download.html">下载链接</a></p>
+<p>当然你也可以从别的地方下载，这个随意，能解压就行</p>
+<h6 id="如何解压"><a href="#如何解压" class="headerlink" title="如何解压"></a>如何解压</h6><p>对准你的压缩包右键，移动到7-zip上，选择提取到<code>你的文件名\</code></p>
+<p>等待进度条跑完，即可打开文件夹愉快游戏了</p>
+<p>PS:有的人会压缩两层，所以进去之后看到压缩包记得再次解压</p>
+<h6 id="一些特殊情况"><a href="#一些特殊情况" class="headerlink" title="一些特殊情况"></a>一些特殊情况</h6><p><img src="https://bucket.iczrx.cn/2024/05/03/6633d4aecd366.png" alt="好臭的后缀"></p>
+<p>这个叫做压缩包吗？</p>
+<p>不叫，但是你可以手动修改它。</p>
+<p>将后缀<code>.114514</code>删掉即可（<strong>记得打开后缀名显示</strong>）</p>
+<p><strong>再次注意</strong></p>
+<p><strong>具体怎么改后缀名请以网站或资源分享者为准</strong></p>
+<p>有的解压需要密码</p>
+<p>请仔细在网站上寻找，并且填入后解压</p>
+<h5 id="从DLsite，dmm，getchu上购买"><a href="#从DLsite，dmm，getchu上购买" class="headerlink" title="从DLsite，dmm，getchu上购买"></a>从DLsite，dmm，getchu上购买</h5><p>这种渠道门槛较高，需要有国外的付款方式例如Paypal</p>
+<p>dlsite不需要不过三个网站都被墙了</p>
+<h4 id="MAC"><a href="#MAC" class="headerlink" title="MAC"></a>MAC</h4><h5 id="Steam"><a href="#Steam" class="headerlink" title="Steam"></a>Steam</h5><p>同上，不过多赘述</p>
+<h5 id="AppStore"><a href="#AppStore" class="headerlink" title="AppStore"></a>AppStore</h5><p>没有MAC不放图片了</p>
+<p>据我所知的，appstore有三色绘恋之类的Galgame，种类较少，但是下载及玩，不做赘述</p>
+<h5 id="网站上下载的"><a href="#网站上下载的" class="headerlink" title="网站上下载的"></a>网站上下载的</h5><p>同上，不做赘述</p>
+<p><strong>注意</strong></p>
+<p>MAC运行不了exe，所以不支持的游戏建议开虚拟机或者换电脑</p>
+<p>如何开虚拟机？</p>
+<p>[用免费开源的虚拟机软件，在 macOS 装 Windows - 知乎 (zhihu.com)](<a href="https://zhuanlan.zhihu.com/p/40163423#:~:text=%E7%94%A8%E5%85%8D%E8%B4%B9%E5%BC%80%E6%BA%90%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%BD%AF%E4%BB%B6%EF%BC%8C%E5%9C%A8">https://zhuanlan.zhihu.com/p/40163423#:~:text=用免费开源的虚拟机软件，在</a> macOS 装 Windows 1 通过重启切换操作系统：苹果官方提供了启动转换助理（Boot Camp Assistant），可以让我们在,、 VMware 等软件 ，将整个 Windows 化为 Mac 中的一个窗口，无需重新启动，适用的软件范围更广，体验更好。)</p>
+<h4 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h4><p><del>Linux用户一般都比较会折腾所以建议装个wine兼容层自己折腾去吧</del></p>
+<p>Linux确实不必多说，能用上的我不信不会找资源不会解压</p>
+<h3 id="移动端"><a href="#移动端" class="headerlink" title="移动端"></a>移动端</h3><p>讲完PC端，那么只有手机的那些玩家就没有去路了吗</p>
+<p>当然有</p>
+<h4 id="安卓"><a href="#安卓" class="headerlink" title="安卓"></a>安卓</h4><h5 id="Google-play-直装APK"><a href="#Google-play-直装APK" class="headerlink" title="Google play&#x2F;直装APK"></a>Google play&#x2F;直装APK</h5><p>Google play里的Galgame也不算多，但是上手简单，直接下载安装即可</p>
+<p>直装APK的资源网上有</p>
+<p>建议自己搜索</p>
+<h5 id="模拟器"><a href="#模拟器" class="headerlink" title="模拟器"></a>模拟器</h5><p>你说这个那选择可就多了</p>
+<p>先谈谈比较主流的</p>
+<p><u><strong>解压好你所下载的游戏资源</strong></u></p>
+<p><u><strong>（由于md文件好像只支持6级标题所以不在这儿再分标题了）</strong></u></p>
+<p><u><strong>手机解压软件推荐：MT管理器</strong></u></p>
+<p><u><strong>解压方式大同小异，基本差不多</strong></u></p>
+<p><u><strong>解压方法见</strong></u></p>
+<p><u><strong>[MT管理器怎么解压压缩文件-百度经验 (baidu.com)](<a href="https://jingyan.baidu.com/article/0320e2c1dbd5185a87507be1.html#:~:text=%E9%95%BF%E6%8C%89%E5%8E%8B%E7%BC%A9%E6%96%87%E4%BB%B6">https://jingyan.baidu.com/article/0320e2c1dbd5185a87507be1.html#:~:text=长按压缩文件</a> 在MT管理器中，【长按】要解压的压缩文件，如图所示： 2%2F3 点击解压到,在展开的菜单中，点击【解压到】，如图所示： 3%2F3 点击确定 在弹出的窗口中，点击【确定】即可，如图所示：)</strong></u></p>
+<h6 id="KRKR"><a href="#KRKR" class="headerlink" title="KRKR"></a>KRKR</h6><p>krkr其实是一款引擎，模拟器专门运行这款引擎所制作的游戏</p>
+<p><a href="https://github.com/zeas2/Kirikiroid2/releases">Releases · zeas2&#x2F;Kirikiroid2 (github.com)</a>下载链接</p>
+<p>这是Github上的，当然访问不了你也可以从别的渠道下载</p>
+<p>打开krkr模拟器，你会看到这个（记得给文件读写的权限不然什么都没有）</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/66344cb0ce548.jpg" alt="主界面，右边因机而异"></p>
+<p>找到你解压的文件的路径，并且选择里面的<code>data.xp3</code>文件自动开始游戏（等会我现在就去掏个手机给你搞教程.jpg)</p>
+<p>首先下载资源，我这里用恋爱成双FD演示</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/66344e29c8f8f.jpg" alt="资源"></p>
+<p>创建一个文件夹并解压（文件夹方便管理）</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/66344e8e07183.jpg" alt="创建文件夹"></p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/66344e8e6b02f.jpg" alt="进入目录"></p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/66344e8ed3cc5.jpg" alt="解压"></p>
+<p>左侧进入目录后，长按进行解压，勾选基于另一窗口路径来解压到左边</p>
+<p><strong>剧体怎么解压我已经在上面给出链接</strong></p>
+<p><u><strong>[MT管理器怎么解压压缩文件-百度经验 (baidu.com)](<a href="https://jingyan.baidu.com/article/0320e2c1dbd5185a87507be1.html#:~:text=%E9%95%BF%E6%8C%89%E5%8E%8B%E7%BC%A9%E6%96%87%E4%BB%B6">https://jingyan.baidu.com/article/0320e2c1dbd5185a87507be1.html#:~:text=长按压缩文件</a> 在MT管理器中，【长按】要解压的压缩文件，如图所示： 2%2F3 点击解压到,在展开的菜单中，点击【解压到】，如图所示： 3%2F3 点击确定 在弹出的窗口中，点击【确定】即可，如图所示：)</strong></u></p>
+<p>这边再放一次</p>
+<p>接下来</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/66344f611c3e9.jpg" alt="打开krkr，找到目录"></p>
+<p>进入</p>
+<p>点击<code>data.xp3</code></p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/66344f61b87e7.jpg"></p>
+<p>成功进入游戏</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/66344f6e32fae.jpg" alt="游戏"></p>
+<p>退出之后再进入主界面会发现左边记录下游戏的路径，点击直接快捷启动</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/66344f62495e4.jpg"></p>
+<h6 id="onsplayer"><a href="#onsplayer" class="headerlink" title="onsplayer"></a>onsplayer</h6><p>onsplayer也是模拟器，但是相较于krkr，运行的游戏不算多</p>
+<p>导入方式和krkr大差不差</p>
+<p><a href="https://blog.csdn.net/k8629629/article/details/113178566">iOS上玩galgame的各类模拟器【完整版】_onsplayer-CSDN博客</a></p>
+<p>这里贴上别人的链接，懒得讲了</p>
+<h6 id="其他模拟器"><a href="#其他模拟器" class="headerlink" title="其他模拟器"></a>其他模拟器</h6><p>市面上还有很多模拟器，导入方式基本都大同小异</p>
+<p>在此处只介绍krkr，因为krkr涵盖的比较广</p>
+<h5 id="exagear-wine兼容层"><a href="#exagear-wine兼容层" class="headerlink" title="exagear&#x2F;wine兼容层"></a>exagear&#x2F;wine兼容层</h5><p>通过exagear运行wine兼容层，能畅玩galgame</p>
+<p><del>请不要想着去直接运行Windows的虚拟机</del></p>
+<p><del>转移效率的低下会让你玩的生不如死的</del></p>
+<p>exagear用好了可以干很多事情</p>
+<p>你甚至可以在上面玩别的PC游戏</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/663451d5a5cfc.jpg" alt="exagear进入侧边栏"></p>
+<p>然后进入环境管理</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/663451d65c0ce.jpg" alt="环境管理"></p>
+<p>右上角新建一个环境</p>
+<p>设置如下</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/663451d71a86e.jpg"></p>
+<p>最后启动，只要你会电脑就会操作wine兼容层</p>
+<h4 id="iOS"><a href="#iOS" class="headerlink" title="iOS"></a>iOS</h4><p>iOS的话，其实模拟器非常的少，但是不等于游玩没有了途径</p>
+<h5 id="AppStore-1"><a href="#AppStore-1" class="headerlink" title="AppStore"></a>AppStore</h5><p>AppStore其实还是有Galgame的</p>
+<p>但是少</p>
+<h5 id="XP3Player模拟器"><a href="#XP3Player模拟器" class="headerlink" title="XP3Player模拟器"></a>XP3Player模拟器</h5><p>现已从appstore下架，可以选择自签的方式安装</p>
+<p>或者直接越狱</p>
+<p><strong>越狱有风险（对不懂的人来说），能不越狱最好别越</strong></p>
+<p>导入方式有些差异，你需要把压缩包直接分享至xp3player</p>
+<p>然后再模拟器中解压游玩</p>
+<p><strong>注意：iOS15貌似就有人有闪退的现象了，iOS16之前测试直接闪退，无法游玩</strong></p>
+<h5 id="ONSplayer"><a href="#ONSplayer" class="headerlink" title="ONSplayer"></a>ONSplayer</h5><p>果然ONSplayer是强大的</p>
+<p>导入方式和上述安卓的krkr类似</p>
+<p>什么？你问没有文件管理器？</p>
+<p>呐，自带的去safari的下载目录去看，或者qq下载的点击分享转到储存到本地即可</p>
+<h5 id="UTM"><a href="#UTM" class="headerlink" title="UTM"></a>UTM</h5><p><strong>注意：此方法对机型有限制，配置低的别想了</strong></p>
+<p>支持M1即以上的芯片</p>
+<p>因为有ARM构架的Windows镜像包</p>
+<p>其他处理器也可以运行虚拟机，–但是！</p>
+<p>需要开启jit调试且运行效率不会高就是了</p>
+<h1 id="解压"><a href="#解压" class="headerlink" title="解压"></a>解压</h1><p>为什么解压要单独拉出来讲</p>
+<p>因为对于纯小白来说，解压本身就够复杂的了</p>
+<h2 id="普通解压"><a href="#普通解压" class="headerlink" title="普通解压"></a>普通解压</h2><p>已经做过描述，不多讲</p>
+<p><a href="#%E5%8E%8B%E7%BC%A9%E5%8C%85%E4%BB%8B%E7%BB%8D">点此跳转</a></p>
+<h2 id="分卷压缩"><a href="#分卷压缩" class="headerlink" title="分卷压缩"></a>分卷压缩</h2><p>如果你下载了一堆压缩包是这样的</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/663461e20ba5c.png" alt="分卷压缩"></p>
+<p>别慌，这就是分卷压缩</p>
+<p>解压很简答</p>
+<p>看到后面的<code>.001</code>，<code>.002</code>了吗</p>
+<p>对准第一个（就是_internal.zip.001)进行解压</p>
+<p>然后，就能把001，002，003的文件全部解压下来并且存入一个文件夹内了</p>
+<p>切记不要只解压002，003，只需解压001</p>
+<h2 id="压缩密码"><a href="#压缩密码" class="headerlink" title="压缩密码"></a>压缩密码</h2><p>一般来说，网站上下载的资源都自带密码</p>
+<p>但是，如果来路不明的资源没有密码怎么办</p>
+<p>其实，可以通过暴力破解的方法来破开</p>
+<p>压缩包不是你的手机密码，输入过多次数就会锁定</p>
+<p>你可以尝试无数次</p>
+<p>但是，记住，暴力破解的方式破开的几率微乎其微</p>
+<p>拿rar举例，密码最长127个字符，组合情况你拿你的电脑算一辈子都算不完</p>
+<p>所以，找不到密码建议多尝试尝试常用的密码比如:123，114514，000之类</p>
+<p>也可以去网上下载字典尝试</p>
+<p>如果还不行就直接放弃吧</p>
+<h1 id="进阶"><a href="#进阶" class="headerlink" title="进阶"></a>进阶</h1><h2 id="支持正作"><a href="#支持正作" class="headerlink" title="支持正作"></a>支持正作</h2><p>如何支持正作呢</p>
+<p>你可以去以下平台</p>
+<a href="https://store.steampowered.com/" target="_blank" title="Steam" referrerPolicy="no-referrer" class="link_card"><div class="link_icon"><img src=" https://ts4.cn.mm.bing.net/th?id=ODLS.22ef81b2-31a8-4ee6-930b-a3cd7d5d6c55&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2" class="no-lightbox"></div><div class="link_content"><div class="link_title">Steam</div><div class="link_desc">Steam平台</div></div></a>
+
+
+<a href="https://store.hikarifield.co.jp/" target="_blank" title="HIKARI FIELD" referrerPolicy="no-referrer" class="link_card"><div class="link_icon"><img src=" https://static.hikarifield.co.jp/images/hf-logo.png" class="no-lightbox"></div><div class="link_content"><div class="link_title">HIKARI FIELD</div><div class="link_desc">HIKARI FIELD平台</div></div></a>
+
+
+
+<a href="https://www.dmm.com/" target="_blank" title="DMM" referrerPolicy="no-referrer" class="link_card"><div class="link_icon"><img src=" https://ts2.cn.mm.bing.net/th?id=ODLS.7c778ce6-e4d3-4f5b-b293-f3f80ce60a80&w=32&h=32&qlt=91&pcl=fffffa&o=6&pid=1.2" class="no-lightbox"></div><div class="link_content"><div class="link_title">DMM</div><div class="link_desc">实体盘购买</div></div></a>
+
+
+
+<a href="https://www.getchu.com/" target="_blank" title="Getchu" referrerPolicy="no-referrer" class="link_card"><div class="link_icon"><svg t="1670307855063" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="19066" width="200" height="200"><path d="M504.064 516.608m-384.256 0a384.256 384.256 0 1 0 768.512 0 384.256 384.256 0 1 0-768.512 0Z" fill="#009CF5" p-id="19068"></path><path d="M746.112 270.464L472.448 485.12l63.104 63.104L750.08 274.56c2.304-2.688-1.28-6.144-3.968-4.096z" fill="#FF4C3A" p-id="19069"></path><path d="M262.016 762.752l273.664-214.528-63.104-63.104-214.656 273.536c-2.176 2.688 1.28 6.144 4.096 4.096z" fill="#FFFFFF" p-id="19070"></path><path d="M505.216 155.136c-3.2 0-5.888 2.56-5.888 5.888v53.504c0 3.2 2.56 5.888 5.888 5.888s5.888-2.56 5.888-5.888v-53.504c-0.128-3.2-2.688-5.888-5.888-5.888zM442.368 160.512c-3.2 0.512-5.376 3.584-4.736 6.784l9.344 52.736c0.512 3.2 3.584 5.376 6.784 4.736 3.2-0.512 5.376-3.584 4.736-6.784l-9.344-52.736c-0.512-3.2-3.584-5.376-6.784-4.736zM396.288 234.368c1.152 3.072 4.48 4.608 7.552 3.456 3.072-1.152 4.608-4.48 3.456-7.552l-18.304-50.304c-1.152-3.072-4.48-4.608-7.552-3.456-3.072 1.152-4.608 4.48-3.456 7.552l18.304 50.304zM348.928 257.408c1.664 2.816 5.248 3.712 7.936 2.176s3.712-5.248 2.176-7.936l-26.752-46.336c-1.664-2.816-5.248-3.712-7.936-2.176-2.816 1.664-3.712 5.248-2.176 7.936l26.752 46.336zM306.304 288.256c2.048 2.432 5.76 2.816 8.192 0.768 2.432-2.048 2.816-5.76 0.768-8.192l-34.432-40.96c-2.048-2.432-5.76-2.816-8.192-0.768-2.432 2.048-2.816 5.76-0.768 8.192l34.432 40.96zM269.696 326.144c2.432 2.048 6.144 1.792 8.192-0.768 2.048-2.432 1.792-6.144-0.768-8.192l-40.96-34.432c-2.432-2.048-6.144-1.792-8.192 0.768-2.048 2.432-1.792 6.144 0.768 8.192l40.96 34.432zM193.792 342.912l46.336 26.752c2.816 1.664 6.4 0.64 7.936-2.176 1.664-2.816 0.64-6.4-2.176-8.064L199.552 332.8c-2.816-1.664-6.4-0.64-7.936 2.176-1.664 2.688-0.64 6.272 2.176 7.936zM168.32 399.488l50.304 18.304c3.072 1.152 6.4-0.512 7.552-3.456 1.152-3.072-0.512-6.4-3.456-7.552l-50.304-18.304c-3.072-1.152-6.4 0.512-7.552 3.456-1.152 3.072 0.384 6.4 3.456 7.552zM207.872 457.344l-52.736-9.344c-3.2-0.512-6.272 1.536-6.784 4.736-0.512 3.2 1.536 6.272 4.736 6.784l52.736 9.344c3.2 0.512 6.272-1.536 6.784-4.736 0.512-3.2-1.536-6.272-4.736-6.784zM201.984 509.568H148.48c-3.2 0-5.888 2.56-5.888 5.888 0 3.2 2.56 5.888 5.888 5.888h53.504c3.2 0 5.888-2.56 5.888-5.888 0-3.2-2.56-5.888-5.888-5.888zM205.44 562.176l-52.736 9.344c-3.2 0.512-5.376 3.584-4.736 6.784 0.512 3.2 3.584 5.376 6.784 4.736l52.736-9.344c3.2-0.512 5.376-3.584 4.736-6.784s-3.584-5.248-6.784-4.736zM217.856 613.376l-50.304 18.304c-3.072 1.152-4.608 4.48-3.456 7.552 1.152 3.072 4.48 4.608 7.552 3.456l50.304-18.304c3.072-1.152 4.608-4.48 3.456-7.552-1.152-3.072-4.48-4.608-7.552-3.456zM238.976 661.504l-46.336 26.752c-2.816 1.664-3.712 5.248-2.176 8.064 1.664 2.816 5.248 3.712 8.064 2.176l46.336-26.752c2.816-1.664 3.712-5.248 2.176-8.064-1.664-2.816-5.248-3.712-8.064-2.176zM268.16 705.408l-40.96 34.432c-2.432 2.048-2.816 5.76-0.768 8.192 2.048 2.432 5.76 2.816 8.192 0.768l40.96-34.432c2.432-2.048 2.816-5.76 0.768-8.192-1.92-2.56-5.632-2.816-8.192-0.768zM304.512 743.424l-34.432 40.96c-2.048 2.432-1.792 6.144 0.768 8.192 2.432 2.048 6.144 1.792 8.192-0.768l34.432-40.96c2.048-2.432 1.792-6.144-0.768-8.192-2.304-1.92-6.016-1.664-8.192 0.768zM347.008 774.656l-26.752 46.336c-1.664 2.816-0.64 6.4 2.176 7.936 2.816 1.664 6.4 0.64 8.064-2.176l26.752-46.336c1.664-2.816 0.64-6.4-2.176-7.936-2.816-1.536-6.4-0.64-8.064 2.176zM394.24 798.08l-18.304 50.304c-1.152 3.072 0.512 6.4 3.456 7.552 3.072 1.152 6.4-0.512 7.552-3.456l18.304-50.304c1.152-3.072-0.512-6.4-3.456-7.552-3.072-1.152-6.528 0.384-7.552 3.456zM440.192 872.32c3.2 0.512 6.272-1.536 6.784-4.736l9.344-52.736c0.512-3.2-1.536-6.272-4.736-6.784-3.2-0.512-6.272 1.536-6.784 4.736l-9.344 52.736c-0.64 3.2 1.536 6.272 4.736 6.784zM502.912 878.08c3.2 0 5.888-2.56 5.888-5.888v-53.504c0-3.2-2.56-5.888-5.888-5.888-3.2 0-5.888 2.56-5.888 5.888v53.504c0 3.2 2.688 5.888 5.888 5.888zM549.632 815.232l9.344 52.736c0.512 3.2 3.584 5.376 6.784 4.736 3.2-0.512 5.376-3.584 4.736-6.784l-9.344-52.736c-0.512-3.2-3.584-5.376-6.784-4.736-3.2 0.512-5.248 3.584-4.736 6.784zM600.832 802.816l18.304 50.304c1.152 3.072 4.48 4.608 7.552 3.456 3.072-1.152 4.608-4.48 3.456-7.552L611.84 798.72c-1.152-3.072-4.48-4.608-7.552-3.456-3.072 1.152-4.608 4.48-3.456 7.552zM649.088 781.696l26.752 46.336c1.664 2.816 5.248 3.712 8.064 2.176 2.816-1.664 3.712-5.248 2.176-8.064l-26.88-46.336c-1.664-2.816-5.248-3.712-8.064-2.176-2.816 1.664-3.712 5.248-2.048 8.064zM692.864 752.384l34.432 40.96c2.048 2.432 5.76 2.816 8.192 0.768 2.432-2.048 2.816-5.76 0.768-8.192l-34.432-40.96c-2.048-2.432-5.76-2.816-8.192-0.768-2.56 2.048-2.816 5.76-0.768 8.192zM730.88 716.032l40.96 34.432c2.432 2.048 6.144 1.792 8.192-0.768 2.048-2.432 1.792-6.144-0.768-8.192l-40.96-34.432c-2.432-2.048-6.144-1.792-8.192 0.768-1.92 2.432-1.664 6.144 0.768 8.192zM762.112 673.664l46.336 26.752c2.816 1.664 6.4 0.64 8.064-2.176 1.664-2.816 0.64-6.4-2.176-7.936L768 663.552c-2.816-1.664-6.4-0.64-8.064 2.176-1.536 2.688-0.64 6.272 2.176 7.936zM785.536 626.432l50.304 18.304c3.072 1.152 6.4-0.512 7.552-3.456 1.152-3.072-0.512-6.4-3.456-7.552l-50.304-18.304c-3.072-1.152-6.4 0.512-7.552 3.456-1.152 3.072 0.384 6.4 3.456 7.552zM800.256 575.872l52.736 9.344c3.2 0.512 6.272-1.536 6.784-4.736 0.512-3.2-1.536-6.272-4.736-6.784l-52.736-9.344c-3.2-0.512-6.272 1.536-6.784 4.736-0.512 3.2 1.536 6.272 4.736 6.784zM800.256 517.76c0 3.2 2.56 5.888 5.888 5.888h53.504c3.2 0 5.888-2.56 5.888-5.888 0-3.2-2.56-5.888-5.888-5.888h-53.504c-3.328 0-5.888 2.56-5.888 5.888zM802.688 471.04l52.736-9.344c3.2-0.512 5.376-3.584 4.736-6.784-0.512-3.2-3.584-5.376-6.784-4.736l-52.736 9.344c-3.2 0.512-5.376 3.584-4.736 6.784 0.512 3.2 3.584 5.248 6.784 4.736zM790.272 419.84l50.304-18.304c3.072-1.152 4.608-4.48 3.456-7.552-1.152-3.072-4.48-4.608-7.552-3.456l-50.304 18.304c-3.072 1.152-4.608 4.48-3.456 7.552 1.152 2.944 4.48 4.608 7.552 3.456zM769.152 371.584l46.336-26.752c2.816-1.664 3.712-5.248 2.176-7.936-1.664-2.816-5.248-3.712-8.064-2.176l-46.336 26.752c-2.816 1.664-3.712 5.248-2.176 8.064 1.664 2.688 5.248 3.712 8.064 2.048zM739.84 327.808l40.96-34.432c2.432-2.048 2.816-5.76 0.768-8.192-2.048-2.432-5.76-2.816-8.192-0.768l-40.96 34.432c-2.432 2.048-2.816 5.76-0.768 8.192 2.048 2.56 5.76 2.816 8.192 0.768zM703.488 289.664l34.432-40.96c2.048-2.432 1.792-6.144-0.768-8.192-2.432-2.048-6.144-1.792-8.192 0.768l-34.432 40.96c-2.048 2.432-1.792 6.144 0.768 8.192 2.432 2.048 6.144 1.792 8.192-0.768zM661.12 258.56l26.752-46.336c1.664-2.816 0.64-6.4-2.176-7.936-2.816-1.664-6.4-0.64-8.064 2.176l-26.752 46.336c-1.664 2.816-0.64 6.4 2.176 7.936 2.816 1.536 6.4 0.64 8.064-2.176zM613.888 235.136l18.304-50.304c1.152-3.072-0.512-6.4-3.456-7.552-3.072-1.152-6.4 0.512-7.552 3.456L602.88 231.168c-1.152 3.072 0.512 6.4 3.456 7.552 3.072 1.024 6.4-0.512 7.552-3.584zM556.544 225.152c3.2 0.512 6.272-1.536 6.784-4.736l9.344-52.736c0.512-3.2-1.536-6.272-4.736-6.784-3.2-0.512-6.272 1.536-6.784 4.736l-9.344 52.736c-0.512 3.2 1.536 6.144 4.736 6.784zM273.536 290.432c2.432 2.432 6.528 2.432 8.96 0 2.432-2.432 2.432-6.528 0-8.96l-21.12-21.12c-2.432-2.432-6.528-2.432-8.96 0-2.432 2.432-2.432 6.528 0 8.96l21.12 21.12zM237.824 333.824c2.944 2.048 6.912 1.28 8.832-1.536 2.048-2.944 1.28-6.912-1.536-8.832l-24.448-17.152c-2.944-2.048-6.912-1.28-8.832 1.536s-1.28 6.912 1.536 8.832l24.448 17.152zM183.04 370.176l27.136 12.672c3.2 1.536 7.04 0.128 8.448-3.072 1.536-3.2 0.128-7.04-3.072-8.448l-27.136-12.672c-3.2-1.536-7.04-0.128-8.448 3.072-1.536 3.2-0.128 7.04 3.072 8.448zM194.688 423.68l-28.928-7.68c-3.456-0.896-6.912 1.152-7.808 4.48-0.896 3.456 1.152 6.912 4.48 7.808l28.928 7.68c3.456 0.896 6.912-1.152 7.808-4.48 0.896-3.456-1.152-6.912-4.48-7.808zM183.168 478.72l-29.824-2.56c-3.456-0.256-6.656 2.304-6.912 5.76-0.256 3.456 2.304 6.656 5.76 6.912l29.824 2.56c3.456 0.256 6.656-2.304 6.912-5.76 0.384-3.456-2.176-6.528-5.76-6.912zM181.504 535.04l-29.824 2.56c-3.456 0.256-6.144 3.456-5.76 6.912 0.256 3.456 3.456 6.144 6.912 5.76l29.824-2.56c3.456-0.256 6.144-3.456 5.76-6.912-0.256-3.456-3.328-6.016-6.912-5.76zM191.36 590.72l-28.928 7.68c-3.456 0.896-5.376 4.352-4.48 7.808 0.896 3.456 4.352 5.376 7.808 4.48l28.928-7.68c3.456-0.896 5.376-4.352 4.48-7.808-0.896-3.328-4.352-5.376-7.808-4.48zM207.232 644.224l-27.136 12.672c-3.2 1.536-4.608 5.248-3.072 8.448 1.536 3.2 5.248 4.608 8.448 3.072l27.136-12.672c3.2-1.536 4.608-5.248 3.072-8.448-1.408-3.2-5.248-4.48-8.448-3.072zM233.984 693.888l-24.448 17.152c-2.944 2.048-3.584 6.016-1.536 8.832 2.048 2.944 6.016 3.584 8.832 1.536l24.448-17.152c2.944-2.048 3.584-6.016 1.536-8.832-2.048-2.944-6.016-3.584-8.832-1.536zM310.912 775.552L293.76 800c-2.048 2.944-1.28 6.912 1.536 8.832 2.944 2.048 6.912 1.28 8.832-1.536l17.152-24.448c2.048-2.944 1.28-6.912-1.536-8.832-2.816-2.048-6.912-1.408-8.832 1.536zM349.184 840.704c3.2 1.536 7.04 0.128 8.448-3.072l12.672-27.136c1.536-3.2 0.128-7.04-3.072-8.448-3.2-1.536-7.04-0.128-8.448 3.072l-12.672 27.136c-1.408 3.2-0.128 6.912 3.072 8.448zM407.808 862.72c3.456 0.896 6.912-1.152 7.808-4.48l7.68-28.928c0.896-3.456-1.152-6.912-4.48-7.808-3.456-0.896-6.912 1.152-7.808 4.48l-7.68 28.928c-0.896 3.328 1.152 6.912 4.48 7.808zM469.376 874.112c3.456 0.256 6.656-2.304 6.912-5.76l2.56-29.824c0.256-3.456-2.304-6.656-5.76-6.912-3.456-0.256-6.656 2.304-6.912 5.76l-2.56 29.824c-0.256 3.584 2.304 6.656 5.76 6.912zM522.496 839.168l2.56 29.824c0.256 3.456 3.456 6.144 6.912 5.76 3.456-0.256 6.144-3.456 5.76-6.912l-2.56-29.824c-0.256-3.456-3.456-6.144-6.912-5.76-3.456 0.256-6.016 3.328-5.76 6.912zM578.176 830.976l7.68 28.928c0.896 3.456 4.352 5.376 7.808 4.48 3.456-0.896 5.376-4.352 4.48-7.808l-7.68-28.928c-0.896-3.456-4.352-5.376-7.808-4.48-3.328 0.896-5.376 4.48-4.48 7.808zM631.68 813.312l12.672 27.136c1.536 3.2 5.248 4.608 8.448 3.072 3.2-1.536 4.608-5.248 3.072-8.448l-12.672-27.136c-1.536-3.2-5.248-4.608-8.448-3.072-3.2 1.536-4.48 5.248-3.072 8.448zM681.344 786.688l17.152 24.448c2.048 2.944 6.016 3.584 8.832 1.536 2.944-2.048 3.584-6.016 1.536-8.832l-17.152-24.448c-2.048-2.944-6.016-3.584-8.832-1.536-2.944 1.92-3.584 5.888-1.536 8.832zM725.504 751.744l21.12 21.12c2.432 2.432 6.528 2.432 8.96 0 2.432-2.432 2.432-6.528 0-8.96l-21.12-21.12c-2.432-2.432-6.528-2.432-8.96 0-2.432 2.432-2.432 6.528 0 8.96zM763.008 709.76l24.448 17.152c2.944 2.048 6.912 1.28 8.832-1.536 2.048-2.944 1.28-6.912-1.536-8.832l-24.448-17.152c-2.944-2.048-6.912-1.28-8.832 1.536-2.048 2.816-1.408 6.784 1.536 8.832zM792.576 661.888l27.136 12.672c3.2 1.536 7.04 0.128 8.448-3.072 1.536-3.2 0.128-7.04-3.072-8.448l-27.136-12.672c-3.2-1.536-7.04-0.128-8.448 3.072-1.536 3.2-0.128 6.912 3.072 8.448zM813.44 609.536l28.928 7.68c3.456 0.896 6.912-1.152 7.808-4.48 0.896-3.456-1.152-6.912-4.48-7.808l-28.928-7.68c-3.456-0.896-6.912 1.152-7.808 4.48-0.896 3.456 1.024 6.912 4.48 7.808zM824.832 554.368l29.824 2.56c3.456 0.256 6.656-2.304 6.912-5.76 0.256-3.456-2.304-6.656-5.76-6.912l-29.824-2.56c-3.456-0.256-6.656 2.304-6.912 5.76-0.256 3.584 2.304 6.656 5.76 6.912zM826.624 498.176l29.824-2.56c3.456-0.256 6.144-3.456 5.76-6.912-0.256-3.456-3.456-6.144-6.912-5.76l-29.824 2.56c-3.456 0.256-6.144 3.456-5.76 6.912 0.256 3.456 3.328 6.016 6.912 5.76zM818.432 442.368l28.928-7.68c3.456-0.896 5.376-4.352 4.48-7.808-0.896-3.456-4.352-5.376-7.808-4.48l-28.928 7.68c-3.456 0.896-5.376 4.352-4.48 7.808 0.896 3.456 4.48 5.376 7.808 4.48zM800.768 388.992l27.136-12.672c3.2-1.536 4.608-5.248 3.072-8.448-1.536-3.2-5.248-4.608-8.448-3.072l-27.136 12.672c-3.2 1.536-4.608 5.248-3.072 8.448 1.536 3.072 5.248 4.48 8.448 3.072zM774.144 339.328l24.448-17.152c2.944-2.048 3.584-6.016 1.536-8.832-2.048-2.944-6.016-3.584-8.832-1.536L766.848 328.96c-2.944 2.048-3.584 6.016-1.536 8.832 1.92 2.816 5.888 3.584 8.832 1.536zM697.216 257.664l17.152-24.448c2.048-2.944 1.28-6.912-1.536-8.832-2.944-2.048-6.912-1.28-8.832 1.536l-17.152 24.448c-2.048 2.944-1.28 6.912 1.536 8.832 2.816 2.048 6.784 1.408 8.832-1.536zM658.944 192.512c-3.2-1.536-7.04-0.128-8.448 3.072l-12.672 27.136c-1.536 3.2-0.128 7.04 3.072 8.448 3.2 1.536 7.04 0.128 8.448-3.072l12.672-27.136c1.408-3.2 0-7.04-3.072-8.448zM600.192 170.496c-3.456-0.896-6.912 1.152-7.808 4.48l-7.68 28.928c-0.896 3.456 1.152 6.912 4.48 7.808 3.456 0.896 6.912-1.152 7.808-4.48l7.68-28.928c1.024-3.328-1.024-6.912-4.48-7.808zM534.912 201.6c3.456 0.256 6.656-2.304 6.912-5.76l2.56-29.824c0.256-3.456-2.304-6.656-5.76-6.912-3.456-0.256-6.656 2.304-6.912 5.76l-2.56 29.824c-0.256 3.456 2.304 6.528 5.76 6.912zM476.032 158.464c-3.456 0.256-6.144 3.456-5.76 6.912l2.56 29.824c0.256 3.456 3.456 6.144 6.912 5.76 3.456-0.256 6.144-3.456 5.76-6.912l-2.56-29.824c-0.256-3.456-3.328-6.016-6.912-5.76zM422.144 173.312c-0.896-3.456-4.352-5.376-7.808-4.48-3.456 0.896-5.376 4.352-4.48 7.808l7.68 28.928c0.896 3.456 4.352 5.376 7.808 4.48 3.456-0.896 5.376-4.352 4.48-7.808l-7.68-28.928zM376.448 219.776l-12.672-27.136c-1.536-3.2-5.248-4.608-8.448-3.072-3.2 1.536-4.608 5.248-3.072 8.448L364.8 225.28c1.536 3.2 5.248 4.608 8.448 3.072 3.2-1.536 4.608-5.376 3.2-8.576zM316.416 253.824c2.048 2.944 6.016 3.584 8.832 1.536 2.944-2.048 3.584-6.016 1.536-8.832l-17.152-24.448c-2.048-2.944-6.016-3.584-8.832-1.536-2.944 2.048-3.584 6.016-1.536 8.832l17.152 24.448z" fill="#FFFFFF" p-id="19071"></path></svg></div><div class="link_content"><div class="link_title">Getchu</div></div></a>
+
+
+
+<a href="https://www.amazon.co.jp/" target="_blank" title="亚马逊" referrerPolicy="no-referrer" class="link_card"><div class="link_icon"><img src=" https://ts2.cn.mm.bing.net/th?id=ODLS.bdb2a16f-c08d-4087-b259-72bdcef67d87&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2" class="no-lightbox"></div><div class="link_content"><div class="link_title">亚马逊</div></div></a>
+
+
+
+
+<h2 id="转区运行"><a href="#转区运行" class="headerlink" title="转区运行"></a>转区运行</h2><p>转区运行是什么</p>
+<p>在游玩一些无汉化日系游戏以及其它非Unicode语言为非中文</p>
+<p>会导致乱码现象</p>
+<p>所以直接把地区设置成日本即可</p>
+<p>但是！很多正常文件也会因为转区而失效</p>
+<p>所以，我们需要转区工具——Locale Emulator</p>
+<a href="https://github.com/xupefei/Locale-Emulator/releases，Locale Emulator" target="_blank" title="点击直达链接" referrerPolicy="no-referrer" class="link_card"><div class="link_icon"><svg t="1670307855063" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="19066" width="200" height="200"><path d="M504.064 516.608m-384.256 0a384.256 384.256 0 1 0 768.512 0 384.256 384.256 0 1 0-768.512 0Z" fill="#009CF5" p-id="19068"></path><path d="M746.112 270.464L472.448 485.12l63.104 63.104L750.08 274.56c2.304-2.688-1.28-6.144-3.968-4.096z" fill="#FF4C3A" p-id="19069"></path><path d="M262.016 762.752l273.664-214.528-63.104-63.104-214.656 273.536c-2.176 2.688 1.28 6.144 4.096 4.096z" fill="#FFFFFF" p-id="19070"></path><path d="M505.216 155.136c-3.2 0-5.888 2.56-5.888 5.888v53.504c0 3.2 2.56 5.888 5.888 5.888s5.888-2.56 5.888-5.888v-53.504c-0.128-3.2-2.688-5.888-5.888-5.888zM442.368 160.512c-3.2 0.512-5.376 3.584-4.736 6.784l9.344 52.736c0.512 3.2 3.584 5.376 6.784 4.736 3.2-0.512 5.376-3.584 4.736-6.784l-9.344-52.736c-0.512-3.2-3.584-5.376-6.784-4.736zM396.288 234.368c1.152 3.072 4.48 4.608 7.552 3.456 3.072-1.152 4.608-4.48 3.456-7.552l-18.304-50.304c-1.152-3.072-4.48-4.608-7.552-3.456-3.072 1.152-4.608 4.48-3.456 7.552l18.304 50.304zM348.928 257.408c1.664 2.816 5.248 3.712 7.936 2.176s3.712-5.248 2.176-7.936l-26.752-46.336c-1.664-2.816-5.248-3.712-7.936-2.176-2.816 1.664-3.712 5.248-2.176 7.936l26.752 46.336zM306.304 288.256c2.048 2.432 5.76 2.816 8.192 0.768 2.432-2.048 2.816-5.76 0.768-8.192l-34.432-40.96c-2.048-2.432-5.76-2.816-8.192-0.768-2.432 2.048-2.816 5.76-0.768 8.192l34.432 40.96zM269.696 326.144c2.432 2.048 6.144 1.792 8.192-0.768 2.048-2.432 1.792-6.144-0.768-8.192l-40.96-34.432c-2.432-2.048-6.144-1.792-8.192 0.768-2.048 2.432-1.792 6.144 0.768 8.192l40.96 34.432zM193.792 342.912l46.336 26.752c2.816 1.664 6.4 0.64 7.936-2.176 1.664-2.816 0.64-6.4-2.176-8.064L199.552 332.8c-2.816-1.664-6.4-0.64-7.936 2.176-1.664 2.688-0.64 6.272 2.176 7.936zM168.32 399.488l50.304 18.304c3.072 1.152 6.4-0.512 7.552-3.456 1.152-3.072-0.512-6.4-3.456-7.552l-50.304-18.304c-3.072-1.152-6.4 0.512-7.552 3.456-1.152 3.072 0.384 6.4 3.456 7.552zM207.872 457.344l-52.736-9.344c-3.2-0.512-6.272 1.536-6.784 4.736-0.512 3.2 1.536 6.272 4.736 6.784l52.736 9.344c3.2 0.512 6.272-1.536 6.784-4.736 0.512-3.2-1.536-6.272-4.736-6.784zM201.984 509.568H148.48c-3.2 0-5.888 2.56-5.888 5.888 0 3.2 2.56 5.888 5.888 5.888h53.504c3.2 0 5.888-2.56 5.888-5.888 0-3.2-2.56-5.888-5.888-5.888zM205.44 562.176l-52.736 9.344c-3.2 0.512-5.376 3.584-4.736 6.784 0.512 3.2 3.584 5.376 6.784 4.736l52.736-9.344c3.2-0.512 5.376-3.584 4.736-6.784s-3.584-5.248-6.784-4.736zM217.856 613.376l-50.304 18.304c-3.072 1.152-4.608 4.48-3.456 7.552 1.152 3.072 4.48 4.608 7.552 3.456l50.304-18.304c3.072-1.152 4.608-4.48 3.456-7.552-1.152-3.072-4.48-4.608-7.552-3.456zM238.976 661.504l-46.336 26.752c-2.816 1.664-3.712 5.248-2.176 8.064 1.664 2.816 5.248 3.712 8.064 2.176l46.336-26.752c2.816-1.664 3.712-5.248 2.176-8.064-1.664-2.816-5.248-3.712-8.064-2.176zM268.16 705.408l-40.96 34.432c-2.432 2.048-2.816 5.76-0.768 8.192 2.048 2.432 5.76 2.816 8.192 0.768l40.96-34.432c2.432-2.048 2.816-5.76 0.768-8.192-1.92-2.56-5.632-2.816-8.192-0.768zM304.512 743.424l-34.432 40.96c-2.048 2.432-1.792 6.144 0.768 8.192 2.432 2.048 6.144 1.792 8.192-0.768l34.432-40.96c2.048-2.432 1.792-6.144-0.768-8.192-2.304-1.92-6.016-1.664-8.192 0.768zM347.008 774.656l-26.752 46.336c-1.664 2.816-0.64 6.4 2.176 7.936 2.816 1.664 6.4 0.64 8.064-2.176l26.752-46.336c1.664-2.816 0.64-6.4-2.176-7.936-2.816-1.536-6.4-0.64-8.064 2.176zM394.24 798.08l-18.304 50.304c-1.152 3.072 0.512 6.4 3.456 7.552 3.072 1.152 6.4-0.512 7.552-3.456l18.304-50.304c1.152-3.072-0.512-6.4-3.456-7.552-3.072-1.152-6.528 0.384-7.552 3.456zM440.192 872.32c3.2 0.512 6.272-1.536 6.784-4.736l9.344-52.736c0.512-3.2-1.536-6.272-4.736-6.784-3.2-0.512-6.272 1.536-6.784 4.736l-9.344 52.736c-0.64 3.2 1.536 6.272 4.736 6.784zM502.912 878.08c3.2 0 5.888-2.56 5.888-5.888v-53.504c0-3.2-2.56-5.888-5.888-5.888-3.2 0-5.888 2.56-5.888 5.888v53.504c0 3.2 2.688 5.888 5.888 5.888zM549.632 815.232l9.344 52.736c0.512 3.2 3.584 5.376 6.784 4.736 3.2-0.512 5.376-3.584 4.736-6.784l-9.344-52.736c-0.512-3.2-3.584-5.376-6.784-4.736-3.2 0.512-5.248 3.584-4.736 6.784zM600.832 802.816l18.304 50.304c1.152 3.072 4.48 4.608 7.552 3.456 3.072-1.152 4.608-4.48 3.456-7.552L611.84 798.72c-1.152-3.072-4.48-4.608-7.552-3.456-3.072 1.152-4.608 4.48-3.456 7.552zM649.088 781.696l26.752 46.336c1.664 2.816 5.248 3.712 8.064 2.176 2.816-1.664 3.712-5.248 2.176-8.064l-26.88-46.336c-1.664-2.816-5.248-3.712-8.064-2.176-2.816 1.664-3.712 5.248-2.048 8.064zM692.864 752.384l34.432 40.96c2.048 2.432 5.76 2.816 8.192 0.768 2.432-2.048 2.816-5.76 0.768-8.192l-34.432-40.96c-2.048-2.432-5.76-2.816-8.192-0.768-2.56 2.048-2.816 5.76-0.768 8.192zM730.88 716.032l40.96 34.432c2.432 2.048 6.144 1.792 8.192-0.768 2.048-2.432 1.792-6.144-0.768-8.192l-40.96-34.432c-2.432-2.048-6.144-1.792-8.192 0.768-1.92 2.432-1.664 6.144 0.768 8.192zM762.112 673.664l46.336 26.752c2.816 1.664 6.4 0.64 8.064-2.176 1.664-2.816 0.64-6.4-2.176-7.936L768 663.552c-2.816-1.664-6.4-0.64-8.064 2.176-1.536 2.688-0.64 6.272 2.176 7.936zM785.536 626.432l50.304 18.304c3.072 1.152 6.4-0.512 7.552-3.456 1.152-3.072-0.512-6.4-3.456-7.552l-50.304-18.304c-3.072-1.152-6.4 0.512-7.552 3.456-1.152 3.072 0.384 6.4 3.456 7.552zM800.256 575.872l52.736 9.344c3.2 0.512 6.272-1.536 6.784-4.736 0.512-3.2-1.536-6.272-4.736-6.784l-52.736-9.344c-3.2-0.512-6.272 1.536-6.784 4.736-0.512 3.2 1.536 6.272 4.736 6.784zM800.256 517.76c0 3.2 2.56 5.888 5.888 5.888h53.504c3.2 0 5.888-2.56 5.888-5.888 0-3.2-2.56-5.888-5.888-5.888h-53.504c-3.328 0-5.888 2.56-5.888 5.888zM802.688 471.04l52.736-9.344c3.2-0.512 5.376-3.584 4.736-6.784-0.512-3.2-3.584-5.376-6.784-4.736l-52.736 9.344c-3.2 0.512-5.376 3.584-4.736 6.784 0.512 3.2 3.584 5.248 6.784 4.736zM790.272 419.84l50.304-18.304c3.072-1.152 4.608-4.48 3.456-7.552-1.152-3.072-4.48-4.608-7.552-3.456l-50.304 18.304c-3.072 1.152-4.608 4.48-3.456 7.552 1.152 2.944 4.48 4.608 7.552 3.456zM769.152 371.584l46.336-26.752c2.816-1.664 3.712-5.248 2.176-7.936-1.664-2.816-5.248-3.712-8.064-2.176l-46.336 26.752c-2.816 1.664-3.712 5.248-2.176 8.064 1.664 2.688 5.248 3.712 8.064 2.048zM739.84 327.808l40.96-34.432c2.432-2.048 2.816-5.76 0.768-8.192-2.048-2.432-5.76-2.816-8.192-0.768l-40.96 34.432c-2.432 2.048-2.816 5.76-0.768 8.192 2.048 2.56 5.76 2.816 8.192 0.768zM703.488 289.664l34.432-40.96c2.048-2.432 1.792-6.144-0.768-8.192-2.432-2.048-6.144-1.792-8.192 0.768l-34.432 40.96c-2.048 2.432-1.792 6.144 0.768 8.192 2.432 2.048 6.144 1.792 8.192-0.768zM661.12 258.56l26.752-46.336c1.664-2.816 0.64-6.4-2.176-7.936-2.816-1.664-6.4-0.64-8.064 2.176l-26.752 46.336c-1.664 2.816-0.64 6.4 2.176 7.936 2.816 1.536 6.4 0.64 8.064-2.176zM613.888 235.136l18.304-50.304c1.152-3.072-0.512-6.4-3.456-7.552-3.072-1.152-6.4 0.512-7.552 3.456L602.88 231.168c-1.152 3.072 0.512 6.4 3.456 7.552 3.072 1.024 6.4-0.512 7.552-3.584zM556.544 225.152c3.2 0.512 6.272-1.536 6.784-4.736l9.344-52.736c0.512-3.2-1.536-6.272-4.736-6.784-3.2-0.512-6.272 1.536-6.784 4.736l-9.344 52.736c-0.512 3.2 1.536 6.144 4.736 6.784zM273.536 290.432c2.432 2.432 6.528 2.432 8.96 0 2.432-2.432 2.432-6.528 0-8.96l-21.12-21.12c-2.432-2.432-6.528-2.432-8.96 0-2.432 2.432-2.432 6.528 0 8.96l21.12 21.12zM237.824 333.824c2.944 2.048 6.912 1.28 8.832-1.536 2.048-2.944 1.28-6.912-1.536-8.832l-24.448-17.152c-2.944-2.048-6.912-1.28-8.832 1.536s-1.28 6.912 1.536 8.832l24.448 17.152zM183.04 370.176l27.136 12.672c3.2 1.536 7.04 0.128 8.448-3.072 1.536-3.2 0.128-7.04-3.072-8.448l-27.136-12.672c-3.2-1.536-7.04-0.128-8.448 3.072-1.536 3.2-0.128 7.04 3.072 8.448zM194.688 423.68l-28.928-7.68c-3.456-0.896-6.912 1.152-7.808 4.48-0.896 3.456 1.152 6.912 4.48 7.808l28.928 7.68c3.456 0.896 6.912-1.152 7.808-4.48 0.896-3.456-1.152-6.912-4.48-7.808zM183.168 478.72l-29.824-2.56c-3.456-0.256-6.656 2.304-6.912 5.76-0.256 3.456 2.304 6.656 5.76 6.912l29.824 2.56c3.456 0.256 6.656-2.304 6.912-5.76 0.384-3.456-2.176-6.528-5.76-6.912zM181.504 535.04l-29.824 2.56c-3.456 0.256-6.144 3.456-5.76 6.912 0.256 3.456 3.456 6.144 6.912 5.76l29.824-2.56c3.456-0.256 6.144-3.456 5.76-6.912-0.256-3.456-3.328-6.016-6.912-5.76zM191.36 590.72l-28.928 7.68c-3.456 0.896-5.376 4.352-4.48 7.808 0.896 3.456 4.352 5.376 7.808 4.48l28.928-7.68c3.456-0.896 5.376-4.352 4.48-7.808-0.896-3.328-4.352-5.376-7.808-4.48zM207.232 644.224l-27.136 12.672c-3.2 1.536-4.608 5.248-3.072 8.448 1.536 3.2 5.248 4.608 8.448 3.072l27.136-12.672c3.2-1.536 4.608-5.248 3.072-8.448-1.408-3.2-5.248-4.48-8.448-3.072zM233.984 693.888l-24.448 17.152c-2.944 2.048-3.584 6.016-1.536 8.832 2.048 2.944 6.016 3.584 8.832 1.536l24.448-17.152c2.944-2.048 3.584-6.016 1.536-8.832-2.048-2.944-6.016-3.584-8.832-1.536zM310.912 775.552L293.76 800c-2.048 2.944-1.28 6.912 1.536 8.832 2.944 2.048 6.912 1.28 8.832-1.536l17.152-24.448c2.048-2.944 1.28-6.912-1.536-8.832-2.816-2.048-6.912-1.408-8.832 1.536zM349.184 840.704c3.2 1.536 7.04 0.128 8.448-3.072l12.672-27.136c1.536-3.2 0.128-7.04-3.072-8.448-3.2-1.536-7.04-0.128-8.448 3.072l-12.672 27.136c-1.408 3.2-0.128 6.912 3.072 8.448zM407.808 862.72c3.456 0.896 6.912-1.152 7.808-4.48l7.68-28.928c0.896-3.456-1.152-6.912-4.48-7.808-3.456-0.896-6.912 1.152-7.808 4.48l-7.68 28.928c-0.896 3.328 1.152 6.912 4.48 7.808zM469.376 874.112c3.456 0.256 6.656-2.304 6.912-5.76l2.56-29.824c0.256-3.456-2.304-6.656-5.76-6.912-3.456-0.256-6.656 2.304-6.912 5.76l-2.56 29.824c-0.256 3.584 2.304 6.656 5.76 6.912zM522.496 839.168l2.56 29.824c0.256 3.456 3.456 6.144 6.912 5.76 3.456-0.256 6.144-3.456 5.76-6.912l-2.56-29.824c-0.256-3.456-3.456-6.144-6.912-5.76-3.456 0.256-6.016 3.328-5.76 6.912zM578.176 830.976l7.68 28.928c0.896 3.456 4.352 5.376 7.808 4.48 3.456-0.896 5.376-4.352 4.48-7.808l-7.68-28.928c-0.896-3.456-4.352-5.376-7.808-4.48-3.328 0.896-5.376 4.48-4.48 7.808zM631.68 813.312l12.672 27.136c1.536 3.2 5.248 4.608 8.448 3.072 3.2-1.536 4.608-5.248 3.072-8.448l-12.672-27.136c-1.536-3.2-5.248-4.608-8.448-3.072-3.2 1.536-4.48 5.248-3.072 8.448zM681.344 786.688l17.152 24.448c2.048 2.944 6.016 3.584 8.832 1.536 2.944-2.048 3.584-6.016 1.536-8.832l-17.152-24.448c-2.048-2.944-6.016-3.584-8.832-1.536-2.944 1.92-3.584 5.888-1.536 8.832zM725.504 751.744l21.12 21.12c2.432 2.432 6.528 2.432 8.96 0 2.432-2.432 2.432-6.528 0-8.96l-21.12-21.12c-2.432-2.432-6.528-2.432-8.96 0-2.432 2.432-2.432 6.528 0 8.96zM763.008 709.76l24.448 17.152c2.944 2.048 6.912 1.28 8.832-1.536 2.048-2.944 1.28-6.912-1.536-8.832l-24.448-17.152c-2.944-2.048-6.912-1.28-8.832 1.536-2.048 2.816-1.408 6.784 1.536 8.832zM792.576 661.888l27.136 12.672c3.2 1.536 7.04 0.128 8.448-3.072 1.536-3.2 0.128-7.04-3.072-8.448l-27.136-12.672c-3.2-1.536-7.04-0.128-8.448 3.072-1.536 3.2-0.128 6.912 3.072 8.448zM813.44 609.536l28.928 7.68c3.456 0.896 6.912-1.152 7.808-4.48 0.896-3.456-1.152-6.912-4.48-7.808l-28.928-7.68c-3.456-0.896-6.912 1.152-7.808 4.48-0.896 3.456 1.024 6.912 4.48 7.808zM824.832 554.368l29.824 2.56c3.456 0.256 6.656-2.304 6.912-5.76 0.256-3.456-2.304-6.656-5.76-6.912l-29.824-2.56c-3.456-0.256-6.656 2.304-6.912 5.76-0.256 3.584 2.304 6.656 5.76 6.912zM826.624 498.176l29.824-2.56c3.456-0.256 6.144-3.456 5.76-6.912-0.256-3.456-3.456-6.144-6.912-5.76l-29.824 2.56c-3.456 0.256-6.144 3.456-5.76 6.912 0.256 3.456 3.328 6.016 6.912 5.76zM818.432 442.368l28.928-7.68c3.456-0.896 5.376-4.352 4.48-7.808-0.896-3.456-4.352-5.376-7.808-4.48l-28.928 7.68c-3.456 0.896-5.376 4.352-4.48 7.808 0.896 3.456 4.48 5.376 7.808 4.48zM800.768 388.992l27.136-12.672c3.2-1.536 4.608-5.248 3.072-8.448-1.536-3.2-5.248-4.608-8.448-3.072l-27.136 12.672c-3.2 1.536-4.608 5.248-3.072 8.448 1.536 3.072 5.248 4.48 8.448 3.072zM774.144 339.328l24.448-17.152c2.944-2.048 3.584-6.016 1.536-8.832-2.048-2.944-6.016-3.584-8.832-1.536L766.848 328.96c-2.944 2.048-3.584 6.016-1.536 8.832 1.92 2.816 5.888 3.584 8.832 1.536zM697.216 257.664l17.152-24.448c2.048-2.944 1.28-6.912-1.536-8.832-2.944-2.048-6.912-1.28-8.832 1.536l-17.152 24.448c-2.048 2.944-1.28 6.912 1.536 8.832 2.816 2.048 6.784 1.408 8.832-1.536zM658.944 192.512c-3.2-1.536-7.04-0.128-8.448 3.072l-12.672 27.136c-1.536 3.2-0.128 7.04 3.072 8.448 3.2 1.536 7.04 0.128 8.448-3.072l12.672-27.136c1.408-3.2 0-7.04-3.072-8.448zM600.192 170.496c-3.456-0.896-6.912 1.152-7.808 4.48l-7.68 28.928c-0.896 3.456 1.152 6.912 4.48 7.808 3.456 0.896 6.912-1.152 7.808-4.48l7.68-28.928c1.024-3.328-1.024-6.912-4.48-7.808zM534.912 201.6c3.456 0.256 6.656-2.304 6.912-5.76l2.56-29.824c0.256-3.456-2.304-6.656-5.76-6.912-3.456-0.256-6.656 2.304-6.912 5.76l-2.56 29.824c-0.256 3.456 2.304 6.528 5.76 6.912zM476.032 158.464c-3.456 0.256-6.144 3.456-5.76 6.912l2.56 29.824c0.256 3.456 3.456 6.144 6.912 5.76 3.456-0.256 6.144-3.456 5.76-6.912l-2.56-29.824c-0.256-3.456-3.328-6.016-6.912-5.76zM422.144 173.312c-0.896-3.456-4.352-5.376-7.808-4.48-3.456 0.896-5.376 4.352-4.48 7.808l7.68 28.928c0.896 3.456 4.352 5.376 7.808 4.48 3.456-0.896 5.376-4.352 4.48-7.808l-7.68-28.928zM376.448 219.776l-12.672-27.136c-1.536-3.2-5.248-4.608-8.448-3.072-3.2 1.536-4.608 5.248-3.072 8.448L364.8 225.28c1.536 3.2 5.248 4.608 8.448 3.072 3.2-1.536 4.608-5.376 3.2-8.576zM316.416 253.824c2.048 2.944 6.016 3.584 8.832 1.536 2.944-2.048 3.584-6.016 1.536-8.832l-17.152-24.448c-2.048-2.944-6.016-3.584-8.832-1.536-2.944 2.048-3.584 6.016-1.536 8.832l17.152 24.448z" fill="#FFFFFF" p-id="19071"></path></svg></div><div class="link_content"><div class="link_title">点击直达链接</div></div></a>
+
+
+<p>下载之后双击LEInstaller.exe</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/663469af367c9.png" alt="转区工具"></p>
+<p>右边两个选框都点第一个</p>
+<p>安装之后</p>
+<p>再去玩你想要转区的游戏，右键即可看到右键菜单里的Locale Emulator，鼠标移上去就可以看到选项</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/66346a3aee927.png"></p>
+<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>如果你能看懂大部分内容，那么就说明你至少有耐心去折腾这些东西了</p>
+<p>一般来说，转区什么的基本用不到，除非你会肯生肉</p>
+<p>有的地方写的很粗糙，以后会专门讲的</p>
+<hr>
+]]></content>
+      <categories>
+        <category>Galgame</category>
+      </categories>
+      <tags>
+        <tag>Galgame</tag>
+        <tag>VNG</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>装甲恶鬼村正英雄篇有感</title>
+    <url>/posts/d70b38e6.html</url>
+    <content><![CDATA[<div class="note warning flat"><p>剧透警告</p>
+</div>
+
+<p>先放个剧透警告</p>
+<hr>
+<p>个人感觉凑斗景明说的善恶相抵颇有诡辩的意思在其中，一条和凑斗景明，双方的立场不同，两人不论怎么争执都能自圆其说。凑斗景明认为为了正义杀人可以，但是不能打着正义的旗号，一条认为唯有正义的旗号才能使天下太平</p>
+<p>话是这么说，但是作者是怎么写的呢，一直强调善恶相抵。景明一开始不接受，后来突然顿悟，然后就把银星号秒了。一条（好歹是前面极其正面的一个人物）和正宗也是一开始不接受这个观点，坚信自己为正义而战，结果安排一个小男孩过来说是你把别人拉进自己过家家的角色扮演导致人死了，又安排一个童子给BYD和尚洗白，然后一条也去善恶相抵了？</p>
+<p>不过这一观点淡化了精确个人或者团体上的存在，剧情里打的都是六波罗小兵，以及银星号撒的种，在提及善恶相抵的时候却淡化了作恶的银星号和六波罗，反而强调了对普通人杀戮，这种情况下凑斗景明的理论反而很正确（这也是我为什么说他诡辩的原因）</p>
+<p>不过善恶相抵的理论基础就是杀人有罪这一说，那意思是反法西斯战争也是邪恶的呗，笑鼠了。特别是山贼那块，我打山贼是出于保护自我，山贼打我是出于掠夺心里，这能一样？前者是讨伐，后者就是单纯的杀戮掠夺了</p>
+<hr>
+<p>目前只玩了英雄线，其他线还没玩</p>
+<p>不过听说善恶相抵不是游戏的主要核心，当个设定就行</p>
+<p>反正我是不相信的，毕竟英雄篇花了这么多笔墨只为了一个设定还是太离谱了</p>
+<p>看看复仇线和魔王线会给我 带来什么样的感受</p>
+]]></content>
+      <tags>
+        <tag>Galgame</tag>
+        <tag>VNG</tag>
+        <tag>ADV</tag>
+        <tag>装甲悪鬼村正</tag>
+        <tag>装甲饿鬼村正</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记一次paddleocr打包问题：FileNotFoundError以及ModuleNotFoundError</title>
+    <url>/posts/6793f133.html</url>
+    <content><![CDATA[<h1 id="为什么打包paddleocr时会报错"><a href="#为什么打包paddleocr时会报错" class="headerlink" title="为什么打包paddleocr时会报错"></a>为什么打包paddleocr时会报错</h1><p>在处理报错之前，我们先看看报错内容</p>
+<p><code>FileNotFoundError: [Errno 2] No such file or directory: &#39;E:\\python\\python3.11(64bit)\\dist\\demo1\\_internal\\paddleocr\\tools/__init__.py&#39;</code></p>
+<p><img src="https://bucket.iczrx.cn/2024/05/03/6633bdefd8268.png" alt="报错内容如下"></p>
+<p>报错filenofound</p>
+<p>未找到文件，看起来貌似是打包时没有把文件打包全</p>
+<h2 id="处理问题"><a href="#处理问题" class="headerlink" title="处理问题"></a>处理问题</h2><p>进入你创建的虚拟环境（当然你不创建也没关系）</p>
+<p>输入<code>pyinstall -w -D 你的路径</code>进行不完满打包</p>
+<p>然后打开<code>dist</code>里的<code>_internal</code>目录</p>
+<p>把你的Python解释器里安装的paddleocr模块全部复制过来</p>
+<p>这时候，你就会发现，欸，还是会报错，但是内容变了</p>
+<p>变成了：<code>ModuleNotFoundError: No module named &#39;shapely&#39;</code></p>
+<p>别慌，按照上述方法，继续把python解释器里site-packages里的模块给复制过来</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ModuleNotFoundError: No module named &#x27;pyclipper&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;skimage&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;pywt&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imgaug&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imageio&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;fasttext&#x27;</span><br><span class="line">	ModuleNotFoundError: No module named &#x27;lmdb&#x27;</span><br><span class="line"></span><br><span class="line">	ModuleNotFoundError: No module named &#x27;imghdr&#x27;  </span><br><span class="line">	ModuleNotFoundError: No module named &#x27;fasttext_pybind&#x27;</span><br><span class="line"></span><br><span class="line">	ImportError: cannot import name &#x27;signal&#x27; from &#x27;scipy&#x27; (你的路径\scipy\__init__.pyc)</span><br></pre></td></tr></table></figure>
+
+<p>发生以下报错解决方法同上</p>
+<p>然后你就会发现</p>
+<p>打包完的程序可以运行了</p>
+<p>当然，请善用Windows的搜索功能</p>
+<p>如果懒得用，直接在IDE开发环境里敲</p>
+<p><code>import 模块名</code></p>
+<p>然后再按住CTRL鼠标左键即可进入模块的py文件</p>
+<p>顶部查看一下路径即可</p>
+<h2 id="那么，为什么会有这种问题呢"><a href="#那么，为什么会有这种问题呢" class="headerlink" title="那么，为什么会有这种问题呢"></a>那么，为什么会有这种问题呢</h2><p>那么，你得问pyinstaller为什么打包不全</p>
+<h1 id="OCR下载地址"><a href="#OCR下载地址" class="headerlink" title="OCR下载地址"></a>OCR下载地址</h1><p><a href="https://github.com/txptxp1/OCR-to-translate">https://github.com/txptxp1/OCR-to-translate</a></p>
+<p>这是我写的一个OCR翻译器</p>
+<p>由于paddleocr体积大</p>
+<p>我接入的本地ocr就是paddleocr</p>
+<p>所以导致我打包之后的软件体积也巨大</p>
+<p>解决方案要么去掉，要么给个选项运行的时候直接从服务器下载paddleocr文件然后本地部署</p>
+<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>参考文章<a href="https://blog.csdn.net/m0_46875088/article/details/122096159">paddleocr 打包问题_paddleocr打包太难了-CSDN博客</a></p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+</search>
